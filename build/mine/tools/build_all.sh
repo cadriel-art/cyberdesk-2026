@@ -6,4 +6,4 @@ for s in hybrid hybrid2 water water2 transport transport2 elections elections2 h
 python3 tools/sources2.py && python3 tools/print2.py && python3 tools/nav2026.py regroup && python3 tools/build_app.py && python3 tools/home2.py && python3 tools/offline.py && python3 tools/offpatch.py && python3 tools/nltext.py
 python3 tools/urlfix.py
 # copy the results into the repository's app/ folder
-cp cyber-desk-offline.html ../../app/Cyber-Attacks-2026.html && cp cyber-desk.html ../../app/Cyber-Attacks-2026-online.html && echo "copied to app/"
+cp cyber-desk-offline.html ../../app/Cyber-Attacks-2026.html && cp cyber-desk.html ../../app/Cyber-Attacks-2026-online.html && cp cyber-desk-offline.html ../../app/index.html && echo "copied to app/"

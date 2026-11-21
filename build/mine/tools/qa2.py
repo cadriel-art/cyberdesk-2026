@@ -286,7 +286,7 @@ new('who',
     "Three cases from 14–21 November 2026, each with an official saying more than has been proven. Denmark: PET says Russian intelligence planned a plot to kill the Ukrainian rapper Kyivstoner; two Danes are charged and Russia's defence attaché must leave, but no evidence of the Russian role is public. Poland: two Russian missiles and a probable drone came down in the south-east (confirmed by the defence minister), and prosecutors say one of two Ukrainians charged over graffiti acted for Russian intelligence for $500, which no court has tested. Estonia: eight Latvians were detained over an attempt to blow up the building of a drone maker, KAPO says Russian military intelligence ordered it, and no evidence is published; Russia denies it.",
     "Drie zaken van 14–21 november 2026, telkens met een autoriteit die meer zegt dan bewezen is. Denemarken: PET zegt dat de Russische inlichtingendienst een complot plande om de Oekraïense rapper Kyivstoner te doden; twee Denen zijn aangeklaagd en de Russische defensie-attaché moet vertrekken, maar er is geen openbaar bewijs van de Russische rol. Polen: twee Russische raketten en een waarschijnlijke drone kwamen in het zuidoosten neer (bevestigd door de minister van Defensie), en het parket zegt dat een van twee Oekraïners die voor graffiti zijn aangeklaagd, voor 500 dollar voor de Russische inlichtingendienst handelde, wat geen rechtbank heeft getoetst. Estland: acht Letten werden aangehouden na een poging om het gebouw van een dronemaker op te blazen, KAPO zegt dat de Russische militaire inlichtingendienst het bevolen heeft, en er is geen bewijs gepubliceerd; Rusland ontkent het.",
     'CKR', ['hybrideu', 'intel'],
-    src=['This week page (intel), week-in-brief items: 20 Nov Denmark (PET, Kyivstoner plot, defence attaché seven days), 20 Nov Poland (missiles, Tusk), 19-20 Nov Poland (Slava UPA graffiti, $500), 14 Nov Estonia (Threod Systems, eight Latvians, KAPO), 15 Nov Estonia (border crossings, 1 December, no formal decision)',
+    src=['This week page (intel), week-in-brief items: 20 Nov Denmark (PET, Kyivstoner plot, defence attaché seven days), 20 Nov Poland (missiles, Tusk), 19-20 Nov Poland (Slava UPA graffiti, $500), 14 Nov Estonia (Threod Systems, eight Latvians, KAPO)',
          'Hybrid attacks in the rest of Europe page: Denmark, Poland and Estonia sections (same events; status labels Confirmed / Claimed / Reported)'])
 
 # ===== 4 The big recent cases =====
@@ -345,8 +345,9 @@ new('life',
           'Niet behandeld in de app: het hacken van auto\'s of van een thuisnetwerk. Niets hier zegt dat een particulier een doelwit was bij de diepvriesaanvallen.'),
     src=['Questions and answers (existing answer "Were the freezer attacks an attack on the energy supply?"): "The same kind of device switches solar parks, batteries, heat pumps and charging points"; existing note under "What can people at home do?": factory password, updates, ask the installer',
          'Freezer attacks page: controllers reachable from the internet, factory passwords',
-         'Scams and fraud page: "The SIM swap" (phone suddenly loses signal; call your operator immediately); Orange Belgium 850,000 PUK codes (July 2025 in the register)',
-         'What we lack page, gap on spyware: Pegasus on the phone of a former MEP (July 2026), spyware on two MEPs and a staff member (Feb 2024); All attacks in Europe page: Chargemap 8 Nov 2026 (EV-charging platform, e-mail addresses, names, dates of birth, phone numbers)'])
+         'Scams and fraud page: "The SIM swap" (phone suddenly loses signal; call your operator immediately)',
+         'What we lack page, gap on spyware: Pegasus on the phone of a former MEP (July 2026), spyware on two MEPs and a staff member (Feb 2024)',
+         'No page of the app covers hacked cars (stated in the answer)'])
 
 new('life',
     'What do data leaks like Orange Belgium or Maileva mean for me?',
