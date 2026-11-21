@@ -140,7 +140,7 @@ for k,n,en,nl,x in NUMS:
     h.append('<li><a href="#%s"><b>%d</b><span>%s</span>%s</a></li>'%(k,n,L(en,nl),('<small>%s</small>'%x) if x else ''))
 h.append('</ul>')
 # what's new
-h.append('<h3 class="hm-h">%s</h3><ul class="hm-new" id="hm-new">%s</ul><p class="hm-more"><a href="#updates">%s</a></p>'%(L("What's new","Wat is nieuw"),nowcards,L('All updates →','Alle updates →')))
+# What's new block removed from the overview at the owner's request (updates stay on the Updates page)
 # Belgium first
 BE=['now','freezers','year','register','numbers','powers']   # first six pages of the Belgium group
 h.append('<section class="hm-be" aria-labelledby="hm-be-h"><h3 class="hm-h" id="hm-be-h">%s</h3><ul class="hm-cards">'%L('Belgium first','België eerst'))
