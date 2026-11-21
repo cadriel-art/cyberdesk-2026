@@ -98,7 +98,7 @@ N=[
 ('WB WE','https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/','BleepingComputer: CISA warns of attacks on US water utilities (Jul 2026)'),
 ('WB WE','https://www.fbi.gov/investigate/cyber/alerts/2026/malicious-cyber-actors-targeting-water-and-wastewater-sector-internet--facing-programmable-logic-controllers-causing-operational-disruptions','FBI: alert on attacks against water-sector control devices (2026)'),
 ('WB WE','https://nltimes.nl/2025/08/11/dutch-water-power-companies-targeted-cyberattacks-intelligence-service-warns','NL Times: Dutch water and power companies targeted (11 Aug 2025)'),
-('WE','https://www.securityweek.com/polish-security-agency-reports-ics-breaches-at-five-water-treatment-plants/amp/','SecurityWeek: Polish security agency reports breaches at five water plants'),
+('WE','https://www.securityweek.com/polish-security-agency-reports-ics-breaches-at-five-water-treatment-plants/','SecurityWeek: Polish security agency reports breaches at five water plants'),
 ('WE','https://thenextweb.com/news/poland-water-treatment-cyberattack-russia-us','The Next Web: Polish water plants breached with default passwords'),
 ('WE','https://securityaffairs.com/191868/security/cyberattacks-on-polands-water-plants-a-blueprint-for-hybrid-warfare.html','Security Affairs: attacks on Poland\'s water plants'),
 ('WE','https://dti.domaintools.com/research/threat-intelligence-report-nation-state-targeting-of-water-systems-2024-2026','DomainTools: state targeting of water systems 2024–2026'),
@@ -417,7 +417,28 @@ N+=[('','https://notesfrompoland.com/2026/11/20/unidentified-object-hits-poland-
 ('','https://databreaches.net/2026/11/17/germany-greiz-hospital-reopens-emergency-room-after-ransom-attack/','DataBreaches.net: hospital in Greiz, Germany, reopens its emergency room after a cyber extortion attack (17 Nov 2026)'),
 ('','https://english.alarabiya.net/News/world/2026/11/13/german-drone-maker-supplying-ukraine-reports-cyberattack','Al Arabiya (citing Reuters and the Financial Times): German drone maker Quantum Systems reports a cyberattack through its own software update (13 Nov 2026)'),
 ('','https://www.lrt.lt/en/news-in-english/19/3113117/hybrid-warfare-in-europe-sabotage-cyberattacks-agents-at-the-service-of-rival-powers','LRT (Lithuanian public broadcaster): overview of sabotage, cyberattacks and recruited agents in Europe (12 Nov 2026)')]
+N+=[
+('HE','https://www.euronews.com/2026/11/20/two-danes-suspected-of-russian-backed-plot-to-kill-ukrainian-rapper','Euronews: Denmark to expel Russian defence attaché over alleged plot to kill a Ukrainian rapper (20 Nov 2026)'),
+('HE','https://notesfrompoland.com/2026/11/20/poland-prevented-russian-false-flag-operation-at-border-says-advisor-to-defence-minister/','Notes from Poland: Poland prevented Russian false-flag operation at border, says adviser to defence minister (20 Nov 2026)'),
+('HE','https://notesfrompoland.com/2026/11/20/two-ukrainians-charged-with-vandalising-polish-monuments-on-behalf-of-russia/','Notes from Poland: two Ukrainians charged with vandalising Polish monuments on behalf of Russia (20 Nov 2026)'),
+('HE','https://notesfrompoland.com/2026/11/20/unidentified-object-hits-poland-amid-russian-attacks-on-western-ukraine/','Notes from Poland: Poland says two Russian missiles and a probable drone came down on its territory (20 Nov 2026)'),
+('HE','https://news.err.ee/1610202574/defense-forces-issue-lift-drone-threat-warning-for-northeast-estonia','ERR News (Estonian public broadcaster): Defense Forces issue, lift drone threat warning for northeast Estonia (21 Nov 2026)'),
+('HB','https://www.vrt.be/vrtnws/nl/2026/11/20/poederbrief-bij-federale-politie/','VRT NWS: Poederbrief bij federale politie in Antwerpen, 2 mensen uit voorzorg naar het ziekenhuis (20 Nov 2026)'),
+('EV','https://itdaily.be/nieuws/netwerk/proximus-telefoonnetwerk-storing/','ITdaily: Storing Proximus, cyberaanval uitgesloten (20 Nov 2026)'),
+('RG','https://news.err.ee/1610200210/hackers-obtain-personal-data-of-thousands-in-cyberattack-on-tlt-website','ERR News (Estonian public broadcaster): hackers copy personal data from the website of Tallinn\'s public transport company TLT'),
+('','https://therecord.media/russia-cyber-espionage-google','The Record by Recorded Future News: Russian cyber-espionage group used stolen cloud data to hack into organizations, Google says (18 Nov 2026)'),
+('','https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html','The Hacker News: Russian COLD RELIC hackers use stolen Google Workspace data to breach second U.S. organization (18 Nov 2026)'),
+]
 NEWOVR={
+'https://www.euronews.com/2026/11/20/two-danes-suspected-of-russian-backed-plot-to-kill-ukrainian-rapper':'news',
+'https://notesfrompoland.com/2026/11/20/poland-prevented-russian-false-flag-operation-at-border-says-advisor-to-defence-minister/':'news',
+'https://notesfrompoland.com/2026/11/20/two-ukrainians-charged-with-vandalising-polish-monuments-on-behalf-of-russia/':'news',
+'https://news.err.ee/1610202574/defense-forces-issue-lift-drone-threat-warning-for-northeast-estonia':'pub',
+'https://www.vrt.be/vrtnws/nl/2026/11/20/poederbrief-bij-federale-politie/':'pub',
+'https://itdaily.be/nieuws/netwerk/proximus-telefoonnetwerk-storing/':'trade',
+'https://therecord.media/russia-cyber-espionage-google':'trade',
+'https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html':'trade',
+
 'https://notesfrompoland.com/2026/11/20/unidentified-object-hits-poland-amid-russian-attacks-on-western-ukraine/':'news',
 'https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261119_Lagebericht.html':'off',
 'https://dragos.com/blog/dragos-industrial-ransomware-analysis-q3-2026':'sec',

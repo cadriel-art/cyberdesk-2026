@@ -17,7 +17,7 @@ LV={6:('Court verdict','Vonnis van een rechtbank','A court heard the evidence an
 'X':('Not an attack, or no evidence','Geen aanval, of geen bewijs','It looked like an attack and was first reported as one. An investigation found another cause, or nothing at all.')}
 AC={'RU':'Russia (state services)','PR':'Pro-Russian groups','IR':'Iran','BY':'Belarus','CN':'China','KP':'North Korea','CR':'Criminal groups','DG':'Drug gangs','EX':'Extremists, no state','OT':'Other','FR':'A friendly state, by accident','UN':'A foreign state, not named','IN':'Individuals, no sponsor named','NO':'Nobody named','XX':'Not an attack'}
 HN={'convicted':'Convicted','charged':'Charged','arrested':'Arrested','none':'Nobody caught'}
-PG={'hybrid':'Drones, sabotage, hybrid: Belgium','hybrideu':'Drones, sabotage, hybrid: 30 countries','water':'Water: Belgium','watereu':'Water: 30 countries','transport':'Transport and ports: Belgium','transporteu':'Transport and ports: 30 countries','freezers':'The freezer attacks','eucountries':'By country','victims':'Every kind of victim & fraud','elections':'Elections and democracy: Belgium','electionseu':'Elections and democracy: 30 countries','health':'Health: Belgium','healtheu':'Health: 30 countries','defence':'The defence side: Belgium','defenceeu':'The defence side: 30 countries','encryption':'Encryption and chat control: Belgium','encryptioneu':'Encryption: 30 countries'}
+PG={'hybrid':'Drones, sabotage, hybrid: Belgium','hybrideu':'Drones, sabotage, hybrid: 30 countries','water':'Water: Belgium','watereu':'Water: 30 countries','transport':'Transport and ports: Belgium','transporteu':'Transport and ports: 30 countries','freezers':'The freezer attacks','eucountries':'By country','victims':'Every kind of victim & fraud','elections':'Elections and democracy: Belgium','electionseu':'Elections and democracy: 30 countries','health':'Health: Belgium','healtheu':'Health: 30 countries','defence':'The defence side: Belgium','defenceeu':'The defence side: 30 countries','encryption':'Encryption and chat control: Belgium','encryptioneu':'Encryption: 30 countries','outages':'Global outages'}
 n=len(C); cl=collections.Counter(c[6] for c in C); ca=collections.Counter(c[4] for c in C); ch=collections.Counter(c[7] for c in C)
 order=[6,5,4,3,2,1,0,'X']
 mx=max(cl.values())
@@ -43,7 +43,7 @@ PROF={'RU':('Sabotage by hired hands (arson, railways, arms factories), spying, 
 'EX':('Arson, rail sabotage, a drone plot.','Reminds us that not every fire is a foreign state: jihadist-inspired plotters in Antwerp, a group claiming the Czech arms-factory arson, anarchists suspected in Italy.','—'),
 'UN':('A crew member with remote-control software; break-ins at state registers; a drone at an airport.','Authorities say "a foreign state" and stop there, which is honest about what they can prove.','—'),
 'NO':('Everything from airport ransomware to bomb hoaxes.','The second-largest group. Naming nobody is the normal outcome, not a failure.','—'),
-'XX':('Drones nobody found, a cable cut by bad seamanship, outages with technical causes.','Seven alarms that turned out to be something else. Each was first reported as a possible attack.','—')}
+'XX':('Drones nobody found, a cable cut by bad seamanship, outages with technical causes.','Eight alarms that turned out to be something else. Each was first reported as a possible attack.','—')}
 profs=''
 for k in ['RU','PR','IR','BY','CN','CR','DG','EX','UN','NO','XX']:
     tot,seg,best=abar(k)
@@ -123,7 +123,7 @@ SEC='''<section id="evidence">
 <p class="small">From strongest to weakest. The bar shows how many of the %d cases sit on each step.</p>
 <div class="ladx">%s</div>
 <h3>Caught the hand, or named the sender?</h3>
-<p class="small">Two different questions. "Hand" means a person arrested, charged or convicted. "Sender named firmly" means level L4 or higher. The seven false alarms are left out.</p>
+<p class="small">Two different questions. "Hand" means a person arrested, charged or convicted. "Sender named firmly" means level L4 or higher. The eight false alarms are left out.</p>
 <table class="mx"><thead><tr><th></th><th>Sender named firmly (L4–L6)</th><th>Sender not named firmly (L0–L3)</th></tr></thead><tbody>
 <tr><th>A person was caught</th><td><b>%d</b><br><span class="small">The strongest cases: arson and spying trials, the Milrem and Brașov fires.</span></td><td><b>%d</b><br><span class="small">Hands without a proven sender: the Fitburg crew, the ferry in Sète, the Skyeton plot.</span></td></tr>
 <tr><th>Nobody was caught</th><td><b>%d</b><br><span class="small">A state says who, on secret evidence: Leipzig, the Polish energy sites, the French freezers.</span></td><td><b>%d</b><br><span class="small">Claims, suspicions and silence: most hacks.</span></td></tr>

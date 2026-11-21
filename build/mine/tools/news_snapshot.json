@@ -1,5 +1,42 @@
 [
  {
+  "added": "2026-11-21",
+  "c": "Estonia",
+  "d": "2026-11-21",
+  "kind": "news",
+  "off": false,
+  "rel": "defence",
+  "s": [
+   "drones",
+   "defence"
+  ],
+  "src": "ERR News",
+  "stype": "News media",
+  "sum": "The Estonian Defence Forces sent a drone threat alert for Lääne-Viru and Ida-Viru counties via the EE-ALARM system at 4:42 on Saturday and lifted it at 6:49, ERR reports. The Defence Forces say NATO fighter jets flown by the Turkish Air Force were airborne; a reader reported hearing a drone over Väike-Maarja. It is not known whose drone it was; Finland also restricted air and sea traffic in the eastern Gulf of Finland as a precaution.",
+  "sum_nl": "Het Estse leger verstuurde zaterdag om 4.42 uur via het alarmsysteem EE-ALARM een waarschuwing voor drones in de provincies Lääne-Viru en Ida-Viru en trok die om 6.49 uur weer in, meldt ERR. Volgens het leger vlogen NAVO-gevechtsvliegtuigen van de Turkse luchtmacht uit; een lezer meldde een drone boven Väike-Maarja te hebben gehoord. Het is niet bekend van wie de drone was; ook Finland beperkte uit voorzorg lucht- en scheepvaart in het oosten van de Finse Golf.",
+  "t": "Estonia issues and lifts a drone threat warning for its north-east; NATO jets scrambled",
+  "url": "https://news.err.ee/1610202574/defense-forces-issue-lift-drone-threat-warning-for-northeast-estonia",
+  "id": "2026-11-21-estonia-drone-warning"
+ },
+ {
+  "added": "2026-11-21",
+  "c": "Belgium",
+  "d": "2026-11-20",
+  "kind": "news",
+  "off": false,
+  "rel": "evidence",
+  "s": [
+   "business"
+  ],
+  "src": "ITdaily",
+  "stype": "Specialist media",
+  "sum": "Proximus customers had a temporary disruption on the telephone network on Thursday morning, ITdaily reports. The outage has been fixed and Proximus is investigating the cause; according to the report, a cyberattack has been ruled out. The exact cause has not yet been made public.",
+  "sum_nl": "Klanten van Proximus hadden donderdagochtend een tijdelijke storing op het telefoonnetwerk, meldt ITdaily. De storing is hersteld en Proximus onderzoekt de oorzaak; volgens het bericht is een cyberaanval uitgesloten. De precieze oorzaak is nog niet bekendgemaakt.",
+  "t": "Belgium: Proximus mobile network outage; a cyberattack is ruled out",
+  "url": "https://itdaily.be/nieuws/netwerk/proximus-telefoonnetwerk-storing/",
+  "id": "2026-11-20-proximus-outage-no-cyberattack"
+ },
+ {
   "added": "2026-11-20",
   "c": "Norway",
   "d": "2026-11-20",
@@ -19,6 +56,63 @@
   "id": "2026-11-20-skagerak-energi-intrusion"
  },
  {
+  "added": "2026-11-21",
+  "c": "Poland",
+  "d": "2026-11-20",
+  "kind": "news",
+  "off": false,
+  "rel": "hybrid",
+  "s": [
+   "sabotage",
+   "spying"
+  ],
+  "src": "Notes from Poland",
+  "stype": "News media",
+  "sum": "Poland's National Prosecutor's Office says two Ukrainian men have been detained and charged over 'Slava UPA' slogans painted on three World War Two monuments in Poznań in early November. Prosecutors say one of them acted on behalf of Russian intelligence for 500 dollars, with the aim of stirring hatred between Poles and Ukrainians. The men have not been convicted; similar graffiti appeared in three other Polish cities.",
+  "sum_nl": "Het Poolse nationale parket zegt dat twee Oekraïense mannen zijn opgepakt en aangeklaagd voor de leuzen 'Slava UPA' die begin november op drie monumenten voor de Tweede Wereldoorlog in Poznań werden geschilderd. Volgens het parket handelde een van hen in opdracht van de Russische inlichtingendienst voor 500 dollar, om haat tussen Polen en Oekraïners aan te wakkeren. De mannen zijn niet veroordeeld; vergelijkbare graffiti dook op in drie andere Poolse steden.",
+  "t": "Poland charges two Ukrainians with painting anti-Polish slogans on monuments for Russian intelligence",
+  "url": "https://notesfrompoland.com/2026/11/20/two-ukrainians-charged-with-vandalising-polish-monuments-on-behalf-of-russia/",
+  "id": "2026-11-20-poland-poznan-monuments-sabotage"
+ },
+ {
+  "added": "2026-11-21",
+  "c": "Denmark",
+  "d": "2026-11-20",
+  "kind": "news",
+  "off": false,
+  "rel": "hybrid",
+  "s": [
+   "intim",
+   "spying"
+  ],
+  "src": "Euronews",
+  "stype": "News media",
+  "sum": "Denmark's intelligence service PET says Russian intelligence planned and started a plot to kill Ukrainian rapper Kyivstoner before a concert in September. Two Danish men linked to the gang Loyal to Familia have been charged and are in custody; they reportedly deny the charges. Foreign Minister Lars Løkke Rasmussen says Russia's defence attaché must leave within seven days; the case has not yet been tried in court.",
+  "sum_nl": "De Deense inlichtingendienst PET zegt dat de Russische inlichtingendienst een plan had opgezet om de Oekraïense rapper Kyivstoner in september voor een concert te vermoorden. Twee Deense mannen met banden met de bende Loyal to Familia zijn aangeklaagd en zitten vast; zij ontkennen volgens berichten. Minister van Buitenlandse Zaken Lars Løkke Rasmussen zegt dat de Russische defensieattaché binnen zeven dagen het land moet verlaten; een rechter heeft de zaak nog niet behandeld.",
+  "t": "Denmark expels Russia's defence attaché over an alleged plot to kill a Ukrainian rapper",
+  "url": "https://www.euronews.com/2026/11/20/two-danes-suspected-of-russian-backed-plot-to-kill-ukrainian-rapper",
+  "id": "2026-11-20-denmark-rapper-plot-attache"
+ },
+ {
+  "added": "2026-11-21",
+  "c": "Belgium",
+  "d": "2026-11-20",
+  "kind": "news",
+  "off": false,
+  "rel": "",
+  "s": [
+   "intim",
+   "gov"
+  ],
+  "src": "VRT NWS",
+  "stype": "News media",
+  "sum": "A letter containing powder was found at an administrative office of the federal police in the Lange Kievitstraat in Antwerp, VRT NWS reports. Two people who touched it were taken to hospital for a check-up as a precaution, and civil protection took the letter away for analysis. It is not yet known what the powder is or who sent the letter.",
+  "sum_nl": "Op een administratief kantoor van de federale politie in de Lange Kievitstraat in Antwerpen is een brief met poeder gevonden, meldt VRT NWS. Twee mensen die de brief aanraakten, werden uit voorzorg naar het ziekenhuis gebracht voor onderzoek, en de civiele bescherming nam de brief mee voor analyse. Het is nog niet bekend wat het poeder is of wie de brief stuurde.",
+  "t": "Belgium: powder letter found at a federal police office in Antwerp",
+  "url": "https://www.vrt.be/vrtnws/nl/2026/11/20/poederbrief-bij-federale-politie/",
+  "id": "2026-11-20-antwerp-powder-letter-police"
+ },
+ {
   "added": "2026-11-20",
   "c": "Poland",
   "d": "2026-11-20",
@@ -36,6 +130,25 @@
   "t": "Poland says two Russian missiles and a probable drone came down on its territory",
   "url": "https://notesfrompoland.com/2026/11/20/unidentified-object-hits-poland-amid-russian-attacks-on-western-ukraine/",
   "id": "2026-11-20-poland-missiles-drone"
+ },
+ {
+  "added": "2026-11-21",
+  "c": "Poland",
+  "d": "2026-11-20",
+  "kind": "news",
+  "off": false,
+  "rel": "hybrid",
+  "s": [
+   "sabotage",
+   "defence"
+  ],
+  "src": "Notes from Poland",
+  "stype": "News media",
+  "sum": "Retired general Mieczysław Bieniek, adviser to Poland's defence minister, told TVN that Poland thwarted a planned Russian false-flag operation at the border that 'could have ended tragically'. Government figures including Prime Minister Donald Tusk confirmed an operation was prevented. The newspaper Rzeczpospolita, citing unnamed officials, reported it may have involved an attack blamed on Ukraine; no further details or evidence have been made public.",
+  "sum_nl": "Gepensioneerd generaal Mieczysław Bieniek, adviseur van de Poolse minister van Defensie, zei op TVN dat Polen een geplande Russische 'false flag'-operatie aan de grens heeft verijdeld die 'tragisch had kunnen aflopen'. Regeringsleden, onder wie premier Donald Tusk, bevestigen dat een operatie werd voorkomen. De krant Rzeczpospolita schrijft op basis van anonieme bronnen dat het om een aanval kon gaan die op Oekraïne zou worden afgeschoven; verdere details of bewijs zijn niet openbaar gemaakt.",
+  "t": "Poland says it prevented a planned Russian 'false-flag' operation at the Kaliningrad border",
+  "url": "https://notesfrompoland.com/2026/11/20/poland-prevented-russian-false-flag-operation-at-border-says-advisor-to-defence-minister/",
+  "id": "2026-11-20-poland-false-flag-foiled"
  },
  {
   "added": "2026-11-20",
