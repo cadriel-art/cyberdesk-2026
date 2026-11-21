@@ -243,3 +243,271 @@ closeTerms();
 apply();
 searchGuard();
 })();
+
+/* ===== UX round 1 (R1): route focus and titles, phone menu, empty states, search, wide tables, live badge ===== */
+(function(){
+'use strict';
+var doc=document,root=doc.documentElement;
+function lang(){return root.lang==='nl'?'nl':'en';}
+function T(en,nl){return lang()==='nl'?nl:en;}
+function $(s,r){return (r||doc).querySelector(s);}
+function $$(s,r){return [].slice.call((r||doc).querySelectorAll(s));}
+var side=$('#side'),nav=$('#nav'),pagesEl=$('#pages'),menuBtn=$('#menu'),mtop=$('.mtop'),qEl=$('#q');
+var NAVK={};
+try{var ss=doc.scripts;for(var i=0;i<ss.length;i++){var tx=ss[i].text,ix=tx.indexOf('const NAV = ');if(ix>=0){var ex=tx.indexOf(';\n',ix);JSON.parse(tx.slice(ix+12,ex)).forEach(function(g){(g.items||[]).forEach(function(it){NAVK[it.k]=it;});});break;}}}catch(e){}
+function setText(el,s){if(el&&el.textContent!==s)el.textContent=s;}
+function pname(k){var it=NAVK[k];return it?(it[lang()]||it.en):'';}
+function activePage(){return $('#pages > article.page:not([hidden])');}
+function mq900(){return window.matchMedia&&window.matchMedia('(max-width:900px)').matches;}
+
+/* ---------- search index (built now, in the original language, before any Dutch string is applied) ---------- */
+var NLSEL='.nl,.pb-nl,.plnl,.joe-nl,[lang="nl"]';
+function split(pg){
+  var c=pg.cloneNode(true),nl=[];
+  $$('script,style,textarea',c).forEach(function(e){e.remove();});
+  var heads=$$('h1,h2,h3,h4,summary',c).map(function(h){return h.textContent.replace(/\s+/g,' ').trim();}).filter(function(s){return s&&!/^NL:/.test(s);});
+  $$(NLSEL,c).forEach(function(e){if(e.parentNode&&!e.parentNode.closest(NLSEL)){nl.push(e.textContent);}});
+  $$(NLSEL,c).forEach(function(e){if(e.isConnected)e.remove();});
+  $$('b,strong',c).forEach(function(b){
+    if(b.isConnected&&/^NL:\s*$/.test(b.textContent)){var s='',n=b.nextSibling;while(n){var nx=n.nextSibling;s+=n.textContent+' ';n.remove();n=nx;}nl.push(s);b.remove();}
+  });
+  $$('p,li,td,th,tr,h1,h2,h3,h4,div,summary,section,span.sector',c).forEach(function(e){e.appendChild(doc.createTextNode(' '));});
+  var cl=function(s){return s.replace(/\bNL:\s*/g,'').replace(/\s+/g,' ').trim();};
+  return {en:cl(c.textContent),nl:cl(nl.join(' ')),heads:heads};
+}
+var INDEX=[];
+try{
+  $$('#pages > article.page[data-static]').forEach(function(pg){
+    var k=pg.id.slice(2),s=split(pg),h1=$('h1',pg);
+    INDEX.push({k:k,en:s.en,nl:s.nl,heads:s.heads,titles:[(NAVK[k]&&NAVK[k].en)||'',(NAVK[k]&&NAVK[k].nl)||'',h1?h1.textContent:''].join('\n').toLowerCase(),all:(s.en+' '+s.nl).toLowerCase()});
+  });
+  var C=JSON.parse($('#data').textContent);
+  var qa=(C.qa||[]),qen=qa.map(function(q){return [q.q,q.a,q.trap].join(' ');}).join(' '),qnl=qa.map(function(q){return [q.qnl,q.nl].join(' ');}).join(' ');
+  INDEX.push({k:'rehearse',en:qen,nl:qnl,heads:[],titles:((NAVK.rehearse&&(NAVK.rehearse.en+'\n'+NAVK.rehearse.nl))||'').toLowerCase(),all:(qen+' '+qnl).toLowerCase()});
+}catch(e){}
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+function count(t,q){var i=t.indexOf(q),n=0;while(i>-1){n++;i=t.indexOf(q,i+q.length);}return n;}
+function snip(txt,q){var i=txt.toLowerCase().indexOf(q);if(i<0)return null;var s=Math.max(0,i-70);return (s?'…':'')+txt.slice(s,i+q.length+90)+'…';}
+function runSearch(v){
+  var q=v.toLowerCase(),stem=(q.indexOf(' ')<0&&q.length>=6)?q.slice(0,4):null,out=[];
+  INDEX.forEach(function(e){
+    var n=count(e.all,q);if(!n)return;
+    var tScore=e.titles.indexOf(q)>=0?1000:(stem&&e.titles.indexOf(stem)>=0?500:0);
+    var hh=0;e.heads.forEach(function(h){if(h.toLowerCase().indexOf(q)>=0)hh++;});
+    var dens=Math.min(40,n/Math.max(1,e.all.length/1000)*2);
+    var act=lang()==='nl'?e.nl:e.en,oth=lang()==='nl'?e.en:e.nl;
+    out.push({k:e.k,n:n,score:tScore+Math.min(hh,5)*60+Math.min(n,40)+dens,snip:snip(act,q)||snip(oth,q)||''});
+  });
+  out.sort(function(a,b){return b.score-a.score||b.n-a.n;});
+  return out;
+}
+var pendingHL=null;
+function renderSearch(v){
+  var out=runSearch(v),p=$('#p-search');if(!p)return;
+  p.innerHTML='<div class="crumb">'+esc(T('Search everything','Zoek in alles'))+'</div><h1 class="pgt" id="srh">“'+esc(v)+'”</h1><p class="sub">'+(out.length?(lang()==='nl'?out.length+" pagina's met resultaten":out.length+' pages with results'):T('Nothing found.','Niets gevonden.'))+'</p><div class="results">'+out.map(function(r){
+    var it=NAVK[r.k];return '<a href="#'+r.k+'" data-hl="'+esc(v)+'"><b>'+esc(it?(it[lang()]||it.en):r.k)+' <span class="pill blue">'+r.n+'</span></b><span>'+esc(r.snip)+'</span></a>';}).join('')+'</div>';
+  $$('a[data-hl]',p).forEach(function(a){a.addEventListener('click',function(){pendingHL=a.getAttribute('href')==='#rehearse'?null:a.dataset.hl;});});
+  p.dataset.q=v;
+}
+function doSearch(v){
+  if(v.length<2){if(activePage()&&activePage().id==='p-search')location.hash='#home';return;}
+  renderSearch(v);
+  var ap=activePage();
+  if(ap&&ap.id==='p-search'){try{history.replaceState({cdq:v},'',location.href);}catch(e){}document.title=T('Search','Zoeken')+': “'+v+'” · Cyber Attacks 2026';return;}
+  try{history.pushState({cdq:v},'','#search');}catch(e){}
+  window.dispatchEvent(new HashChangeEvent('hashchange'));
+}
+var sT=null;
+window.addEventListener('input',function(e){
+  if(!e.target||e.target.id!=='q')return;
+  e.stopPropagation();e.stopImmediatePropagation();
+  clearTimeout(sT);var v=e.target.value.trim();sT=setTimeout(function(){doSearch(v);},180);
+},true);
+window.addEventListener('popstate',function(e){
+  var s=e.state;
+  if(location.hash==='#search'&&s&&s.cdq){renderSearch(s.cdq);if(qEl)qEl.value=s.cdq;}
+});
+function highlight(pg,v){
+  if(!pg||!v)return;var lv=v.toLowerCase();
+  var w=doc.createTreeWalker(pg,NodeFilter.SHOW_TEXT,{acceptNode:function(n){return n.nodeValue.toLowerCase().indexOf(lv)>=0&&!n.parentNode.closest('script,style,textarea')?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_REJECT;}});
+  var nodes=[];while(w.nextNode())nodes.push(w.currentNode);var first=null;
+  nodes.forEach(function(n){var i=n.nodeValue.toLowerCase().indexOf(lv),m=doc.createElement('mark');m.dataset.hl='1';var after=n.splitText(i);after.splitText(v.length);m.textContent=after.nodeValue;after.replaceWith(m);if(!first)first=m;var d=m.closest('details');if(d)d.open=true;});
+  if(first)first.scrollIntoView({block:'center'});
+}
+
+/* ---------- route changes: focus the H1, set the title, show the active sidebar item ---------- */
+var lastKey=null,routedAt=0;
+function pageTitle(){
+  var ap=activePage(),k=ap?ap.id.slice(2):'';
+  if(k==='search'){var q=ap.dataset.q;return T('Search','Zoeken')+(q?': “'+q+'”':'');}
+  return pname(k)||($('h1',ap)||{}).textContent||'';
+}
+function setTitle(){var t=pageTitle();doc.title=(t?t+' · ':'')+'Cyber Attacks 2026';}
+function sideReveal(){
+  var a=$('a[aria-current="page"]',nav);if(!a||!side)return;
+  var ar=a.getBoundingClientRect(),sr=side.getBoundingClientRect(),pad=40;
+  if(ar.top<sr.top+pad)side.scrollTop-=(sr.top+pad-ar.top);
+  else if(ar.bottom>sr.bottom-pad)side.scrollTop+=(ar.bottom-sr.bottom+pad);
+}
+function onRoute(first){
+  var ap=activePage();if(!ap)return;
+  var k=ap.id;
+  var changed=(k!==lastKey);lastKey=k;
+  setTitle();
+  sideReveal();
+  if(first||!changed)return;
+  routedAt=Date.now();
+  try{
+    var h=$('h1',ap)||$('h2',ap);
+    if(!h){var hs=ap.querySelector('h3,h4');h=hs;}
+    var t=h||pagesEl;
+    t.setAttribute('tabindex','-1');
+    t.focus({preventScroll:true});
+  }catch(e){}
+  if(pendingHL){var v=pendingHL;pendingHL=null;setTimeout(function(){highlight(ap,v);},0);}
+  setTimeout(measureTables,60);
+}
+var routeMO=new MutationObserver(function(){onRoute(false);});
+if(pagesEl)routeMO.observe(pagesEl,{attributes:true,attributeFilter:['hidden'],subtree:false,childList:false});
+new MutationObserver(function(){setTitle();syncLang();}).observe(root,{attributes:true,attributeFilter:['lang']});
+/* the page may be changed by the app before we see it: also refresh title and sidebar on hashchange (after the app has routed) */
+window.addEventListener('hashchange',function(){setTimeout(function(){onRoute(false);sideReveal();},0);});
+
+/* ---------- LIVE badge on the menu (the app flags live:1 items; the saved file drops the badge) ---------- */
+function liveBadges(){
+  $$('a[data-k]',nav).forEach(function(a){
+    var it=NAVK[a.dataset.k];
+    var b=a.querySelector('.live');
+    if(it&&it.live){
+      if(!b){b=doc.createElement('span');b.className='live';b.textContent='LIVE';a.appendChild(b);}
+      b.title=T('Updated automatically','Wordt automatisch bijgewerkt');
+    }
+  });
+}
+if(nav){new MutationObserver(function(){liveBadges();sideReveal();}).observe(nav,{childList:true});liveBadges();}
+
+/* ---------- phone menu: Close button, Esc, focus return, header with EN/NL, one-line title ---------- */
+var closeBtn=null;
+function menuOpen(){return side&&side.classList.contains('open');}
+function measureTop(){if(mtop){var h=Math.round(mtop.getBoundingClientRect().height);if(h>0)root.style.setProperty('--mtop-h',h+'px');}}
+function closeDrawer(focusMenu){
+  if(!menuOpen())return;
+  menuBtn.click();
+  if(focusMenu&&menuBtn)menuBtn.focus();
+}
+function syncLang(){
+  if(closeBtn){closeBtn.lastChild.textContent=T('Close menu','Menu sluiten');}
+  var nl=lang()==='nl';
+  var a=$('#m-nl'),b=$('#m-en');
+  if(a)a.setAttribute('aria-pressed',nl);if(b)b.setAttribute('aria-pressed',!nl);
+  if(menuBtn)menuBtn.setAttribute('aria-label',T('Menu','Menu'));
+}
+if(side&&menuBtn&&mtop){
+  closeBtn=doc.createElement('button');closeBtn.type='button';closeBtn.className='side-close';
+  closeBtn.innerHTML='<span aria-hidden="true">✕</span><span></span>';
+  closeBtn.addEventListener('click',function(){closeDrawer(true);});
+  side.insertBefore(closeBtn,side.firstChild);
+  /* title block: brand line + page name, each on one line */
+  var b=$('b',mtop),sp=$('#mtitle'),wrap=doc.createElement('div');wrap.className='mt-t';
+  mtop.insertBefore(wrap,b);wrap.appendChild(b);wrap.appendChild(sp);
+  /* EN/NL also in the phone header */
+  var g=doc.createElement('div');g.className='lng mt-lng';g.setAttribute('role','group');g.setAttribute('aria-label','Language');
+  g.innerHTML='<button type="button" id="m-nl" aria-pressed="false">NL</button><button type="button" id="m-en" aria-pressed="false">EN</button>';
+  mtop.appendChild(g);
+  $('#m-nl').addEventListener('click',function(){$('#l-nl').click();});
+  $('#m-en').addEventListener('click',function(){$('#l-en').click();});
+  new MutationObserver(function(){
+    if(menuOpen()){measureTop();setTimeout(function(){if(menuOpen())closeBtn.focus();},30);}
+    else if(Date.now()-routedAt>400){var ae=doc.activeElement;if(!ae||ae===doc.body||side.contains(ae))menuBtn.focus();}
+  }).observe(side,{attributes:true,attributeFilter:['class']});
+  doc.addEventListener('keydown',function(e){
+    if(!menuOpen())return;
+    if(e.key==='Escape'){e.preventDefault();closeDrawer(true);return;}
+    if(e.key==='Tab'&&mq900()){
+      var f=$$('button,a[href],input,select',side).filter(function(x){return x.offsetParent!==null;});if(!f.length)return;
+      var first=f[0],last=f[f.length-1];
+      if(e.shiftKey&&doc.activeElement===first){e.preventDefault();last.focus();}
+      else if(!e.shiftKey&&doc.activeElement===last){e.preventDefault();first.focus();}
+    }
+  });
+  window.addEventListener('resize',measureTop);measureTop();
+  /* a safe-area or font change can resize the header after load */
+  if(window.ResizeObserver)new ResizeObserver(measureTop).observe(mtop);
+}
+
+/* ---------- empty states for filters, and a Reset button ---------- */
+var FILTERS=[
+ {page:'reg2',box:'#reg2f',rows:'#reg2t tbody tr',after:'#reg2count',hide:'#reg2t',addReset:true},
+ {page:'outages',box:'#ogf',rows:'#og-list .og-card',after:'#og-count',addReset:true},
+ {page:'prepare',box:'#prf',rows:'#pr-table .pr-row',after:'#pr-count',hide:'#pr-table',addReset:true},
+ {page:'evidence',box:'#evf',rows:'#ev-list .evc',after:'#ev-count',resetSel:'#ev-reset'}
+];
+function resetBox(box){
+  $$('select,input',box).forEach(function(c){
+    if(/sort/i.test(c.id||''))return;
+    if(c.type==='checkbox'){if(c.checked){c.checked=false;c.dispatchEvent(new Event('change',{bubbles:true}));}}
+    else if(c.tagName==='SELECT'){if(c.selectedIndex!==0){c.selectedIndex=0;c.dispatchEvent(new Event('change',{bubbles:true}));}}
+    else if(c.value){c.value='';c.dispatchEvent(new Event('input',{bubbles:true}));c.dispatchEvent(new Event('change',{bubbles:true}));}
+  });
+}
+function filterBits(f){
+  var box=$(f.box);if(!box)return;
+  var rb=box.querySelector('.u-reset');
+  if(f.addReset&&!rb){
+    rb=doc.createElement('button');rb.type='button';rb.className='u-reset';
+    rb.addEventListener('click',function(){resetBox(box);});
+    box.appendChild(rb);
+  }
+  setText(rb,T('Reset filters','Filters herstellen'));
+  var msg=doc.getElementById('u-empty-'+f.page);
+  if(!msg){
+    var anchor=$(f.after);if(!anchor)return;
+    msg=doc.createElement('div');msg.id='u-empty-'+f.page;msg.className='u-empty';msg.setAttribute('role','status');msg.hidden=true;
+    msg.innerHTML='<p></p><button type="button" class="u-reset"></button>';
+    anchor.parentNode.insertBefore(msg,anchor.nextSibling);
+    msg.querySelector('button').addEventListener('click',function(){
+      if(f.resetSel){var r=$(f.resetSel);if(r){r.click();return;}}
+      resetBox(box);
+    });
+  }
+  var rows=$$(f.rows),vis=rows.filter(function(r){return !r.hidden;}).length;
+  var zero=rows.length>0&&vis===0;
+  msg.hidden=!zero;
+  setText(msg.querySelector('p'),T('Nothing matches these filters.','Niets gevonden met deze filters.'));
+  setText(msg.querySelector('button'),T('Reset filters','Filters herstellen'));
+  if(f.hide){$$(f.hide).forEach(function(e){(e.closest('.tbl')||e).classList.toggle('u-hide',zero);});}
+}
+function filtersAll(){FILTERS.forEach(function(f){try{filterBits(f);}catch(e){}});}
+['change','input','click'].forEach(function(ev){doc.addEventListener(ev,function(e){
+  if(e.target&&e.target.closest&&e.target.closest('.filters2,.filters,.evf,.og-f,.pr-f,.u-empty'))setTimeout(filtersAll,0);
+});});
+
+/* ---------- wide tables: fade on the edge with more, one-line hint ---------- */
+function measureTables(){
+  var ap=activePage();if(!ap)return;
+  $$('.tbl',ap).forEach(function(w){
+    if(!w.offsetParent)return;
+    var over=w.scrollWidth>w.clientWidth+2,hint=w.previousElementSibling;
+    if(!(hint&&hint.classList&&hint.classList.contains('tbl-hint'))){
+      if(!over)return;
+      hint=doc.createElement('p');hint.className='tbl-hint';w.parentNode.insertBefore(hint,w);
+    }
+    setText(hint,T('Swipe sideways to see all columns','Veeg opzij om alle kolommen te zien'));
+    hint.classList.toggle('on',over);
+    w.classList.toggle('u-ov-r',over&&w.scrollLeft+w.clientWidth<w.scrollWidth-2);
+    w.classList.toggle('u-ov-l',over&&w.scrollLeft>2);
+    if(over){if(!w.hasAttribute('tabindex')){w.setAttribute('tabindex','0');w.setAttribute('role','region');}w.setAttribute('aria-label',hint.textContent);}
+  });
+}
+doc.addEventListener('scroll',function(e){if(e.target&&e.target.classList&&e.target.classList.contains('tbl'))measureTables();},true);
+window.addEventListener('resize',function(){clearTimeout(measureTables.t);measureTables.t=setTimeout(measureTables,100);});
+
+/* ---------- run, and keep up when the app re-renders ---------- */
+var tick=null;
+function again(){clearTimeout(tick);tick=setTimeout(function(){filtersAll();measureTables();setTitle();},120);}
+if(pagesEl)new MutationObserver(again).observe(pagesEl,{childList:true,subtree:true});
+new MutationObserver(again).observe(root,{attributes:true,attributeFilter:['lang']});
+syncLang();filtersAll();onRoute(true);
+setTimeout(function(){measureTables();},200);
+/* a results link such as #search opened directly keeps working: the earlier guard sends it home */
+})();
