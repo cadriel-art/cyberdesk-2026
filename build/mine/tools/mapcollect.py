@@ -32,7 +32,7 @@ def collect():
     R=BeautifulSoup(open(M+'cyber-incident-register.html',encoding='utf-8').read(),'html.parser')
     for tr in R.select('#reg2t tbody tr'):
         td=tr.find_all('td')
-        add('reg2',tr['data-c'],td[0].get_text(' ',strip=True),td[2].get_text(' ',strip=True),{'Confirmed':'C','Reported':'R','Claimed':'K'}.get(td[3].get_text(strip=True),'R'),'',tr['data-s']+'|'+tr['data-t']+'|'+tr.get('data-sub',''))
+        [x.extract() for x in td[2].select('.plnl')]; add('reg2',tr['data-c'],td[0].get_text(' ',strip=True),td[2].get_text(' ',strip=True),{'Confirmed':'C','Reported':'R','Claimed':'K'}.get(td[3].get_text(strip=True),'R'),'',tr['data-s']+'|'+tr['data-t']+'|'+tr.get('data-sub',''))
     return E
 if __name__=='__main__':
     import collections
