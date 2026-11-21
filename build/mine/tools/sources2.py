@@ -426,6 +426,8 @@ N+=[
 ('HB','https://www.vrt.be/vrtnws/nl/2026/11/20/poederbrief-bij-federale-politie/','VRT NWS: Poederbrief bij federale politie in Antwerpen, 2 mensen uit voorzorg naar het ziekenhuis (20 Nov 2026)'),
 ('EV','https://itdaily.be/nieuws/netwerk/proximus-telefoonnetwerk-storing/','ITdaily: Storing Proximus, cyberaanval uitgesloten (20 Nov 2026)'),
 ('RG','https://news.err.ee/1610200210/hackers-obtain-personal-data-of-thousands-in-cyberattack-on-tlt-website','ERR News (Estonian public broadcaster): hackers copy personal data from the website of Tallinn\'s public transport company TLT'),
+('HE','https://news.err.ee/1610202715/russian-cargo-ship-on-fire-in-gulf-of-finland-after-reported-drone-strike','ERR News (Estonian public broadcaster): Russian cargo ship on fire in Gulf of Finland after reported drone strike; it drifted into Finnish waters (21 Nov 2026)'),
+('HE','https://www.france24.com/en/europe/20261121-accept-cookies-russia-collected-data-swaths-unknowing-swedes','France 24: \'Accept cookies\'? Russia collects data from swaths of unknowing Swedes (21 Nov 2026)'),
 ('','https://therecord.media/russia-cyber-espionage-google','The Record by Recorded Future News: Russian cyber-espionage group used stolen cloud data to hack into organizations, Google says (18 Nov 2026)'),
 ('','https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html','The Hacker News: Russian COLD RELIC hackers use stolen Google Workspace data to breach second U.S. organization (18 Nov 2026)'),
 ]
@@ -434,6 +436,8 @@ NEWOVR={
 'https://notesfrompoland.com/2026/11/20/poland-prevented-russian-false-flag-operation-at-border-says-advisor-to-defence-minister/':'news',
 'https://notesfrompoland.com/2026/11/20/two-ukrainians-charged-with-vandalising-polish-monuments-on-behalf-of-russia/':'news',
 'https://news.err.ee/1610202574/defense-forces-issue-lift-drone-threat-warning-for-northeast-estonia':'pub',
+'https://news.err.ee/1610202715/russian-cargo-ship-on-fire-in-gulf-of-finland-after-reported-drone-strike':'pub',
+'https://www.france24.com/en/europe/20261121-accept-cookies-russia-collected-data-swaths-unknowing-swedes':'pub',
 'https://www.vrt.be/vrtnws/nl/2026/11/20/poederbrief-bij-federale-politie/':'pub',
 'https://itdaily.be/nieuws/netwerk/proximus-telefoonnetwerk-storing/':'trade',
 'https://therecord.media/russia-cyber-espionage-google':'trade',
