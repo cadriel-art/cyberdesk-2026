@@ -45,7 +45,7 @@ D={
 'news':("Headlines on attacks, sabotage and drones, with filters for country and subject.","Nieuwskoppen over aanvallen, sabotage en drones, met filters voor land en onderwerp."),
 'intel':("Three short lists that keep this file current: the last week, cases that moved on the proof ladder, and open questions.","Drie korte lijsten die dit dossier actueel houden: de voorbije week, zaken die opschoven op de bewijsladder en open vragen."),
 'trend':("How the picture changed in two years, from official figures first and this file's own register second.","Hoe het beeld in twee jaar veranderde, eerst volgens officiële cijfers, dan volgens het eigen register."),
-'cases':("The ten incidents that define the two years, each in a few lines.","De tien incidenten die de twee jaar bepalen, elk in enkele regels."),
+'cases':("The big incidents of the two years, the newest and those with a Belgian link first, each as a short card you can open.","De grote incidenten van de twee jaar, de nieuwste en die met een Belgische band eerst, elk als een korte kaart die je kunt openen."),
 'qa':("The questions people ask most, each with a short, sourced answer and a note on what is not certain.","De vragen die mensen het meest stellen, elk met een kort, gebrond antwoord en een noot over wat niet zeker is."),
 'reg2':("%d incidents in 31 countries, in date order, with filters for year, country, sector and kind of attack."%n_reg,"%d incidenten in 31 landen, op datum, met filters voor jaar, land, sector en soort aanval."%n_reg),
 'months':("2026 first, then 2025; confirmed incidents kept apart from reported and claimed ones.","Eerst 2026, dan 2025; bevestigde incidenten staan apart van gerapporteerde en geclaimde."),
