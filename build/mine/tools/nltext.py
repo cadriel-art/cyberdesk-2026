@@ -17,11 +17,15 @@ import sys, os, re, json
 from bs4 import BeautifulSoup, NavigableString, Tag
 
 HERE = os.path.dirname(os.path.abspath(__file__)); M = os.path.dirname(HERE) + '/'
-PAGES = ['now', 'freezers', 'year', 'back', 'register', 'numbers', 'powers', 'tools']
+PAGES = ['now', 'freezers', 'year', 'back', 'register', 'numbers', 'powers', 'tools', 'water', 'transport', 'health', 'hybrid', 'elections', 'defence', 'encryption']
 MAP = json.load(open(HERE + '/nl_text.json', encoding='utf-8'))
 SIMPLE = {'b', 'strong', 'i', 'em', 'a', 'code', 'br', 'small', 'sub', 'sup'}
 SKIPTAG = {'script', 'style', 'svg', 'button', 'select', 'option', 'nav', 'textarea'}
 SKIPCLS = {'printbar', 'pn', 'filters', 'crumb', 'bl-note', 'u-toc', 'nl', 'plnl', 'pb-nl', 'joe-nl', 'nl-x', 'en-x', 'bl-gone', 'eo-note'}
+# round-3 pages: the intro box and the terms box already carry their own Dutch (pb-nl / NL column): leave them alone
+BL_PAGES = {'water', 'transport', 'health', 'hybrid', 'elections', 'defence', 'encryption'}
+BL_SKIP = {'plainbox', 'termsbox'}
+CUR = {'skip': set()}
 DUTCHCLS = {'nl', 'plnl', 'pb-nl', 'joe-nl', 'nl-x'}
 LET = re.compile(r'[A-Za-z]{3}')
 
@@ -97,7 +101,7 @@ def process_article(html, found):
     art = soup.find('article'); mods = []; stat = {'el': 0, 'seg': 0, 'bil': 0}
 
     def walk(e):
-        if e.name in SKIPTAG or cls(e) & SKIPCLS: return
+        if e.name in SKIPTAG or cls(e) & (SKIPCLS | CUR['skip']): return
         if simple_desc(e):
             t = marked(e)
             if LET.search(t):
@@ -173,6 +177,7 @@ def run_file(path, pages, found_all):
         lines = html.split('\n'); starts = [0]
         for ln in lines[:-1]: starts.append(starts[-1] + len(ln) + 1)
         found = set()
+        CUR['skip'] = BL_SKIP if k in BL_PAGES else set()
         soup, art, mods, stat = process_article(html, found)
         found_all |= found
         per[k] = stat
