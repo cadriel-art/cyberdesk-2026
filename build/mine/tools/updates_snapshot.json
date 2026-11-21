@@ -8,7 +8,8 @@
   "tag": "New",
   "title": "Easier to use: new start page, new menu, Dutch mode in Dutch",
   "title_nl": "Makkelijker in gebruik: nieuwe startpagina, nieuw menu, Nederlandse modus in het Nederlands",
-  "id": "u20261121b"
+  "id": "u20261121b",
+  "app": true
  },
  {
   "body": "Checked and added: Denmark's security service PET says Russian intelligence planned a plot to kill a Ukrainian rapper; two Danes are charged and Russia's defence attaché must leave (not yet tried in court). Poland: prosecutors charged two Ukrainians over graffiti on Poznań monuments, saying one acted for Russian intelligence; the government says it prevented a planned Russian 'false-flag' operation at the border (no evidence published); two Russian missiles and a probable drone came down in south-eastern Poland. Estonia: a drone alert in the north-east was issued and lifted; Tallinn's public transport company TLT had employee data copied from its website. Belgium: a letter with powder was found at a federal police office in Antwerp; the Proximus phone outage of 20 November was a software error, not an attack. Germany's BSI calls the situation 'tense to critical'. The Belgian entries in the register now also have a Dutch text.",
@@ -30,7 +31,8 @@
   "tag": "New",
   "title": "45 news feeds read daily, more in Dutch, moved links fixed",
   "title_nl": "45 nieuwsfeeds dagelijks gelezen, meer in het Nederlands, verhuisde links hersteld",
-  "id": "u20261120g"
+  "id": "u20261120g",
+  "app": true
  },
  {
   "body": "Corrections: education incidents in the register went from 1 (2025) to 11 (2026), not 45; health is the second most-hit sector after government, not the first; AZ Monica had its main systems back after about five weeks (one figure everywhere); 13 October to 2 November is 20 days, not 19; items without a known month are now under 'Month not known' instead of January; the French freezer case is one step lower on the evidence ladder because arrest warrants were only requested; Bulgaria's case is no longer labelled espionage; blame in the Cyprus, Czechia and Leipzig entries is now attributed to who says it. Sources: 8 missing sources added, companies moved out of 'Official', three wrong publisher labels fixed. Easier reading: clearer status tags in light and dark mode, 'Terms on this page' closed by default, much more of the screen in Dutch in NL mode, a bigger map in full screen, a better map panel on phones, and a 'Skip to content' link.",
@@ -63,7 +65,8 @@
   "tag": "New",
   "title": "Live headlines in the saved file",
   "title_nl": "Live koppen in het opgeslagen bestand",
-  "id": "u20261120d"
+  "id": "u20261120d",
+  "app": true
  },
  {
   "body": "The News reader now shows where its news comes from: 51 news feeds of official bodies and media, most of them sources already used in this file. 36 are read every morning, among them Belgium's National Crisis Centre, VRT NWS, RTBF and Bruzz, CERT-EU, Europol, Eurojust, the Council of the EU, Germany's BSI and BBK, the Dutch NCSC, CERT Polska and The Record. The others cannot be reached yet or block automatic reading. The new button 'Fetch today's news' starts the news check right away; new items appear in the list a few minutes later. Only the owner of the file can use it.",
@@ -74,7 +77,8 @@
   "tag": "New",
   "title": "News reader: its sources, and a button to fetch today's news",
   "title_nl": "Nieuwslezer: de bronnen, en een knop om het nieuws van vandaag op te halen",
-  "id": "u20261120c"
+  "id": "u20261120c",
+  "app": true
  },
  {
   "body": "The ENISA box on 'Two years in numbers' is now checked against the full ENISA Threat Landscape 2026 report instead of news coverage, and shows its exact figures: 51.3% DDoS, 39.5% break-ins, 31.8% public administration, 73% of incidents at NIS2 organisations. Added: why attacks happened (57.3% activist or political, 29.3% money, 5.9% spying by state-linked groups) and the next four most-hit sectors. The report itself gives 6.3% for spying in one chapter and 29.2% for money; we show the figures from its summary. Correction: the 47.6% Russia, 15.5% China, 14.1% North Korea and 9% Iran figures are shares of the state-linked spying groups ENISA tracked, not of all activity linked to a state, as the file said before.",
@@ -182,6 +186,7 @@
   "source": "France 24, NPR, Axios (9–10 Nov 2026)",
   "tag": "Attribution",
   "title": "France names Iran for its October freezer attacks",
-  "id": "u20261110a"
+  "id": "u20261110a",
+  "app": true
  }
 ]

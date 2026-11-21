@@ -111,6 +111,7 @@ IT={i['k']:i for g in nav for i in g['items']}
 
 # ---------- what's new: static fallback from the build ----------
 ups=json.load(open(M+'tools/updates_snapshot.json',encoding='utf-8'))
+ups=[u for u in ups if not u.get('app')]   # app/feature notes stay on the Updates page only
 ups=sorted(ups,key=lambda u:(u.get('order',0),u.get('id','')),reverse=True)[:3]   # newest by `order`; ties by id
 TAGNL={'New':'Nieuw','Check':'Controle','Attribution':'Toeschrijving','New incidents':'Nieuwe incidenten','Correction':'Correctie'}
 def upd_card(u):
