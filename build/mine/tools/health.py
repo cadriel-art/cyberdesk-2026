@@ -26,7 +26,7 @@ EV=[
 ('18 Apr 2026','Law','Deadline for hospitals','As "essential entities" under the cybersecurity law, hospitals had to show by this date that they meet the required level or have a plan; late or incomplete files can bring fines. How hospitals did is not published in the sources found.','C'),
 ('May 2026','Data','Two unverified offers on criminal forums','A seller claimed to have data from the medical-practice platform cabinetmedical.be; another offered a database said to belong to the health insurance fund Christelijke Mutualiteit. Neither was independently verified.','K'),
 ]
-rows=''.join('<tr><td class="nowrap"><b>%s</b><br><span class="small">%s</span></td><td><b>%s.</b> %s%s</td><td>%s</td></tr>'%(r[0],r[1],r[2],r[3],(' <span class="small"><i>%s</i></span>'%r[5]) if len(r)>5 else '',tg(r[4])) for r in EV)
+rows=''.join('<tr><td class="nowrap"><b>%s</b><br><span class="small">%s</span></td><td><b>%s</b> %s%s</td><td>%s</td></tr>'%(r[0],r[1],r[2] if r[2].endswith(('?','!','.')) else r[2]+'.',r[3],(' <span class="small"><i>%s</i></span>'%r[5]) if len(r)>5 else '',tg(r[4])) for r in EV)
 SEC='''<section id="health">
 <h2>Health: Belgium</h2>
 <p class="sub">Hospitals, clinics, health software and patient data in 2025 and 2026. Health is '''+_sector_phrase(M)+'''. The other countries follow.</p>
