@@ -1,0 +1,27 @@
+/* ===== uifix: audit fixes U1, U2, U3, U5, U6 (see /home/user/workshop/README.md) ===== */
+/* U1: AA contrast for small status text. Light values below, dark keeps the original palette. */
+:root{--u-claim:#8a5a0c;--u-grey:#4b5563;--u-amber:#8a560a}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--u-claim:var(--sev-data);--u-grey:var(--sev-claim);--u-amber:var(--amber)}}
+:root[data-theme="dark"]{--u-claim:var(--sev-data);--u-grey:var(--sev-claim);--u-amber:var(--amber)}
+.tag.claim,.tag.t-claim,.t-claim{color:var(--u-claim)}
+.tag:where(:not(.t-conf,.t-rep,.t-claim,.t-susp,.t-none,.conf,.rep,.claim)){color:var(--u-grey)}
+.nw-pill.un,.nw-st.wait{color:var(--u-amber)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .tag.t-susp{color:#f0c060;border-color:#b98a2e}}
+:root[data-theme="dark"] .tag.t-susp{color:#f0c060;border-color:#b98a2e}
+/* U5: skip link, one h1 per page */
+.skiplink{position:absolute;left:8px;top:-80px;z-index:10000;background:var(--ink);color:var(--bg);padding:9px 16px;border-radius:8px;font-weight:600;font-size:14px;text-decoration:none;box-shadow:0 2px 10px rgba(0,0,0,.3)}
+.skiplink:focus{top:8px}
+h1.pgt{font-family:var(--f-display);font-weight:800;font-size:25px;line-height:1.15;margin:0 0 6px;text-wrap:balance}
+@media(min-width:1500px){#p-map h1.pgt{max-width:1000px}}
+#pages:focus,#pages h1.pgt:focus{outline:none}
+.eo-note{font-size:13px}
+/* U6 + English-only print: print always on the light palette, Dutch spans/divs hidden in "English only" */
+@media print{
+ :root{--sev-phys:#c2361f!important;--sev-phys-soft:#fbe9e5!important;--sev-data:#b7791f!important;--sev-data-soft:#fbf1df!important;--sev-claim:#6b7280!important;--sev-claim-soft:#eef0f3!important;--ok:#1f7a4d!important;--ok-soft:#e3f3ea!important;--red:#c2361f!important;--red-soft:#fbe9e5!important;--amber:#a86b12!important;--amber-soft:#fbf1df!important;--green:#1f7a4d!important;--green-soft:#e3f3ea!important;--grey:#6b7280!important;--grey-soft:#eef0f3!important;--accent-ink:#fff!important;--u-claim:#8a5a0c!important;--u-grey:#4b5563!important;--u-amber:#8a560a!important}
+ .tag.t-susp{color:#7a4a00!important;border-color:#b98a2e!important}
+ .callout,.callout.warn,.callout.red{background:#fff!important;color:#111!important;border:1px solid #bbb!important}
+ h1.pgt{break-after:avoid}
+ html body.print-csel #p-eucountries section > h1.pgt{display:block!important}
+}
+@media print{body.pl-en span.nl,body.pl-en div.nl,body.pl-en small.nl,body.pl-en .small.nl{display:none!important}}
+html[lang="nl"] .lad-h i{display:none}

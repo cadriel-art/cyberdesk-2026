@@ -1,0 +1,555 @@
+0|hybrid|Belgium|2–3 Oct 2025|drones|Elsenborn||Elsenborn army camp: About fifteen drones were reported over the camp in eastern Belgium during the night. This is t
+1|hybrid|Belgium|9 Oct 2025|drones,sabotage|||Police arrested three young me: CS
+2|hybrid|Belgium|Early Nov 20|drones|Kleine-Brogel||Drones were reported over the : RK
+3|hybrid|Belgium|4 Nov 2025|drones|Brussels||Both airports stopped air traf: CS
+4|hybrid|Belgium|6 Nov 2025|jamming,drones|||National Security Council: The government decided to make the National Air Security Centre in Beauvechain (Bevekom) fully 
+5|hybrid|Belgium|7 Nov 2025|drones|||Flights were halted again for : CS
+6|hybrid|Belgium|9 Nov 2025|drones|Doel||Doel nuclear plant: Five drones were reported over the plant in the evening. The plant kept running; no danger to t
+7|hybrid|Belgium|Nov–Dec 2025|sabotage|Brussels||Airports: Brussels and Liège airports stopped air traffic nine times in all: seven times in November, twi
+8|hybrid|Belgium|21 Jan 2026|drones|||The National Crisis Centre had: C
+9|hybrid|Belgium|13 Apr 2026|drones|||The programme found no confirm: CN
+10|hybrid|Belgium|17 Apr – 16 |drones|Brussels||The €50 million purchase: The Brussels prosecutor opened an investigation into the emergency purchase of anti-drone equip
+11|hybrid|Belgium|29 May 2026|sabotage|||A 46-year-old man was arrested: CS
+12|hybrid|Belgium|11–12 Sep 20|drones|Brussels||Brussels Airport: A drone was seen on a Friday evening around 21:45, by eye and on radar according to air traffic
+13|hybrid|Belgium|29 Sep 2026|sabotage|||Chief of Defence: After a National Security Council on hybrid threats, General Frederik Vansina said there was no
+14|hybrid|Belgium|Oct–Nov 2026|food|||Who is behind the attacks on s: SK
+15|hybrid|Belgium|5 Nov 2026|sabotage|||Hoax bomb threats: False bomb threats hit more than 27 flights in a Europe-wide wave. Nobody has been named.
+16|water|Belgium|Aug 2025 (tw|water|Brussels||Vivaqua (Brussels): Three attacks that flood a website with traffic until it goes down. The website was unreachable
+17|water|Belgium|2025|water|Brussels||Vivaqua (Brussels): The company reports phishing attempts every day and says phishing and other attacks are rising,
+18|water|Belgium|9 Oct 2025|water|||De Watergroep (Flanders): Warned customers about fake emails and text messages that abuse its planned merger of services 
+19|water|Belgium|Mar 2026|water|||Farys and the town of Zelzate: New fake messages: "submit your meter reading" and a promised refund of €124. Fraud against cus
+20|water|Belgium|May 2026|water|||Aquaduin (Koksijde): Reported many fake emails in the name of De Watergroep or Waterunie. Fraud against customers.
+21|water|Belgium|23 Jun 2026|water|||Vivaqua: Says the threat continues in 2026 and that it has strengthened its security to spot threats ear
+22|water|Belgium|2026|water|||The sector in Europe: The EU cyber agency ENISA ranks drinking water and waste water among the least mature of all th
+23|water|Belgium|2 Nov 2026 o|water|||The freezer attacks reached Be: CN
+24|transp|Belgium|10 Feb 2025|transport|Ostend||Port of Ostend: A cyberattack on the port was reported. No details on impact found.
+25|transp|Belgium|2025|transport|||bpost: Ransomware; core operations were not disrupted.
+26|transp|Belgium|19–28 Sep 20|transport|Brussels||Brussels Airport, through its : Ransomware hit the check-in and boarding software that many airlines share. Staff went back to 
+27|transp|Belgium|Nov–Dec 2025|drones,transport|Brussels||Brussels and Liège airports: Air traffic stopped nine times after drone reports. No drone was ever proven. See the page on d
+28|transp|Belgium|Nov 2025|transport|Antwerp||Port of Antwerp: a drug gang t: Police held 11 people (5 remanded) for smuggling at least 495 kg of cocaine through the port in
+29|transp|Belgium|Jan 2026|transport|Antwerp||Hacker of port systems: seven : The Amsterdam appeal court sentenced a 44-year-old man to seven years for breaking into port sy
+30|transp|Belgium|16 Jan 2026|transport|Antwerp||Port of Antwerp: staff screeni: Port employees in sensitive jobs are screened by the federal police and security services. A ne
+31|transp|Belgium|21 Jan 2026|transport|Antwerp||Customs figure: Customs intercepted 55 tonnes of cocaine in the port of Antwerp in 2025.
+32|transp|Belgium|3 Apr 2026|transport|Antwerp||A prosecutor's office for the : The government approved a separate prosecutor's office against organised drug crime in the Antw
+33|transp|Belgium|16 Jun 2026|transport|||PortAware: A campaign to protect port staff against approaches by criminals.
+34|transp|Belgium|Jul–Aug 2026|transport|||CEVA Logistics: An attack from 29 July hit at least eight European warehouses of this logistics group and expos
+35|transp|Belgium|11–12 Sep 20|drones,transport|Brussels||Brussels Airport: A drone seen by eye and on radar: landings stopped for about 25 minutes, three flights diverted
+36|transp|Belgium|5 Oct 2026|transport|||Infrabel: A computer problem left train information and the journey planner out of date. Infrabel said it
+37|transp|Belgium|5 Nov 2026|sabotage,transport|Brussels||Hoax bomb threats: A LOT flight from Warsaw was searched on landing in Brussels and a Ryanair flight to Charleroi 
+38|transp|Belgium|9 Nov 2026|jamming,transport|Texel||Satellite navigation disturbed: Dozens of aircraft over Belgium, the Netherlands, eastern England and north-west Germany lost t
+39|transp|Belgium|11 Nov 2026|transport|Antwerp||Maersk: The Danish shipping company confirmed a break-in to an older system; a ransomware group demands
+40|electi|Belgium|14 Mar 2025|elections|||Huawei and the European Parlia: Belgian police raided more than 20 addresses and sealed two offices inside the European Parliam
+41|electi|Belgium|30 Apr 2025|elections|||Deepfake of the prime minister: Fake videos of Prime Minister Bart De Wever promise viewers quick money through an investment p
+42|electi|Belgium|Sep 2025|elections|||More deepfakes: A new fake video uses real footage of a 2024 interview with a forged voice of the prime ministe
+43|electi|Belgium|9 Oct 2025|drones,sabotage,elections|Antwerp||Drone plot against the prime m: Three young men were arrested in Antwerp; the federal prosecutor called the plot jihadist-inspi
+44|electi|Belgium|9 Dec 2025|elections|||Fake party profiles: Fake Facebook profiles of Vlaams Belang and N-VA politicians lured followers into WhatsApp grou
+45|electi|Belgium|8–14 Dec 202|elections|||Provinces and towns knocked of: The pro-Russian group NoName057(16) aimed 57.3% of all its attacks that week at Belgium, by a s
+46|electi|Belgium|17–18 Dec 20|elections|Brussels||Intimidation over the frozen R: The Guardian, quoting European intelligence and security officials, reported a Russian intimida
+47|electi|Belgium|Dec 2025|elections|||The prime minister's own words: Bart De Wever said publicly: "Moscow has let us know that in the event of a seizure, Belgium an
+48|electi|Belgium|2026|spying,elections|||Spying and foreign interferenc: Belgium's new Penal Code, voted in February 2024, replaces the code of 1867 and comes into forc
+49|electi|Belgium|30 Apr 2026|elections|||A new voting system: The government approved a draft agreement to develop a new electronic voting system that works 
+50|electi|Belgium|May–Sep 2026|spying,elections|||Three cases linked to China: A chip researcher held since May for allegedly sending secrets to a Chinese copy of his company
+51|electi|Belgium|29 May 2026|drones,sabotage,elections|||State secrets to people linked: A 46-year-old man was arrested. See the page on drones and sabotage.
+52|electi|Belgium|16 Jun 2026|elections|||Immunity vote in the Huawei ca: The European Parliament lifted the immunity of one Italian member (344 for, 234 against, 25 abs
+53|electi|Belgium|3 Jul 2026|spying,elections|||Pegasus on the phone of a memb: Researchers at Citizen Lab found that the iPhone of a former Greek member of the European Parli
+54|electi|Belgium|Sep 2026|elections|||X accounts of two Flemish poli: The profiles of Sander Loones and Siegfried Bracke were taken over by crypto fraudsters, who po
+55|health|Belgium|Nov 2025|health|||Health websites knocked offlin: Two related campaigns by the pro-Russian group NoName057(16) hit telecom, health and intelligen
+56|health|Belgium|13 Jan 2026|health|Antwerp||AZ Monica, Antwerp and Deurne: Ransomware. The hospital switched off every server as a precaution. Operations were cancelled, 
+57|health|Belgium|13 Jan 2026|health|||Was a ransom demanded?: One report quotes the prosecutor saying no ransom was demanded; others describe it as ransomwar
+58|health|Belgium|13–14 Jan 20|health|Brussels||The government's own measureme: A report by the hospitals' shared security platform SHIELD and the federal health ministry, bas
+59|health|Belgium|14 Jan 2026|health|||71,000 patient records within : After AZ Monica a security firm found that a supplier of patient-registration software used by 
+60|health|Belgium|19 Feb 2026|health|||AZ Monica back: Medication, imaging, emergency systems and the website worked again after about five weeks; vis
+61|health|Belgium|26 Mar 2026|health|Brussels||Louise Medical Center, Brussel: The Qilin ransomware group listed the clinic and threatened to publish patient data. A Belgian 
+62|health|Belgium|7–16 Apr 202|health|Antwerp||ChipSoft, the Dutch maker of h: Ransomware at ChipSoft on 7 April forced Dutch hospitals to close patient portals. Early report
+63|health|Belgium|18 Apr 2026|health|||Deadline for hospitals: As "essential entities" under the cybersecurity law, hospitals had to show by this date that th
+64|health|Belgium|May 2026|health|||Two unverified offers on crimi: A seller claimed to have data from the medical-practice platform cabinetmedical.be; another off
+65|defenc|Belgium|Oct 2022|defence||OLD|Background: a cyber branch of : Belgium set up a Cyber Command inside Defence, now called the Belgian Cyber Force. It sits clos
+66|defenc|Belgium|Mid-2025|drones,defence|||The Strategic Vision: The government agreed a defence plan of about €34 billion in investments up to 2034. It include
+67|defenc|Belgium|Summer 2025|defence|||New commander: Major General Pierre Ciparisse has led the Cyber Force since the summer of 2025. He calls staff
+68|defenc|Belgium|7 Nov 2025|defence|||Military intelligence websites: The pro-Russian group NoName057(16) claimed an attack on several websites of the military intel
+69|defenc|Belgium|17 Nov 2025 |defence|||A competition to find reservis: The Cyber Force ran a public challenge to attract cyber reservists.
+70|defenc|Belgium|Nov–Dec 2025|drones,sabotage,defence|||Emergency purchases: About €50 million of anti-drone equipment and a strengthened air security centre, after the dro
+71|defenc|Belgium|Jan 2026|defence|||A telecom firm as strategic pa: Defence chose Proximus NXT as its strategic partner for cyber defence.
+72|defenc|Belgium|Feb 2026|defence|||Who works there: 32% of the Cyber Force's staff were civilians in February 2026. In an interview the commander g
+73|defenc|Belgium|Mar 2026|defence|||A call to experts: The defence minister publicly asked cyber specialists to join the Cyber Force as reserve office
+74|defenc|Belgium|2026|defence|||What the army may do at home: The operations plan for 2026, approved by the government, says the Cyber Force supports the com
+75|defenc|Belgium|Late Apr 202|defence|||The NATO count: Belgium reported 3.44% of its economy spent on defence and security: 2.01% on the military and,
+76|defenc|Belgium|May 2025 – s|defence|||The civilian intelligence serv: Attackers used flaws in phone-management software (Ivanti) at an outside partner to reach perso
+77|defenc|Belgium|29 May 2026|drones,sabotage,defence|||An arrest led by military inte: A man suspected of passing state secrets to people linked to Russia. See the page on drones and
+78|defenc|Belgium|Jun 2026|defence|||Training bought in: The government approved a contract for advanced digital training and certificates for the cyber
+79|defenc|Belgium|8 Jul 2026|defence|||The next years: Belgium will keep military spending at 2% of the economy until 2029; a path towards NATO's 3.5%
+80|cables|Finland–Estoni|Oct 2023|cables||OLD|Finland–Estonia: The Balticconnector gas pipeline and two telecom cables were damaged. Background: before this f
+81|cables|Sweden–Lithuan|17–18 Nov 20|cables||OLD|Sweden–Lithuania and Finland–G: Two data cables cut within a day of each other. European ministers spoke of hybrid warfare. Bac
+82|cables|Finland–Estoni|25 Dec 2024|cables||OLD|Finland–Estonia, the tanker Ea: A power cable and several data cables damaged. Finland boarded and held the ship. See <a href="
+83|cables|Latvia–Gotland|26 Jan 2025|sabotage,cables||CTR|Latvia–Gotland, the ship Vezhe: Sweden seized the ship on suspicion of sabotage, then released it: prosecutors concluded the da
+84|cables|Germany–Finlan|21 Feb 2025|cables,sabotage||CTR|Germany–Finland: A data cable damaged; sabotage suspected. No outcome found.
+85|cables|NATO starts Ba|Jan 2025|cables,sabotage|Baltic|CTR|NATO starts Baltic Sentry: A standing patrol of the Baltic to watch over cables and pipelines. A secondary source quotes N
+86|cables|Finland–Estoni|31 Dec 2025|cables,sabotage||CTR|Finland–Estonia, the ship Fitb: Finnish special forces boarded the ship; a drag mark about 10 km long was found on the seabed. 
+87|cables|Latvia–Gotland|26 Jan 2026|cables||CTR|Latvia–Gotland again: A fibre cable failed; NATO and police investigated. No outcome found.
+88|cables|Thirteen count|Jan 2026|jamming,cables|Baltic|CTR|Thirteen countries and Iceland: A joint statement on growing interference with satellite navigation for shipping in the Baltic 
+89|cables|Jamming become|2024–2026|jamming,cables|Kaliningrad|OLD|Jamming becomes normal: Flights meeting satellite-navigation interference rose from about 200 a day in early 2024 to ab
+90|cables|The air safety|3 Jul 2026|cables||CTR|The air safety agency raises t: EASA issued the fourth revision of its safety bulletin on satellite-navigation outages, saying 
+91|cables|It reaches spa|Oct 2026|jamming,cables||CTR|It reaches space: A Danish technical university study found that the jamming over Europe also disturbs the positi
+92|cables|The North Sea|9 Nov 2026|jamming,cables|North Sea|CTR|The North Sea: About 80 aircraft over north-west Europe, including planes approaching Amsterdam, lost or lost 
+93|school|Belgium|Jan 2026|schools|Berchem||A school, and then its parents: Ransomware at the secondary school OLV Pulhof in Berchem, Antwerp, shortly after the Christmas 
+94|school|Belgium|May 2026|schools|||Six colleges and universities : A breach of the learning platform Canvas reached VUB, Thomas More, Artevelde, Karel de Grote, E
+95|school|Austria|May 2026|schools|||Schools in Styria: A ransomware group claimed 21 GB of data from schools in Styria. The education authority refuse
+96|school|France|Aug 2026|schools|||The education ministry: A criminal claimed about 43 GB covering millions of pupils and staff. Not verified, and no mini
+97|school|Italy|2026|schools|Rome||A university offline for days: La Sapienza in Rome was forced offline; the Interlock group claimed it and published the data a
+98|school|Europe|First half o|schools||CTR|What the trackers count: A commercial tracker counted 104 attacks on education in six months: 36 confirmed and 68 claime
+99|school|Europe|2025–2026|schools||CTR|In this file’s own register: Education went from 1 recorded incident in 2025 to 45 in 2026. Most of that is better reporting
+100|school|EU|17 Sep 2026|schools||CTR|A law aimed at children, not a: The Commission proposed the EU KIDS Act: no social media under 13, safety built into platforms 
+101|school|France|21 Jul – 14 |schools|||A national ban struck down: France passed a law barring under-15s from social media on 21 July 2026. The Constitutional Cou
+102|school|Austria / EU|29 Oct 2026|schools||CTR|Brussels pauses a national law: The Commission put Austria’s draft ban for under-14s on hold, as it has done with other nationa
+103|school|EU|2026|schools||CTR|Denmark pushes from the chair: Holding the EU presidency, Denmark wants a hard ban under 13 and parental consent from 13 to 15
+104|school|EU|Jun 2026|schools||CTR|Age checks taken out of the ot: In the "chat control" talks the negotiators agreed that that regulation is not the place to reg
+105|school|Outside Europe|Dec 2025|schools||CTR|The example everyone quotes: Australia became the first country to ban social media for under-16s.
+106|hybrid|Austria|20 May 2026|spying|Vienna||A Vienna court convicted former intelligence officer Egisto Ott of spying for Russia: four year
+107|hybrid|Bulgaria|10 Aug 2026|sabotage|||Explosion and fire at an ammunition warehouse of the arms maker EMCO, which supplies Ukraine. T
+108|hybrid|Bulgaria|Aug 2026|cables,drones|||A drone exploded near the Trans-Balkan gas pipeline. One source; no official finding.
+109|hybrid|Bulgaria|12 Sep 2026|sabotage|Tsareva Livada||A second fire at another EMCO depot near Tsareva Livada, 33 days later. Nobody hurt. The minist
+110|hybrid|Bulgaria|Autumn 2026|sabotage|||The state news agency reported that prosecutors see a link between four ammunition-warehouse bl
+111|hybrid|Bulgaria|Oct 2026|drones|||Drones hit two commercial ships in Bulgaria's economic zone at sea, a first. On 13 October the 
+112|hybrid|Croatia|Aug 2026|sabotage|Omiš||One news round-up mentions an arson investigation near Omiš taking a terrorism angle. Not confi
+113|hybrid|Cyprus|Early Mar 20|drones|Akrotiri||Drones hit the British base RAF Akrotiri on the island, damaging a hangar. Cypriot officials sa
+114|hybrid|Czechia|2025|sabotage|Prague||A Prague court sentenced a Colombian man to eight years for an arson attack and for planning an
+115|hybrid|Czechia|20 Mar 2026|sabotage|Pardubice||Arson at a warehouse of the defence firm LPP Holding in Pardubice. Suspects were held in Czechi
+116|hybrid|Czechia|Nov 2026|sabotage|Prague||Prague airport was among the worst hit by the Europe-wide hoax bomb threats: nine flights on on
+117|hybrid|Denmark|22–23 Sep 20|drones|Copenhagen||Copenhagen Airport closed for about four hours after reports of two or three large drones; at l
+118|hybrid|Denmark|24 Sep – 2 O|drones|Aalborg||61 reports of drones over Aalborg and military sites in Jutland.
+119|hybrid|Denmark|2026|drones|||The police district reviewed those 61 reports: no evidence of illegal drone flights that concer
+120|hybrid|Denmark|25 Jun 2026|drones|Copenhagen||Police closed the nine-month Copenhagen investigation: no evidence that the flying objects were
+121|hybrid|Estonia|Jan 2025|food,sabotage|Osula||Arson at a supermarket in Osula and later at a Ukrainian restaurant in Tallinn. A court sentenc
+122|hybrid|Estonia|31 Dec 2025|cables|||The cargo ship Fitburg dragged its anchor about 130 km and damaged cables, partly in Estonia's 
+123|hybrid|Estonia|Aug 2026|sabotage|Tallinn||Arson at a Tallinn building used by Milrem Robotics, which makes military robots. Three Latvian
+124|hybrid|Estonia|29 Sep 2026|sabotage|||The Estonian government and its security service formally said the Milrem arson was "commission
+125|hybrid|Finland|3 Oct 2025|cables|Helsinki||Eagle S (cables cut in December 2024): the Helsinki court dismissed the case, saying Finland ha
+126|hybrid|Finland|31 Dec 2025|cables|||The Fitburg damaged undersea cables between Finland and Estonia.
+127|hybrid|Finland|Aug 2026|sabotage|||The appeal court reversed the Eagle S ruling: Finland does have jurisdiction, because the damag
+128|hybrid|Finland|5 Nov 2026|sabotage|||Fitburg: the Russian captain got three and a half years and an Azerbaijani crew member two year
+129|hybrid|France|9 Sep 2025|sabotage|Paris||Nine pig heads were left outside mosques around Paris. Three Serbs were later convicted in Serb
+130|hybrid|France|2025|sabotage|||Four Russian men were arrested on suspicion of plotting to kill the Russian dissident Vladimir 
+131|hybrid|France|Feb 2026|sabotage|||A research count (ICCT/GLOBSEC) puts France second in Europe with 20 Russia-linked incidents si
+132|hybrid|France|Jun 2026|drones|Toulouse||French investigators were reported to be working on several suspected Russia-linked cases, amon
+133|hybrid|France|11–12 Oct 20|food|Paris||Freezer controls at more than 700 supermarket sites were attacked (a cyber case, listed here be
+134|hybrid|France|Nov 2026|sabotage|Paris||Paris prosecutors are examining whether foreign powers are behind the hoax bomb threats against
+135|hybrid|Germany|2–3 Oct 2025|drones|Munich||Munich Airport closed twice in 24 hours after drone reports.
+136|hybrid|Germany|2025|drones|Frankfurt||The federal police chief counted more than 1,000 suspicious drone flights. One Frankfurt shutdo
+137|hybrid|Germany|Jul 2026|cables,sabotage|Düsseldorf||Fire on the rail line between Düsseldorf and Cologne damaged signal cables; investigated as pos
+138|hybrid|Germany|4 Aug 2026|drones,sabotage|Leipzig||Leipzig/Halle Airport: a drone carrying explosives was found near a Ukrainian Antonov cargo pla
+139|hybrid|Germany|11 Aug 2026|drones|Hanover||A drone forced repeated closures at Hanover Airport; federal police could not stop it with thei
+140|hybrid|Germany|1 Sep 2026|sabotage|Leipzig||The German government formally blamed Russia for the Leipzig attack ("police investigations, pa
+141|hybrid|Germany|Sep 2026|drones,sabotage|||A confidential police report, cited by Süddeutsche Zeitung, counts more than 165 suspected acts
+142|hybrid|Germany|28 Oct 2026|sabotage|||Two Belarusian men were arrested in southern Germany, suspected of planning fires near a railwa
+143|hybrid|Hungary|Sep 2026|sabotage|||After the Leipzig case the new government called Russian hybrid activity a serious threat. One 
+144|hybrid|Ireland|1 Dec 2025|drones|Dublin||Four or five military-style drones appeared near Dublin Airport shortly after President Zelensk
+145|hybrid|Italy|7 Feb 2026|cables,sabotage|Bologna||On the first full day of the Winter Olympics, cables were cut near Bologna, a crude explosive d
+146|hybrid|Italy|28 Apr 2026|sabotage|||Two people were convicted at first instance for mapping ports and barracks for Russia.
+147|hybrid|Italy|7 Jul 2026|sabotage|Rome||Two former intelligence agents were arrested in Rome for selling classified information to a Ru
+148|hybrid|Italy|Nov 2026|sabotage|||More than 6,000 schools received threats in the week of the hoax bomb threats against flights. 
+149|hybrid|Latvia|Jan 2025|cables,sabotage|||A data cable between Latvia and Gotland was damaged. See Sweden: prosecutors found it was not s
+150|hybrid|Latvia|Oct 2025 – J|sabotage|Riga||Four arson attacks on railway sites in Riga. Two people received prison sentences in September 
+151|hybrid|Latvia|Mar 2026|drones|||A drone came down in the Krāslava district; identified as Ukrainian, flying in from Russia.
+152|hybrid|Latvia|7 May 2026|drones,sabotage|||Two drones crashed in Latvia; one set an oil depot in Rēzekne on fire. The army identified them
+153|hybrid|Latvia|30 Jun 2026|spying|Riga||A Riga court sentenced an electrician to five and a half years for spying for Russian military 
+154|hybrid|Lithuania|Since Oct 20|drones|Vilnius||Balloons carrying smuggled cigarettes from Belarus have closed Vilnius Airport again and again:
+155|hybrid|Lithuania|24 Nov 2025|sabotage|Vilnius||A Vilnius court sentenced a young Ukrainian to three years and four months for the 2024 arson a
+156|hybrid|Lithuania|15 Sep 2026|drones,sabotage|||Italian jets on NATO air policing shot down a drone near Pratkūnai. Officials said it most like
+157|hybrid|Lithuania|21–22 Sep 20|drones|Vilnius||Vilnius Airport closed again for more than three hours because of balloons.
+158|hybrid|Luxembourg|18 Sep 2026|drones|||Findel airport closed for just over three hours after unidentified drones were seen: 19 aircraf
+159|hybrid|Luxembourg|20 or 21 Sep|sabotage|||A second closure of about 52 minutes; sources differ on the day. No operator, motive or state l
+160|hybrid|Luxembourg|Oct–Nov 2026|food|||The freezer attacks also hit Luxembourg. France blames Iran for its own wave; no finding for Lu
+161|hybrid|Netherlands|Nov–Dec 2025|drones|Volkel||Drones were reported over Volkel air base and Eindhoven; soldiers fired at them, and Eindhoven 
+162|hybrid|Netherlands|26 Jan 2026|drones|||The investigation produced no suspects and no recovered drone.
+163|hybrid|Netherlands|Jul 2026|drones|||A British think tank (IISS) said the drones were probably launched from ships of the Russian "s
+164|hybrid|Norway|Late Sep 202|drones|Oslo||Oslo Airport was disrupted by drone reports. Police found no evidence of the drones.
+165|hybrid|Norway|2025|drones|||The security service PST: not one case in 2025 of a drone flown by a foreign power; many report
+166|hybrid|Norway|12 Nov 2026|sabotage|||PST raised its warning: it expects Russian intelligence to try sabotage in Norway in the coming
+167|hybrid|Poland|9–10 Sep 202|drones|||About 19 drones crossed into Poland during a Russian attack on Ukraine; three or four were shot
+168|hybrid|Poland|Oct 2025|sabotage,spying|||Eight people detained over suspected Russia-linked sabotage. At least 44 had been detained for 
+169|hybrid|Poland|15–17 Nov 20|sabotage|Warsaw||An explosive device damaged the Warsaw–Lublin railway near Mika; the next day a train with 475 
+170|hybrid|Poland|Dec 2025|sabotage|||A Russian man was charged with directing a sabotage ring from the Moscow region.
+171|hybrid|Poland|Feb 2026|sabotage|||A research count (ICCT/GLOBSEC) puts Poland first in Europe: 31 of 151 Russia-linked incidents 
+172|hybrid|Poland|10 Nov 2026|sabotage|||Two Ukrainian men were detained for photographing infrastructure and military sites and for car
+173|hybrid|Poland|12 Nov 2026|sabotage|||A third man was indicted for helping prepare the Mika attack; the sabotage charge carries ten y
+174|hybrid|Portugal|28 Apr 2025|sabotage|||The Iberian blackout hit Portugal too. Officials found no sign of a cyberattack or sabotage.
+175|hybrid|Romania|Sep 2025|drones|||A drone entered Romanian airspace during a Russian attack on Ukraine; fragments have fallen on 
+176|hybrid|Romania|May 2026|drones|Galați||A Russian drone reportedly hit an apartment building in Galați, injuring two. One source.
+177|hybrid|Romania|14 Sep 2026|sabotage|||Fire at the Carfil industrial site in Brașov, next to a state arms maker; the arms production i
+178|hybrid|Romania|Oct 2026|drones|Constanța||Drones struck commercial ships off Romania. A grain ship sank on 5 October about 30 nautical mi
+179|hybrid|Romania|26 Oct 2026|sabotage|||The intelligence service said a Russia-coordinated network was behind the Brașov fire. Three su
+180|hybrid|Slovakia|Aug 2026|drones,sabotage|||Police said they foiled an arson attack on the Skyeton drone factory near Prešov: two suspects 
+181|hybrid|Slovakia|Sep 2026|drones,sabotage|||German investigators were reported to link the Skyeton plot, an arson in Munich and the Leipzig
+182|hybrid|Spain|28 Apr 2025|sabotage|||The Iberian blackout: officials and a later report found no cyberattack.
+183|hybrid|Spain|May 2025|cables,sabotage|Madrid||Copper cable was stolen at five points on the Madrid–Seville high-speed line, stopping trains. 
+184|hybrid|Spain|Jul 2025|sabotage|||Spain led a Europol operation against a network that recruited saboteurs remotely; two central 
+185|hybrid|Spain|Nov 2026|sabotage|||The foreign minister called the hoax bomb threats most likely "an attempt at hybrid aggression"
+186|hybrid|Sweden|26 Jan 2025|cables,sabotage|Gotland||A data cable between Latvia and Gotland was damaged; Sweden seized the ship Vezhen on suspicion
+187|hybrid|Sweden|Sep 2025|drones|Karlskrona||Drones were reported over the Karlskrona archipelago, near the main naval base. Police said it 
+188|hybrid|Sweden|Nov 2025|drones,sabotage|||Gothenburg-Landvetter Airport stopped traffic after drone reports; police opened an investigati
+189|hybrid|Switzerland|Oct 2025|drones|||Several drones were reported over strategically important sites in canton Aargau.
+190|hybrid|Switzerland|25 Jun 2026|sabotage|||The federal intelligence service: Russia's hybrid conflict "is becoming more aggressive and hit
+191|watere|Denmark|Late 2024|water|Køge|OLD|Attackers changed the water pressure at the Tureby Alkestrup waterworks near Køge; at least thr
+192|watere|Denmark|19 Dec 2025|water|||The Danish Defence Intelligence Service publicly blamed Russia: the attack was carried out by t
+193|watere|Germany|Late Jun 202|water|||The municipal utilities of Kamen, Bönen and Bergkamen were attacked; the customer portal and di
+194|watere|Germany|2026|water|||Only water suppliers serving 500,000 people or more fall under the German rules for critical in
+195|watere|Netherlands|11 Aug 2025|water|||The intelligence service warned that Dutch water and power companies had been targeted; an offi
+196|watere|Norway|7 Apr 2025|water|Bremanger||Attackers opened a valve at a dam in Bremanger and let about 500 litres of water per second run
+197|watere|Norway|Aug 2025|water|||The head of the security service attributed it to pro-Russian hackers. The Russian embassy call
+198|watere|Poland|2025|water|Szczytno||Attackers got into the control systems of five water treatment plants: Jabłonna Lacka, Szczytno
+199|watere|Poland|2025|water|||Who did it: the agency's report names Russian and Belarusian state groups in general, but did n
+200|watere|Poland|Aug 2025|water|||The deputy prime minister said an attempt to break into the water supply of a large Polish city
+201|watere|Romania|Dec 2025|water|||Ransomware hit the national water authority Apele Române: about 1,000 computer systems affected
+202|watere|Spain|21 Apr 2025|water|||Ransomware at Aigües de Mataró, which serves about 130,000 people: internal systems encrypted, 
+203|watere|Spain|3 Jul 2026|water|Málaga||The public water company Acosol (Málaga) reported an attack that affected its information syste
+204|transp|Croatia|Date not giv|transport||OLD|The Brodosplit shipyard was hit by the Qilin ransomware group. One mention in a trade report; n
+205|transp|Denmark|Oct 2025|transport|||A new criminal group that targets logistics firms claimed it had stolen data from the freight c
+206|transp|Denmark|11 Nov 2026|transport|||The shipping company Maersk confirmed that an attacker reached one older local system, inherite
+207|transp|France|Aug 2025|transport|||Air France (with KLM) said customer data was taken through an outside supplier, in the week of 
+208|transp|France|Dec 2025|transport|Sète||Software that lets an outsider control computers from a distance was found on the passenger fer
+209|transp|Germany|21 May 2025|transport|Hamburg||A joint warning by American, German, Canadian, Australian and other security agencies said that
+210|transp|Germany|19–20 Sep 20|transport|Berlin||Berlin Brandenburg Airport was hit by the same ransomware at the check-in supplier Collins Aero
+211|transp|Germany|Feb 2026|transport|||Deutsche Bahn's website and booking app were knocked offline by a flood of traffic. Information
+212|transp|Greece|Jan 2026|transport|||A failure of air traffic control radio grounded or disrupted flights for several hours; about 1
+213|transp|Ireland|Sep 2025|transport|Dublin||Dublin and Cork airports reported smaller effects from the Collins Aerospace ransomware. One so
+214|transp|Italy|Dec 2025|transport|||The port authority for the central Adriatic (Ancona) reported an attack, later claimed by the r
+215|transp|Italy|7 Feb 2026|drones,sabotage,transport|Bologna||Rail sabotage near Bologna and Pesaro on the first full day of the Winter Olympics: a physical 
+216|transp|Italy|Oct 2026|transport|||A fault in the national data network forced air traffic control to cut capacity by up to half; 
+217|transp|Lithuania|Since Oct 20|drones,sabotage,transport|Vilnius||Vilnius Airport closed more than 20 times because of balloons from Belarus. See the page about 
+218|transp|Lithuania|2026|transport|Kaliningrad||Lithuania said transmitters in Russia's Kaliningrad region can falsify satellite positioning si
+219|transp|Netherlands|Aug 2025|transport|||KLM (with Air France) said customer data was taken through an outside supplier.
+220|transp|Netherlands|26 Dec 2025|transport|Utrecht||Eurail, the Utrecht company behind the Interrail pass, was breached: data of 308,777 people, in
+221|transp|Netherlands|Jan 2026|transport|Amsterdam||The Amsterdam appeal court gave a hacker seven years for breaking into port systems in Rotterda
+222|transp|Netherlands|9 Nov 2026|jamming,transport|Texel||Dozens of aircraft over the Netherlands and Belgium lost their satellite positioning signal; ex
+223|transp|Spain|Nov 2025|transport|||Iberia said customer data was exposed through a supplier; passwords and bank details not affect
+224|transp|Spain|24–25 Mar 20|transport|||Ransomware at the Port of Vigo: digital systems cut off, work continued by hand. A ransom was d
+225|transp|Spain|24–26 Sep 20|transport|||The rail companies Adif and Renfe: Adif saw unusual activity on 24 September and its website we
+226|transp|Sweden|17–18 Sep 20|jamming,transport|Gotland||Two passenger flights lost satellite navigation over the south-east, near Gotland and Öland; bo
+227|transp|Switzerland|Oct 2025|transport|||The same group that named DSV listed the freight company Kuehne+Nagel as a victim. The company 
+228|electi|Bulgaria|2025–2026|elections|||Websites knocked offline in attacks that authorities and experts attribute to pro-Russian group
+229|electi|Cyprus|13 Nov 2026|elections|||The president said he does not rule out interference by artificial intelligence in the next ele
+230|electi|Czechia|3–4 Oct 2025|elections|||Parliamentary election. Researchers found networks linked to Russia trying to undermine trust i
+231|electi|Czechia|Autumn 2025|elections|||The fact-checker Demagog found hundreds of fake TikTok accounts spreading pro-Russian and anti-
+232|electi|Denmark|Nov 2025|elections|||Websites were attacked before the local elections. In December Danish military intelligence bla
+233|electi|Denmark|2026|elections|||A Nordic fact-checking network counts 247 attacks by activist-hacker groups on Denmark in 2026;
+234|electi|France|May 2025|elections|||The state agency against foreign digital interference (Viginum) published a technical report on
+235|electi|France|6 Mar 2026|elections|Paris||Before the municipal elections France accused Russia over a fake website aimed at a centre-righ
+236|electi|France|Mar 2026|elections|Grenoble||Viginum also found 28 Facebook pages and 15 French-language websites run from abroad that pushe
+237|electi|France|2026|elections|||New: the agency published a weekly bulletin on foreign interference during the campaign.
+238|electi|Germany|Feb 2025|elections|||Federal election, 23 February. Fake videos claimed the AfD party was missing from postal ballot
+239|electi|Germany|12 Dec 2025|elections|||The foreign ministry: "We can now state definitively that Russia, through the Storm 1516 campai
+240|electi|Germany|Aug 2026|elections|||A deepfake of Chancellor Merz using the stolen logo of Deutsche Welle was attributed to Storm-1
+241|electi|Germany|Sep 2026|elections|||A Russian disinformation campaign was reported ahead of the state election in Saxony-Anhalt. On
+242|electi|Hungary|Feb–Mar 2026|elections|||TikTok removed two networks of fake accounts; a pro-Kremlin network impersonated Euronews to sp
+243|electi|Hungary|Mar–Apr 2026|elections|||Two Russian operations, Storm-1516 and "Matryoshka", spread fake videos, for example that Hunga
+244|electi|Hungary|Spring 2026|elections|||An attack on the app of the opposition party Tisza reportedly led to stolen data that was then 
+245|electi|Hungary|Spring 2026|elections|||The then government declassified part of an intelligence report claiming that IT specialists cl
+246|electi|Hungary|12 Apr 2026|elections|||Election day. International observers: a lively contest with record turnout, but no equal chanc
+247|electi|Italy|5 Jun 2025|spying,elections|||The parliamentary committee that oversees the secret services confirmed that the government use
+248|electi|Italy|Jun 2025|spying,elections|||Researchers at Citizen Lab then confirmed with high confidence that two journalists, one of the
+249|electi|Netherlands|Oct 2025|elections|||Before the election of 29 October a newspaper revealed that two members of parliament of the PV
+250|electi|Netherlands|After the vo|elections||OLD|An election observatory found significant digital manipulation, including new AI threats and fa
+251|electi|Norway|Sep 2025|elections|||Parliamentary election. Websites were knocked offline; the security service linked an attack on
+252|electi|Poland|Apr 2025|elections|||Prime Minister Tusk said attackers tried for about twelve hours to take over computers of his p
+253|electi|Poland|14–16 May 20|elections|||Days before the first round of the presidential election the state research institute NASK foun
+254|electi|Poland|Jan–Jun 2025|elections|||NASK tracked more than 10,000 accounts spreading disinformation; the ministry called the Russia
+255|electi|Portugal|May 2025|elections|||During the snap election a false story, dressed up as a CNN report, said Russian state groups h
+256|electi|Romania|Dec 2024|elections||OLD|Background: the constitutional court annulled the first round of the presidential election, cit
+257|electi|Romania|4 May 2025|elections|||First round of the rerun. Pro-Russian hackers claimed attacks on government websites, among the
+258|electi|Romania|18–19 May 20|elections|||Run-off, won by the centrist Nicușor Dan. Telegram's founder Pavel Durov sent every Romanian us
+259|electi|Romania|2025–2026|elections|||The European Commission's investigation into TikTok's handling of election risks was still runn
+260|electi|Romania|Nov 2026|elections|||The candidate barred from the rerun, Călin Georgescu, is on trial in two cases (an attempt agai
+261|electi|Sweden|Sep 2026|elections|||Parliamentary election. The pro-Russian "Matryoshka" network spread false claims of election fr
+262|health|Austria|23 Jul 2026|health|Wels||The ransomware group TheGentlemen listed a fertility clinic in Wels as a victim.
+263|health|Bulgaria|Date not fou|health||OLD|The state IT company said it fought off a very large flood of traffic aimed at the national hea
+264|health|Croatia|Jun 2026|health|||The Ministry of Health said an attack hit some of its applications; the system with patients' m
+265|health|Cyprus|Date not fou|health||OLD|The Bank of Cyprus Oncology Centre confirmed that patient and staff data taken from its systems
+266|health|Czechia|7 and 13 Jul|health|||Ransomware at two healthcare bodies, attributed to the Qilin group; the victims were not named.
+267|health|Czechia|Aug 2026|health|||Patient and staff data of a Czech healthcare body were offered for sale.
+268|health|Denmark|1 Aug 2026|health|||Hvidovre Hospital stopped ransomware on the network that runs the building's technical systems;
+269|health|Denmark|Date not fou|health||OLD|Patient data leaked from a chain of GP practices.
+270|health|Estonia|2025|health|||Criminals encrypted the patient data, records and appointments of a family medicine centre (nat
+271|health|Finland|Mar 2025|health|||A breach at Pharmadata, an IT supplier to pharmacies, was called the most serious incident of t
+272|health|France|Summer 2025|health|||A private hospital lost the data of 524,867 patients and of 202,246 contact persons. In Septemb
+273|health|France|8 Sep 2025|health|||Public hospitals in the Hauts-de-France region were targeted through the servers that hold pati
+274|health|France|2026|health|||The health software company Cegedim Santé: the health minister confirmed the attack could conce
+275|health|France|25 May 2026|health|||The health-insurance payment operator Almerys confirmed a breach covering 15.4 million social s
+276|health|France|2 Jul 2026|health|||Chaumont hospital: data lost and critical systems unavailable.
+277|health|France|20 Sep 2026|health|Paris||Hôpital Paris Saint-Joseph confirmed a leak covering 15,044 patients.
+278|health|France|Nov 2026|health|Reims||The university hospital of Reims confirmed that patient data was exposed through an attack on t
+279|health|Germany|7 Jul 2025|health|||The Ameos hospital group shut down all its systems after an attack; several states opened data-
+280|health|Germany|Jan 2026|health|Bavaria||The district clinic in Roth (Bavaria) cut its internet link as a precaution; the emergency room
+281|health|Germany|Feb 2026|health|||BDH-Klinik Greifswald: the communication network was paralysed and theft of patient data was la
+282|health|Germany|May 2026|health|||A billing firm for hospitals lost the data of more than 100,000 private patients of university 
+283|health|Germany|Oct 2026|health|Berlin||Charité Berlin: contact details of about 140,000 people.
+284|health|Germany|15 Nov 2026|health|||The district hospital of Greiz-Ronneburg (Thuringia): the emergency room in Greiz could not tak
+285|health|Iceland|Dec 2025|health|||A break-in at the Grund care home exposed data on tens of thousands of people; disclosed in Feb
+286|health|Ireland|Late Mar 202|health|||The health-recruitment platform Healthdaq detected a break-in; a criminal group claims 431 GB, 
+287|health|Ireland|15 Apr 2026|health|Dublin||The medical-device maker Medtronic, headquartered in Dublin: health information of 3.8 million 
+288|health|Italy|May 2025|health|||An activist-hacker group got into a hospital's camera system and published footage from operati
+289|health|Italy|Sep 2025|health|Milan||The public health body ASST Rhodense, which runs hospitals near Milan: stolen medical documents
+290|health|Italy|2025–2026|health|Milan||A sector body counts 20% more attacks on hospitals in 2025, 47% of them ransomware. In 2026 at 
+291|health|Lithuania|Jun 2026|health|||About 62,000 records with personal data of doctors leaked from an agency of the Ministry of Hea
+292|health|Luxembourg|Date not fou|health||OLD|A major attack on a firm that hosts health data for doctors' practices was reported.
+293|health|Netherlands|Jul 2025|health|||The laboratory Clinical Diagnostics, which analyses cervical-cancer screening, was hit by ranso
+294|health|Netherlands|7 Apr 2026|jamming,health|||Ransomware at ChipSoft, whose patient-record software runs in 70 to 80% of Dutch hospitals. Ele
+295|health|Poland|8 and 13 Mar|health|Kraków||Ransomware at the Interior Ministry hospital in Kraków and at the Bonifraterskie Medical Centre
+296|health|Poland|7–8 Mar 2026|health|Szczecin||The regional hospital in Szczecin worked on paper after ransomware; the attackers reportedly de
+297|health|Poland|24 Mar 2026|health|||The Eskulap medical centre in Racibórz: records encrypted, high risk that data was stolen.
+298|health|Poland|2026|health|||The national e-health centre counts 13 ransomware incidents in health care so far in 2026 again
+299|health|Portugal|May 2026|health|||The judicial police confirmed that personal data of more than 100,000 users of the national hea
+300|health|Slovakia|Jan 2025|health|||The national health insurer was targeted, in the same weeks as the attack that shut the land re
+301|health|Spain|Oct 2026|health|Extremadura||The health service of Extremadura detected on 5 October that its online health-centre app had b
+302|health|Switzerland|Jun 2025|health|||Ransomware at the health foundation Radix: data stolen and encrypted, including data of the fed
+303|health|Switzerland|Nov 2026|health|||Two medical centres in Chur confirmed that patient data, including prescriptions and X-rays, wa
+304|defenc|Denmark|Oct 2025|drones,defence|Copenhagen||After the drone reports Denmark banned all civilian drone flights for the days when European le
+305|defenc|Estonia|2025–2026|defence|Tallinn||The army's Cyber Command has about 300 people. Behind it stands the cyber unit of the volunteer
+306|defenc|Estonia|2026|defence|||Estonia spends an estimated 5.1% of its economy on core defence.
+307|defenc|Finland|Dec 2025|defence|||Finland and Poland announced that they will jointly lead the EU project to guard the eastern bo
+308|defenc|Finland|Jan–Apr 2026|defence|||A break-in at the phone-management service of the state IT centre Valtori reportedly exposed da
+309|defenc|France|2025–2030|defence|||The army is building a Cyber Defence Regiment that will reach 400 people from the three service
+310|defenc|France|Aug (year no|drones,defence||OLD|Parliament passed a law letting approved operators of vital infrastructure and their contractor
+311|defenc|France|2026|defence|||An estimated 2.22% of the economy on core defence.
+312|defenc|Germany|Jun 2025|defence|||The Cyber and Information Domain Service, a full branch of the armed forces, counted 15,659 peo
+313|defenc|Germany|26 Feb 2026|drones,defence|||Parliament changed the aviation security law: the armed forces may jam or shoot down drones whe
+314|defenc|Germany|2026|defence|||An estimated 2.69% of the economy on core defence.
+315|defenc|Greece|5 Feb 2026|spying,defence|||A high-ranking military officer was arrested on espionage charges; for whom is not stated in th
+316|defenc|Greece|Apr 2026|defence|||Reuters reported that Russia-linked hackers broke into 27 email accounts of the Hellenic Nation
+317|defenc|Greece|2026|defence|||An estimated 3.65% of the economy on core defence.
+318|defenc|Italy|2026|defence|||A proposal for a national military cyber body: 1,200 to 1,500 people at first, growing to 5,000
+319|defenc|Latvia|2026|defence|||An estimated 4.92% of the economy on core defence. The July 2026 draft drew a record 1,560 volu
+320|defenc|Lithuania|2026|drones,defence|||The highest spender in NATO: an estimated 5.33% of the economy on core defence. 5,000 conscript
+321|defenc|Netherlands|2025–2026|defence|||The defence cyber strategy of 2025 treats cyber as a military domain in its own right; a defenc
+322|defenc|Norway|2026|defence|||Norway takes part in the EU's Eastern Flank Watch and commits to the 3.5% for core defence only
+323|defenc|Poland|2026|defence|||About 6,500 people in the Cyberspace Defence Forces, with defensive, reconnaissance and offensi
+324|defenc|Poland|2026|drones,defence|||An estimated 4.68% of the economy on core defence. Poland co-leads Eastern Flank Watch and says
+325|defenc|Portugal|2026|defence|||An estimated 2.1% of the economy on core defence. Nothing specific on cyber forces found.
+326|defenc|Romania|2025|drones,defence|||The president signed a law allowing troops to shoot down drones in Romanian airspace. Date take
+327|defenc|Spain|2 Feb 2026|defence|||The Joint Cyberspace Command presented a growth plan: 1,500 people by 2030, three times its pre
+328|reg2|Estonia|2025|gov|||a record 756 attacks to knock Estonian websites offline, more than a third above 2024; fewer th
+329|reg2|Estonia|2025|health|||criminals encrypted the patient data, medical records and appointments of a family medicine cen
+330|reg2|Finland|Christmas we|business|||NoName057(16) attacked Finnish websites, without significant effect (Traficom).
+331|reg2|Latvia|2025|gov|||the highest number of registered cyber threats ever; Russia is named as the main source (state 
+332|reg2|Netherlands|2025|health|||the laboratory Clinical Diagnostics, which analyses cervical-cancer screening: data of more tha
+333|reg2|Slovakia|Jan 2025|health|||the national health insurer VšZP was targeted in a separate attack.
+334|reg2|Belgium|2025|business|||bpost: Ransomware. Core operations not disrupted.
+335|reg2|Belgium|Jan 2025|gov|||Héron (municipality): Servers unreachable; accounting and planning services stopped for days. N
+336|reg2|Slovakia|7–9 Jan 2025|gov|Bratislava||ransomware shut the national land registry (ÚGKK). Offices closed, property transactions were s
+337|reg2|Spain|Late 2025|transport|||the airline Iberia confirmed that customers' names, emails, phone numbers and loyalty-card numb
+338|reg2|Bulgaria|Late Jan 202|gov|||Supreme Administrative Court: a large part of its computer systems was affected and part of the
+339|reg2|Hungary|Feb 2025|business|||the RansomHub group claimed 180 GB from the National Archaeological Institute of the National M
+340|reg2|Bulgaria|Early 2025|business|||The Bulgarian branch of insurer Uniqa was hit by ransomware with a demand of about €6 million.
+341|reg2|Belgium|10 Feb 2025|gov|Ostend||Port of Ostend: Cyberattack on the port.
+342|reg2|Italy|Feb 2025|business|||A pro-Russian group attacked about 20 Italian websites, including major banks and airports, for
+343|reg2|Greece|Mar 2025|transport|||ransomware completely disrupted the systems of EETAA, the agency that supports local government
+344|reg2|Belgium|Mar 2025|gov|||Local authorities, provinces, federal departments: CCB advisory: repeated DDoS made public webs
+345|reg2|Poland|8 Mar 2025|health|Kraków||The Interior Ministry hospital in Kraków: ransomware encrypted files and the hospital lost acce
+346|reg2|Finland|Mar 2025|health|||A breach at Pharmadata, an IT supplier to pharmacies, was described by the national cyber centr
+347|reg2|Poland|13 Mar 2025|health|Warsaw||The Bonifraterskie Medical Centre in Warsaw: ransomware encrypted data on its servers.
+348|reg2|Finland|Mar 2025|gov|||The network of a joint municipal authority (not named) was infected with malware that affected 
+349|reg2|Norway|7 Apr 2025|energy|Bremanger||Hackers opened a valve of a dam at Bremanger and let 500 litres of water per second flow for ab
+350|reg2|Belgium|14 Apr 2025|gov|||Jemeppe-sur-Sambre (municipality): Servers down. Attackers demanded €700,000.
+351|reg2|Sweden|Spring 2025|energy|||A group linked to Russian intelligence targeted a heating plant in western Sweden; the plant's 
+352|reg2|Belgium|17 Apr 2025|gov|||Walloon Public Service (SPW): Intrusion: all internet links cut. Legal deadlines extended by 60
+353|reg2|Belgium|24 Apr 2025|gov|||CPAS Rebecq: Ransomware.
+354|reg2|Poland|2025, disclo|water|Szczytno||hackers got into the control systems of five water treatment plants (Jabłonna Lacka, Szczytno, 
+355|reg2|Belgium|May 2025–spr|gov|||State Security (VSSE), phones: Ivanti mobile-management software at an external partner exploit
+356|reg2|Czechia|28 May 2025|spying,gov,elections|||the government formally blamed China's state-linked group APT31 for a campaign running since 20
+357|reg2|Belgium|Jun 2025|gov|||parking.brussels: Unauthorised access to systems.
+358|reg2|Bulgaria|2025|spying,gov|Plovdiv||Russian-linked hackers broke into at least four mailboxes of local officials in the Plovdiv reg
+359|reg2|Belgium|10 Jun 2025|business|||Roularta Media Group: DDoS disrupted websites, apps and printing.
+360|reg2|Switzerland|Jun 2025|health|||Ransomware at the health foundation Radix: data was stolen and encrypted, including data of the
+361|reg2|Cyprus|Jun 2025|transport|||Hackers claimed about 41 GB of passenger data from Cyprus Airways; the airline neither confirme
+362|reg2|Estonia|Jun 2025|business|||A cinema company active in Estonia, Latvia and Lithuania: ransomware encrypted all its virtual 
+363|reg2|Croatia|Jul 2025|schools|Zagreb||the Nova group claimed the Faculty of Science of the University of Zagreb.
+364|reg2|Belgium|Jul 2025|business|||Orange Belgium: 850,000 customer accounts. Names, numbers, SIM IDs and PUK codes exposed, which
+365|reg2|Luxembourg|4–5 Jul 2025|business|||Dry-cleaning chain 5àsec was hit by ransomware; data was stolen to put pressure on the company.
+366|reg2|Germany|7 Jul 2025|health|||The Ameos hospital group shut down all its systems after an attack; several German states opene
+367|reg2|France|Jul 2025|gov|||The employment agency France Travail: data of about 340,000 job seekers reached through a partn
+368|reg2|Netherlands|17 Jul 2025|gov|||the Public Prosecution Service took all its systems offline after a break-in through Citrix rem
+369|reg2|Luxembourg|23 Jul 2025|business|||an attack on POST Luxembourg cut landlines, mobile phones and access to the emergency number 11
+370|reg2|Sweden|Aug 2025|gov|||ransomware at Miljödata, a supplier of personnel software, disrupted about 200 of Sweden's 290 
+371|reg2|France|4 Aug 2025|business|||Bouygues Telecom: personal data of 6.4 million customer accounts, including bank account number
+372|reg2|Austria|Aug 2025|business|||A payroll service provider was the target of a targeted attack (Interior Ministry cybersecurity
+373|reg2|France|Aug 2025|food|||Supermarket chain Auchan: data of a few hundred thousand loyalty-card customers.
+374|reg2|Austria|30 Aug 2025|spying,gov|||Interior Ministry: unauthorised access to about 100 of its 60,000 email accounts.
+375|reg2|France|8 Sep 2025|health|||Public hospitals in the Hauts-de-France region were targeted through the servers that hold pati
+376|reg2|Belgium|19–20 Sep 20|transport|Brussels||Brussels Airport, via Collins Aerospace: Ransomware on MUSE check-in software. About half of de
+377|reg2|Germany|19–20 Sep 20|transport|Berlin||Berlin Brandenburg Airport: check-in and baggage systems down for days after ransomware at the 
+378|reg2|Latvia|Oct 2025|business|||an attack took the tax service, the national portal Latvija.lv and the government website offli
+379|reg2|Belgium|Oct–Nov 2025|drones,business|Marche-en-Famenne||Military bases and airports: Drone swarms over Marche-en-Famenne and Kleine Brogel; Brussels an
+380|reg2|Cyprus|Oct 2025|gov|||Cyprus Post confirmed a cyberattack; screenshots of mail addressed to the Presidential Palace, 
+381|reg2|Italy|27 Oct 2025|food|||Furniture chain Poltronesofà: ransomware with possible theft and encryption of data.
+382|reg2|Belgium|Nov 2025|gov,elections|||Telecom, health and intelligence websites: Two related NoName057(16) DDoS campaigns.
+383|reg2|Italy|Late Oct–Nov|business|||The RansomHouse group claimed the textile maker Fulgar; on 8 November the DragonForce group cla
+384|reg2|Germany|6 Nov 2025|gov|Ludwigshafen||The city of Ludwigshafen took all its IT offline; an external attack was later confirmed.
+385|reg2|Malta|11 Nov 2025|business|||The RansomHouse group claimed the construction firm Polidano Group.
+386|reg2|Bulgaria|Nov 2025|business|||Climbing-wall maker Walltopia was hit by ransomware.
+387|reg2|Bulgaria|Dec 2025|energy|||the solar contractor Solarpro Holding appeared on a ransomware leak site.
+388|reg2|France|Dec 2025|gov|||the Interior Ministry confirmed that hackers reached email servers and a limited number of conf
+389|reg2|Romania|Dec 2025|energy|||ransomware in the business systems of the Oltenia Energy Complex, which produces about 30% of R
+390|reg2|Belgium|8–14 Dec 202|gov,elections|||Provinces and municipalities: NoName057(16) campaign: Belgium accounted for 57.3% of all attack
+391|reg2|France|Dec 2025|gov|||The youth employment network Missions Locales: data of about 1.6 million young people exposed.
+392|reg2|Poland|Dec 2025|gov|||The regional government of Mazovia: its electronic document system was encrypted, and more than
+393|reg2|Germany|12 Dec 2025|spying,transport|||Germany formally blamed Russia's military-intelligence hackers (APT28) for an August 2024 attac
+394|reg2|Iceland|Dec 2025|health|||A breach of the Grund care home's systems exposed data on tens of thousands of people; disclose
+395|reg2|Denmark|18 Dec 2025|water|Køge||Danish military intelligence blamed a pro-Russian group (Z-Pentest) for a destructive attack on
+396|reg2|Romania|20 Dec 2025|energy|||ransomware at the national water authority Apele Române: about 1,000 computers and 10 of its 11
+397|reg2|Italy|Dec 2025|food|||Food company Fiorucci was hit by ransomware over the Christmas period, disrupting orders.
+398|reg2|Poland|29 Dec 2025|energy|||a destructive attack on about 30 energy sites (heat-and-power plants, wind and solar). It faile
+399|reg2|Finland|31 Dec 2025|sabotage,energy|Gulf of Finland||a telecom cable of operator Elisa in the Gulf of Finland was damaged; police seized the cargo s
+400|reg2|Austria|2026 (month |transport|Brenner||The company building the Brenner Base Tunnel confirmed that outsiders reached part of its data 
+401|reg2|Austria|2026 (month |business|||Casinos Austria: online-shop data of about 150,000 customers reached through an external servic
+402|reg2|France|2026 (month |health|||Health software company Cegedim Santé: the health minister confirmed the attack could concern m
+403|reg2|France|2026 (month |gov|||The Ministry of Ecological Transition confirmed a cyberattack; the Anubis group claims more tha
+404|reg2|France|2026 (month |gov|||The association of French mayors: more than 100,000 records taken, including passwords stored i
+405|reg2|Sweden|2026 (month |gov|||The website of Nyköping municipality was manipulated by unknown attackers; the municipality sai
+406|reg2|Switzerland|2026 (month |business|||Zermatt Tourism confirmed a cyberattack in which customer data may have been taken.
+407|reg2|Italy|2026 (month |health|Milan||At least four large private health facilities in Milan and Rome were hit by ransomware with ext
+408|reg2|Hungary|2026 (month |business|||The World Leaks group claims about 8.5 terabytes from the media company Mediaworks Hungary and 
+409|reg2|Cyprus|Third quarte|business|||an attack that flooded a Cypriot bank's systems lasted about 200 hours, more than eight days: l
+410|reg2|Czechia|2026|spying,gov|||the Czech cyber agency reported that Russia's military-intelligence hackers (APT28) took over i
+411|reg2|Finland|2026|transport|||Finnair customer data was caught in a breach at booking supplier Amadeus; ferry company Viking 
+412|reg2|France|2026|business|||the Prime Minister reportedly said France has recorded about three data thefts a day since the 
+413|reg2|Ireland|2026|business|||the gift company Smartbox Group reported unauthorised access to a platform holding customers' n
+414|reg2|Lithuania|Jan–Apr 2026|gov|||more than 600,000 entries were taken from the national registers of property and companies, usi
+415|reg2|Poland|2026|health|Kraków||hospitals in Kraków and Szczecin needed national emergency support.
+416|reg2|Portugal|2026|schools|||trackers list the paper maker The Navigator Company (Mar), the municipality of Serpa (May) and 
+417|reg2|Slovenia|Jan 2026|energy|||probable ransomware at gas supplier Geoplin, with limited effect (CERT-EU); in June the Sinobi 
+418|reg2|Spain|Jan 2026|energy|||the energy company Endesa confirmed a breach of customer data, including identity and bank-acco
+419|reg2|Spain|Early 2026|food|||incidents reported at the Port of Vigo and the supermarket chain Ahorramás (Qilin ransomware).
+420|reg2|Belgium|Jan 2026|schools|Berchem||OLV Pulhof, Berchem: School refused to pay a ransom, then attackers tried to extort parents dir
+421|reg2|Belgium|13 Jan 2026|health|Antwerp||AZ Monica, Antwerp/Deurne: Ransomware. All servers off, about 50% capacity, 7 patients transfer
+422|reg2|Germany|Jan 2026|gov|||The city administration of Heinsberg could not be reached by phone or email for days after a cy
+423|reg2|Latvia|Jan 2026|business|||A small company's server was fully encrypted by ransomware (HardBit); it restored everything fr
+424|reg2|Czechia|19–25 Jan 20|gov|||a pro-Russian group (NoName057(16)) aimed 74.6% of all its attacks that week at Czechia: 3,803 
+425|reg2|Netherlands|23 Jan 2026|business|||The Nova group claimed KPMG Netherlands.
+426|reg2|Finland|30 Jan 2026|spying,gov|||the state IT provider Valtori was breached through its phone-management software: details of ab
+427|reg2|Cyprus|Feb 2026|spying,gov|||Cyprus was named among the countries probably reached by an Asian espionage group that broke in
+428|reg2|Estonia|Feb 2026|business|||the Estonian Olympic Committee's website was attacked; NoName057(16) claimed it.
+429|reg2|Germany|Feb 2026|transport|||an attack claimed by pro-Russian activists paralysed Deutsche Bahn's booking systems, app and d
+430|reg2|Italy|Feb 2026|schools|Cortina||around the Milan-Cortina Winter Olympics, Italy blocked attacks on about 120 Foreign Ministry s
+431|reg2|Netherlands|Feb 2026|business|||telecom operator Odido: data of about 6.2 million customer accounts, including identity-documen
+432|reg2|Netherlands|Feb 2026|gov|||phone-management flaws exploited at the Data Protection Authority and the Council for the Judic
+433|reg2|Belgium|Feb→Jun 2026|transport|||FortiBleed: 270+ Belgian organisations: Fortinet firewalls compromised. Attackers still had adm
+434|reg2|Norway|Feb 2026|spying,business|||Norway's security service disclosed that the Chinese state-linked group Salt Typhoon had exploi
+435|reg2|Italy|3 Feb 2026|gov|||The Medusa group claimed the municipality of Battipaglia.
+436|reg2|Germany|Feb 2026|health|||BDH-Klinik Greifswald: the communication network was paralysed and theft of patient data was la
+437|reg2|Italy|Feb 2026|gov|||The municipality of Chioggia and its services company reported a cyberattack on the company's d
+438|reg2|France|18 Feb 2026|business|||The trade union CFDT confirmed that members' personal data was taken.
+439|reg2|Germany|18 Feb 2026|schools|Mannheim||The Qilin group listed the University of Mannheim as a victim.
+440|reg2|Hungary|23 Feb 2026|business|||The agricultural company UBM Group reported a ransomware attack.
+441|reg2|Netherlands|27 Feb 2026|gov|||The prison service reported a data leak through the hack of its phone-management software.
+442|reg2|Cyprus|Mar 2026|gov,elections|||the Digital Security Authority told parliament that attacks had become daily and that some stat
+443|reg2|Luxembourg|Mar 2026|gov|||An outsider reached a list of laptops managed by the state IT centre, with users' names, phone 
+444|reg2|Poland|7–8 Mar 2026|health|Szczecin||The regional hospital in Szczecin: ransomware forced staff to work on paper; the attackers repo
+445|reg2|Romania|Mar 2026|spying,gov|||The defence ministry confirmed 67 cyberattacks on the Romanian Air Force, with a few dozen emai
+446|reg2|France|Mar 2026|schools|||A management application of the Catholic school network: data of about 1.5 million pupils, fami
+447|reg2|Malta|17 Mar 2026|business|||the Malta Gaming Authority confirmed a breach of one of its systems. A German security research
+448|reg2|Norway|19 Mar 2026|food|||Ikea Norway: data on up to 42,370 customers and 3,261 employees downloaded through a flaw at a 
+449|reg2|Belgium|21 Mar 2026|gov|||Nandrin (municipality): LockBit 5.0 claimed it and published data on the dark web.
+450|reg2|Poland|24 Mar 2026|health|||The Eskulap medical centre in Racibórz: medical records encrypted, with a high risk that data w
+451|reg2|Ireland|Late Mar 202|health|||the health-recruitment platform Healthdaq detected unauthorised access; the XP95 group claims 4
+452|reg2|Poland|31 Mar 2026|health|||A rehabilitation centre in the Świętokrzyskie region: ransomware encrypted data and cut access 
+453|reg2|Bulgaria|Apr 2026|gov|||a cyber incident disrupted access to state online services, including the e-government portal. 
+454|reg2|Germany|Apr 2026|water|Mannheim||ransomware at Kurita Europe, an industrial water-treatment firm in Mannheim.
+455|reg2|Greece|Apr 2026|spying,business,elections|||a Russian-linked email-spying campaign (at least 284 mailboxes, Sept 2024–Mar 2026) reached Gre
+456|reg2|Hungary|Apr 2026|gov|||researchers (Bellingcat) found Hungarian government email addresses with passwords in 795 leake
+457|reg2|Netherlands|Apr 2026|health|||ChipSoft ransomware, a supplier to about 70% of Dutch hospitals.
+458|reg2|Belgium|7 Apr 2026|health|||ChipSoft (Dutch hospital-software supplier): Ransomware. Dutch hospitals closed patient portals
+459|reg2|Belgium|8 Apr 2026|gov|||Anderlues (municipality): Night-time attack. Administrative services closed indefinitely. TheGe
+460|reg2|Sweden|9 Apr 2026|gov|||ransomware at the municipalities of Vilhelmina and Dorotea.
+461|reg2|France|15 Apr 2026|gov|||the national agency for identity documents (ANTS) was breached; it confirmed 11.7 million accou
+462|reg2|Norway|Spring 2026|gov|||Lørenskog municipality: a large amount of data stolen and offered for sale on the dark web.
+463|reg2|Ireland|15 Apr 2026|health|Dublin||Medical-device maker Medtronic, headquartered in Dublin: health information of 3.8 million peop
+464|reg2|Netherlands|Apr 2026|food|||Cosmetics chain Rituals confirmed that customers' personal data was taken.
+465|reg2|Belgium|May 2026|health|||cabinetmedical.be: Data leak.
+466|reg2|Belgium|May 2026|food|||Vanden Borre: A threat actor offered 264,000 records for sale.
+467|reg2|Belgium|May 2026|schools|||VUB, Thomas More, Artevelde, KdG, Erasmushogeschool, CVO Gent: Canvas learning-platform breach 
+468|reg2|Belgium|May 2026|transport|||Christeyns: Cyberattack.
+469|reg2|Austria|May 2026|schools|||Schools in Styria: a ransomware group (Payload) claimed 21 GB of data; the education authority 
+470|reg2|Iceland|May 2026|schools|Reykjavik||The ShinyHunters group named Icelandic schools, among them the University of Iceland and Reykja
+471|reg2|Germany|May 2026|health|||A billing service provider for hospitals: data of more than 100,000 private patients of German 
+472|reg2|France|25 May 2026|health|||Health-insurance payment operator Almerys confirmed a breach covering 15.4 million social secur
+473|reg2|Germany|Late May 202|health|||Ransomware at a hospital group (not named): operations postponed and emergency rooms sent patie
+474|reg2|Lithuania|Jun 2026|health|||about 62,000 records with personal data of doctors leaked from an agency of the Ministry of Hea
+475|reg2|Austria|4 Jun 2026|health|||the Qilin ransomware group claimed the business-jet operator Avcon Jet. 23 Jul 2026: the group 
+476|reg2|Croatia|15 Jun 2026|health|||the ransomware group TheGentlemen claimed the Ministry of Health and threatened to publish data
+477|reg2|Croatia|Jun 2026|health|||The Ministry of Health said an attack hit some of its applications, while the system holding pa
+478|reg2|Latvia|22 Jun 2026|business|||The state forest company Latvijas valsts meži: a foreign ransomware group leaked 44 GB of data.
+479|reg2|France|Late Jun–ear|business|||the tax authority was breached; data on about 678,000 taxpayers was stolen. The ministry confir
+480|reg2|Bulgaria|Jul 2026|business|||the financial group Eurohold and its insurer Euroins said they stopped an attack; the Krybit gr
+481|reg2|Portugal|Jul 2026|transport|||the public transport operator Metro Mondego confirmed a ransomware attack (claimed by The Gentl
+482|reg2|France|2 Jul 2026|health|||Chaumont hospital: cyberattack with loss of data and critical systems unavailable.
+483|reg2|Czechia|7–16 Jul 202|health|||Ransomware attacks on healthcare bodies (7 and 13 July, Qilin group) and on municipal offices (
+484|reg2|Romania|14 Jul 2026|gov|||ransomware at the national land registry agency ANCPI. The servers running its applications wer
+485|reg2|Malta|21 Jul 2026|business|||The Play group claimed the business-services firm Tax MT.
+486|reg2|Poland|21 Jul 2026|health|||The primary-care network PaKK-MED disclosed a ransomware attack with a potential data leak.
+487|reg2|Slovakia|Jul 2026|spying,gov|||Ministries acknowledged serious incidents after the EU named Slovakia among the targets of Russ
+488|reg2|Switzerland|Jul 2026|gov|||A ransomware group published about 222 GB taken from a fiduciary firm in the canton of Vaud, in
+489|reg2|Switzerland|28 Jul 2026|gov|||The federal IT office detected an intrusion on its SharePoint servers; about 200 accounts were 
+490|reg2|Liechtenstein|29–30 Jul 20|gov|||Attackers copied data on about 31,000 legal entities from the national register of the real own
+491|reg2|Germany|Aug 2026|gov|Berlin||ransomware in the Berlin state network after one click on a fake link; the Rhysida group demand
+492|reg2|Greece|Early Aug 20|business|||hackers stole files from the State Legal Council, the state's own lawyers, and demanded hundred
+493|reg2|Greece|Early Aug 20|transport|||ransomware at the Municipality of Sithonia and its port fund, which share IT systems.
+494|reg2|Hungary|Aug 2026|business|||the State Treasury confirmed an attack on the network of its agricultural payments division; fi
+495|reg2|Luxembourg|1 Aug 2026|business|||The Chamber of Employees reported unauthorised access to some of its servers; personal data may
+496|reg2|Denmark|1 Aug 2026|health|||Hvidovre Hospital: ransomware on the network that runs the building's technical systems was sto
+497|reg2|Norway|2 Aug 2026|transport|||E-scooter company Ryde: unauthorised access exposed 4.5 million accounts, 1.6 million of them i
+498|reg2|Greece|5 Aug 2026|business|||ransomware at EOPPEP, the national body that certifies qualifications (official announcement).
+499|reg2|Netherlands|Aug 2026|transport|||An attack on logistics company Ceva Logistics led to data leaks at at least twelve companies in
+500|reg2|Latvia|8–10 Aug 202|transport|||the road traffic safety agency CSDD, which keeps the vehicle register, was breached; a data lea
+501|reg2|Belgium|9 Aug 2026|schools|||Université libre de Bruxelles: Qilin ransomware claim. Employee login credentials found exposed
+502|reg2|Norway|Aug 2026|gov|||A Russian hacker group claimed an attack that disrupted government digital services.
+503|reg2|Croatia|Aug 2026|business|||An attack hit the mobile app of the pension institute; the institute said its core system and p
+504|reg2|Czechia|Aug 2026|health|||Patient and staff data of a Czech healthcare body were offered for sale by attackers.
+505|reg2|Iceland|26 Aug 2026|business|||Iceland's cyber team warned that Icelandic websites had been compromised to push malware onto v
+506|reg2|Denmark|Sep 2026, di|gov|||intruders read about 8.8 million records of the national population register (CPR): names, addr
+507|reg2|Germany|Sep 2026|drones,sabotage,energy|Leipzig||physical sabotage of electricity substations in Brandenburg and Bergheim; drone attack on Leipz
+508|reg2|Malta|Sep 2026|business|||the payment app Revolut disclosed customer information after fake requests sent from a real gov
+509|reg2|Slovenia|Sep 2026|business|||an attack took the IT of six casinos of the Hit group offline.
+510|reg2|Belgium|Sep 2026|food|||Jims (fitness chain): Data theft.
+511|reg2|Italy|2 Sep 2026|health|||The INC Ransom group listed the Policlinico Triestino hospital; the hospital has not confirmed 
+512|reg2|Hungary|Sep 2026|business,elections|||The national cyber institute warned of a ransomware campaign against Hungarian companies using 
+513|reg2|Austria|9 Sep 2026|gov|Vienna||the City of Vienna learned from the national cyber team that about 26,000 internal documents ha
+514|reg2|Belgium|11 Sep 2026|gov|||Machelen (municipality): Digital services down after a phishing attack (mayor to VRT). No sign 
+515|reg2|Italy|14 Sep 2026|gov|||The LockBit group claimed the municipality of Robecco sul Naviglio.
+516|reg2|Netherlands|Sep 2026|business|||Ransomware groups claimed the hydrogen-equipment maker HyGear (LockBit) and the cold-storage fi
+517|reg2|France|20 Sep 2026|health|Paris||Hôpital Paris Saint-Joseph confirmed a leak covering 15,044 patients.
+518|reg2|Ireland|29 Sep 2026|gov|||A compromise was detected in the civil service and remote access for parts of it was shut down 
+519|reg2|Germany|Oct 2026|health|Berlin||Charité Berlin, contact details of about 140,000 people; attacks on public hospitals on 8 Oct.
+520|reg2|Greece|Oct 2026|gov|Athens||police said an 18-year-old in Athens is suspected of writing ransomware for the KillSec group; 
+521|reg2|Netherlands|Oct 2026|food|||Ahold Delhaize outage (Albert Heijn, Etos, Gall & Gall). Nov 2026: refrigeration incidents. Abo
+522|reg2|Sweden|2 Oct 2026|gov|||ransomware took all IT systems of one municipality down.
+523|reg2|Ireland|2 Oct 2026|business|||Building-materials supplier DPL Group listed as a ransomware victim.
+524|reg2|Croatia|5 Oct 2026|gov|||the Ministry of Agriculture shut down its computers; online services went down.
+525|reg2|Spain|5–29 Oct 202|health|Extremadura||The health service of Extremadura detected a breach of its online health-centre app on 5 Octobe
+526|reg2|Switzerland|8 Oct 2026|business|||A software supplier of the federal pension fund Publica reported a cyberattack; data on more th
+527|reg2|Portugal|8 Oct 2026|gov|||An attack on an IT company that worked for the intelligence services let hackers obtain unclass
+528|reg2|France|11–12 Oct 20|sabotage,food|||about 700 supermarket sites (Intermarché, Coopérative U), Danfoss and Copeland/Dixell controlle
+529|reg2|Belgium|12 Oct 2026|food|||Ahold Delhaize (group): Systems taken offline group-wide. Mainly Dutch and US web services hit.
+530|reg2|Austria|Oct 2026|business|Salzburg||Booking data leaked at tourism bodies in Tyrol, Styria and Salzburg, including 97 hotels in Sal
+531|reg2|Romania|19 Oct 2026|business|||suspected ransomware at a radio-communications operator.
+532|reg2|Denmark|20 Oct 2026|schools|Copenhagen||a test environment of the University of Copenhagen was breached; about 525,000 people, includin
+533|reg2|Slovakia|Oct 2026|gov|||State agencies took their websites offline as a precaution over two critical flaws in widely us
+534|reg2|Belgium|27–28 Oct 20|gov|||FPS Finance (MyMinfin, Tax-on-web, Biztax): Intrusion contained within hours, services taken of
+535|reg2|Iceland|Oct–Nov 2026|schools|||A login flaw in the school system Inna, used by up to 16 upper-secondary schools, let a student
+536|reg2|Belgium|29 Oct 2026|business|||AVOCATS.BE: Order-management software breached. About 27,500 non-lawyer contacts. No banking or
+537|reg2|Slovenia|Late Oct 202|gov|||After the breach of the state administration system, the land survey authority shut down part o
+538|reg2|Italy|Nov 2026|food|||refrigeration incidents reported in the freezer wave.
+539|reg2|Portugal|Nov 2026|food|||refrigeration incidents reported in the freezer wave.
+540|reg2|Romania|Nov 2026|spying,gov|||a Russian state-linked spy group (Turla) was reported to have compromised government email serv
+541|reg2|Slovenia|About 1 Nov |gov|||an intruder reached a state web server and took more than 15,000 user records of the state admi
+542|reg2|Belgium|1–2 Nov 2026|food|Mons||Delhaize, Carrefour, Spar (Colruyt), Intermarché, IKEA Mons: Freezer controllers hijacked and t
+543|reg2|Estonia|2 Nov 2026|food|||a freezer at a Selver supermarket was set to 50 °C in the refrigeration wave.
+544|reg2|Germany|2 Nov 2026|food|||refrigeration manipulated in North Rhine-Westphalia and at an Edeka store in Reisbach (confirme
+545|reg2|Ireland|2 Nov 2026|food|||refrigeration systems at 13 of 223 SuperValu stores (Musgrave Group) were affected in the freez
+546|reg2|Luxembourg|2 Nov 2026|food|||Delhaize stores hit in the freezer wave.
+547|reg2|Sweden|2 Nov 2026|food|||23+ ICA and 7 Coop stores, freezers at 50–55 °C.
+548|reg2|Belgium|2 Nov 2026|food|||Pluxee Belgium: Malicious activity on a server. Names, emails and phone numbers possibly access
+549|reg2|Spain|2 Nov 2026|gov|||The city council of La Laguna (Tenerife): its online services and file system were hit; the att
+550|reg2|France|5 Nov 2026|business|||the banking group Crédit Mutuel Arkéa, parent of the Belgian Keytrade Bank, reported a loss of 
+551|reg2|Belgium|5 Nov 2026|sabotage,business|Charleroi||Ryanair Pescara–Charleroi: Part of a Europe-wide hoax bomb-threat wave (27+ flights). Not attri
+552|reg2|Switzerland|Nov 2026|health|||Two medical centres in Chur confirmed that patient data, including prescriptions and X-rays, an
+553|reg2|Denmark|11 Nov 2026|transport|||shipping company Maersk confirmed a breach of an older system taken over in an acquisition; a r
+554|reg2|Latvia|11 Nov 2026|business|||a telecom provider (CSC Telecom) left a database of more than 125 million text messages exposed

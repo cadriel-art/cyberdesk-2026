@@ -1,0 +1,2 @@
+const { chromium } = require('playwright');
+(async()=>{const b=await chromium.launch();for(const f of process.argv.slice(2)){for(const w of [390,1280]){const p=await b.newPage({viewport:{width:w,height:900}});await p.goto('file://'+f);const o=await p.evaluate(()=>document.documentElement.scrollWidth-window.innerWidth);console.log(f.split('/').pop(),w,'overflow',o);await p.close();}}await b.close();})();

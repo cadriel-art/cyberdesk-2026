@@ -1,0 +1,14 @@
+const { chromium } = require('playwright');
+(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1280,height:900}});const e=[];p.on('pageerror',x=>e.push(x.message));
+await p.goto('file:///home/user/cyberdesk-2026/build/mine/cyber-desk-offline.html#evidence');await p.waitForTimeout(600);
+await p.screenshot({path:'../ev.png',fullPage:true});
+await p.selectOption('#evf select[data-k="a"]','IR');console.log(await p.textContent('#ev-count'));
+await p.selectOption('#evf select[data-k="a"]','');await p.selectOption('#evf select[data-k="l"]','6');console.log(await p.textContent('#ev-count'));
+await p.click('#ev-reset');await p.fill('#ev-q','leipzig');console.log(await p.textContent('#ev-count'));
+await p.click('#ev-reset');await p.click('.evc >> nth=10');console.log('open:',await p.evaluate(()=>document.querySelectorAll('.evc[open]').length));
+await p.screenshot({path:'../ev2.png',clip:{x:270,y:0,width:1010,height:900}});
+const y=await p.evaluate(()=>document.querySelector('.evc[open]').getBoundingClientRect().top+scrollY);
+await p.screenshot({path:'../ev3.png',fullPage:true,clip:{x:270,y:y-520,width:1010,height:900}});
+await p.setViewportSize({width:390,height:800});await p.waitForTimeout(200);console.log('ovf',await p.evaluate(()=>document.documentElement.scrollWidth-document.documentElement.clientWidth),e);
+await p.screenshot({path:'../ev4.png',fullPage:true,clip:{x:0,y:y-200,width:390,height:800}});
+await b.close();})();

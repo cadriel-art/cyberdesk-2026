@@ -1,0 +1,1242 @@
+{
+ "inc": [
+  {
+   "country": "Austria",
+   "sort": [
+    2025,
+    8,
+    15
+   ],
+   "label": "Aug 2025",
+   "sector": "other",
+   "type": "data",
+   "status": "C",
+   "text": "A payroll service provider was the target of a targeted attack (Interior Ministry cybersecurity report for 2025)."
+  },
+  {
+   "country": "Austria",
+   "sort": [
+    2026,
+    0,
+    1
+   ],
+   "label": "2026 (month not found)",
+   "sector": "transport",
+   "type": "data",
+   "status": "C",
+   "text": "The company building the Brenner Base Tunnel confirmed that outsiders reached part of its data that was accessible over the internet. The Everest group claims 812 GB; that figure is not confirmed."
+  },
+  {
+   "country": "Austria",
+   "sort": [
+    2026,
+    0,
+    1
+   ],
+   "label": "2026 (month not found)",
+   "sector": "other",
+   "type": "data",
+   "status": "R",
+   "text": "Casinos Austria: online-shop data of about 150,000 customers reached through an external service provider; no bank or card data."
+  },
+  {
+   "country": "Austria",
+   "sort": [
+    2026,
+    5,
+    10
+   ],
+   "label": "May 2026",
+   "sector": "education",
+   "type": "ransom",
+   "status": "R",
+   "text": "Schools in Styria: a ransomware group (Payload) claimed 21 GB of data; the education authority refused to negotiate and the outage was fixed quickly."
+  },
+  {
+   "country": "Austria",
+   "sort": [
+    2026,
+    10,
+    15
+   ],
+   "label": "Oct 2026",
+   "sector": "other",
+   "type": "data",
+   "status": "R",
+   "text": "Booking data leaked at tourism bodies in Tyrol, Styria and Salzburg, including 97 hotels in Salzburg, through stolen interface logins."
+  },
+  {
+   "country": "Bulgaria",
+   "sort": [
+    2025,
+    1,
+    28
+   ],
+   "label": "Late Jan 2025",
+   "sector": "gov",
+   "type": "ransom",
+   "status": "C",
+   "text": "Supreme Administrative Court: a large part of its computer systems was affected and part of the work moved to manual procedures."
+  },
+  {
+   "country": "Bulgaria",
+   "sort": [
+    2025,
+    2,
+    1
+   ],
+   "label": "Early 2025",
+   "sector": "finance",
+   "type": "ransom",
+   "status": "R",
+   "text": "The Bulgarian branch of insurer Uniqa was hit by ransomware with a demand of about €6 million."
+  },
+  {
+   "country": "Bulgaria",
+   "sort": [
+    2025,
+    11,
+    15
+   ],
+   "label": "Nov 2025",
+   "sector": "other",
+   "type": "ransom",
+   "status": "R",
+   "text": "Climbing-wall maker Walltopia was hit by ransomware."
+  },
+  {
+   "country": "Croatia",
+   "sort": [
+    2026,
+    6,
+    20
+   ],
+   "label": "Jun 2026",
+   "sector": "health",
+   "type": "data",
+   "status": "R",
+   "text": "The Ministry of Health said an attack hit some of its applications, while the system holding patients' medical data was not affected."
+  },
+  {
+   "country": "Croatia",
+   "sort": [
+    2026,
+    8,
+    15
+   ],
+   "label": "Aug 2026",
+   "sector": "finance",
+   "type": "data",
+   "status": "R",
+   "text": "An attack hit the mobile app of the pension institute; the institute said its core system and pension payments were not affected."
+  },
+  {
+   "country": "Cyprus",
+   "sort": [
+    2025,
+    10,
+    13
+   ],
+   "label": "Oct 2025",
+   "sector": "gov",
+   "type": "data",
+   "status": "C",
+   "text": "Cyprus Post confirmed a cyberattack; screenshots of mail addressed to the Presidential Palace, ministries and embassies appeared on the dark web. The post office says the central database was not reached."
+  },
+  {
+   "country": "Cyprus",
+   "sort": [
+    2025,
+    6,
+    15
+   ],
+   "label": "Jun 2025",
+   "sector": "transport",
+   "type": "data",
+   "status": "K",
+   "text": "Hackers claimed about 41 GB of passenger data from Cyprus Airways; the airline neither confirmed nor denied it."
+  },
+  {
+   "country": "Czechia",
+   "sort": [
+    2026,
+    7,
+    7
+   ],
+   "label": "7–16 Jul 2026",
+   "sector": "health",
+   "type": "ransom",
+   "status": "R",
+   "text": "Ransomware attacks on healthcare bodies (7 and 13 July, Qilin group) and on municipal offices (16 July, The Gentlemen group); victims not named."
+  },
+  {
+   "country": "Czechia",
+   "sort": [
+    2026,
+    8,
+    15
+   ],
+   "label": "Aug 2026",
+   "sector": "health",
+   "type": "data",
+   "status": "R",
+   "text": "Patient and staff data of a Czech healthcare body were offered for sale by attackers."
+  },
+  {
+   "country": "France",
+   "sort": [
+    2025,
+    7,
+    12
+   ],
+   "label": "Jul 2025",
+   "sector": "gov",
+   "type": "data",
+   "status": "C",
+   "text": "The employment agency France Travail: data of about 340,000 job seekers reached through a partner's application."
+  },
+  {
+   "country": "France",
+   "sort": [
+    2025,
+    8,
+    20
+   ],
+   "label": "Aug 2025",
+   "sector": "food",
+   "type": "data",
+   "status": "C",
+   "text": "Supermarket chain Auchan: data of a few hundred thousand loyalty-card customers."
+  },
+  {
+   "country": "France",
+   "sort": [
+    2025,
+    9,
+    8
+   ],
+   "label": "8 Sep 2025",
+   "sector": "health",
+   "type": "data",
+   "status": "R",
+   "text": "Public hospitals in the Hauts-de-France region were targeted through the servers that hold patients' identity data."
+  },
+  {
+   "country": "France",
+   "sort": [
+    2025,
+    12,
+    10
+   ],
+   "label": "Dec 2025",
+   "sector": "gov",
+   "type": "data",
+   "status": "R",
+   "text": "The youth employment network Missions Locales: data of about 1.6 million young people exposed."
+  },
+  {
+   "country": "France",
+   "sort": [
+    2026,
+    2,
+    18
+   ],
+   "label": "18 Feb 2026",
+   "sector": "other",
+   "type": "data",
+   "status": "C",
+   "text": "The trade union CFDT confirmed that members' personal data was taken."
+  },
+  {
+   "country": "France",
+   "sort": [
+    2026,
+    3,
+    15
+   ],
+   "label": "Mar 2026",
+   "sector": "education",
+   "type": "data",
+   "status": "R",
+   "text": "A management application of the Catholic school network: data of about 1.5 million pupils, families and teachers exposed."
+  },
+  {
+   "country": "France",
+   "sort": [
+    2026,
+    5,
+    25
+   ],
+   "label": "25 May 2026",
+   "sector": "health",
+   "type": "data",
+   "status": "C",
+   "text": "Health-insurance payment operator Almerys confirmed a breach covering 15.4 million social security numbers."
+  },
+  {
+   "country": "France",
+   "sort": [
+    2026,
+    7,
+    2
+   ],
+   "label": "2 Jul 2026",
+   "sector": "health",
+   "type": "ransom",
+   "status": "C",
+   "text": "Chaumont hospital: cyberattack with loss of data and critical systems unavailable."
+  },
+  {
+   "country": "France",
+   "sort": [
+    2026,
+    9,
+    20
+   ],
+   "label": "20 Sep 2026",
+   "sector": "health",
+   "type": "data",
+   "status": "C",
+   "text": "Hôpital Paris Saint-Joseph confirmed a leak covering 15,044 patients."
+  },
+  {
+   "country": "France",
+   "sort": [
+    2026,
+    0,
+    1
+   ],
+   "label": "2026 (month not found)",
+   "sector": "health",
+   "type": "data",
+   "status": "C",
+   "text": "Health software company Cegedim Santé: the health minister confirmed the attack could concern more than 15 million people."
+  },
+  {
+   "country": "France",
+   "sort": [
+    2026,
+    0,
+    1
+   ],
+   "label": "2026 (month not found)",
+   "sector": "gov",
+   "type": "ransom",
+   "status": "C",
+   "text": "The Ministry of Ecological Transition confirmed a cyberattack; the Anubis group claims more than 22,000 records."
+  },
+  {
+   "country": "France",
+   "sort": [
+    2026,
+    0,
+    1
+   ],
+   "label": "2026 (month not found)",
+   "sector": "gov",
+   "type": "data",
+   "status": "R",
+   "text": "The association of French mayors: more than 100,000 records taken, including passwords stored in clear text."
+  },
+  {
+   "country": "Germany",
+   "sort": [
+    2025,
+    7,
+    7
+   ],
+   "label": "7 Jul 2025",
+   "sector": "health",
+   "type": "ransom",
+   "status": "C",
+   "text": "The Ameos hospital group shut down all its systems after an attack; several German states opened data-protection proceedings."
+  },
+  {
+   "country": "Germany",
+   "sort": [
+    2025,
+    11,
+    6
+   ],
+   "label": "6 Nov 2025",
+   "sector": "gov",
+   "type": "ransom",
+   "status": "C",
+   "text": "The city of Ludwigshafen took all its IT offline; an external attack was later confirmed."
+  },
+  {
+   "country": "Germany",
+   "sort": [
+    2026,
+    1,
+    15
+   ],
+   "label": "Jan 2026",
+   "sector": "gov",
+   "type": "ransom",
+   "status": "C",
+   "text": "The city administration of Heinsberg could not be reached by phone or email for days after a cyberattack."
+  },
+  {
+   "country": "Germany",
+   "sort": [
+    2026,
+    2,
+    10
+   ],
+   "label": "Feb 2026",
+   "sector": "health",
+   "type": "data",
+   "status": "C",
+   "text": "BDH-Klinik Greifswald: the communication network was paralysed and theft of patient data was later confirmed."
+  },
+  {
+   "country": "Germany",
+   "sort": [
+    2026,
+    2,
+    18
+   ],
+   "label": "18 Feb 2026",
+   "sector": "education",
+   "type": "ransom",
+   "status": "K",
+   "text": "The Qilin group listed the University of Mannheim as a victim."
+  },
+  {
+   "country": "Germany",
+   "sort": [
+    2026,
+    5,
+    15
+   ],
+   "label": "May 2026",
+   "sector": "health",
+   "type": "data",
+   "status": "R",
+   "text": "A billing service provider for hospitals: data of more than 100,000 private patients of German university hospitals taken."
+  },
+  {
+   "country": "Germany",
+   "sort": [
+    2026,
+    5,
+    28
+   ],
+   "label": "Late May 2026",
+   "sector": "health",
+   "type": "ransom",
+   "status": "R",
+   "text": "Ransomware at a hospital group (not named): operations postponed and emergency rooms sent patients elsewhere."
+  },
+  {
+   "country": "Hungary",
+   "sort": [
+    2026,
+    9,
+    4
+   ],
+   "label": "Sep 2026",
+   "sector": "other",
+   "type": "ransom",
+   "status": "C",
+   "text": "The national cyber institute warned of a ransomware campaign against Hungarian companies using fake emails in the name of the Prosecutor's Office."
+  },
+  {
+   "country": "Ireland",
+   "sort": [
+    2026,
+    4,
+    15
+   ],
+   "label": "15 Apr 2026",
+   "sector": "health",
+   "type": "data",
+   "status": "R",
+   "text": "Medical-device maker Medtronic, headquartered in Dublin: health information of 3.8 million people reportedly stolen worldwide; the company attributes it to the ShinyHunters group."
+  },
+  {
+   "country": "Ireland",
+   "sort": [
+    2026,
+    9,
+    29
+   ],
+   "label": "29 Sep 2026",
+   "sector": "gov",
+   "type": "data",
+   "status": "R",
+   "text": "A compromise was detected in the civil service and remote access for parts of it was shut down temporarily (one source; not corroborated)."
+  },
+  {
+   "country": "Ireland",
+   "sort": [
+    2026,
+    10,
+    2
+   ],
+   "label": "2 Oct 2026",
+   "sector": "other",
+   "type": "ransom",
+   "status": "K",
+   "text": "Building-materials supplier DPL Group listed as a ransomware victim."
+  },
+  {
+   "country": "Italy",
+   "sort": [
+    2026,
+    9,
+    2
+   ],
+   "label": "2 Sep 2026",
+   "sector": "health",
+   "type": "ransom",
+   "status": "K",
+   "text": "The INC Ransom group listed the Policlinico Triestino hospital; the hospital has not confirmed it."
+  },
+  {
+   "country": "Latvia",
+   "sort": [
+    2026,
+    6,
+    22
+   ],
+   "label": "22 Jun 2026",
+   "sector": "other",
+   "type": "ransom",
+   "status": "C",
+   "text": "The state forest company Latvijas valsts meži: a foreign ransomware group leaked 44 GB of data. The national cyber team had flagged the weakness two years earlier and it was never fixed. A pharmaceutical maker's server was reportedly compromised by the same attacker."
+  },
+  {
+   "country": "Latvia",
+   "sort": [
+    2026,
+    1,
+    15
+   ],
+   "label": "Jan 2026",
+   "sector": "other",
+   "type": "ransom",
+   "status": "C",
+   "text": "A small company's server was fully encrypted by ransomware (HardBit); it restored everything from its regular backups."
+  },
+  {
+   "country": "Luxembourg",
+   "sort": [
+    2025,
+    7,
+    4
+   ],
+   "label": "4–5 Jul 2025",
+   "sector": "other",
+   "type": "ransom",
+   "status": "C",
+   "text": "Dry-cleaning chain 5àsec was hit by ransomware; data was stolen to put pressure on the company."
+  },
+  {
+   "country": "Luxembourg",
+   "sort": [
+    2026,
+    3,
+    5
+   ],
+   "label": "Mar 2026",
+   "sector": "gov",
+   "type": "data",
+   "status": "C",
+   "text": "An outsider reached a list of laptops managed by the state IT centre, with users' names, phone numbers and work email addresses. The government says no citizens' data was touched."
+  },
+  {
+   "country": "Luxembourg",
+   "sort": [
+    2026,
+    8,
+    1
+   ],
+   "label": "1 Aug 2026",
+   "sector": "other",
+   "type": "data",
+   "status": "C",
+   "text": "The Chamber of Employees reported unauthorised access to some of its servers; personal data may have been taken."
+  },
+  {
+   "country": "Malta",
+   "sort": [
+    2025,
+    11,
+    11
+   ],
+   "label": "11 Nov 2025",
+   "sector": "other",
+   "type": "ransom",
+   "status": "K",
+   "text": "The RansomHouse group claimed the construction firm Polidano Group."
+  },
+  {
+   "country": "Malta",
+   "sort": [
+    2026,
+    7,
+    21
+   ],
+   "label": "21 Jul 2026",
+   "sector": "finance",
+   "type": "ransom",
+   "status": "K",
+   "text": "The Play group claimed the business-services firm Tax MT."
+  },
+  {
+   "country": "Netherlands",
+   "sort": [
+    2026,
+    1,
+    23
+   ],
+   "label": "23 Jan 2026",
+   "sector": "finance",
+   "type": "ransom",
+   "status": "K",
+   "text": "The Nova group claimed KPMG Netherlands."
+  },
+  {
+   "country": "Netherlands",
+   "sort": [
+    2026,
+    2,
+    27
+   ],
+   "label": "27 Feb 2026",
+   "sector": "gov",
+   "type": "data",
+   "status": "C",
+   "text": "The prison service reported a data leak through the hack of its phone-management software."
+  },
+  {
+   "country": "Netherlands",
+   "sort": [
+    2026,
+    4,
+    20
+   ],
+   "label": "Apr 2026",
+   "sector": "food",
+   "type": "data",
+   "status": "C",
+   "text": "Cosmetics chain Rituals confirmed that customers' personal data was taken."
+  },
+  {
+   "country": "Netherlands",
+   "sort": [
+    2026,
+    8,
+    5
+   ],
+   "label": "Aug 2026",
+   "sector": "transport",
+   "type": "data",
+   "status": "R",
+   "text": "An attack on logistics company Ceva Logistics led to data leaks at twelve or more companies in the Netherlands."
+  },
+  {
+   "country": "Netherlands",
+   "sort": [
+    2026,
+    9,
+    15
+   ],
+   "label": "Sep 2026",
+   "sector": "other",
+   "type": "ransom",
+   "status": "K",
+   "text": "Ransomware groups claimed the hydrogen-equipment maker HyGear (LockBit) and the cold-storage firm Blokland Cold Stores (Gunra)."
+  },
+  {
+   "country": "Poland",
+   "sort": [
+    2025,
+    3,
+    8
+   ],
+   "label": "8 Mar 2025",
+   "sector": "health",
+   "type": "ransom",
+   "status": "C",
+   "text": "The Interior Ministry hospital in Kraków: ransomware encrypted files and the hospital lost access to some systems."
+  },
+  {
+   "country": "Poland",
+   "sort": [
+    2025,
+    3,
+    13
+   ],
+   "label": "13 Mar 2025",
+   "sector": "health",
+   "type": "ransom",
+   "status": "C",
+   "text": "The Bonifraterskie Medical Centre in Warsaw: ransomware encrypted data on its servers."
+  },
+  {
+   "country": "Poland",
+   "sort": [
+    2025,
+    12,
+    10
+   ],
+   "label": "Dec 2025",
+   "sector": "gov",
+   "type": "ransom",
+   "status": "C",
+   "text": "The regional government of Mazovia: its electronic document system was encrypted, and more than 300 local authorities lost access and had to disconnect."
+  },
+  {
+   "country": "Poland",
+   "sort": [
+    2026,
+    3,
+    7
+   ],
+   "label": "7–8 Mar 2026",
+   "sector": "health",
+   "type": "ransom",
+   "status": "C",
+   "text": "The regional hospital in Szczecin: ransomware forced staff to work on paper; the attackers reportedly demanded several million dollars."
+  },
+  {
+   "country": "Poland",
+   "sort": [
+    2026,
+    3,
+    24
+   ],
+   "label": "24 Mar 2026",
+   "sector": "health",
+   "type": "ransom",
+   "status": "C",
+   "text": "The Eskulap medical centre in Racibórz: medical records encrypted, with a high risk that data was stolen."
+  },
+  {
+   "country": "Poland",
+   "sort": [
+    2026,
+    3,
+    31
+   ],
+   "label": "31 Mar 2026",
+   "sector": "health",
+   "type": "ransom",
+   "status": "C",
+   "text": "A rehabilitation centre in the Świętokrzyskie region: ransomware encrypted data and cut access to systems."
+  },
+  {
+   "country": "Poland",
+   "sort": [
+    2026,
+    7,
+    21
+   ],
+   "label": "21 Jul 2026",
+   "sector": "health",
+   "type": "ransom",
+   "status": "C",
+   "text": "The primary-care network PaKK-MED disclosed a ransomware attack with a potential data leak."
+  },
+  {
+   "country": "Portugal",
+   "sort": [
+    2026,
+    10,
+    8
+   ],
+   "label": "8 Oct 2026",
+   "sector": "gov",
+   "type": "data",
+   "status": "C",
+   "text": "An attack on an IT company that worked for the intelligence services let hackers obtain unclassified data of the services and other bodies; the intelligence system confirmed it."
+  },
+  {
+   "country": "Slovakia",
+   "sort": [
+    2026,
+    7,
+    21
+   ],
+   "label": "Jul 2026",
+   "sector": "gov",
+   "type": "spy",
+   "status": "R",
+   "text": "Ministries acknowledged serious incidents after the EU named Slovakia among the targets of Russia's FSB; the targets were vital infrastructure, the energy sector and the arms industry."
+  },
+  {
+   "country": "Slovakia",
+   "sort": [
+    2026,
+    10,
+    20
+   ],
+   "label": "Oct 2026",
+   "sector": "gov",
+   "type": "data",
+   "status": "R",
+   "text": "State agencies took their websites offline as a precaution over two critical flaws in widely used web software."
+  },
+  {
+   "country": "Spain",
+   "sort": [
+    2026,
+    10,
+    5
+   ],
+   "label": "5–29 Oct 2026",
+   "sector": "health",
+   "type": "data",
+   "status": "C",
+   "text": "The health service of Extremadura detected a breach of its online health-centre app on 5 October: clinical information of 18,416 users was compromised. Police arrested the suspected attacker on 29 October."
+  },
+  {
+   "country": "Spain",
+   "sort": [
+    2026,
+    11,
+    2
+   ],
+   "label": "2 Nov 2026",
+   "sector": "gov",
+   "type": "ransom",
+   "status": "C",
+   "text": "The city council of La Laguna (Tenerife): its online services and file system were hit; the attackers demand $5 million and the council refuses to pay."
+  },
+  {
+   "country": "Sweden",
+   "sort": [
+    2026,
+    0,
+    1
+   ],
+   "label": "2026 (month not found)",
+   "sector": "gov",
+   "type": "data",
+   "status": "R",
+   "text": "The website of Nyköping municipality was manipulated by unknown attackers; the municipality said the problem was isolated."
+  },
+  {
+   "country": "Switzerland",
+   "sort": [
+    2026,
+    11,
+    6
+   ],
+   "label": "Nov 2026",
+   "sector": "health",
+   "type": "ransom",
+   "status": "C",
+   "text": "Two medical centres in Chur confirmed that patient data, including prescriptions and X-rays, and staff data were taken; the Cloak group claims 87 GB."
+  },
+  {
+   "country": "Switzerland",
+   "sort": [
+    2026,
+    7,
+    23
+   ],
+   "label": "Jul 2026",
+   "sector": "gov",
+   "type": "data",
+   "status": "R",
+   "text": "A ransomware group published about 222 GB taken from a fiduciary firm in the canton of Vaud, including data on municipalities and a member of the cantonal government."
+  },
+  {
+   "country": "Switzerland",
+   "sort": [
+    2026,
+    0,
+    1
+   ],
+   "label": "2026 (month not found)",
+   "sector": "other",
+   "type": "data",
+   "status": "C",
+   "text": "Zermatt Tourism confirmed a cyberattack in which customer data may have been taken."
+  },
+  {
+   "country": "Italy",
+   "sort": [
+    2025,
+    10,
+    27
+   ],
+   "label": "27 Oct 2025",
+   "sector": "food",
+   "type": "ransom",
+   "status": "C",
+   "text": "Furniture chain Poltronesofà: ransomware with possible theft and encryption of data."
+  },
+  {
+   "country": "Italy",
+   "sort": [
+    2025,
+    11,
+    1
+   ],
+   "label": "Late Oct–Nov 2025",
+   "sector": "other",
+   "type": "ransom",
+   "status": "K",
+   "text": "The RansomHouse group claimed the textile maker Fulgar; on 8 November the DragonForce group claimed the firm Ponzini."
+  },
+  {
+   "country": "Italy",
+   "sort": [
+    2025,
+    12,
+    20
+   ],
+   "label": "Dec 2025",
+   "sector": "food",
+   "type": "ransom",
+   "status": "R",
+   "text": "Food company Fiorucci was hit by ransomware over the Christmas period, disrupting orders."
+  },
+  {
+   "country": "Italy",
+   "sort": [
+    2026,
+    2,
+    10
+   ],
+   "label": "Feb 2026",
+   "sector": "gov",
+   "type": "data",
+   "status": "C",
+   "text": "The municipality of Chioggia and its services company reported a cyberattack on the company's digital systems, with possible effects on some services."
+  },
+  {
+   "country": "Italy",
+   "sort": [
+    2026,
+    2,
+    3
+   ],
+   "label": "3 Feb 2026",
+   "sector": "gov",
+   "type": "ransom",
+   "status": "K",
+   "text": "The Medusa group claimed the municipality of Battipaglia."
+  },
+  {
+   "country": "Italy",
+   "sort": [
+    2026,
+    9,
+    14
+   ],
+   "label": "14 Sep 2026",
+   "sector": "gov",
+   "type": "ransom",
+   "status": "K",
+   "text": "The LockBit group claimed the municipality of Robecco sul Naviglio."
+  },
+  {
+   "country": "Italy",
+   "sort": [
+    2026,
+    0,
+    1
+   ],
+   "label": "2026 (month not found)",
+   "sector": "health",
+   "type": "ransom",
+   "status": "R",
+   "text": "At least four large private health facilities in Milan and Rome were hit by ransomware with extortion demands (not named)."
+  },
+  {
+   "country": "Finland",
+   "sort": [
+    2025,
+    3,
+    10
+   ],
+   "label": "Mar 2025",
+   "sector": "health",
+   "type": "data",
+   "status": "C",
+   "text": "A breach at Pharmadata, an IT supplier to pharmacies, was described by the national cyber centre as the most serious incident of the period."
+  },
+  {
+   "country": "Finland",
+   "sort": [
+    2025,
+    3,
+    20
+   ],
+   "label": "Mar 2025",
+   "sector": "gov",
+   "type": "data",
+   "status": "C",
+   "text": "The network of a joint municipal authority (not named) was infected with malware that affected its information systems."
+  },
+  {
+   "country": "Denmark",
+   "sort": [
+    2026,
+    8,
+    1
+   ],
+   "label": "1 Aug 2026",
+   "sector": "health",
+   "type": "ransom",
+   "status": "C",
+   "text": "Hvidovre Hospital: ransomware on the network that runs the building's technical systems was stopped; access-card data of about 7,600 staff, including personal ID numbers, may have been taken. Patient care was not affected."
+  },
+  {
+   "country": "Estonia",
+   "sort": [
+    2025,
+    6,
+    15
+   ],
+   "label": "Jun 2025",
+   "sector": "other",
+   "type": "ransom",
+   "status": "C",
+   "text": "A cinema company active in Estonia, Latvia and Lithuania: ransomware encrypted all its virtual servers and its backups; recovery took a long time, but the cinemas stayed open."
+  },
+  {
+   "country": "Slovenia",
+   "sort": [
+    2026,
+    10,
+    30
+   ],
+   "label": "Late Oct 2026",
+   "sector": "gov",
+   "type": "data",
+   "status": "R",
+   "text": "After the breach of the state administration system, the land survey authority shut down part of its online services \"for security reasons\"."
+  },
+  {
+   "country": "Hungary",
+   "sort": [
+    2026,
+    2,
+    23
+   ],
+   "label": "23 Feb 2026",
+   "sector": "other",
+   "type": "ransom",
+   "status": "C",
+   "text": "The agricultural company UBM Group reported a ransomware attack."
+  },
+  {
+   "country": "Hungary",
+   "sort": [
+    2026,
+    0,
+    1
+   ],
+   "label": "2026 (month not found)",
+   "sector": "other",
+   "type": "data",
+   "status": "K",
+   "text": "The World Leaks group claims about 8.5 terabytes from the media company Mediaworks Hungary and threatened to publish it."
+  },
+  {
+   "country": "Iceland",
+   "sort": [
+    2026,
+    5,
+    10
+   ],
+   "label": "May 2026",
+   "sector": "education",
+   "type": "data",
+   "status": "K",
+   "text": "The ShinyHunters group named Icelandic schools, among them the University of Iceland and Reykjavik University, as victims of its attack on the learning platform Canvas; no leak of Icelandic data is confirmed."
+  },
+  {
+   "country": "Belgium",
+   "sort": [
+    2026,
+    11,
+    19
+   ],
+   "label": "19 Nov 2026",
+   "sector": "gov",
+   "type": "unk",
+   "status": "C",
+   "text": "European Commission (EU institution in Brussels): a Commission spokesperson confirmed on 19 November an \"AI-generated cyber campaign\", first detected on 22 October. Several internal staff services were taken offline as a precaution for more than ten days, including the Sysper HR platform, payroll, leave requests, medical reimbursements and translation. The Commission says it has notified affected people, found no evidence of a data breach affecting staff as a whole and knows of no ransom demand; the investigation is still open. It did not name the tool or the attackers. Politico reported that CERT-EU identified the open-source AI hacking tool ARTEX; the Commission has not confirmed this. Nobody has been named. It is the Commission's third disclosed cyber incident in 2026, after Ivanti software in January and its cloud in March; officials have not linked them."
+  },
+  {
+   "country": "Bulgaria",
+   "sort": [
+    2026,
+    11,
+    18
+   ],
+   "label": "18 Nov 2026",
+   "sector": "gov",
+   "type": "data",
+   "status": "C",
+   "text": "Bulgaria's digital transformation minister Ivan Vasilev said on 18 November that intruders had been inside government document-exchange systems since 2021 and had taken more than 130 GB of data, about 62 million pages. A new national monitoring system detected the activity in August 2026, and prosecutors were told to examine how state bodies acted while it went unnoticed. He said several international hacking groups are believed involved, with no conclusive link to a foreign state, and no evidence so far that citizens' personal data was compromised."
+  },
+  {
+   "country": "Norway",
+   "sort": [
+    2026,
+    11,
+    17
+   ],
+   "label": "17 Nov 2026",
+   "sector": "energy",
+   "type": "unk",
+   "status": "C",
+   "text": "Equinor said on 17 November that it had detected an ongoing cyberattack on certain IT systems, with operations and production not affected and no sign of data theft. On 19 November it said the attack was still ongoing, did not appear to target Equinor specifically, and had been reported to the police. On 20 November it said the attack had been stopped, with production normal and no sign that data was stolen or altered. Norway's National Security Authority is assisting. The kind of attack has not been disclosed and nobody has been named."
+  },
+  {
+   "country": "Norway",
+   "sort": [
+    2026,
+    11,
+    18
+   ],
+   "label": "18 Nov 2026",
+   "sector": "energy",
+   "type": "unk",
+   "status": "C",
+   "text": "Skagerak Energi, a Norwegian power company, said on 18 November that outsiders had broken into some of its IT systems. It says operations and production were not affected and there is no sign of information leaking; it informed the energy regulator NVE, KraftCERT and the National Security Authority, but not the police. It came one day after the Equinor attack; whether the two are linked is not known. Nobody has been named."
+  },
+  {
+   "country": "Lithuania",
+   "sort": [
+    2026,
+    11,
+    16
+   ],
+   "label": "16 Nov 2026",
+   "sector": "gov",
+   "type": "data",
+   "status": "C",
+   "text": "Lithuanian Customs said it identified a cyber incident on 10 November and shut down its Common User Management Portal (BAP), which also gives access to EU customs platforms such as ICS2. Acting customs chief Vygantas Paigozinas called it a deliberate attack and said data of possibly several hundred individuals and companies may have been affected. On 16 November customs said some services had reopened via the national e-government portal; no attacker has been named."
+  },
+  {
+   "country": "France",
+   "sort": [
+    2026,
+    11,
+    14
+   ],
+   "label": "14 Nov 2026",
+   "sector": "other",
+   "type": "data",
+   "status": "C",
+   "text": "La Poste announced on 14 November that a cyberattack on its subsidiary Maileva, which sends mail for corporate clients, exposed the first names, surnames and postal addresses of 22 million people who receive mail from Maileva's business customers. Reports date the intrusion to mid-September. Maileva told the data regulator CNIL, and the Paris prosecutor's cybercrime section opened an investigation. The perpetrators have not been identified."
+  },
+  {
+   "country": "France",
+   "sort": [
+    2026,
+    11,
+    18
+   ],
+   "label": "18 Nov 2026",
+   "sector": "other",
+   "type": "data",
+   "status": "C",
+   "text": "The French EV-charging platform Chargemap told users on 18 November (reported by VRT NWS) that attackers got in on 8 November through a flaw in an old technical interface, which it closed on 12 November. Stolen data includes e-mail addresses, names, places of residence, dates of birth and phone numbers; the company says payment details were not taken and passwords were not leaked in readable form. The number of affected accounts is unknown; the company notified the regulator CNIL."
+  },
+  {
+   "country": "Ireland",
+   "sort": [
+    2026,
+    11,
+    18
+   ],
+   "label": "18 Nov 2026",
+   "sector": "finance",
+   "type": "data",
+   "status": "C",
+   "text": "Ireland's credit-union minister Robert Troy told RTE on 18 November that about 40 of the country's 160 credit unions were affected by an October attack on their online-banking software provider, Wellington IT, which told them only in mid-November. Saved payee details (names, account numbers, addresses) may have been accessed; reports say passwords, PINs and card details were not affected. Wellington IT says it lacks logs to tell which records were taken and treats all as potentially affected."
+  }
+ ],
+ "stats": {
+  "Austria": [
+   "The Interior Ministry counted 111 ransomware cases in Austria in 2025."
+  ],
+  "Bulgaria": [
+   "The state IT company said it repelled an attack of more than 400 gigabits per second on the national health information system (date not found).",
+   "The police cybercrime chief says a Bulgarian company falls victim to ransomware almost every month."
+  ],
+  "Croatia": [
+   "The national response team recorded 1,203 incidents in the first nine months of 2026: 439 were phishing, three were ransomware.",
+   "In November 2026 it said it had recorded no attack on refrigeration systems in Croatia."
+  ],
+  "Cyprus": [
+   "The Bank of Cyprus Oncology Centre confirmed that patient and staff data taken from its systems was published (date not found)."
+  ],
+  "Czechia": [
+   "Of the 203 incidents in 2025, 12 were rated significant and two very significant."
+  ],
+  "Denmark": [
+   "A public tracker counts 97 known data leaks in Denmark in 2026 up to 26 October, more than in any earlier year.",
+   "Also reported, date not found: patient data leaked from a chain of GP practices; names and addresses of up to 400,000 customers of telecom operator 3 reached; a hack at Aarhus University with no sign that sensitive data leaked.",
+   "The authorities rate the threat from cybercrime and cyber-espionage against Denmark as \"very high\"."
+  ],
+  "Finland": [
+   "Ransomware reports to the national cyber centre rose in summer 2026; small firms were hit most, through flaws that were not repaired or logins without a second step.",
+   "51% of reported Microsoft 365 account takeovers in 2026 used one specific phishing trick (device codes).",
+   "Malware cases reported to the national cyber centre rose about 28% in 2025; the most common ransomware was Akira.",
+   "In September 2026 breach reports were 81.5% higher than the month before."
+  ],
+  "France": [
+   "The data-protection authority received 5,629 breach notifications in 2025, 20% more than in 2024."
+  ],
+  "Germany": [
+   "A private chronicle counts 356 ransomware incidents in Germany in 2026 up to 10 November."
+  ],
+  "Greece": [
+   "A security firm counted 1,928 attacks per organisation per week in Greece in October 2026, 26% more than a year earlier."
+  ],
+  "Hungary": [
+   "In the State Treasury attack (August 2026) attackers reached pension and family-support systems and municipal account data; a group offered the data for sale."
+  ],
+  "Italy": [
+   "148 confirmed ransomware attacks in Italy in the first half of 2026 (industry count); attacks on hospitals rose 20% in 2025.",
+   "The national cyber agency counted 3,271 cyber events in the first nine months of 2026, more than the 2,729 of all 2025; 1,922 had a confirmed impact.",
+   "Ransomware attacks counted by the agency: 91 in the first half of 2025 and 54 in the second half."
+  ],
+  "Latvia": [
+   "Second quarter of 2026: 673 incidents handled by hand, 20% fewer than the quarter before; ransomware and data leaks did the most damage."
+  ],
+  "Lithuania": [
+   "First nine months of 2026: 1,172 incidents, 52% fewer than in the same period of 2025.",
+   "The national centre found more than 106,000 leaked logins and warned 221 organisations.",
+   "The national centre recorded 2,888 incidents in 2025, 25% fewer than in 2024.",
+   "In the registers case the thieves logged in with accounts of Migration Department staff; prosecutors put the damage at no less than €111,000."
+  ],
+  "Luxembourg": [
+   "Also reported, date not found: a major attack on a firm that hosts health data for doctors' practices."
+  ],
+  "Poland": [
+   "Ransomware in health care: 13 incidents so far in 2026 against 10 in all of 2025 (the national e-health centre).",
+   "Also reported: a leak at a medical software platform covering close to 19 million people; investigators said in February 2026 they had identified who was behind it."
+  ],
+  "Portugal": [
+   "A security firm counted 2,639 attacks per organisation per week in June 2026, 29% more than a year earlier."
+  ],
+  "Romania": [
+   "Land registry attack (July 2026): about 100 of 1,083 virtual servers were deleted, the servers had no antivirus, and the first entry was through a login page exposed to the internet (national cyber directorate)."
+  ],
+  "Spain": [
+   "Leak-site trackers list 533 Spanish ransomware victims."
+  ],
+  "Estonia": [
+   "Incidents with an impact: 6,515 in 2024 and a record 10,185 in 2025, mostly fraud and phishing."
+  ],
+  "Slovenia": [
+   "In the state administration breach (late October 2026), 7,216 of the 15,000 records contained scrambled passwords."
+  ],
+  "Liechtenstein": [
+   "After the register breach four state systems were taken offline; the way in was the portal used to file entries in the register. No sign that vital infrastructure was affected."
+  ]
+ }
+}

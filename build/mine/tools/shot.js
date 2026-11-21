@@ -1,0 +1,11 @@
+const { chromium } = require('playwright');
+(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1280,height:900}});
+const errs=[];p.on('pageerror',e=>errs.push(e.message));
+await p.goto('file:///home/user/cyberdesk-2026/build/mine/cyber-desk-offline.html#reg2');await p.waitForTimeout(500);
+console.log('count:',await p.textContent('#reg2count'));
+await p.selectOption('#reg2f select[data-k="c"]','Denmark');await p.selectOption('#reg2f select[data-k="st"]','c');await p.waitForTimeout(100);
+console.log('filtered:',await p.textContent('#reg2count'));
+await p.screenshot({path:'/home/user/cyberdesk-2026/build/mine/reg.png'});
+await p.goto('file:///home/user/cyberdesk-2026/build/mine/cyber-desk-offline.html#eucountries');await p.waitForTimeout(400);
+await p.screenshot({path:'/home/user/cyberdesk-2026/build/mine/ctry.png'});
+console.log('errors',errs);await b.close();})();

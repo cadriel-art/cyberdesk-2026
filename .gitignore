@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+*.png
+build/mine/*.html
+build/mine/cyber-desk*.html
+build/mine/tools/build_app.py
+build/mine/tools/app_template.html
+build/mine/tools/offline.py
+build/mine/tools/layman.py
+build/mine/tools/content.json
+# (the five files above are working copies that make_mine.py re-creates from build/tools/ on every build)
+build/mine/*.html
+
+# Local-only inputs (not for this repository): kept on disk so the build works here
+build/tools/
+build/vrt-cyber-briefing.html
+build/cyber-incident-register.html
+build/mine/tools/make_mine.py
+build/BUILD-NOTES.md
+app/*.pdf
+build/mine/tools/*.local.txt

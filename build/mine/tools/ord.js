@@ -1,0 +1,13 @@
+const { chromium } = require('playwright');
+const F='file:///home/user/cyberdesk-2026/build/mine/cyber-desk-offline.html';
+(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1280,height:900}});const e=[];p.on('pageerror',x=>e.push(x.message));
+await p.goto(F+'#evidence');await p.waitForTimeout(600);
+const first=await p.$$eval('#ev-list .evc .ev-d',n=>n.slice(0,6).map(x=>x.textContent));
+const last=await p.$$eval('#ev-list .evc .ev-d',n=>n.slice(-4).map(x=>x.textContent));
+console.log('newest first:',first);console.log('oldest last:',last);
+await p.selectOption('#ev-sort','level');await p.waitForTimeout(200);
+console.log('by level:',await p.$$eval('#ev-list .evc',n=>n.slice(0,4).map(x=>x.dataset.l+' '+x.querySelector('.ev-d').textContent)));
+await p.click('#ev-reset');await p.waitForTimeout(200);
+console.log('after reset:',await p.$$eval('#ev-list .evc .ev-d',n=>n.slice(0,3).map(x=>x.textContent)));
+await p.fill('#ev-q','leipzig');await p.waitForTimeout(200);console.log(await p.textContent('#ev-count'));
+console.log('errors:',e);await b.close();})();

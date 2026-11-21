@@ -1,0 +1,684 @@
+[
+ {
+  "country": "Sweden",
+  "has_advice": "yes",
+  "agency": "MCF (Swedish Civil Defence and Resilience Agency, formerly MSB)",
+  "guide": "Brochure \"Om krisen eller kriget kommer\" (In case of crisis or war); Beredskapsveckan (preparedness week)",
+  "first": "Previous edition 2018; current edition 2024",
+  "latest": "Brochure November 2024 (mailing 18-29 Nov 2024); business version January 2026; Beredskapsveckan 21-27 Sep 2026",
+  "hours": "1 week (at least)",
+  "items": "Long-life food needing little preparation, water, heating, radio, cash, medicines, toilet/hygiene; seven areas in the brochure",
+  "water": "3-5 litres per person per day (as reported; not checked in the brochure itself)",
+  "households": "Sent to every household (about 5 million copies, Nov 2024); also online",
+  "reason": "Brochure is about war and crisis; MCF says households should cope without help from society for a week",
+  "news_2025_2026": "No new household brochure found for 2025-2026. January 2026: MCF sent a separate brochure to about 130,000 businesses and organisations (secondary report). Beredskapsveckan 21-27 Sep 2026 with theme 'You are part of Sweden's total defence'. No November 2026 campaign found.",
+  "text": "Sweden's civil defence agency MCF (formerly MSB) advises households to keep a home emergency stock so they can manage without help from society for at least one week. The brochure 'Om krisen eller kriget kommer' was mailed to every household in November 2024. We found no new household edition in 2025-2026 and no new push in November 2026.",
+  "text_nl": "De Zweedse civiele-verdedigingsdienst MCF (vroeger MSB) raadt huishoudens aan thuis een noodvoorraad te hebben om minstens een week zonder hulp van de overheid te kunnen. De brochure 'Om krisen eller kriget kommer' werd in november 2024 naar alle huishoudens gestuurd. We vonden geen nieuwe huishoudeditie in 2025-2026 en geen nieuwe oproep in november 2026.",
+  "status": "C",
+  "sources": [
+   {
+    "url": "https://www.mcf.se/sv/amnesomraden/beredskap-for-kris-och-krig/risk--och-kriskommunikation/beredskapsveckan/beredskapsveckan/",
+    "title": "Om Beredskapsveckan",
+    "publisher": "MCF",
+    "date": "2026",
+    "type": "off"
+   },
+   {
+    "url": "https://regeringen.se/globalassets/regeringen/dokument/forsvarsdepartementet/presentationsbilder-fran-presstraff/2024/presstraff-8-oktober-2024/presentationsbilder-fran-presstraff-den-8-oktober-2024.pdf",
+    "title": "Presentationsbilder fran presstraff 8 oktober 2024",
+    "publisher": "Regeringen / Forsvarsdepartementet",
+    "date": "8 Oct 2024",
+    "type": "off"
+   },
+   {
+    "url": "https://rib.msb.se/filer/pdf/31523.pdf",
+    "title": "In case of crisis or war",
+    "publisher": "MSB",
+    "date": "2024",
+    "type": "off"
+   },
+   {
+    "url": "https://techsverige.se/en/2026/01/om-krisen-eller-kriget-kommer-ny-broschyr-om-beredskap-for-foretag/",
+    "title": "If crisis or war strikes (business brochure)",
+    "publisher": "Tech Sverige",
+    "date": "Jan 2026",
+    "type": "news"
+   }
+  ]
+ },
+ {
+  "country": "Finland",
+  "has_advice": "yes",
+  "agency": "Ministry of the Interior (rescue services) with National Emergency Supply Agency, SPEK and Suomi.fi; 72tuntia.fi",
+  "guide": "Preparedness guide on Suomi.fi (online, launched November 2024); '72 hours' concept on 72tuntia.fi; citizen brochure 5 March 2026",
+  "first": "72-hour concept long-standing; online guide November 2024",
+  "latest": "Suomi.fi page updated 29 Jun 2026; brochure 5 Mar 2026; printed guide announced mid-October 2026 for mailing in January (2027)",
+  "hours": "72 hours (at least)",
+  "items": "Bottled water and lidded containers, ready-to-eat food, battery/mains-independent radio, torch, charged backup power, essential medicines, hygiene supplies",
+  "water": "",
+  "households": "2024 guide online only; Interior Ministry plans to mail about 3.5 million printed guides to households and businesses in mainland Finland in January (announced mid-Oct 2026, per Yle)",
+  "reason": "Guide covers incidents and crises including hybrid threats and disruptions; the new booklet also covers drone threats",
+  "news_2025_2026": "Mid-October 2026 (Yle, 15 Oct): Interior Ministry project manager Ira Pasi said online-only is not enough; about 3.5 million printed copies, cost about 2 million euro, Finnish, Swedish and Sami versions planned. Mailing not yet confirmed as started.",
+  "text": "Finland's Suomi.fi guide says households should be able to cope on their own for at least 72 hours, with water, ready-to-eat food, a battery radio, a torch and medicines. The guide went online in November 2024. In mid-October 2026 the Interior Ministry announced it will mail about 3.5 million printed guides in January, as reported by Yle.",
+  "text_nl": "De Finse gids op Suomi.fi zegt dat huishoudens minstens 72 uur zelfstandig moeten kunnen overleven, met water, kant-en-klaar eten, een radio op batterijen, een zaklamp en medicijnen. De gids kwam in november 2024 online. Midden oktober 2026 kondigde het ministerie van Binnenlandse Zaken aan dat het in januari ongeveer 3,5 miljoen gedrukte gidsen zal versturen, volgens Yle.",
+  "status": "C",
+  "sources": [
+   {
+    "url": "https://www.suomi.fi/guides/preparedness/how-to-prepare-for-incidents-and-crises/general-instructions-on-preparedness-home-emergency-supplies-and-on-what-to-do-in-different-situations",
+    "title": "Guidance on preparedness, home emergency supplies and acting in crises",
+    "publisher": "Suomi.fi",
+    "date": "29 Jun 2026",
+    "type": "off"
+   },
+   {
+    "url": "https://intermin.fi/en/rescue-services/preparedness/preparedness-guide",
+    "title": "Guide on how to prepare for incidents and crises",
+    "publisher": "Ministry of the Interior",
+    "date": "2026",
+    "type": "off"
+   },
+   {
+    "url": "https://yle.fi/a/74-20251555",
+    "title": "Finnish households to receive printed emergency preparedness guide in January",
+    "publisher": "Yle",
+    "date": "Oct 2026",
+    "type": "news"
+   }
+  ]
+ },
+ {
+  "country": "Norway",
+  "has_advice": "yes",
+  "agency": "DSB (Directorate for Civil Protection)",
+  "guide": "Brochure \"Slik bidrar du til Norges beredskap\" / \"Du er en del av Norges beredskap\"; Egenberedskapsuka (self-preparedness week)",
+  "first": "Household mailing in 2018; updated advice and new mailing autumn 2024",
+  "latest": "Egenberedskapsuka 27 Oct-2 Nov 2025; DSB survey report February 2026; no new mailing found for 2026",
+  "hours": "1 week (raised from 3 days in the updated advice)",
+  "items": "Food that keeps without refrigeration (crispbread, oats, tinned food, dried fruit, chocolate), water, medicines, warmth, radio, light; stock for about a week",
+  "water": "About 20 litres per person stored (3 litres per person per day rule of thumb)",
+  "households": "Brochure sent to every household (autumn 2024); week-long campaign each year",
+  "reason": "Updated advice: municipalities and emergency services must prioritise those who cannot cope without help; context of war, crises and power loss",
+  "news_2025_2026": "Egenberedskapsuka 2025 (27 Oct-2 Nov); DSB 2025 report: 54% only slightly or not well prepared for one week. A secondary source says a brochure was sent autumn 2025 but other sources say autumn 2024, so unclear. No October-November 2026 urgent call found.",
+  "text": "Norway's DSB advises households to manage on their own for one week, up from three days, with about 20 litres of water per person and food that keeps without refrigeration. A brochure was mailed to all households in autumn 2024 (the previous mailing was 2018). We found no new urgent call in 2026.",
+  "text_nl": "De Noorse DSB raadt huishoudens aan zich een week zelf te kunnen redden, tegenover vroeger drie dagen, met ongeveer 20 liter water per persoon en voedsel dat zonder koelkast bewaard kan worden. In het najaar van 2024 ging een brochure naar alle huishoudens (de vorige keer was 2018). We vonden in 2026 geen nieuwe dringende oproep.",
+  "status": "C",
+  "sources": [
+   {
+    "url": "https://www.dsb.no/egenberedskapsuka/",
+    "title": "Egenberedskapsuka",
+    "publisher": "DSB",
+    "date": "2026",
+    "type": "off"
+   },
+   {
+    "url": "https://dsb.no/siteassets/rapporter-og-publikasjoner/rapporter/rapport-om-husholdningers-egenberedskap-2025",
+    "title": "Rapport om husholdningers egenberedskap 2025",
+    "publisher": "DSB",
+    "date": "2025",
+    "type": "off"
+   },
+   {
+    "url": "https://www.dsb.no/siteassets/rapporter-og-publikasjoner/rapporter/befolkningsunderokelse-egenberedskap-2026.pdf",
+    "title": "Befolkningsundersokelse egenberedskap 2026",
+    "publisher": "DSB",
+    "date": "Feb 2026",
+    "type": "off"
+   },
+   {
+    "url": "https://www.statsforvalteren.no/innlandet/samfunnssikkerhet-og-beredskap/egenberedskap/oppdaterte-rad-om-egenberedskap---sammen-for-et-motstandsdyktig-samfunn/",
+    "title": "Oppdaterte rad om egenberedskap",
+    "publisher": "Statsforvalteren Innlandet",
+    "date": "2024",
+    "type": "off"
+   }
+  ]
+ },
+ {
+  "country": "Denmark",
+  "has_advice": "yes",
+  "agency": "Beredskabsstyrelsen, now Styrelsen for Samfundssikkerhed (samsik.dk)",
+  "guide": "\"Forberedt pa kriser\" brochure (2024); \"Totalberedskab\" brochure (February 2026)",
+  "first": "September 2024 (brochure via e-Boks)",
+  "latest": "February 2026 (Totalberedskab brochure)",
+  "hours": "3 days (72 hours)",
+  "items": "Shelf-stable food needing no cooling, ideally ready-to-eat; water; medicine and first aid; hygiene; ways to keep warm; FM radio; light, batteries, power banks",
+  "water": "3 litres per person per day (9 litres for three days)",
+  "households": "2024 brochure delivered to all citizens by digital post (e-Boks) and online; no paper mailing found",
+  "reason": "Authority's campaign cites extreme weather, sabotage and other crises; advice described as guidance",
+  "news_2025_2026": "February 2026: new 'Totalberedskab' brochure repeats the three-day advice (as reported). No October-November 2026 urgent call found.",
+  "text": "Denmark's emergency management agency (now Styrelsen for Samfundssikkerhed) advises households to cope for three days, with 3 litres of water per person per day and food that keeps without cooling. The 2024 brochure went to citizens by digital post; a Totalberedskab brochure followed in February 2026. We found no new urgent call in autumn 2026.",
+  "text_nl": "Het Deense agentschap voor noodbeheer (nu Styrelsen for Samfundssikkerhed) raadt huishoudens aan drie dagen zelfstandig te kunnen leven, met 3 liter water per persoon per dag en voedsel dat zonder koeling bewaard blijft. De brochure van 2024 werd via digitale post naar burgers gestuurd; in februari 2026 volgde een brochure Totalberedskab. We vonden in het najaar van 2026 geen nieuwe dringende oproep.",
+  "status": "C",
+  "sources": [
+   {
+    "url": "https://beredskab.dk/wp-content/uploads/2026/08/pjece-om-totalberedskab.pdf",
+    "title": "Totalberedskab, februar 2026",
+    "publisher": "Beredskabsstyrelsen / Styrelsen for Samfundssikkerhed",
+    "date": "Feb 2026",
+    "type": "off"
+   },
+   {
+    "url": "https://samsik.dk/forberedt/",
+    "title": "Forberedt pa kriser",
+    "publisher": "Styrelsen for Samfundssikkerhed",
+    "date": "2024-2025",
+    "type": "off"
+   },
+   {
+    "url": "https://faktalink.dk/emner/prepping",
+    "title": "Prepping",
+    "publisher": "Faktalink",
+    "date": "2025",
+    "type": "news"
+   }
+  ]
+ },
+ {
+  "country": "Iceland",
+  "has_advice": "yes",
+  "agency": "Civil Protection (Almannavarnir) under the Ministry of Justice; Icelandic Red Cross '3 dagar' campaign",
+  "guide": "\"Verum vidbuin\" (Be Prepared) booklet, verumvidbuin.is; Red Cross \"3 days - are you prepared?\"",
+  "first": "Red Cross campaign 2025; government booklet 3 November 2026",
+  "latest": "3 November 2026",
+  "hours": "3 days (at least)",
+  "items": "Water, canned and dry food, can opener, blankets, cash and cards, passports, medicines, hygiene items, first aid, battery radio, torch, batteries, power bank, stove; printed household plan",
+  "water": "No fixed quantity stated (criticised by Vardmenn Islands)",
+  "households": "Booklet published online in Icelandic, English and Polish; whether mailed to every household not confirmed",
+  "reason": "Justice Minister Thorbjorg Sigridur Gunnlaugsdottir said it is not a response to a specific threat; booklet mentions power cuts, cyberattacks, technical failures and international tension",
+  "news_2025_2026": "3 Nov 2026: Civil Protection issued the Verum vidbuin booklet urging households to cover basic needs for at least three days and keep cash at home; Rás 2 named as emergency radio. Group Vardmenn Islands criticised lack of wartime guidance (media reports).",
+  "text": "On 3 November 2026 Iceland's Civil Protection issued the booklet 'Verum vidbuin', urging households to be able to meet basic needs for at least three days and to keep some cash at home. The Justice Minister said it was not a response to any specific threat, according to Icelandic media coverage. The Red Cross has run a similar 3-day campaign since 2025.",
+  "text_nl": "Op 3 november 2026 publiceerde de IJslandse civiele bescherming het boekje 'Verum vidbuin', waarin huishoudens worden aangespoord minstens drie dagen in hun basisbehoeften te kunnen voorzien en wat contant geld thuis te hebben. De minister van Justitie zei volgens de IJslandse media dat het geen reactie is op een specifieke dreiging. Het Rode Kruis voert sinds 2025 een vergelijkbare campagne voor drie dagen.",
+  "status": "R",
+  "sources": [
+   {
+    "url": "https://verumvidbuin.is/wp-content/uploads/2026/11/beprepared_english_01-1.pdf",
+    "title": "Be Prepared (Verum vidbuin), English edition",
+    "publisher": "Civil Protection Iceland",
+    "date": "Nov 2026",
+    "type": "off"
+   },
+   {
+    "url": "https://www.icelandreview.com/news/iceland-emergency-preparedness-booklet-english-2026/",
+    "title": "Emergency Preparedness: Iceland Issues New Household Guide",
+    "publisher": "Iceland Review",
+    "date": "Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.dailynorthern.com/37376/government-issues-guide-urging-households-to-prepare-for-three-days/",
+    "title": "Government issues guide urging households to prepare for three days",
+    "publisher": "Daily Northern",
+    "date": "Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.raudikrossinn.is/english/projects/domestic-projects/disaster-services-and-emergency-relief/3-days-are-you-prepared",
+    "title": "3 days - are you prepared?",
+    "publisher": "Icelandic Red Cross",
+    "date": "2025",
+    "type": "off"
+   }
+  ]
+ },
+ {
+  "country": "Estonia",
+  "has_advice": "yes",
+  "agency": "Rescue Board (Paasteamet)",
+  "guide": "\"Ole valmis!\" (Be prepared!) crisis guide and app",
+  "first": "Campaign launched 2022",
+  "latest": "Printed manual to about 566,000-600,000 households in 2024 (ERR); no newer edition found",
+  "hours": "7 days (1 week); 72 hours as a first step in some material",
+  "items": "Food and water for a week, medicines, radio, light, power sources, cash for essential expenses for one week",
+  "water": "3 litres per person per day (21 litres per week), per Tallinn city guidance reflecting Rescue Board advice",
+  "households": "Printed manual mailed to about 600,000 households (ERR) plus app and online",
+  "reason": "Crisis situations including war, power outage and supply disruption",
+  "news_2025_2026": "No new 2025-2026 edition or autumn 2026 push found. Euronews (17 Nov 2026) repeats that Estonia advises about a week.",
+  "text": "Estonia's Rescue Board tells households to be ready to fend for themselves for at least seven days, with about 3 litres of water per person per day, according to its 'Ole valmis!' guide and Tallinn city guidance. A printed manual reached roughly 600,000 households in 2024, per ERR. We found no newer edition.",
+  "text_nl": "De Estse reddingsdienst zegt dat huishoudens minstens zeven dagen op zichzelf moeten kunnen rekenen, met ongeveer 3 liter water per persoon per dag, volgens de gids 'Ole valmis!' en de stad Tallinn. In 2024 kreeg ongeveer 600.000 huishoudens een gedrukte handleiding, volgens ERR. We vonden geen nieuwere uitgave.",
+  "status": "C",
+  "sources": [
+   {
+    "url": "https://www.rescue.ee/files/2022-09/ole-valmis-1-eng.pdf",
+    "title": "Be Prepared!",
+    "publisher": "Rescue Board (Paasteamet)",
+    "date": "2022",
+    "type": "off"
+   },
+   {
+    "url": "https://www.tallinn.ee/en/crisis/emergency-reserve-home",
+    "title": "Emergency reserve at home",
+    "publisher": "City of Tallinn",
+    "date": "2026",
+    "type": "off"
+   },
+   {
+    "url": "https://news.err.ee/1609327977/rescue-board-issues-new-crisis-guidance-manual-to-600-000-households",
+    "title": "Rescue Board issues new crisis guidance manual to 600,000 households",
+    "publisher": "ERR News",
+    "date": "2024",
+    "type": "news"
+   },
+   {
+    "url": "https://www.euronews.com/2026/11/17/72-hours-without-help-how-the-eu-wants-europeans-to-prepare-for-a-crisis",
+    "title": "72 hours without help",
+    "publisher": "Euronews",
+    "date": "17 Nov 2026",
+    "type": "news"
+   }
+  ]
+ },
+ {
+  "country": "Latvia",
+  "has_advice": "yes",
+  "agency": "Ministry of Defence with State Fire and Rescue Service (VUGD), police, medical service, border guard",
+  "guide": "Booklet \"72 stundas. Ka rikoties krizes gadijuma\" (72 hours); campaign \"Armed with knowledge\"",
+  "first": "2020",
+  "latest": "Revised edition April 2024; LSM piece 4 Nov 2026 on a 72-hour campaign/booklet (not confirmed as new edition)",
+  "hours": "72 hours (3 days, minimum)",
+  "items": "Food, water, essential goods for three days; 72-hour bag; cash; refresh supplies regularly",
+  "water": "",
+  "households": "Public campaign, booklet online and distributed (Latvian, English, Russian, Braille); mailing to every household not confirmed",
+  "reason": "Crisis and war situations; covers shelling, air strikes, chemical attack in the updated edition",
+  "news_2025_2026": "LSM (12 Jun 2026) notes the booklet was last updated in 2024. LSM Latvian article of 4 Nov 2026 reports expert advice and a 72-hour campaign; not confirmed as a new official edition.",
+  "text": "Latvia's Defence Ministry and emergency services advise residents to be able to look after themselves for at least 72 hours, using the '72 hours' booklet, revised in April 2024. LSM noted in June 2026 that the booklet was last updated in 2024. We could not confirm a new edition in 2026.",
+  "text_nl": "Het Letse ministerie van Defensie en de hulpdiensten raden inwoners aan minstens 72 uur zichzelf te kunnen redden, aan de hand van het boekje '72 uur', herzien in april 2024. LSM merkte in juni 2026 op dat het boekje voor het laatst in 2024 is bijgewerkt. Een nieuwe uitgave in 2026 konden we niet bevestigen.",
+  "status": "C",
+  "sources": [
+   {
+    "url": "https://www.vugd.gov.lv/lv/buklets-ka-rikoties-krizes-gadijuma",
+    "title": "Buklets Ka rikoties krizes gadijuma",
+    "publisher": "VUGD",
+    "date": "2024",
+    "type": "off"
+   },
+   {
+    "url": "https://www.mod.gov.lv/en/nozares-politika/comprehensive-defence/become-72-hour-messenger",
+    "title": "Become the 72 hour messenger!",
+    "publisher": "Ministry of Defence",
+    "date": "2024",
+    "type": "off"
+   },
+   {
+    "url": "https://eng.lsm.lv/article/society/defense/29.04.2024-updated-expanded-emergency-advice-booklet-goes-to-print.a552306/",
+    "title": "Updated, expanded emergency advice booklet goes to print",
+    "publisher": "LSM",
+    "date": "29 Apr 2024",
+    "type": "news"
+   },
+   {
+    "url": "https://eng.lsm.lv/article/society/society/12.06.2026-where-to-find-crisis-information-in-latvia.a651245/",
+    "title": "Where to find crisis information in Latvia?",
+    "publisher": "LSM",
+    "date": "12 Jun 2026",
+    "type": "news"
+   }
+  ]
+ },
+ {
+  "country": "Lithuania",
+  "has_advice": "yes",
+  "agency": "Fire and Rescue Department (PAGD) under the Interior Ministry; Ministry of National Defence; LT72 / lt72.lt",
+  "guide": "LT72 guidance; leaflet \"What to do in the event of a crisis or war?\" (2024); citizen brochure listed 5 March 2026",
+  "first": "Leaflet autumn 2024",
+  "latest": "Brochure 5 March 2026 (EU Civil Protection Knowledge Network listing)",
+  "hours": "72 hours (3 days)",
+  "items": "Food, water and necessities for three days, documents and copies, first aid, battery or crank radio, charged power banks, written phone numbers",
+  "water": "Sources differ: at least 6 litres per person (Health Ministry centre) vs 12 litres for 72 hours (older PAGD material); not resolved",
+  "households": "2024 leaflet to about one million households (deputy defence minister, via a biased outlet); 2026 brochure distribution not confirmed",
+  "reason": "War and crisis, power, water and communications outages",
+  "news_2025_2026": "2026 brochure (5 Mar) covers first aid, food stockpile, resilience and disinformation. No autumn 2026 urgent call found.",
+  "text": "Lithuania's fire and rescue department recommends keeping food, water and other necessities for at least three days (72 hours). A defence-ministry leaflet was reported to go to about one million households in 2024, and a citizen brochure was listed on 5 March 2026. Water figures differ between sources.",
+  "text_nl": "De Litouwse brandweer- en reddingsdienst raadt aan minstens drie dagen (72 uur) voedsel, water en andere noodzakelijke zaken in huis te hebben. In 2024 zou een folder van Defensie naar ongeveer een miljoen huishoudens gaan, en op 5 maart 2026 werd een burgerbrochure geregistreerd. De cijfers voor water verschillen per bron.",
+  "status": "C",
+  "sources": [
+   {
+    "url": "https://pagd.lrv.lt/lt/naujienos/72-valandos-be-elektros-vandens-ir-rysio-ar-jusu-namai-tam-paruosti-sAc/",
+    "title": "72 valandos be elektros, vandens ir rysio",
+    "publisher": "PAGD",
+    "date": "2025",
+    "type": "off"
+   },
+   {
+    "url": "https://lt72.lt/gresmes-atveju-svarbiausios-pirmos-72-val-ka-svarbiausia-tureti-su-savimi/",
+    "title": "Gresmes atveju",
+    "publisher": "LT72",
+    "date": "2025",
+    "type": "off"
+   },
+   {
+    "url": "https://civil-protection-knowledge-network.europa.eu/media/publication-population-preparedness-lithuania",
+    "title": "Publication population preparedness Lithuania",
+    "publisher": "EU Civil Protection Knowledge Network",
+    "date": "5 Mar 2026",
+    "type": "off"
+   },
+   {
+    "url": "https://essc.lrv.lt/lt/naujienos/ka-svarbu-tureti-72-valandu-isvykimo-krepsyje-rekomendacijos-gyventojams/",
+    "title": "72 valandu isvykimo krepsys",
+    "publisher": "Health Ministry ESSC",
+    "date": "2025",
+    "type": "off"
+   }
+  ]
+ },
+ {
+  "country": "Poland",
+  "has_advice": "yes",
+  "agency": "MSWiA (Interior), MON (Defence) and RCB (Government Security Centre)",
+  "guide": "\"Poradnik bezpieczenstwa\" (Safety Guide), poradnikbezpieczenstwa.pl; older RCB guide \"Badz gotowy\"",
+  "first": "Work began early 2025; guide published 2025",
+  "latest": "Printed guide mailed from end Dec 2025 to end Jan 2026; extra copies later in 2026",
+  "hours": "At least 3 days (72 hours)",
+  "items": "Bottled water or purification, ready-to-eat food, medicines and first aid, cash, torch, battery or crank radio, charged power bank, hygiene, documents",
+  "water": "3 litres per person per day (9 litres for three days), per press reports of the guide",
+  "households": "Mailed to about 16-17 million households (press, Dec 2025-Feb 2026); some did not receive it, more copies sent",
+  "reason": "Preparation for crisis situations including war and disasters; created at initiative of MSWiA, MON and RCB",
+  "news_2025_2026": "Dec 2025-Jan 2026: mailing to households. Autumn 2025: local authorities reminding residents of the RCB guide. No new national campaign for Oct-Nov 2026 found.",
+  "text": "Poland's Interior and Defence ministries and the RCB published the 'Poradnik bezpieczenstwa', which advises stocks for at least three days, including 3 litres of water per person per day. Press reports say it was mailed to 16-17 million households between December 2025 and early 2026. We did not read the official text ourselves.",
+  "text_nl": "De Poolse ministeries van Binnenlandse Zaken en Defensie en het RCB publiceerden de 'Poradnik bezpieczenstwa', die voorraden voor minstens drie dagen aanraadt, met 3 liter water per persoon per dag. Volgens de pers ging de gids tussen december 2025 en begin 2026 naar 16 tot 17 miljoen huishoudens. We hebben de officiele tekst zelf niet gelezen.",
+  "status": "R",
+  "sources": [
+   {
+    "url": "https://poradnikbezpieczenstwa.pl/",
+    "title": "Badz gotow / Poradnik bezpieczenstwa",
+    "publisher": "Government of Poland",
+    "date": "2025",
+    "type": "off"
+   },
+   {
+    "url": "https://forsal.pl/kraj/aktualnosci/artykuly/11316696,rzad-zaleca-przygotowanie-zapasow-na-72-godziny-oto-lista-z-oficjalnego-poradnika-bezpieczenstwa.html",
+    "title": "Rzad zaleca przygotowanie zapasow na 72 godziny",
+    "publisher": "Forsal.pl",
+    "date": "2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.prawo.pl/samorzad/poradnik-bezpieczenstwa-mswia,534909.html",
+    "title": "Poradnik bezpieczenstwa MSWiA",
+    "publisher": "Prawo.pl",
+    "date": "2025",
+    "type": "news"
+   }
+  ]
+ },
+ {
+  "country": "Czechia",
+  "has_advice": "yes",
+  "agency": "Ministry of the Interior with the Fire Rescue Service",
+  "guide": "\"72 hours - how to prepare for crisis situations and overcome them together\", 72h.gov.cz",
+  "first": "Mid-2025 (online, Sept 2025 files)",
+  "latest": "Printed copies mailed to all households from October/early November 2025 (about 5 million copies); 2026 portal launch unconfirmed",
+  "hours": "72 hours (3 days)",
+  "items": "Bottled water and containers, long-life food (milk, bread, cereals, canned meat, beans, fruit), battery radio, torch, first-aid kit and medication for a week, cash in small notes, copies of documents",
+  "water": "About 2 litres per adult per day",
+  "households": "Mailed by Czech Post to all households in Czech, English and Ukrainian",
+  "reason": "Crisis situations including war, blackouts and disasters; minister said about 73% of Czechs are unprepared",
+  "news_2025_2026": "Autumn 2025 mailing (5 Nov 2025 per press). European Commission 2026 document cites the Czech brochure. No new autumn 2026 push found.",
+  "text": "The Czech Interior Ministry's '72 hours' guide tells households to be self-sufficient for three days, with about 2 litres of water per adult per day, a battery radio and cash in small notes. The printed guide was mailed to all households in autumn 2025. We found no new push in 2026.",
+  "text_nl": "De gids '72 uur' van het Tsjechische ministerie van Binnenlandse Zaken zegt dat huishoudens drie dagen zelfvoorzienend moeten zijn, met ongeveer 2 liter water per volwassene per dag, een radio op batterijen en contant geld in kleine biljetten. De gedrukte gids ging in het najaar van 2025 naar alle huishoudens. We vonden in 2026 geen nieuwe oproep.",
+  "status": "C",
+  "sources": [
+   {
+    "url": "https://www.72h.gov.cz/en/emergency-supplies",
+    "title": "Emergency supplies",
+    "publisher": "Ministry of the Interior of Czechia",
+    "date": "2025",
+    "type": "off"
+   },
+   {
+    "url": "https://www.72h.gov.cz/public/files/2025-09/72-Hours-How-to-Prepare-for-Crisis-Situations-and-Overcome-Them-Together.pdf",
+    "title": "72 hours - how to prepare for crisis situations",
+    "publisher": "Ministry of the Interior of Czechia",
+    "date": "Sep 2025",
+    "type": "off"
+   },
+   {
+    "url": "https://www.visahq.com/news/2025-11-05/cz/czech-government-mails-trilingual-72-hour-crisis-guide-to-every-household-including-foreign-residents/",
+    "title": "Czech government mails trilingual 72-hour crisis guide",
+    "publisher": "VisaHQ",
+    "date": "5 Nov 2025",
+    "type": "news"
+   }
+  ]
+ },
+ {
+  "country": "Slovakia",
+  "has_advice": "yes",
+  "agency": "Ministry of the Interior (minv.sk)",
+  "guide": "Handbook \"Co robit v pripade krizy alebo ozbrojeneho konfliktu\"",
+  "first": "October 2025",
+  "latest": "October 2025 (a 15 Nov 2026 article reports ministry and banks on a cash reserve)",
+  "hours": "Up to 14 days of food and drink for a long outage (media report); EU baseline 72 hours",
+  "items": "Food and drink, water, torch and headlamp, spare batteries, battery or solar radio, cash (about double a normal weekly shop, small notes), medicines",
+  "water": "3-5 litres per person per day (press report)",
+  "households": "Published on the ministry website; no household mailing found",
+  "reason": "Crises, power or water outages, evacuation and armed conflict",
+  "news_2025_2026": "October 2025: handbook published. 15 Nov 2026: Hlavny dennik reported the ministry and banks pointing to a cash reserve. Details from the handbook come via press, not read directly.",
+  "text": "Slovakia's Interior Ministry published a handbook in October 2025 on what to do in a crisis or armed conflict, advising food and water stocks, a battery radio and some cash. Press reports say it suggests up to 14 days of food and 3-5 litres of water per person per day, which we could not check in the original.",
+  "text_nl": "Het Slowaakse ministerie van Binnenlandse Zaken publiceerde in oktober 2025 een handboek over wat te doen bij een crisis of gewapend conflict, met advies over voedsel- en watervoorraden, een radio op batterijen en wat contant geld. Volgens de pers raadt het tot 14 dagen voedsel en 3 tot 5 liter water per persoon per dag aan, wat we niet in het origineel konden controleren.",
+  "status": "C",
+  "sources": [
+   {
+    "url": "https://minv.sk/?co-robit-v-pripade-krizy-alebo-ozbrojeneho-konfliktu=",
+    "title": "Co robit v pripade krizy alebo ozbrojeneho konfliktu",
+    "publisher": "Ministerstvo vnutra SR",
+    "date": "Oct 2025",
+    "type": "off"
+   },
+   {
+    "url": "https://www.startitup.sk/blackout-na-slovensku-stat-radi-ako-prezit-krizu-bez-zasob-a-financii-prirucka/",
+    "title": "Blackout na Slovensku: Stat radi, ako prezit krizu",
+    "publisher": "StartItUp",
+    "date": "2025",
+    "type": "news"
+   },
+   {
+    "url": "https://www.hlavnydennik.sk/2026/11/15/ste-pripraveni-na-blackout-ministerstvo-a-banky-upozornuju-na-hotovostnu-rezervu",
+    "title": "Ste pripraveni? Ministerstvo a banky upozornuju na hotovostnu rezervu",
+    "publisher": "Hlavny dennik",
+    "date": "15 Nov 2026",
+    "type": "news"
+   }
+  ]
+ },
+ {
+  "country": "Hungary",
+  "has_advice": "not found",
+  "agency": "BM Orszagos Katasztrofavedelmi Foigazgatosag (disaster management) mentioned by media",
+  "guide": "No national household stockpile guide found",
+  "first": "",
+  "latest": "",
+  "hours": "2-3 days (media summary of disaster-management advice, unverified)",
+  "items": "Non-perishable food, liquids, medicines, hygiene items, blanket, portable radio (media summary)",
+  "water": "2-3 litres per person per day (one outlet, general advice, not an official Hungarian figure)",
+  "households": "No campaign or mailing found",
+  "reason": "Hazard-specific advice (floods etc.) in county leaflets; national reason not found",
+  "news_2025_2026": "Nov 2026: Hungarian media report the EU 72-hour recommendation; Atlatszo (19 Nov 2026) cites a European Commission survey that one in five Hungarian households has food and water for only one day. No Hungarian government announcement found.",
+  "text": "We found no national Hungarian government campaign telling households to stock up. Media summarise disaster-management advice for a two-to-three-day emergency pack, but we could not verify it on an official page. Hungarian coverage in November 2026 mainly relays the European Commission's 72-hour guidance.",
+  "text_nl": "We vonden geen nationale Hongaarse overheidscampagne die huishoudens oproept een voorraad aan te leggen. De pers vat adviezen van de rampendienst samen (noodpakket voor twee tot drie dagen), maar we konden dat niet op een officiele pagina nagaan. De Hongaarse berichtgeving in november 2026 geeft vooral de 72-uursaanbeveling van de Europese Commissie door.",
+  "status": "R",
+  "sources": [
+   {
+    "url": "https://atlatszo.hu/adat/2026/11/19/a-magyarok-otodenek-csak-1-napi-etele-es-vize-van-otthon-pedig-3-nap-onellatasra-ajanlott-felkeszulni",
+    "title": "A magyarok otodenek csak 1 napi etele es vize van otthon",
+    "publisher": "Atlatszo",
+    "date": "19 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.nool.hu/helyi-kozelet/2026/11/valsaghelyzet-felkeszules-haztartas-veszhelyzet-keszlet",
+    "title": "Valsaghelyzet: 72 oras onellatast javasol az Europai Bizottsag",
+    "publisher": "Nool.hu",
+    "date": "Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://ec.europa.eu/echo/files/policies/preparedness/guidelines_preparedness_selfsufficiency.pdf",
+    "title": "European Commission staff working document SWD(2026) 826 on household preparedness",
+    "publisher": "European Commission",
+    "date": "30 Oct / 3 Nov 2026",
+    "type": "off"
+   }
+  ]
+ },
+ {
+  "country": "Slovenia",
+  "has_advice": "yes",
+  "agency": "URSZR (Administration for Civil Protection and Disaster Relief)",
+  "guide": "Online advice on household supplies; no dedicated 2025-2026 campaign found",
+  "first": "",
+  "latest": "Media coverage Nov 2026 following EU guidance",
+  "hours": "At least 3 days (72 hours)",
+  "items": "Non-perishable food, drinking water, medicines, first aid, torch, radio, documents, some cash, power bank",
+  "water": "7.5 litres per person per day for all uses (2.5 drinking, 3 cooking, 2 hygiene), per media quoting URSZR; other reports say 2-3 litres",
+  "households": "No mailing found; ministry reportedly asked about brochures (Slovenske novice)",
+  "reason": "URSZR acting director Srecko Sestan: to prepare for unpredictable events, not to frighten; EU guidance",
+  "news_2025_2026": "Nov 2026: media coverage after the European Commission guidance; Banka Slovenije advises cash for at least 72 hours (Koroske novice).",
+  "text": "Slovenian media report that the civil protection administration URSZR recommends households keep supplies for at least three days, quoting 7.5 litres of water per person per day. The acting director said this is to prepare for unpredictable events, not to frighten. We did not retrieve the URSZR page itself.",
+  "text_nl": "Sloveense media melden dat de dienst civiele bescherming URSZR huishoudens aanraadt voorraden voor minstens drie dagen te hebben, met 7,5 liter water per persoon per dag. De waarnemend directeur zei dat dit bedoeld is om zich op onvoorspelbare gebeurtenissen voor te bereiden, niet om angst aan te jagen. De pagina van URSZR zelf hebben we niet kunnen ophalen.",
+  "status": "R",
+  "sources": [
+   {
+    "url": "https://www.delo.si/razno/bi-preziveli-72-ur-brez-elektrike-vode-in-interneta-evropa-opozarja",
+    "title": "Bi preziveli 72 ur brez elektrike, vode in interneta?",
+    "publisher": "Delo",
+    "date": "2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.lokalec.si/ste-pripravljeni-na-izredne-razmere-doma-naj-bi-imeli-zalogo-najnujnejsih-potrebscin-za-vsaj-72-ur/",
+    "title": "Ste pripravljeni na izredne razmere?",
+    "publisher": "Lokalec.si",
+    "date": "2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.koroskenovice.si/novice/kibernetska-tveganja-in-izpadi-sistemov-kaj-svetuje-banka-slovenije/",
+    "title": "Kibernetska tveganja in izpadi sistemov",
+    "publisher": "Koroske novice",
+    "date": "2026",
+    "type": "news"
+   }
+  ]
+ },
+ {
+  "country": "Croatia",
+  "has_advice": "yes",
+  "agency": "Civil Protection Directorate (Ravnateljstvo civilne zastite), Ministry of the Interior",
+  "guide": "Website advice on household supplies; message 'Otpornost pocinje kod kuce' (13 Oct 2026)",
+  "first": "",
+  "latest": "13 October 2026 (message); media Nov 2026",
+  "hours": "2 days on the Directorate site per media vs 72 hours EU target; Directorate now urges 72 hours",
+  "items": "Packaged water, canned or dried food, medicines, first aid, torch, radio, cash, document copies, items for children, elderly and pets",
+  "water": "1.5-2 litres per person per day (media on Directorate guidance)",
+  "households": "Public campaign online; no mailing found",
+  "reason": "Power cuts, supply interruptions, natural disasters; Interior Ministry said it is not tied to a specific expected event",
+  "news_2025_2026": "13 Oct 2026: Directorate published 'Otpornost pocinje kod kuce'; Index.hr and others quote the Directorate saying every household should have 72 hours of supplies; freedom.hr says its site still lists two days. State reserves reportedly planned for 200,000 residents for 60 days.",
+  "text": "Croatia's Civil Protection Directorate has urged households to be ready for the first 72 hours of a crisis, with a message on 13 October 2026 titled 'Resilience starts at home', according to Croatian media. One outlet says the Directorate's site still lists two days of supplies. The Interior Ministry said the push is not tied to a specific event.",
+  "text_nl": "De Kroatische dienst civiele bescherming heeft huishoudens opgeroepen klaar te zijn voor de eerste 72 uur van een crisis, met een bericht op 13 oktober 2026 getiteld 'Veerkracht begint thuis', volgens Kroatische media. Een medium meldt dat de website van de dienst nog twee dagen voorraad vermeldt. Het ministerie van Binnenlandse Zaken zei dat de oproep niet aan een specifieke gebeurtenis gekoppeld is.",
+  "status": "R",
+  "sources": [
+   {
+    "url": "https://www.index.hr/vijesti/clanak/civilna-zastita-svako-kucanstvo-treba-imati-zalihe-za-prva-72-sata/2854459.aspx",
+    "title": "Nacelnik iz Civilne zastite o zalihama",
+    "publisher": "Index.hr",
+    "date": "2026",
+    "type": "news"
+   },
+   {
+    "url": "https://freedom.hr/eu-trazi-da-gradani-izdrze-72-sata-bez-pomoci-hrvatska-zasad-preporucuje-zalihe-za-dva-dana",
+    "title": "EU trazi da gradani izdrze 72 sata bez pomoci",
+    "publisher": "Freedom.hr",
+    "date": "Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://regionalni.hr/civilna-zastita-prva-72-sata-kljucna-u-kriznim-situacijama/",
+    "title": "Civilna zastita: Prva 72 sata kljucna",
+    "publisher": "Regionalni.hr",
+    "date": "2026",
+    "type": "news"
+   }
+  ]
+ },
+ {
+  "country": "Romania",
+  "has_advice": "yes",
+  "agency": "DSU / IGSU (Inspectorate for Emergency Situations), Ministry of Internal Affairs",
+  "guide": "IGSU citizen guide; \"Fii pregatit\" platform; GhidSOS app (17 Nov 2026)",
+  "first": "2024 crisis guide (per a secondary summary)",
+  "latest": "IGSU guide PDF re-hosted 2026; GhidSOS app launched 17 Nov 2026 (media)",
+  "hours": "72 hours to 5 days (IGSU guide PDF: backpack for 3 to 5 days)",
+  "items": "Long-life food, personal medication, first aid, torch and spare batteries, power bank, battery radio, cash, document copies, warm clothing, hygiene",
+  "water": "At least 4 litres per person per day (IGSU guide PDF); other material says 3 litres in the backpack",
+  "households": "Public online campaign; no household mailing found",
+  "reason": "Earthquakes mainly; also war and other crises in recent coverage",
+  "news_2025_2026": "17 Nov 2026: free GhidSOS app launched with offline guides (media). No IGSU announcement of a new 2026 stock-up campaign found.",
+  "text": "Romania's emergency inspectorate IGSU has a citizen guide saying people should have supplies and a backpack for three to five days, with at least 4 litres of water per person per day. We could not confirm a new government stock-up campaign in 2026; a free GhidSOS app was reported launched on 17 November 2026.",
+  "text_nl": "De Roemeense noodinspectie IGSU heeft een burgergids die zegt dat mensen voorraad en een rugzak voor drie tot vijf dagen moeten hebben, met minstens 4 liter water per persoon per dag. Een nieuwe overheidscampagne voor voorraden in 2026 konden we niet bevestigen; volgens de media werd op 17 november 2026 een gratis app GhidSOS gelanceerd.",
+  "status": "R",
+  "sources": [
+   {
+    "url": "https://www.primariabolintindeal.ro/wp-content/uploads/2026/04/Ghidul-IGSU.pdf",
+    "title": "Ghidul IGSU",
+    "publisher": "IGSU (hosted by a municipality)",
+    "date": "2026",
+    "type": "off"
+   },
+   {
+    "url": "https://www.viata-libera.ro/societate/265051-primele-72-de-ore-in-caz-de-razboi",
+    "title": "Primele 72 de ore in caz de razboi",
+    "publisher": "Viata Libera",
+    "date": "2026",
+    "type": "news"
+   },
+   {
+    "url": "https://stirihot.ro/kitul-de-72-de-ore-intra-in-casele-romanilor-aplicatia-gratuita-ghidsos-aduna-ghiduri-de-urgenta-care-merg-fara-internet/",
+    "title": "Kitul de 72 de ore intra in casele romanilor",
+    "publisher": "StiriHot",
+    "date": "Nov 2026",
+    "type": "news"
+   }
+  ]
+ },
+ {
+  "country": "Bulgaria",
+  "has_advice": "not found",
+  "agency": "GDPBZN / Ministry of Interior (not confirmed)",
+  "guide": "No national household stockpile guide found",
+  "first": "",
+  "latest": "",
+  "hours": "",
+  "items": "Bulgarian media repeat EU/UK lists: water, long-life food, medicines, torch, battery radio, cash",
+  "water": "",
+  "households": "No campaign or mailing found",
+  "reason": "Eastflank analysis: advice is tied to specific hazards (earthquakes, floods, fires, extreme weather), no national timeframe",
+  "news_2025_2026": "Nov 2026: Bulgarian media (e.g. ruse.news 19 Nov, clubz.bg) relay the European Commission 72-hour guidance; a Red Cross backpack prototype reported. No Bulgarian government announcement found.",
+  "text": "We found no official Bulgarian national campaign asking households to keep an emergency stock. Bulgarian media in November 2026 relay the European Commission's 72-hour guidance, and an Eastflank analysis says Bulgaria has no single national timeframe. An official check at the fire and civil protection directorate was not possible.",
+  "text_nl": "We vonden geen officiele Bulgaarse nationale campagne die huishoudens oproept een noodvoorraad aan te leggen. De Bulgaarse media geven in november 2026 de 72-uursrichtlijn van de Europese Commissie door, en een analyse van Eastflank zegt dat Bulgarije geen vaste nationale termijn heeft. Een controle bij de directie brandweer en civiele bescherming was niet mogelijk.",
+  "status": "R",
+  "sources": [
+   {
+    "url": "https://eastflank.eu/eastern-flank/eastflank-report/72-hours-or-two-weeks-europe-takes-different-approaches-to-how-prepared-people-should-be-for-a-crisis",
+    "title": "72 Hours or Two Weeks? Europe takes different approaches",
+    "publisher": "Eastflank",
+    "date": "2026",
+    "type": "news"
+   },
+   {
+    "url": "https://ruse.news/index.php/2026/11/19/ek-prizovava-domakinstvata-da-se-podgotvyat-za-parvite-72-chasa-na-kriza/",
+    "title": "EK sastva domakinstvata da se podgotvyat za 72 chasa",
+    "publisher": "Ruse News",
+    "date": "19 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://tvn.bg/gotovi-li-ste-za-izvanredna-kriza-evropa-prizovava-za-72-chasov-zapas-ot-hrana-i-voda-vie-imate-li-takav/",
+    "title": "Gotovi li ste za izvanredna kriza?",
+    "publisher": "TVN",
+    "date": "2026",
+    "type": "news"
+   }
+  ]
+ }
+]

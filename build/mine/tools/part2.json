@@ -1,0 +1,716 @@
+[
+ {
+  "id": "bridgestone-2025",
+  "company": "Bridgestone Americas",
+  "service": "tyre manufacturing plants in North America",
+  "date": "2 Sep 2025",
+  "sort": "2025-09-02",
+  "duration": "unknown; 'temporary' halts reported",
+  "where": "US, Canada",
+  "what": "A cyberattack in early September 2025 disrupted several Bridgestone Americas plants, including two in Aiken County, South Carolina and one in Joliette, Quebec, with production temporarily halted at several facilities. Bridgestone described the incident as limited and contained early. No cost figure was found.",
+  "what_nl": "Een cyberaanval begin september 2025 verstoorde meerdere fabrieken van Bridgestone Americas, onder meer twee in Aiken County (South Carolina) en een in Joliette (Quebec); de productie lag tijdelijk stil in meerdere vestigingen. Bridgestone noemde het incident beperkt en snel onder controle. Er werd geen kostenraming gevonden.",
+  "cause": "Bridgestone said it was a cybersecurity attack, contained early, with no customer data or interfaces compromised. Ransomware was not confirmed in the sources seen. Note: sources are secondary (GCN, Today's General Counsel); I did not see the company statement itself.",
+  "cause_nl": "Bridgestone zei dat het om een cyberaanval ging, snel onder controle, zonder gecompromitteerde klantgegevens of -koppelingen. Ransomware werd in de geraadpleegde bronnen niet bevestigd. Opmerking: de bronnen zijn secundair; de verklaring van het bedrijf zelf zag ik niet.",
+  "cause_status": "C",
+  "who": "Nobody named; no group claim found in the sources seen.",
+  "who_status": "N",
+  "sources": [
+   {
+    "url": "https://gcn.com/bridgestone-cyberattack-disrupts-american-production/8063",
+    "title": "Bridgestone cyberattack disrupts North American production",
+    "publisher": "GCN",
+    "date": "Sep 2025",
+    "type": "news"
+   },
+   {
+    "url": "https://todaysgeneralcounsel.com/bridgestone-cyberattack-disrupts-operations-despite-early-containment/",
+    "title": "Bridgestone cyberattack disrupts operations despite early containment",
+    "publisher": "Today's General Counsel",
+    "date": "Sep 2025",
+    "type": "news"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "europe": ""
+ },
+ {
+  "id": "collins-airports-2025",
+  "company": "Collins Aerospace (RTX) - check-in system at European airports",
+  "service": "shared check-in and boarding software (MUSE) at Heathrow, Brussels, Berlin and Dublin",
+  "date": "19 Sep 2025",
+  "sort": "2025-09-19",
+  "duration": "about a few days of disruption at the worst-hit airports; exact end not verified",
+  "where": "UK, Belgium, Germany, Ireland",
+  "what": "A ransomware attack on Collins Aerospace's MUSE software forced airline staff at several European airports to check passengers in manually from 19 September 2025. AP reported Brussels cancelled about half its flights on the Monday. No cost figure was published in the sources seen.",
+  "what_nl": "Een ransomware-aanval op de MUSE-software van Collins Aerospace dwong het personeel van luchtvaartmaatschappijen op meerdere Europese luchthavens vanaf 19 september 2025 om passagiers handmatig in te checken. Volgens AP schrapte Brussel op maandag ongeveer de helft van zijn vluchten. In de geraadpleegde bronnen werd geen kostenraming gepubliceerd.",
+  "cause": "ENISA (the EU cybersecurity agency) confirmed ransomware, and Collins' parent RTX described it as ransomware in an SEC notice (as reported by media; I did not open the filing).",
+  "cause_nl": "ENISA (het EU-agentschap voor cyberveiligheid) bevestigde ransomware, en moederbedrijf RTX noemde het ransomware in een melding aan de Amerikaanse beurswaakhond (zoals gemeld door media; ik opende het document niet zelf).",
+  "cause_status": "C",
+  "who": "Security researchers linked it to the HardBit ransomware variant (suspected, not an official finding). The UK National Crime Agency arrested a man in his 40s on suspicion of Computer Misuse Act offences; he was released on bail and no group was named by the NCA.",
+  "who_status": "S",
+  "europe": "Directly hit: Brussels Airport (Belgium), Heathrow, Berlin Brandenburg and Dublin.",
+  "sources": [
+   {
+    "url": "https://www.infosecurity-magazine.com/news/nca-arrest-hardbit-ransomware/",
+    "title": "NCA arrest man as HardBit ransomware blamed for airport outages",
+    "publisher": "Infosecurity Magazine",
+    "date": "Sep 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://therecord.media/uk-arrest-cyberattack-disruption-european-airports",
+    "title": "UK arrest after cyberattack disrupts European airports",
+    "publisher": "The Record",
+    "date": "Sep 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.computing.co.uk/news/2025/security/man-arrested-after-cyberattack-disrupts-european-airports",
+    "title": "Man arrested after cyberattack disrupts European airports",
+    "publisher": "Computing",
+    "date": "Sep 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.upi.com/Top_News/World-News/2025/09/24/man-arrested-airport-cyberattacks/1111758722798/",
+    "title": "Man arrested after airport cyberattacks",
+    "publisher": "UPI",
+    "date": "24 Sep 2025",
+    "type": "news"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false
+ },
+ {
+  "id": "asahi-2025",
+  "company": "Asahi Group Holdings",
+  "service": "beer, soft drink and food production, orders and shipping in Japan",
+  "date": "29 Sep 2025 onwards",
+  "sort": "2025-09-29",
+  "duration": "weeks to months; Super Dry production restarted at six breweries in early October, logistics restoration expected by about February 2026 (reported)",
+  "where": "Japan",
+  "what": "A cyberattack on Asahi's systems halted most of its domestic production and shipping from late September 2025; Super Dry production restarted at six breweries in early October, but orders were still processed manually afterwards. Asahi postponed its results announcements and reported sharp sales declines. Press said full logistics recovery was expected around February 2026.",
+  "what_nl": "Een cyberaanval op de systemen van Asahi legde vanaf eind september 2025 het grootste deel van de binnenlandse productie en verzending stil; de productie van Super Dry herstartte begin oktober in zes brouwerijen, maar bestellingen werden nadien nog handmatig verwerkt. Asahi stelde zijn resultaatbekendmakingen uit en meldde sterke omzetdalingen. Volgens de pers werd volledig logistiek herstel rond februari 2026 verwacht.",
+  "cause": "Asahi first reported a 'systems failure' and then confirmed it was a ransomware attack, with possible personal data exposure. Factories themselves were reportedly not infected; production stopped because order and shipping systems were shut down (reported).",
+  "cause_nl": "Asahi meldde eerst een 'systeemstoring' en bevestigde daarna dat het om een ransomware-aanval ging, met mogelijke blootstelling van persoonsgegevens. De fabrieken zelf waren volgens berichten niet besmet; de productie stopte omdat bestel- en verzendsystemen werden afgesloten (gemeld).",
+  "cause_status": "C",
+  "who": "The Qilin ransomware group listed Asahi on its leak site on 7 October and claimed about 27 GB of stolen data (claim by the group, not independently verified). Not confirmed by Asahi.",
+  "who_status": "K",
+  "sources": [
+   {
+    "url": "https://www.thestar.com.my/tech/tech-news/2025/10/08/ransomware-gang-qilin-claims-hack-that-crippled-beermaker-asahi",
+    "title": "Ransomware gang Qilin claims hack that crippled beermaker Asahi",
+    "publisher": "The Star (Bloomberg)",
+    "date": "8 Oct 2025",
+    "type": "news"
+   },
+   {
+    "url": "https://www.computerweekly.com/news/366632317/Qilin-gang-claims-cyber-attack-on-Japanese-brewing-giant",
+    "title": "Qilin gang claims cyber attack on Japanese brewing giant",
+    "publisher": "Computer Weekly",
+    "date": "Oct 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.just-drinks.com/newsletters/asahi-plants-resume-operations-in-wake-of-cyberattack",
+    "title": "Asahi plants resume operations in wake of cyberattack",
+    "publisher": "Just Drinks",
+    "date": "Oct 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.inside.beer/news/detail/japan-asahi-needs-at-least-two-more-months-to-restore-logistics",
+    "title": "Japan: Asahi needs at least two more months to restore logistics",
+    "publisher": "Inside.beer",
+    "date": "Nov 2025",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "europe": ""
+ },
+ {
+  "id": "askul-muji-2025",
+  "company": "Askul (and Muji, Loft online stores)",
+  "service": "business and consumer online ordering and logistics; Muji and Loft online sales",
+  "date": "19 Oct 2025",
+  "sort": "2025-10-19",
+  "duration": "about six weeks before partial restart of online sales for corporate customers",
+  "where": "Japan",
+  "what": "A ransomware attack stopped Askul's online orders and product shipments from 19 October 2025. Because Askul runs logistics for other retailers, Muji (Ryohin Keikaku) halted its online sales and Loft warned of service impact. Askul partially restarted online sales for corporate customers about six weeks later.",
+  "what_nl": "Een ransomware-aanval stopte vanaf 19 oktober 2025 de online bestellingen en leveringen van Askul. Omdat Askul de logistiek voor andere winkelketens verzorgt, stopte Muji (Ryohin Keikaku) zijn onlineverkoop en waarschuwde Loft voor verstoringen. Askul hervatte ongeveer zes weken later gedeeltelijk de onlineverkoop voor zakelijke klanten.",
+  "cause": "Askul confirmed a ransomware attack and later a data breach (as reported by The Record and The Register).",
+  "cause_nl": "Askul bevestigde een ransomware-aanval en later een datalek (zoals gemeld door The Record en The Register).",
+  "cause_status": "C",
+  "who": "The RansomHouse extortion group claimed the attack and said it stole 1.1 TB of data (claim by the group). Not confirmed by Askul.",
+  "who_status": "K",
+  "sources": [
+   {
+    "url": "https://therecord.media/askul-japan-retailer-cyberattack-disruption",
+    "title": "Askul Japan retailer cyberattack disruption",
+    "publisher": "The Record",
+    "date": "Oct 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.theregister.com/2025/10/21/muji_askul_ransomware/",
+    "title": "Muji's minimalist calm shattered as ransomware takes down logistics partner",
+    "publisher": "The Register",
+    "date": "21 Oct 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.claimsjournal.com/news/national/2025/10/21/333625.htm",
+    "title": "Japan retailers halt online sales on supplier cyber attack",
+    "publisher": "Claims Journal (Bloomberg)",
+    "date": "21 Oct 2025",
+    "type": "news"
+   },
+   {
+    "url": "https://english.adnkronos.com/2025/10/31/russian-hacker-group-claims-responsibility-for-askul-cyberattack/",
+    "title": "Russian hacker group claims responsibility for Askul cyberattack",
+    "publisher": "Adnkronos",
+    "date": "31 Oct 2025",
+    "type": "news"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "europe": ""
+ },
+ {
+  "id": "pdvsa-2025",
+  "company": "PDVSA (Venezuela state oil company)",
+  "service": "administrative systems and oil cargo loading at export terminals",
+  "date": "15 Dec 2025",
+  "sort": "2025-12-15",
+  "duration": "about two days; cargo deliveries resumed around 17 Dec (Reuters, reported)",
+  "where": "Venezuela",
+  "what": "PDVSA reported a cyberattack on 15 December 2025 and said its operations were unaffected. Reuters, citing four sources, reported systems stayed down and oil cargo deliveries were suspended, with tankers turning back; Reuters later reported deliveries resuming around 17 December.",
+  "what_nl": "PDVSA meldde op 15 december 2025 een cyberaanval en zei dat de werking niet werd aangetast. Reuters meldde, op basis van vier bronnen, dat systemen uitgevallen bleven en olieleveringen werden opgeschort, waarbij tankers terugkeerden; rond 17 december werden de leveringen volgens Reuters hervat.",
+  "cause": "PDVSA confirmed a cyberattack on its systems. Its account of limited impact is contradicted by Reuters' sources. The type of attack was not published.",
+  "cause_nl": "PDVSA bevestigde een cyberaanval op zijn systemen. Zijn voorstelling van een beperkte impact wordt tegengesproken door de bronnen van Reuters. Het type aanval werd niet gepubliceerd.",
+  "cause_status": "C",
+  "who": "PDVSA and the Venezuelan government blamed the United States and domestic conspirators; no evidence was published and researchers cited in reporting were sceptical of the US link (accusation, not established).",
+  "who_status": "S",
+  "sources": [
+   {
+    "url": "https://www.thestar.com.my/tech/tech-news/2025/12/16/venezuela039s-pdvsa-suffers-cyberattack-as-tankers-make-u-turns",
+    "title": "Venezuela's PDVSA suffers cyberattack, tankers make u-turns amid tensions with US",
+    "publisher": "The Star (Reuters)",
+    "date": "16 Dec 2025",
+    "type": "news"
+   },
+   {
+    "url": "https://therecord.media/venezuela-state-oil-company-blames-cyberattack-on-us",
+    "title": "Venezuela state oil company blames cyberattack on US",
+    "publisher": "The Record",
+    "date": "Dec 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.teiss.co.uk/news/cyberattack-disrupts-pdvsa-export-systems-despite-official-denial-16873",
+    "title": "Cyberattack disrupts PDVSA export systems despite official denial",
+    "publisher": "teiss",
+    "date": "Dec 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.bairdmaritime.com/shipping/tankers/venezeulas-pdvsa-resumes-oil-cargo-deliveries-following-disruptive-cyberattack",
+    "title": "Venezuela's PDVSA resumes oil cargo loading following disruptive cyberattack",
+    "publisher": "Baird Maritime",
+    "date": "Dec 2025",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "europe": ""
+ },
+ {
+  "id": "la-poste-2025",
+  "company": "La Poste / La Banque Postale",
+  "service": "online banking and mobile app, parcel tracking, laposte.fr and digital identity",
+  "date": "22 Dec 2025 (second disruption 1 Jan 2026)",
+  "sort": "2025-12-22",
+  "duration": "about two days for most services; a second DDoS followed on 1 January 2026",
+  "where": "France",
+  "what": "A DDoS attack knocked La Poste's core systems offline on 22 December 2025, in the Christmas parcel peak. La Banque Postale's online banking and app, parcel tracking and other services were inaccessible; card payments in shops, cash withdrawals and Wero transfers still worked. Most services were restored two days later.",
+  "what_nl": "Een DDoS-aanval legde op 22 december 2025 de centrale systemen van La Poste plat, tijdens de kerstdrukte voor pakketten. Het online bankieren en de app van La Banque Postale, pakkettracering en andere diensten waren onbereikbaar; kaartbetalingen in winkels, geldopnames en Wero-overschrijvingen werkten wel. De meeste diensten waren twee dagen later hersteld.",
+  "cause": "La Poste confirmed that a DDoS (traffic flooding) attack took its core systems offline. It reported a further attack on 1 January 2026.",
+  "cause_nl": "La Poste bevestigde dat een DDoS-aanval (overbelasting met verkeer) zijn kernsystemen offline haalde. Op 1 januari 2026 meldde het een nieuwe aanval.",
+  "cause_status": "C",
+  "who": "The pro-Russian group NoName057(16) claimed it (claim by the group). French intelligence (DGSI) reportedly took over the investigation; no authority has publicly confirmed the claim in the sources seen.",
+  "who_status": "K",
+  "europe": "France; La Banque Postale customers affected.",
+  "sources": [
+   {
+    "url": "https://techcrunch.com/2025/12/23/frances-postal-and-banking-services-disrupted-by-suspected-ddos-attack/",
+    "title": "France's postal and banking services disrupted by suspected DDoS attack",
+    "publisher": "TechCrunch",
+    "date": "23 Dec 2025",
+    "type": "news"
+   },
+   {
+    "url": "https://therecord.media/pro-russia-hackers-claim-attack-la-poste",
+    "title": "Pro-Russia hackers claim attack on La Poste",
+    "publisher": "The Record",
+    "date": "Dec 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://securityaffairs.com/186157/hacktivism/pro-russian-group-noname057-claims-cyberattack-on-la-poste-services.html",
+    "title": "Pro-Russian group NoName057 claims cyberattack on La Poste services",
+    "publisher": "Security Affairs",
+    "date": "Dec 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.techzine.eu/news/security/137617/hackers-disrupt-french-postal-and-banking-services-twice",
+    "title": "Hackers disrupt French postal and banking services twice",
+    "publisher": "Techzine",
+    "date": "Jan 2026",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false
+ },
+ {
+  "id": "stryker-2026",
+  "company": "Stryker",
+  "service": "ordering, manufacturing and shipping of medical devices; global Microsoft-based systems",
+  "date": "11 Mar 2026",
+  "sort": "2026-03-11",
+  "duration": "weeks; restoration of customer-facing systems prioritised from 23 Mar; one report says disruption lasted until early April (not a company statement)",
+  "where": "Global",
+  "what": "Stryker told the SEC on 11-12 March 2026 that a cybersecurity incident caused a global disruption of its Microsoft environment, with ordering, manufacturing and shipping disrupted. On 19 March it said some patient-specific implant cases were rescheduled because of shipping delays. Stryker said the attack was contained to its internal Microsoft environment and did not affect its products; no cost figure was found.",
+  "what_nl": "Stryker meldde op 11-12 maart 2026 aan de Amerikaanse beurswaakhond dat een cyberincident een wereldwijde verstoring van zijn Microsoft-omgeving veroorzaakte, met verstoorde bestellingen, productie en verzending. Op 19 maart zei het dat sommige patiëntspecifieke implantaatingrepen werden verplaatst door verzendvertragingen. Stryker zei dat de aanval beperkt bleef tot de interne Microsoft-omgeving en geen producten trof; er werd geen kostenraming gevonden.",
+  "cause": "Stryker confirmed a cybersecurity incident. Media (BleepingComputer, KrebsOnSecurity, citing sources) report attackers used a compromised Microsoft Intune administrator account to remotely wipe devices, roughly 80,000 according to BleepingComputer; Stryker has not confirmed the method. The group claimed more than 200,000 devices (claim). Palo Alto Unit 42 told Stryker a malicious file was used and could not spread (company letter).",
+  "cause_nl": "Stryker bevestigde een cyberincident. Media (BleepingComputer, KrebsOnSecurity, op basis van bronnen) melden dat de aanvallers een gecompromitteerd beheerdersaccount van Microsoft Intune gebruikten om toestellen op afstand te wissen, volgens BleepingComputer ongeveer 80.000; Stryker heeft de methode niet bevestigd. De groep beweerde meer dan 200.000 toestellen (claim). Palo Alto Unit 42 liet Stryker weten dat een kwaadaardig bestand werd gebruikt dat zich niet kon verspreiden (brief van het bedrijf).",
+  "cause_status": "C",
+  "who": "The Iran-linked group Handala claimed it (claim). On 19 March 2026 the US Justice Department and FBI seized domains used by Handala and said Handala is a persona of a hacking unit of Iran's intelligence ministry (MOIS); according to press reports the FBI statement redacted Stryker's name, so an official, named link to Stryker is not shown in the sources seen. Stryker has not named the attacker.",
+  "who_status": "R",
+  "sources": [
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/310764/000119312526102460/d76279d8k.htm",
+    "title": "Stryker Corp Form 8-K (March 2026)",
+    "publisher": "US SEC EDGAR",
+    "date": "Mar 2026",
+    "type": "off"
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/310764/000119312526118634/d94012d8k.htm",
+    "title": "Stryker Corp Form 8-K (update, March 2026)",
+    "publisher": "US SEC EDGAR",
+    "date": "Mar 2026",
+    "type": "off"
+   },
+   {
+    "url": "https://axios.com/2026/03/20/iran-cyber-attack-stryker-domains-fbi",
+    "title": "FBI seizes domains tied to Iranian hackers linked to Stryker cyberattack",
+    "publisher": "Axios",
+    "date": "20 Mar 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://arcticwolf.com/resources/blog/stryker-systems-disrupted-cyber-attack-handala-group-claims-responsibility/",
+    "title": "Stryker systems disrupted in cyber attack; Handala group claims responsibility",
+    "publisher": "Arctic Wolf",
+    "date": "Mar 2026",
+    "type": "sec"
+   },
+   {
+    "url": "https://www.scworld.com/news/no-restoration-timeline-for-medical-device-maker-stryker-after-cyberattack",
+    "title": "No restoration timeline for medical device maker Stryker after cyberattack",
+    "publisher": "SC Media",
+    "date": "Mar 2026",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "europe": ""
+ },
+ {
+  "id": "foxconn-2026",
+  "company": "Foxconn (Hon Hai)",
+  "service": "electronics factories in North America (e.g. Wisconsin, Texas)",
+  "date": "11-12 May 2026",
+  "sort": "2026-05-11",
+  "duration": "unknown; company said affected plants were resuming normal production",
+  "where": "US (North American plants)",
+  "what": "Foxconn confirmed on 12 May 2026 a cyberattack on some of its North American factories and said it activated response measures to keep production and delivery going. It later said affected plants were resuming normal production. The scale and length of any production stoppage were not published; one roundup claims US production was suspended, which I could not verify.",
+  "what_nl": "Foxconn bevestigde op 12 mei 2026 een cyberaanval op een aantal van zijn Noord-Amerikaanse fabrieken en zei maatregelen te hebben genomen om productie en leveringen te laten doorgaan. Later zei het dat de getroffen fabrieken de normale productie hervatten. De omvang en duur van een eventuele productiestop werden niet gepubliceerd; een overzicht beweert dat de Amerikaanse productie werd opgeschort, wat ik niet kon verifiëren.",
+  "cause": "Foxconn confirmed a cyberattack and did not publicly confirm ransomware, encryption or data theft in the sources seen.",
+  "cause_nl": "Foxconn bevestigde een cyberaanval en bevestigde in de geraadpleegde bronnen niet publiekelijk ransomware, versleuteling of gegevensdiefstal.",
+  "cause_status": "C",
+  "who": "The Nitrogen ransomware group listed Foxconn on its leak site on 11 May and claimed 8 TB of data (claim, unverified, including claims about Apple, Nvidia, Intel and Google material). Not confirmed by Foxconn.",
+  "who_status": "K",
+  "sources": [
+   {
+    "url": "https://www.themanufacturer.com/articles/foxconn-confirms-cyber-attack-on-north-american-facilities/",
+    "title": "Foxconn confirms cyber attack on North American facilities",
+    "publisher": "The Manufacturer",
+    "date": "May 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/foxconn-attack-manufacturing-cyber-crisis",
+    "title": "Foxconn attack highlights manufacturing's cyber crisis",
+    "publisher": "Dark Reading",
+    "date": "May 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://cyberpress.org/nitrogen-foxconn-confirms-breach/",
+    "title": "Nitrogen ransomware gang claims attack as Foxconn confirms breach",
+    "publisher": "Cyber Press",
+    "date": "May 2026",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "europe": ""
+ },
+ {
+  "id": "fairlife-2026",
+  "company": "Fairlife (The Coca-Cola Company)",
+  "service": "milk and dairy production at four US plants",
+  "date": "16 Jul 2026 (disclosed)",
+  "sort": "2026-07-16",
+  "duration": "about 11 days until most production resumed (Dragos, reported)",
+  "where": "US",
+  "what": "Coca-Cola told the SEC on 16 July 2026 that unauthorised access to part of Fairlife's systems, including production-related systems, led to a temporary suspension of Fairlife's US production. Coca-Cola later said Fairlife had resumed most production across its four US plants; Canadian production was not affected, and shelves stayed stocked from existing inventory.",
+  "what_nl": "Coca-Cola meldde op 16 juli 2026 aan de Amerikaanse beurswaakhond dat onbevoegde toegang tot een deel van de systemen van Fairlife, inclusief productiegerelateerde systemen, leidde tot een tijdelijke opschorting van de Amerikaanse productie. Coca-Cola zei later dat Fairlife het grootste deel van de productie in zijn vier Amerikaanse fabrieken had hervat; de Canadese productie werd niet getroffen en de schappen bleven gevuld dankzij bestaande voorraad.",
+  "cause": "Coca-Cola's SEC filing reports unauthorised third-party access; BleepingComputer, TechCrunch and others describe a ransomware attack, and Coca-Cola later confirmed data was taken (volume not confirmed).",
+  "cause_nl": "De melding van Coca-Cola aan de beurswaakhond vermeldt onbevoegde toegang door een derde; BleepingComputer, TechCrunch en anderen beschrijven een ransomware-aanval, en Coca-Cola bevestigde later dat gegevens werden buitgemaakt (omvang niet bevestigd).",
+  "cause_status": "C",
+  "who": "The Anubis ransomware-as-a-service group claimed it, saying it encrypted Fairlife servers and stole up to 1 TB (claim reported by Dragos; unverified). Not confirmed by Coca-Cola.",
+  "who_status": "K",
+  "sources": [
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0000021344/000162828026048466/ko-20260716.htm",
+    "title": "Coca-Cola Co Form 8-K (16 July 2026)",
+    "publisher": "US SEC EDGAR",
+    "date": "16 Jul 2026",
+    "type": "off"
+   },
+   {
+    "url": "https://techcrunch.com/2026/07/16/coca-cola-suspended-production-at-its-fairlife-dairy-after-a-ransomware-attack/",
+    "title": "Coca-Cola suspended production at its Fairlife dairy after a ransomware attack",
+    "publisher": "TechCrunch",
+    "date": "16 Jul 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/",
+    "title": "Coca-Cola says Fairlife ransomware attack halts US dairy production",
+    "publisher": "BleepingComputer",
+    "date": "Jul 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://dragos.com/blog/dragos-industrial-ransomware-analysis-q3-2026",
+    "title": "Industrial Ransomware Analysis for Q3 2026",
+    "publisher": "Dragos",
+    "date": "Q3 2026",
+    "type": "sec"
+   },
+   {
+    "url": "https://www.helpnetsecurity.com/2026/07/28/coca-cola-fairlife-dairy-subsidiary-ransomware-attack/",
+    "title": "Coca-Cola confirms hackers stole data in Fairlife ransomware attack",
+    "publisher": "Help Net Security",
+    "date": "28 Jul 2026",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "europe": ""
+ },
+ {
+  "id": "boston-scientific-2026",
+  "company": "Boston Scientific",
+  "service": "manufacturing, order processing and shipping of medical devices",
+  "date": "25 Aug 2026",
+  "sort": "2026-08-25",
+  "duration": "about two weeks (one report); manufacturing resumed at most facilities and distribution 'substantially restored' per later filing summary",
+  "where": "Global",
+  "what": "A network outage on 25 August 2026 hit Boston Scientific's internal IT systems and disrupted its ability to manufacture products and to process and ship customer orders, according to its SEC filing. The company said it was unlikely to meet its Q3 and 2026 guidance. Reporting says the Cork (Ireland) plant sent staff home.",
+  "what_nl": "Een netwerkstoring op 25 augustus 2026 trof de interne IT-systemen van Boston Scientific en verstoorde volgens zijn beursdocument de productie en het verwerken en verzenden van bestellingen. Het bedrijf zei dat het zijn vooruitzichten voor het derde kwartaal en 2026 waarschijnlijk niet zou halen. Volgens berichten stuurde de fabriek in Cork (Ierland) personeel naar huis.",
+  "cause": "Boston Scientific called it a cybersecurity incident. Investigators reportedly traced the intrusion to an external-facing network management device and found no evidence of data encryption; the company has not called it ransomware.",
+  "cause_nl": "Boston Scientific noemde het een cyberincident. Onderzoekers zouden de inbraak herleid hebben tot een extern bereikbaar netwerkbeheertoestel en vonden geen aanwijzingen voor versleuteling van gegevens; het bedrijf noemde het geen ransomware.",
+  "cause_status": "C",
+  "who": "Nobody named; no group has publicly claimed it in the sources seen.",
+  "who_status": "N",
+  "europe": "The Cork (Ireland) plant was reportedly affected.",
+  "sources": [
+   {
+    "url": "https://www.bleepingcomputer.com/news/security/boston-scientific-says-cyberattack-disrupted-operations-globally/",
+    "title": "Boston Scientific says cyberattack disrupted operations globally",
+    "publisher": "BleepingComputer",
+    "date": "Aug 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.medtechdive.com/news/boston-scientific-says-cyberattack-has-disrupted-product-manufacturing/829086/",
+    "title": "Boston Scientific says cyberattack has disrupted product manufacturing",
+    "publisher": "MedTech Dive",
+    "date": "Aug 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://industrialcyber.co/manufacturing/boston-scientific-faces-ongoing-operational-disruption-after-cybersecurity-incident-impacts-it-systems-order-processing/",
+    "title": "Boston Scientific faces ongoing operational disruption",
+    "publisher": "Industrial Cyber",
+    "date": "Aug 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.stocktitan.net/sec-filings/BSX/8-k-boston-scientific-corp-reports-material-event-a5940c3e55fd.html",
+    "title": "Boston Scientific Form 8-K summary",
+    "publisher": "StockTitan (filing summary)",
+    "date": "2026",
+    "type": "off"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false
+ },
+ {
+  "id": "french-fridges-2026",
+  "company": "Carrefour, Intermarché, Leclerc, Coopérative U, Monoprix and other supermarket chains (France; later wave across Europe)",
+  "service": "refrigeration and freezer control systems in hundreds of supermarkets",
+  "date": "11-12 Oct 2026 (later wave early Nov 2026)",
+  "sort": "2026-10-11",
+  "duration": "overnight attack; stores pulled food; later wave in early November",
+  "where": "France; later Belgium, Netherlands, Ireland, Finland, Estonia, Sweden",
+  "what": "Overnight on 11-12 October 2026 attackers hijacked refrigeration controllers in hundreds of French supermarkets, forcing freezers to defrost at up to 50 C; about 20 fires were reported and food was lost (two Alsace stores reported EUR 270,000 of losses). Carrefour said 80 of its supermarkets were hit. A second wave in early November hit stores in several other countries, including Belgian and Dutch chains, ICA, Kesko, SuperValu and Selver.",
+  "what_nl": "In de nacht van 11 op 12 oktober 2026 kaapten aanvallers de koelingsbesturing in honderden Franse supermarkten, waardoor diepvriezers tot 50 °C ontdooiden; er werden ongeveer 20 branden gemeld en voedsel ging verloren (twee winkels in de Elzas meldden 270.000 euro verlies). Carrefour zei dat 80 van zijn supermarkten werden getroffen. Een tweede golf begin november trof winkels in andere landen, waaronder Belgische en Nederlandse ketens, ICA, Kesko, SuperValu en Selver.",
+  "cause": "Retailers confirmed a cyberattack on refrigeration controllers (Danfoss AK-SM/AK-SC, Copeland, Dixell, per CERT-FR as reported). Danfoss said many hijacked controllers were end-of-life units it no longer patches or ran outdated firmware. The Paris prosecutor opened an investigation. This was sabotage, not ransomware.",
+  "cause_nl": "De winkelketens bevestigden een cyberaanval op koelingsbesturingen (Danfoss AK-SM/AK-SC, Copeland, Dixell, volgens CERT-FR zoals gemeld). Danfoss zei dat veel gekaapte besturingen verouderde toestellen waren die het niet meer bijwerkt of die oude firmware draaiden. Het Parijse parket opende een onderzoek. Het ging om sabotage, niet om ransomware.",
+  "cause_status": "C",
+  "who": "According to a report by The Hacker News (November 2026), the French government attributed the attack to a cyber unit of Iran's Revolutionary Guard Corps, and Paris prosecutors have asked for international arrest warrants. I did not see the primary French statement; earlier reporting said neither French authorities nor Danfoss had named a perpetrator. No group claimed it.",
+  "who_status": "C",
+  "europe": "France directly; the November wave reportedly included several Belgian chains and Dutch stores (details of which chains not verified).",
+  "sources": [
+   {
+    "url": "https://www.helpnetsecurity.com/2026/10/12/france-cyberattack-supermarket-freezers/",
+    "title": "Cyberattacks hit European grocers: French supermarket freezers hijacked",
+    "publisher": "Help Net Security",
+    "date": "12 Oct 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.cnn.com/2026/10/12/europe/france-supermarket-cyberattack-fridges-intl",
+    "title": "Hackers heat French supermarket fridges, sparking fires and spoiling food",
+    "publisher": "CNN",
+    "date": "12 Oct 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.aljazeera.com/news/2026/10/13/unprecedented-cyberattack-hits-french-supermarkets-causing-food-losses",
+    "title": "Hundreds of supermarkets in France hit by 'unprecedented' cyberattack",
+    "publisher": "Al Jazeera",
+    "date": "13 Oct 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html",
+    "title": "France blames Iran for sabotage attack on refrigeration controllers",
+    "publisher": "The Hacker News",
+    "date": "Nov 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
+    "title": "New wave of refrigeration cyberattacks hits supermarkets across Europe",
+    "publisher": "The Hacker News",
+    "date": "Nov 2026",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false
+ },
+ {
+  "id": "ahold-delhaize-2026",
+  "company": "Ahold Delhaize (Albert Heijn, Delhaize, Etos, Gall & Gall, Stop & Shop, Food Lion, Hannaford)",
+  "service": "websites, apps and online ordering; Albert Heijn deliveries and restocking",
+  "date": "12 Oct 2026",
+  "sort": "2026-10-12",
+  "duration": "about a week; most European storefronts back by 19-20 Oct, US online shopping took several more days",
+  "where": "Netherlands, Belgium, other Europe, US",
+  "what": "Ahold Delhaize detected suspicious activity on 12 October 2026 and took some systems offline. Websites, apps and online ordering of several brands were disrupted and Albert Heijn halted deliveries of online orders and some restocking; stores stayed open. On 19 October it said most storefronts in Central and Southeastern Europe were back and Belgian e-commerce was fully operational, with US online shopping needing several more days.",
+  "what_nl": "Ahold Delhaize stelde op 12 oktober 2026 verdachte activiteit vast en nam bepaalde systemen offline. Websites, apps en online bestellingen van meerdere merken werden verstoord en Albert Heijn schortte leveringen van online bestellingen en een deel van de bevoorrading op; de winkels bleven open. Op 19 oktober zei het bedrijf dat de meeste webwinkels in Midden- en Zuidoost-Europa terug waren en de Belgische e-commerce volledig operationeel was; voor online winkelen in de VS waren nog enkele dagen nodig.",
+  "cause": "Ahold Delhaize said 'malicious actors' were behind the suspicious activity (19 October) and that it found no evidence customer or staff data was stolen. It notified the Dutch National Cyber Security Centre within 24 hours. Whether ransomware was used has not been confirmed.",
+  "cause_nl": "Ahold Delhaize zei dat 'kwaadwillende actoren' achter de verdachte activiteit zaten (19 oktober) en dat het geen aanwijzingen vond dat klanten- of personeelsgegevens werden gestolen. Het meldde dit binnen 24 uur aan het Nederlandse Nationaal Cyber Security Centrum. Of ransomware werd gebruikt, is niet bevestigd.",
+  "cause_status": "C",
+  "who": "Nobody named. In the sources seen no group claimed it (a Cybernews item that mentions the INC Ransom group relates to the November 2024 incident).",
+  "who_status": "N",
+  "europe": "Directly: Albert Heijn, Etos and Gall & Gall (Netherlands) and Delhaize (Belgium, e-commerce affected, restored by 19 Oct).",
+  "sources": [
+   {
+    "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
+    "title": "Ahold Delhaize: Cyberattack affects services across US and Europe",
+    "publisher": "BleepingComputer",
+    "date": "Oct 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/",
+    "title": "Cyberattack prompts Ahold Delhaize to disconnect systems",
+    "publisher": "SecurityWeek",
+    "date": "Oct 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.insurancejournal.com/news/east/2026/10/22/890010.htm",
+    "title": "Eastern States' supermarkets back online after cyber incident",
+    "publisher": "Insurance Journal (AP)",
+    "date": "22 Oct 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://flaire.nl/en/news/cyberattack-halts-albert-heijn-deliveries/",
+    "title": "Cyberattack halts Albert Heijn's deliveries and restocking",
+    "publisher": "Flaire",
+    "date": "Oct 2026",
+    "type": "news"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false
+ },
+ {
+  "id": "change-healthcare-2024",
+  "company": "Change Healthcare (UnitedHealth Group)",
+  "service": "US pharmacy claims, payments and healthcare billing network",
+  "date": "21 Feb 2024",
+  "sort": "2024-02-21",
+  "duration": "weeks to months",
+  "where": "US",
+  "what": "A ransomware attack on Change Healthcare from 21 February 2024 disrupted claims processing; UnitedHealth estimated over 90% of US pharmacies had to adjust their electronic claims processes, and some patients paid out of pocket or went without medicines. UnitedHealth said the attack cost it US$872 million in the first quarter of 2024 (as reported by MSSP Alert).",
+  "what_nl": "Een ransomware-aanval op Change Healthcare vanaf 21 februari 2024 verstoorde de verwerking van betalingsaanvragen; UnitedHealth schatte dat meer dan 90 procent van de Amerikaanse apotheken zijn elektronische verwerking moest aanpassen, en sommige patiënten betaalden zelf of kregen hun medicijnen niet. UnitedHealth zei dat de aanval het in het eerste kwartaal van 2024 872 miljoen dollar kostte (zoals gemeld door MSSP Alert).",
+  "cause": "Change Healthcare confirmed a ransomware attack. A figure of US$2.87 billion in direct costs circulates but I could not verify it against UnitedHealth's filings.",
+  "cause_nl": "Change Healthcare bevestigde een ransomware-aanval. Een bedrag van 2,87 miljard dollar aan directe kosten circuleert, maar ik kon dit niet verifiëren in de documenten van UnitedHealth.",
+  "cause_status": "C",
+  "who": "Change Healthcare said the ALPHV (BlackCat) group was behind it; ALPHV also claimed it. A ransom payment of about US$22 million was reported by Reuters and WIRED; payment was not officially confirmed in the sources I saw.",
+  "who_status": "C",
+  "background": true,
+  "sources": [
+   {
+    "url": "https://www.axios.com/2024/03/01/prescription-outage-ransomware-unitedhealth",
+    "title": "Ransomware attack wreaks havoc on prescription payments",
+    "publisher": "Axios",
+    "date": "1 Mar 2024",
+    "type": "news"
+   },
+   {
+    "url": "https://www.healthcaredive.com/news/change-healthcare-cyberattack-unitedhealth-group-provider-impact/708950/",
+    "title": "Change Healthcare cyberattack: provider impact",
+    "publisher": "Healthcare Dive",
+    "date": "Mar 2024",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.msspalert.com/news/change-healthcare-cyberattack-event-timeline",
+    "title": "Change Healthcare cyberattack event timeline",
+    "publisher": "MSSP Alert",
+    "date": "2024",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "europe": ""
+ },
+ {
+  "id": "cdk-global-2024",
+  "company": "CDK Global",
+  "service": "dealer management software used by about 15,000 car dealerships in North America",
+  "date": "19 Jun 2024",
+  "sort": "2024-06-19",
+  "duration": "about two weeks, with restoration in stages from late June",
+  "where": "US, Canada",
+  "what": "Two attacks on CDK Global in June 2024 took its dealer systems offline, so dealerships (including those of major carmakers) went back to pen and paper for sales, parts and financing. An Anderson Economic Group estimate put the cost to dealerships at over US$1 billion (an outside estimate, not a company figure).",
+  "what_nl": "Twee aanvallen op CDK Global in juni 2024 legden de dealersystemen plat, waardoor autodealers (ook van grote automerken) terugvielen op pen en papier voor verkoop, onderdelen en financiering. Een schatting van Anderson Economic Group raamde de kost voor de dealers op meer dan 1 miljard dollar (een externe schatting, geen cijfer van het bedrijf).",
+  "cause": "CDK announced on 24 June 2024 that the breach was ransomware (reported by Fox News).",
+  "cause_nl": "CDK maakte op 24 juni 2024 bekend dat het om ransomware ging (gemeld door Fox News).",
+  "cause_status": "C",
+  "who": "Reuters and Bloomberg reported the BlackSuit group was behind it (reported by media, not by CDK or an authority in the sources I saw). Whether a ransom was paid was not established.",
+  "who_status": "R",
+  "background": true,
+  "sources": [
+   {
+    "url": "https://www.bleepingcomputer.com/news/security/cdk-global-cyberattack-impacts-thousands-of-us-car-dealerships",
+    "title": "CDK Global cyberattack impacts thousands of US car dealerships",
+    "publisher": "BleepingComputer",
+    "date": "Jun 2024",
+    "type": "trade"
+   },
+   {
+    "url": "https://fortune.com/2024/06/24/cdk-ransomware-attack-car-dealerships-paperwork-sales-orders-software-cyberattack/",
+    "title": "CDK ransomware attack: car dealerships revert to paperwork",
+    "publisher": "Fortune",
+    "date": "24 Jun 2024",
+    "type": "news"
+   },
+   {
+    "url": "https://www.techtarget.com/whatis/feature/The-CDK-Global-outage-Explaining-how-it-happened",
+    "title": "The CDK Global outage: explaining how it happened",
+    "publisher": "TechTarget",
+    "date": "2024",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "europe": ""
+ },
+ {
+  "id": "blue-yonder-2024",
+  "company": "Blue Yonder (customers: Starbucks, Morrisons, Sainsbury's)",
+  "service": "supply-chain and workforce-scheduling software",
+  "date": "21 Nov 2024",
+  "sort": "2024-11-21",
+  "duration": "weeks for some customers",
+  "where": "US, UK",
+  "what": "A ransomware attack on supply-chain software supplier Blue Yonder in November 2024 disrupted its customers. According to the Wall Street Journal (as reported), Starbucks could not pay baristas or manage schedules for a time, and Morrisons and Sainsbury's used pen-and-paper workarounds.",
+  "what_nl": "Een ransomware-aanval op leverancier van supply-chainsoftware Blue Yonder in november 2024 verstoorde zijn klanten. Volgens de Wall Street Journal (zoals gemeld) kon Starbucks een tijd lang geen baristas uitbetalen of roosters beheren, en gebruikten Morrisons en Sainsbury's noodoplossingen op papier.",
+  "cause": "Reported as a ransomware attack on Blue Yonder's managed-services environment; its Azure public cloud was reportedly unaffected.",
+  "cause_nl": "Gemeld als een ransomware-aanval op de beheerde-dienstenomgeving van Blue Yonder; de Azure-publieke cloud bleef naar verluidt buiten schot.",
+  "cause_status": "R",
+  "who": "The Termite ransomware group claimed it on its leak site (claim). Blue Yonder had not confirmed the claim in the sources seen.",
+  "who_status": "K",
+  "background": true,
+  "sources": [
+   {
+    "url": "https://cyberscoop.com/termite-ransomware-blue-yonder-disruption/",
+    "title": "Termite ransomware, Blue Yonder disruption",
+    "publisher": "CyberScoop",
+    "date": "Dec 2024",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.bleepingcomputer.com/news/security/blue-yonder-saas-giant-breached-by-termite-ransomware-gang/",
+    "title": "Blue Yonder SaaS giant breached by Termite ransomware gang",
+    "publisher": "BleepingComputer",
+    "date": "Dec 2024",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.techrepublic.com/article/blue-yonder-ransomware-attack/",
+    "title": "Starbucks, supermarkets targeted in ransomware attack",
+    "publisher": "TechRepublic",
+    "date": "Dec 2024",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "europe": ""
+ }
+]

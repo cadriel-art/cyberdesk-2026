@@ -1,0 +1,122 @@
+import json
+def S(url,title,pub,date,typ): return {"url":url,"title":title,"publisher":pub,"date":date,"type":typ}
+items=[]
+def add(**k):
+    k.setdefault("kind","cyberattack"); k.setdefault("background",False); k.setdefault("europe","")
+    items.append(k)
+
+add(id="x-ddos-2025",company="X (formerly Twitter)",service="social network, website and app",date="10 Mar 2025",sort="2025-03-10",duration="several hours, intermittent",where="Global",
+ what="X went down repeatedly on 10 March 2025, with tens of thousands of outage reports in the US in the morning. X owner Elon Musk said the platform was hit by a 'massive cyberattack'. No cost figure was published.",
+ what_nl="X lag op 10 maart 2025 meermaals plat, met tienduizenden storingsmeldingen in de VS in de ochtend. Eigenaar Elon Musk zei dat het platform getroffen werd door een 'massale cyberaanval'. Er werd geen kostenraming bekendgemaakt.",
+ cause="Musk publicly said the outage was a cyberattack carried out 'with a lot of resources'. The attacker group claimed a DDoS (flooding) attack. X itself has not published a technical report, so the type of attack is not independently confirmed.",
+ cause_nl="Musk zei publiekelijk dat de storing een cyberaanval was die 'met veel middelen' werd uitgevoerd. De hackersgroep claimde een DDoS-aanval (overbelasting). X heeft zelf geen technisch rapport gepubliceerd, dus het type aanval is niet onafhankelijk bevestigd.",
+ cause_status="C",
+ who="The group Dark Storm Team (described by Check Point Research as pro-Palestinian) claimed a DDoS attack on Telegram; it offered no independent proof according to Security Affairs and the Daily Dot. Some outlets noted Musk's remarks pointed towards a Ukraine-linked actor; no evidence was published. Not confirmed by X or any authority.",
+ who_status="K",
+ sources=[S("https://securityaffairs.com/175209/uncategorized/elon-musk-x-ddos-attack-dark-dark-storm-team.html","Elon Musk's X DDoS attack, Dark Storm Team","Security Affairs","Mar 2025","trade"),
+  S("https://san.com/cc/thousands-of-x-users-impacted-by-x-outage-dark-storm-claims-responsibility/","Thousands of X users impacted by X outage, 'Dark Storm' claims responsibility","Straight Arrow News","Mar 2025","news"),
+  S("https://ground.news/article/x-sees-major-outages-as-musk-claims-massive-cyberattack-hit-platform_73bd0a","X sees major outages as Musk claims 'massive cyberattack' hit platform","Ground News (aggregator)","Mar 2025","news")])
+
+add(id="marks-spencer-2025",company="Marks & Spencer",service="online shopping, contactless payments and click-and-collect; food stock and supply systems",date="22 Apr 2025 onwards",sort="2025-04-22",duration="online orders paused about seven weeks (late April to about 10 June); full recovery took months",where="UK",
+ what="M&S paused online orders in late April 2025 after a cyber attack and some shelves went empty. Press reports say online orders restarted around 10 June, and click-and-collect returned much later. M&S itself estimated the incident would cost about GBP 300 million in operating profit, with disruption expected into July.",
+ what_nl="M&S schorste eind april 2025 de online bestellingen op na een cyberaanval en sommige schappen raakten leeg. Volgens de pers werden online bestellingen rond 10 juni hervat; 'click-and-collect' kwam pas veel later terug. M&S zelf raamde de impact op ongeveer 300 miljoen pond operationele winst, met verstoringen tot in juli.",
+ cause="M&S confirmed a cyber attack and later confirmed customer data was stolen. Media report that DragonForce ransomware was used and that attackers entered through a third-party contractor (the TCS help-desk arrangement has been examined); the contractor route is reported, not confirmed in the sources seen.",
+ cause_nl="M&S bevestigde een cyberaanval en later ook diefstal van klantgegevens. Media melden dat DragonForce-ransomware werd gebruikt en dat de aanvallers via een externe contractant binnenkwamen (de helpdesk-regeling met TCS werd onderzocht); die toegangsroute is gemeld, niet bevestigd in de geraadpleegde bronnen.",
+ cause_status="C",
+ who="Researchers and media attribute the attack to Scattered Spider working with the DragonForce ransomware service. The UK National Crime Agency (10 July 2025) arrested four people (aged 17 to 20) over the M&S, Co-op and Harrods attacks, but did not name a group or charge them for M&S in the sources seen. Not confirmed by M&S.",
+ who_status="R",
+ europe="UK retailer; the main effects are in the UK.",
+ sources=[S("https://www.infosecurity-magazine.com/news/ms-300million-cyber-costs/","M&S Braces for GBP 300 Million Cyber-Attack Costs","Infosecurity Magazine","May 2025","trade"),
+  S("https://www.lbc.co.uk/news/uk/marks-and-spencer-cyber-attack-cost-300m","The 300m cyber attack: M&S warns of huge hit to profits","LBC","May 2025","news"),
+  S("https://www.bleepingcomputer.com/news/security/four-arrested-in-uk-over-mands-co-op-harrods-cyberattacks/","Four arrested in UK over M&S, Co-op, Harrods cyberattacks","BleepingComputer","Jul 2025","trade"),
+  S("https://cyberscoop.com/scattered-spider-arrests-uk-nca-marks-and-spencer/","Scattered Spider arrests, UK NCA, Marks and Spencer","CyberScoop","Jul 2025","trade"),
+  S("https://www.aljazeera.com/news/2025/5/2/harrods-ms-hit-by-cyberattack-what-happened-whos-behind-it","Harrods, M&S hit by cyberattack: what happened, who's behind it?","Al Jazeera","2 May 2025","news")])
+
+add(id="coop-uk-2025",company="Co-op Group",service="stock supply to about 2,300 food stores, payments, member systems",date="late Apr 2025 onwards",sort="2025-04-30",duration="shelves affected for weeks; stock recovered by late May",where="UK",
+ what="After a cyber attack in late April 2025 Co-op stores had empty shelves for weeks and prioritised rural stores for limited deliveries. Co-op said the attack cut sales revenue by about GBP 206 million and hit half-year profit by GBP 80 million, with about GBP 40 million more expected.",
+ what_nl="Na een cyberaanval eind april 2025 hadden de Co-op-winkels weken lang lege schappen en kregen landelijke winkels voorrang bij de beperkte leveringen. Co-op zei dat de aanval de omzet met ongeveer 206 miljoen pond verminderde en de halfjaarwinst met 80 miljoen pond, met nog eens ongeveer 40 miljoen pond verwacht.",
+ cause="Co-op confirmed a cyber attack and that the data of all 6.5 million members was stolen. Reports say the attackers deployed DragonForce ransomware; the Financial Times reported Co-op had no cyber insurance (reported).",
+ cause_nl="Co-op bevestigde een cyberaanval en dat de gegevens van alle 6,5 miljoen leden werden gestolen. Volgens berichten zette de aanvaller DragonForce-ransomware in; de Financial Times meldde dat Co-op geen cyberverzekering had (gemeld).",
+ cause_status="C",
+ who="DragonForce claimed the attack and told the BBC it had stolen data (claim by the criminal group). Researchers link it to Scattered Spider; the NCA arrested four people on 10 July 2025 over the M&S, Co-op and Harrods attacks without naming a group. Not confirmed by Co-op.",
+ who_status="K",
+ sources=[S("https://www.computerweekly.com/news/366632018/Co-op-declares-cyber-attack-damage-cost-it-206m","Co-op declares cyber attack damage cost it GBP 206m","Computer Weekly","Sep 2025","trade"),
+  S("https://www.rte.ie/news/business/2025/0925/1535230-britains-co-op-says-cyberattack-cost-it-l80m","Britain's Co-op says cyberattack cost it GBP 80m","RTE","25 Sep 2025","news"),
+  S("https://www.theregister.com/2025/09/25/empty_shelves_empty_coffers_coop/","Empty shelves, empty coffers: Co-op pegs cyber hit at GBP 80m","The Register","25 Sep 2025","trade"),
+  S("https://www.bleepingcomputer.com/news/security/four-arrested-in-uk-over-mands-co-op-harrods-cyberattacks/","Four arrested in UK over M&S, Co-op, Harrods cyberattacks","BleepingComputer","Jul 2025","trade")])
+
+add(id="nucor-2025",company="Nucor",service="steel production at several locations",date="by 14 May 2025",sort="2025-05-14",duration="restart under way at the time of the filing; end date not published in sources seen",where="US",
+ what="Nucor, the largest US steelmaker, said in a stock-exchange filing that it temporarily and proactively halted certain production operations at various locations after unauthorised third-party access to its IT systems. It was restarting the affected operations at the time of the filing. No cost figure was given.",
+ what_nl="Nucor, de grootste Amerikaanse staalproducent, meldde in een beursdocument dat het tijdelijk en preventief bepaalde productieactiviteiten op verschillende locaties stillegde na onbevoegde toegang tot zijn IT-systemen. Op het moment van de melding werden de getroffen activiteiten herstart. Er werd geen kostenraming gegeven.",
+ cause="Nucor's Form 8-K reports unauthorised third-party access to certain IT systems; the company took systems offline and notified federal law enforcement. The type of attack (for example ransomware) was not stated.",
+ cause_nl="Het 8-K-document van Nucor meldt onbevoegde toegang door een derde tot bepaalde IT-systemen; het bedrijf nam systemen offline en verwittigde de federale politie. Het type aanval (bv. ransomware) werd niet vermeld.",
+ cause_status="C",who="Nobody named. The filing did not attribute the incident to any group.",who_status="N",
+ sources=[S("https://www.sec.gov/Archives/edgar/data/73309/000119312525119311/d795264d8k.htm","Nucor Corp Form 8-K (Item 1.05)","US SEC EDGAR","14 May 2025","off"),
+  S("https://cyberinsider.com/nucor-shuts-down-production-at-multiple-facilities-following-cyberattack/","Nucor shuts down production at multiple facilities following cyberattack","CyberInsider","May 2025","trade")])
+
+add(id="victorias-secret-2025",company="Victoria's Secret",service="website and some in-store services (returns of online orders, gift cards, rewards, credit cards, per press reports)",date="28 May 2025",sort="2025-05-28",duration="website down about three days or more; end date not verified",where="US",
+ what="Victoria's Secret took its website and some in-store services offline on 28 May 2025 after what it called a 'security incident'. Stores stayed open. The share price fell about 7% on the day, and the company postponed an earnings report (reported).",
+ what_nl="Victoria's Secret haalde op 28 mei 2025 zijn website en bepaalde diensten in de winkels offline na wat het een 'beveiligingsincident' noemde. De winkels bleven open. Het aandeel zakte die dag ongeveer 7 procent, en het bedrijf stelde een resultatenrapport uit (gemeld).",
+ cause="The company said it took systems down as a precaution after a 'security incident' and engaged outside experts. It did not say publicly whether it was ransomware. Media reported it had the hallmarks of a cyberattack.",
+ cause_nl="Het bedrijf zei dat het systemen preventief offline haalde na een 'beveiligingsincident' en externe experts inschakelde. Het zei niet publiekelijk of het om ransomware ging. Media meldden dat het kenmerken van een cyberaanval had.",
+ cause_status="S",who="Nobody named by the company. Some reports link it to the wave of attacks on UK retailers (Scattered Spider); I did not find a confirmation.",who_status="S",
+ sources=[S("https://www.theregister.com/2025/05/29/victoria_secrets_outage/","Victoria's Secret website laid bare for three days after 'security incident'","The Register","29 May 2025","trade"),
+  S("https://therecord.media/victorias-secret-website-down-security-incident","Victoria's Secret website down as company investigates security incident","The Record","May 2025","trade"),
+  S("https://www.nbcnews.com/tech/security/victorias-secret-takes-website-security-incident-rcna209682","Victoria's Secret takes website offline over security incident","NBC News","May 2025","news")])
+
+add(id="unfi-2025",company="United Natural Foods (UNFI)",service="grocery wholesale and distribution (main supplier to Whole Foods)",date="5 Jun 2025",sort="2025-06-05",duration="about a week or more of disruption; full restoration date not verified",where="US, Canada",
+ what="UNFI took systems offline after detecting unauthorised activity on 5 June 2025, and its filing said the incident had caused temporary disruptions to order fulfilment. Whole Foods and other grocers reported shortages and empty shelves. No total cost figure was found in the sources seen.",
+ what_nl="UNFI nam systemen offline nadat het op 5 juni 2025 onbevoegde activiteit had vastgesteld; volgens het beursdocument leidde dit tot tijdelijke verstoringen bij het uitvoeren van bestellingen. Whole Foods en andere supermarkten meldden tekorten en lege schappen. In de geraadpleegde bronnen werd geen totaalkost gevonden.",
+ cause="UNFI's Form 8-K reports unauthorised activity on its IT systems and containment measures. The company did not publicly name the type of attack; observers suspected ransomware (suspected).",
+ cause_nl="Het 8-K-document van UNFI meldt onbevoegde activiteit op zijn IT-systemen en beheersmaatregelen. Het bedrijf noemde het type aanval niet publiekelijk; waarnemers vermoedden ransomware (vermoeden).",
+ cause_status="C",who="Nobody named.",who_status="N",
+ sources=[S("https://www.esecurityplanet.com/news/whole-foods-cyberattack/","Cyberattack Disrupts Whole Foods Supplier, Causing Delivery Delays and Empty Shelves","eSecurity Planet","Jun 2025","trade"),
+  S("https://www.fox13news.com/news/whole-foods-unfi-cyberattack-deliveries","Whole Foods working to restock shelves as distributor faces cyberattack","FOX 13","Jun 2025","news"),
+  S("https://dailysecurityreview.com/security-spotlight/united-natural-foods-cyberattack-disrupts-operations-across-north-america/","United Natural Foods cyberattack disrupts operations across North America","Daily Security Review","Jun 2025","trade")])
+
+add(id="ingram-micro-2025",company="Ingram Micro",service="ordering website, licence provisioning and distribution platforms (world's largest IT distributor)",date="3 Jul 2025",sort="2025-07-03",duration="about a week; ordering restored region by region from 9 Jul",where="Global",
+ what="Ingram Micro's website and online ordering went down around 3 July 2025; the company later said ransomware had hit internal systems and it shut down systems as a precaution. Press reports say ordering was reactivated region by region from about 9 July. No cost figure was found.",
+ what_nl="De website en het online bestelsysteem van Ingram Micro vielen rond 3 juli 2025 uit; het bedrijf zei later dat ransomware interne systemen had getroffen en dat het systemen preventief afsloot. Volgens de pers werd bestellen vanaf ongeveer 9 juli regio per regio hersteld. Er werd geen kostenraming gevonden.",
+ cause="Ingram Micro said it had identified ransomware on certain internal systems. Reports say the access was via a compromised VPN; not officially confirmed.",
+ cause_nl="Ingram Micro zei ransomware te hebben vastgesteld op bepaalde interne systemen. Volgens berichten gebeurde de toegang via een gecompromitteerde VPN; niet officieel bevestigd.",
+ cause_status="C",who="The SafePay ransomware group is named by a ransom note seen by BleepingComputer and Infosecurity Magazine (the group's own note, reported by media). Not confirmed by Ingram Micro or an authority.",who_status="K",
+ sources=[S("https://www.bleepingcomputer.com/news/security/ingram-micro-outage-caused-by-safepay-ransomware-attack/","Ingram Micro outage caused by SafePay ransomware attack","BleepingComputer","Jul 2025","trade"),
+  S("https://www.infosecurity-magazine.com/news/it-giant-ingram-micro-reveals/","IT Giant Ingram Micro Reveals Ransomware Breach","Infosecurity Magazine","Jul 2025","trade"),
+  S("https://www.theregister.com/2025/07/09/ingram_micro_restarts_orders_for/","Ingram Micro restarts orders, for some, following ransomware attack","The Register","9 Jul 2025","trade"),
+  S("https://therecord.media/ingram-micro-ransomware-attack","Ingram Micro ransomware attack","The Record","Jul 2025","trade")])
+
+add(id="orange-france-2025",company="Orange (France)",service="management platforms for business customers and some consumer services",date="25 Jul 2025",sort="2025-07-25",duration="unknown",where="France",
+ what="Orange detected a cyberattack on 25 July 2025 and its security unit isolated the affected systems. Orange reported significant disruption to some management services for business customers and some consumer services in France. No cost figure was found.",
+ what_nl="Orange stelde op 25 juli 2025 een cyberaanval vast en zijn beveiligingseenheid isoleerde de getroffen systemen. Orange meldde aanzienlijke verstoringen van sommige beheerdiensten voor zakelijke klanten en enkele consumentendiensten in Frankrijk. Er werd geen kostenraming gevonden.",
+ cause="Orange confirmed a cyberattack on its internal systems and filed a complaint on 28 July. It said at that stage there was no evidence that customer data was extracted.",
+ cause_nl="Orange bevestigde een cyberaanval op zijn interne systemen en diende op 28 juli klacht in. Het zei dat er op dat moment geen aanwijzingen waren dat klantgegevens waren buitgemaakt.",
+ cause_status="C",who="Nobody named by Orange. A claim by a group called Warlock appears only on an aggregator blog (Rankiteo) and I could not verify it.",who_status="N",
+ europe="France only. A separate July 2025 data breach at Orange Belgium (850,000 customers) was reported as apparently not linked; it was a data breach, not an outage.",
+ sources=[S("https://securityaffairs.com/180552/security/orange-reports-major-cyberattack-warns-of-service-disruptions.html","Orange reports major cyberattack, warns of service disruptions","Security Affairs","Jul 2025","trade"),
+  S("https://cyberinsider.com/orange-france-reports-cyberattack-disrupting-business-services/","Orange France reports cyberattack disrupting business services","CyberInsider","Jul 2025","trade"),
+  S("https://securityaffairs.com/181399/uncategorized/orange-belgium-july-data-breach-impacted-850000-customers.html","Orange Belgium July data breach impacted 850,000 customers","Security Affairs","2025","trade")])
+
+add(id="aeroflot-2025",company="Aeroflot",service="airline IT systems, flight operations",date="28 Jul 2025",sort="2025-07-28",duration="one day of major disruption; further recovery time not verified",where="Russia",
+ what="A cyberattack caused a mass outage of Aeroflot's IT systems on 28 July 2025. Reports say more than 100 flights were cancelled and others delayed at Sheremetyevo; counts differ by source (one says 108 flights, about 42%; another 54 round trips). Experts quoted in media estimated losses of about 259 million roubles.",
+ what_nl="Een cyberaanval veroorzaakte op 28 juli 2025 een massale uitval van de IT-systemen van Aeroflot. Volgens berichten werden meer dan 100 vluchten geschrapt en andere vertraagd op Sjeremetjevo; de aantallen verschillen per bron (een bron meldt 108 vluchten, ongeveer 42 procent; een andere 54 heen-en-terugvluchten). Volgens experts in de media bedroeg het verlies ongeveer 259 miljoen roebel.",
+ cause="Russia's prosecutor's office said a cyberattack caused the mass outage (authority). The hackers claimed they destroyed about 7,000 servers and workstations; this was not independently verified.",
+ cause_nl="Het Russische openbaar ministerie zei dat een cyberaanval de massale uitval veroorzaakte (overheid). De hackers beweerden ongeveer 7.000 servers en werkstations te hebben vernietigd; dit werd niet onafhankelijk bevestigd.",
+ cause_status="C",who="The groups Silent Crow and the Belarusian Cyber Partisans claimed the attack as support for Ukraine (claim by the groups). No authority has named them in the sources seen.",who_status="K",
+ sources=[S("https://www.clickondetroit.com/tech/2025/07/28/cyberattack-on-russian-airline-aeroflot-causes-the-cancellation-of-more-than-100-flights/","Cyberattack on Russian airline Aeroflot causes the cancellation of more than 100 flights","AP via Click On Detroit","28 Jul 2025","news"),
+  S("https://securityaffairs.com/180521/hacktivism/pro-ukraine-hacktivists-claims-cyberattack-on-russian-airline-aeroflot-that-caused-the-cancellation-of-100-flights.html","Pro-Ukraine hacktivists claim cyberattack on Aeroflot","Security Affairs","Jul 2025","trade"),
+  S("https://meduza.io/en/feature/2025/07/30/assessing-aeroflot-s-aftermath","Assessing Aeroflot's aftermath","Meduza","30 Jul 2025","news")])
+
+add(id="jlr-2025",company="Jaguar Land Rover",service="car production, sales and parts systems",date="31 Aug 2025 (production paused from 1 Sep)",sort="2025-08-31",duration="about five weeks; production restarted in stages from early October 2025",where="UK (Solihull, Halewood, Wolverhampton plants)",
+ what="JLR shut down its IT systems after a cyber incident and paused vehicle production from 1 September 2025; the pause was extended several times and restarts began in early October with the Wolverhampton engine plant and Solihull, Halewood last. JLR reported cyber-related costs of GBP 196 million for the quarter to 30 September 2025 and about GBP 64 million more the next quarter. The independent Cyber Monitoring Centre estimated the cost to the UK economy at about GBP 1.9 billion.",
+ what_nl="JLR sloot zijn IT-systemen af na een cyberincident en legde de autoproductie vanaf 1 september 2025 stil; de stilstand werd meermaals verlengd en vanaf begin oktober werd in fasen herstart, met de motorenfabriek in Wolverhampton, Solihull en als laatste Halewood. JLR meldde cybergerelateerde kosten van 196 miljoen pond voor het kwartaal tot 30 september 2025 en ongeveer 64 miljoen pond extra het volgende kwartaal. Het onafhankelijke Cyber Monitoring Centre raamde de kost voor de Britse economie op ongeveer 1,9 miljard pond.",
+ cause="JLR confirmed a 'cyber incident' and shut systems as a precaution. JLR did not publish the type of attack in the sources I saw. A UK government guarantee of about GBP 1.5 billion for the supply chain was reported by media.",
+ cause_nl="JLR bevestigde een 'cyberincident' en sloot systemen preventief af. JLR publiceerde in de geraadpleegde bronnen het type aanval niet. Media meldden een Britse overheidsgarantie van ongeveer 1,5 miljard pond voor de toeleveringsketen.",
+ cause_status="C",who="The group calling itself Scattered Lapsus$ Hunters (a self-described merger of Scattered Spider, Lapsus$ and ShinyHunters) claimed responsibility. Not confirmed by JLR or an authority in the sources seen; I found no arrests tied to JLR.",who_status="K",
+ europe="UK plants. Effects on Europe's supply chain were reported by media; no specific Belgian effect found.",
+ sources=[S("https://media.jaguarlandrover.com/news/2025/11/jlr-performance-impacted-challenging-quarter","JLR performance impacted in challenging quarter","Jaguar Land Rover (company)","Nov 2025","off"),
+  S("https://www.teiss.co.uk/news/cyberattack-drains-196m-from-jlrs-quarterly-results-16731","Cyberattack drains GBP 196m from JLR's quarterly results","teiss","Nov 2025","trade"),
+  S("https://www.computerweekly.com/news/366633395/Jaguar-Land-Rover-attack-to-cost-UK-19bn-say-cyber-monitors","Jaguar Land Rover attack to cost UK GBP 1.9bn, say cyber monitors","Computer Weekly","Oct 2025","trade"),
+  S("https://www.rte.ie/news/business/2025/1009/1537721-jaguar-land-rover-restarts-production","Jaguar Land Rover restarts production","RTE","9 Oct 2025","news"),
+  S("https://www.yahoo.com/news/articles/m-hackers-claim-responsibility-jaguar-125051941.html","M&S hackers claim responsibility for Jaguar Land Rover attack","Yahoo News","Sep 2025","news")])
+json.dump(items,open("/home/user/cyberdesk-2026/build/research/outages/part1.json","w"),ensure_ascii=False,indent=1)
+print(len(items))

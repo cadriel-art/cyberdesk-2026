@@ -1,0 +1,398 @@
+[
+ {
+  "added": "2026-11-20",
+  "c": "Norway",
+  "d": "2026-11-20",
+  "kind": "news",
+  "off": false,
+  "rel": "",
+  "s": [
+   "energy",
+   "business"
+  ],
+  "src": "Industrial Cyber",
+  "stype": "Specialist media",
+  "sum": "Norwegian power company Skagerak Energi said on 18 November that outsiders had broken into some of its IT systems, and that operations and production were not affected. It has informed the energy regulator NVE, KraftCERT and the National Security Authority. Equinor now says the attack on its own IT systems has been stopped with no sign of stolen data; no link between the two incidents and no attacker has been confirmed.",
+  "sum_nl": "Het Noorse energiebedrijf Skagerak Energi meldde op 18 november dat buitenstaanders in een deel van zijn IT-systemen zijn binnengedrongen, zonder gevolgen voor de werking en de productie. Het heeft de energietoezichthouder NVE, KraftCERT en de nationale veiligheidsdienst ingelicht. Equinor zegt nu dat de aanval op zijn eigen IT-systemen gestopt is, zonder tekenen van gestolen gegevens; een verband tussen beide incidenten of een dader is niet bevestigd.",
+  "t": "Norway: second energy company, Skagerak Energi, reports intruders in its IT systems; Equinor says its attack is stopped",
+  "url": "https://industrialcyber.co/utilities-energy-power-water-waste/equinor-thwarts-cyberattack-as-separate-intrusion-at-skagerak-energi-raises-concerns-across-norways-energy-sector/",
+  "id": "2026-11-20-skagerak-energi-intrusion"
+ },
+ {
+  "added": "2026-11-20",
+  "c": "Poland",
+  "d": "2026-11-20",
+  "kind": "news",
+  "off": false,
+  "rel": "defenceeu",
+  "s": [
+   "defence",
+   "drones"
+  ],
+  "src": "Notes from Poland",
+  "stype": "News media",
+  "sum": "Poland's defence minister says two Russian cruise missiles and what was probably a jet-powered drone fell in south-eastern Poland during a large Russian attack on Ukraine. He says no one was injured and no critical infrastructure was damaged. Prime Minister Tusk calls it another step in Russian escalation; whether the objects were aimed at Poland is not established.",
+  "sum_nl": "De Poolse minister van Defensie zegt dat twee Russische kruisraketten en waarschijnlijk een drone met straalmotor zijn neergekomen in het zuidoosten van Polen, tijdens een grote Russische aanval op Oekraïne. Volgens hem raakte niemand gewond en werd geen kritieke infrastructuur beschadigd. Premier Tusk spreekt van een nieuwe stap in de Russische escalatie; of de objecten op Polen gericht waren, is niet vastgesteld.",
+  "t": "Poland says two Russian missiles and a probable drone came down on its territory",
+  "url": "https://notesfrompoland.com/2026/11/20/unidentified-object-hits-poland-amid-russian-attacks-on-western-ukraine/",
+  "id": "2026-11-20-poland-missiles-drone"
+ },
+ {
+  "added": "2026-11-20",
+  "c": "Germany",
+  "d": "2026-11-19",
+  "kind": "news",
+  "off": true,
+  "rel": "",
+  "s": [
+   "gov",
+   "ai"
+  ],
+  "src": "BSI (Federal Office for Information Security)",
+  "stype": "Official",
+  "sum": "In its annual report, Germany's Federal Office for Information Security (BSI) says the cyber security situation in Germany is 'tense to critical', citing geopolitics and the fast development of AI. The BSI says 160 new software vulnerabilities were found each day, and that the average time before a known flaw is exploited fell to 8 days in the second quarter of 2026. The report is an overall assessment and does not name specific attackers.",
+  "sum_nl": "In zijn jaarverslag noemt het Duitse federale bureau voor informatiebeveiliging (BSI) de cyberveiligheid in Duitsland 'gespannen tot kritiek', door de geopolitiek en de snelle ontwikkeling van AI. Volgens het BSI werden elke dag 160 nieuwe zwakke plekken in software ontdekt, en werd een bekend lek in het tweede kwartaal van 2026 gemiddeld al na 8 dagen misbruikt. Het verslag is een algemene inschatting en noemt geen specifieke daders.",
+  "t": "Germany's cyber agency BSI calls the cyber threat situation 'tense to critical'",
+  "url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261119_Lagebericht.html",
+  "id": "2026-11-19-bsi-annual-report"
+ },
+ {
+  "added": "2026-11-20",
+  "c": "Estonia",
+  "d": "2026-11-19",
+  "kind": "news",
+  "off": false,
+  "rel": "transporteu",
+  "s": [
+   "transport"
+  ],
+  "src": "ERR News",
+  "stype": "News media",
+  "sum": "Tallinn's municipal transport company TLT says an attacker used an unpatched website plugin to copy the website's database. The names, job titles and personal ID codes of 2,440 employees were exposed, and up to 2,370 people who filled in website forms may also be affected. TLT says ticket data and its other IT systems were not affected; who carried out the attack is not known.",
+  "sum_nl": "Het stedelijke vervoerbedrijf van Tallinn, TLT, zegt dat een aanvaller via een niet-bijgewerkte plug-in een kopie van de databank van de website heeft gemaakt. Namen, functies en persoonlijke identificatiecodes van 2.440 werknemers zijn uitgelekt, en tot 2.370 mensen die formulieren op de website invulden kunnen ook getroffen zijn. Volgens TLT zijn ticketgegevens en andere IT-systemen niet geraakt; wie achter de aanval zit, is niet bekend.",
+  "t": "Estonia: hackers copy personal data from the website of Tallinn's public transport company",
+  "url": "https://news.err.ee/1610200210/hackers-obtain-personal-data-of-thousands-in-cyberattack-on-tlt-website",
+  "id": "2026-11-19-tallinn-tlt-data-breach"
+ },
+ {
+  "added": "2026-11-20",
+  "c": "",
+  "d": "2026-11-19",
+  "kind": "news",
+  "off": false,
+  "rel": "",
+  "s": [
+   "gov",
+   "ai"
+  ],
+  "src": "The Record",
+  "stype": "Specialist media",
+  "sum": "The European Commission says it was hit by a cyber campaign first detected on 22 October, which used a publicly available AI tool, and that it took several services offline as a precaution. Media report that staff systems for pay, leave and medical claims were disrupted for more than ten days, and that CERT-EU linked the attack to the AI hacking tool ARTEX. The Commission says it has found no evidence of a broad breach of staff data and knows of no ransom demand; who is behind the attack is not known.",
+  "sum_nl": "De Europese Commissie zegt dat ze getroffen is door een cyberaanval die op 22 oktober werd ontdekt en waarbij een vrij beschikbaar AI-hulpmiddel werd gebruikt. Ze heeft uit voorzorg enkele diensten offline gehaald. Volgens media lagen systemen voor loon, verlof en medische terugbetalingen meer dan tien dagen stil, en koppelde CERT-EU de aanval aan het AI-hackprogramma ARTEX. De Commissie zegt dat er geen bewijs is van een groot datalek bij het personeel en dat er geen losgeld is gevraagd; wie achter de aanval zit, is niet bekend.",
+  "t": "European Commission confirms a cyberattack that used a publicly available AI tool",
+  "url": "https://therecord.media/european-commission-confirms-cyberattack-using-ai",
+  "id": "2026-11-19-european-commission-ai-cyberattack"
+ },
+ {
+  "added": "2026-11-20",
+  "c": "",
+  "d": "2026-11-19",
+  "kind": "news",
+  "off": false,
+  "rel": "",
+  "s": [
+   "spying",
+   "defence",
+   "gov"
+  ],
+  "src": "Industrial Cyber",
+  "stype": "Specialist media",
+  "sum": "Google's Threat Intelligence Group and Mandiant report that a group they describe as Russian state-sponsored, 'Cold Relic', targeted government officials, defence contractors and NGOs in Europe and North America. According to the report, the group steals staff directories and emails from one cloud breach and uses them to impersonate trusted contacts and break into other organisations. The report does not say which European organisations were affected.",
+  "sum_nl": "De dreigingsonderzoekers van Google en Mandiant melden dat een groep die zij omschrijven als gesteund door de Russische staat, 'Cold Relic', overheidsfunctionarissen, defensiebedrijven en ngo's in Europa en Noord-Amerika viseerde. Volgens het rapport steelt de groep personeelslijsten en e-mails bij een inbraak in de cloud en gebruikt ze die om zich voor te doen als vertrouwde contacten en bij andere organisaties binnen te dringen. Het rapport zegt niet welke Europese organisaties getroffen zijn.",
+  "t": "Google says Russian spy group 'Cold Relic' targets government officials and defence firms in Europe",
+  "url": "https://industrialcyber.co/ransomware/google-exposes-russian-cold-relics-attack-on-government-officials-defense-contractors-across-europe-north-america/",
+  "id": "2026-11-19-cold-relic-espionage"
+ },
+ {
+  "added": "2026-11-19",
+  "c": "Bulgaria",
+  "d": "2026-11-18",
+  "kind": "news",
+  "off": false,
+  "rel": "",
+  "s": [
+   "gov",
+   "spying"
+  ],
+  "src": "Reuters (via Yahoo News)",
+  "stype": "News media",
+  "sum": "Checked by us and now in the file (Register 2025–2026 and the intel desk). Minister Ivan Vasilev said intruders had been inside government document-exchange systems since 2021 and took more than 130 GB; no foreign state is named.",
+  "sum_nl": "Door ons gecontroleerd en nu in het dossier (Register 2025–2026 en de inlichtingendesk). Minister Ivan Vasilev zei dat indringers sinds 2021 in de systemen voor documentuitwisseling van de overheid zaten en meer dan 130 GB meenamen; er wordt geen buitenlandse staat genoemd.",
+  "t": "Bulgaria says hackers sat in government document systems for five years and took 62 million pages",
+  "url": "https://www.yahoo.com/news/world/articles/bulgaria-uncovers-five-cyberespionage-operation-170325657.html",
+  "id": "2026-11-18-bulgaria-gov-espionage"
+ },
+ {
+  "added": "2026-11-19",
+  "c": "France",
+  "d": "2026-11-18",
+  "kind": "news",
+  "off": false,
+  "rel": "",
+  "s": [
+   "business",
+   "energy"
+  ],
+  "src": "VRT NWS",
+  "stype": "News media",
+  "sum": "Checked by us and now in the file (Register 2025–2026). Attackers got in on 8 November through an old technical interface, closed on 12 November; e-mail addresses, names, dates of birth and phone numbers taken; payment details not taken, according to the company.",
+  "sum_nl": "Door ons gecontroleerd en nu in het dossier (Register 2025–2026). Aanvallers kwamen op 8 november binnen via een oude technische interface, gedicht op 12 november; e-mailadressen, namen, geboortedata en telefoonnummers buitgemaakt; betaalgegevens niet, volgens het bedrijf.",
+  "t": "Electric-car charging platform Chargemap warns users after a data breach",
+  "url": "https://www.vrt.be/vrtnws/nl/2026/11/18/charge-map-cyberaanval/",
+  "id": "2026-11-18-chargemap-breach"
+ },
+ {
+  "added": "2026-11-19",
+  "c": "",
+  "d": "2026-11-17",
+  "kind": "news",
+  "off": false,
+  "rel": "",
+  "s": [
+   "business",
+   "energy",
+   "transport"
+  ],
+  "src": "Dragos",
+  "stype": "Research",
+  "sum": "The industrial cybersecurity company Dragos published its ransomware analysis for the third quarter of 2026 on 17 November, counting an 11% rise in attacks on industrial organisations, with manufacturing making up 69% of victims. It ranks Germany second worldwide with 66 incidents, ahead of Italy (48), France (38) and Spain (35), and counts 105 incidents in transportation, 47 in oil and gas, 7 at electricity utilities and 4 at water utilities. These are a company's own figures, largely based on what attacker groups publish themselves, so they are not an official count and the report does not say which of the claimed attacks were confirmed by the victims.",
+  "sum_nl": "Het industriële cyberbeveiligingsbedrijf Dragos publiceerde op 17 november zijn ransomwareanalyse voor het derde kwartaal van 2026, met een stijging van 11% van de aanvallen op industriële organisaties, waarbij de maakindustrie goed is voor 69% van de slachtoffers. Duitsland staat volgens het rapport tweede wereldwijd met 66 incidenten, voor Italië (48), Frankrijk (38) en Spanje (35); er worden 105 incidenten in het transport geteld, 47 in olie en gas, 7 bij elektriciteitsbedrijven en 4 bij waterbedrijven. Het gaat om cijfers van een bedrijf zelf, grotendeels gebaseerd op wat aanvallersgroepen zelf publiceren, dus geen officiële telling, en het rapport zegt niet welke van de geclaimde aanvallen door de slachtoffers zijn bevestigd.",
+  "t": "Report: ransomware against industry rose 11% in the third quarter, with Germany second worldwide",
+  "url": "https://dragos.com/blog/dragos-industrial-ransomware-analysis-q3-2026",
+  "id": "2026-11-17-dragos-q3-industrial-ransomware"
+ },
+ {
+  "added": "2026-11-19",
+  "c": "France",
+  "d": "2026-11-17",
+  "kind": "news",
+  "off": false,
+  "rel": "encryption",
+  "s": [
+   "laws",
+   "encryption"
+  ],
+  "src": "L'Usine Digitale",
+  "stype": "News media",
+  "sum": "Checked by us and now in the file (Encryption: 30 countries, France). Adopted in first reading 464–64; MPs deleted the article on access to encrypted messaging (the 69–37 vote rests on one source); a joint committee is still to come.",
+  "sum_nl": "Door ons gecontroleerd en nu in het dossier (Versleuteling: 30 landen, Frankrijk). Aangenomen in eerste lezing met 464 tegen 64; de Kamerleden schrapten het artikel over toegang tot versleutelde berichten (de stemming 69–37 steunt op één bron); een gemengde commissie moet nog volgen.",
+  "t": "France: MPs adopt the NIS2 cybersecurity bill and strike out an article on access to encrypted messaging",
+  "url": "https://www.usine-digitale.fr/cybersecurite/la-cybersecurite-devient-un-enjeu-de-souverainete-les-deputes-votent-le-projet-de-loi-de-transposition-de-nis-2-et-renforcent-les-exigences-pour-les-organisations.KARHGZ7JSFGNTASGD2LOT2AEEU.html",
+  "id": "2026-11-17-france-nis2-resilience-law"
+ },
+ {
+  "added": "2026-11-18",
+  "c": "Norway",
+  "d": "2026-11-17",
+  "kind": "news",
+  "off": true,
+  "rel": "",
+  "s": [
+   "energy",
+   "business"
+  ],
+  "src": "Equinor",
+  "stype": "Official",
+  "sum": "Checked by us and now in the file (Register 2025–2026 and the intel desk), with the 18–19 November updates: still ongoing, production not affected, kind of attack and attacker not disclosed.",
+  "sum_nl": "Door ons gecontroleerd en nu in het dossier (Register 2025–2026 en de inlichtingendesk), met de updates van 18–19 november: nog bezig, productie niet geraakt, soort aanval en dader niet bekendgemaakt.",
+  "t": "Norway: Equinor says it is dealing with an ongoing cyberattack on some of its IT systems",
+  "url": "https://www.equinor.com/news/20261711-equinor-detected-cyber-attack",
+  "id": "2026-11-17-equinor-cyberattack"
+ },
+ {
+  "added": "2026-11-18",
+  "c": "Germany",
+  "d": "2026-11-17",
+  "kind": "news",
+  "off": false,
+  "rel": "health",
+  "s": [
+   "health"
+  ],
+  "src": "DataBreaches.net",
+  "stype": "Specialist media",
+  "sum": "The Kreiskrankenhaus Greiz-Ronneburg in Thuringia, Germany, had to shut its emergency room and send patients elsewhere after its computer systems went down in the middle of November; the emergency room began reopening on 16 November. A spokesperson for the district authority describes the incident as an attempted extortion, and the hospital says patients kept being treated during the outage. It has not been said whether a ransom was demanded, whether ransomware was used, or who is responsible, and reports differ on whether the trouble started on 14 or 15 November.",
+  "sum_nl": "Het Kreiskrankenhaus Greiz-Ronneburg in Thüringen (Duitsland) moest zijn spoedafdeling sluiten en patiënten doorsturen nadat de computersystemen half november uitvielen; op 16 november ging de spoedafdeling weer stap voor stap open. Een woordvoerder van het districtsbestuur noemt het een afpersingspoging, en het ziekenhuis zegt dat patiënten tijdens de storing verzorgd bleven. Of er losgeld is geëist, of er ransomware is gebruikt en wie erachter zit, is niet gezegd, en berichten verschillen over de vraag of het op 14 of 15 november begon.",
+  "t": "Germany: hospital in Greiz reopens its emergency room after a cyber extortion attack",
+  "url": "https://databreaches.net/2026/11/17/germany-greiz-hospital-reopens-emergency-room-after-ransom-attack/",
+  "id": "2026-11-17-greiz-hospital"
+ },
+ {
+  "added": "2026-11-17",
+  "c": "Lithuania",
+  "d": "2026-11-16",
+  "kind": "news",
+  "off": false,
+  "rel": "",
+  "s": [
+   "gov",
+   "transport"
+  ],
+  "src": "The Record",
+  "stype": "Specialist media",
+  "sum": "Checked by us and now in the file (Register 2025–2026). Customs identified the incident on 10 November and shut its BAP portal; data of possibly several hundred people and companies may be affected; nobody named.",
+  "sum_nl": "Door ons gecontroleerd en nu in het dossier (Register 2025–2026). De douane stelde het incident vast op 10 november en sloot haar BAP-portaal; gegevens van mogelijk enkele honderden personen en bedrijven kunnen getroffen zijn; niemand aangewezen.",
+  "t": "Lithuanian customs agency partly restores online services after a cyberattack; personal data may have been exposed",
+  "url": "https://therecord.media/lithuania-customs-agency-cyberattack",
+  "id": "2026-11-16-lithuania-customs-cyberattack"
+ },
+ {
+  "added": "2026-11-17",
+  "c": "Estonia",
+  "d": "2026-11-16",
+  "kind": "news",
+  "off": false,
+  "rel": "hybrideu",
+  "s": [
+   "sabotage",
+   "defence"
+  ],
+  "src": "CNBC",
+  "stype": "News media",
+  "sum": "Checked by us and now in the file (Drones, sabotage, hybrid: 30 countries). Corrected: the announcement was on 15 November; the foreign ministry clarified it means the road crossings Narva, Luhamaa and Koidula from 1 December; freight rail at Narva stays open for now; no formal cabinet decision yet.",
+  "sum_nl": "Door ons gecontroleerd en nu in het dossier (Drones, sabotage, hybride: 30 landen). Gecorrigeerd: de aankondiging was op 15 november; het ministerie van Buitenlandse Zaken verduidelijkte dat het om de wegovergangen Narva, Luhamaa en Koidula gaat vanaf 1 december; het goederenspoor in Narva blijft voorlopig open; nog geen formele regeringsbeslissing.",
+  "t": "Estonia says it will close all border crossings with Russia from 1 December after the foiled sabotage at drone maker Threod Systems",
+  "url": "https://www.cnbc.com/2026/11/16/nato-estonia-russia-border-ukraine-war.html",
+  "id": "2026-11-16-estonia-border-closure"
+ },
+ {
+  "added": "2026-11-16",
+  "c": "Estonia",
+  "d": "2026-11-14",
+  "kind": "news",
+  "off": false,
+  "rel": "hybrideu",
+  "s": [
+   "sabotage",
+   "defence"
+  ],
+  "src": "Breaking Defense",
+  "stype": "Specialist media",
+  "sum": "Checked by us and now in the file (page Drones, sabotage, hybrid: 30 countries, and the evidence tracker). Eight Latvian citizens were detained. The security service says Russian military intelligence ordered it; no evidence is published and no court has ruled.",
+  "sum_nl": "Door ons gecontroleerd en nu in het dossier (pagina Drones, sabotage, hybride: 30 landen, en de bewijstracker). Acht Letse burgers zijn opgepakt. De veiligheidsdienst zegt dat de Russische militaire inlichtingendienst het bestelde; er is geen bewijs gepubliceerd en geen vonnis.",
+  "t": "Estonia says it foiled an arson attack on drone maker Threod Systems, ordered by Russian military intelligence",
+  "url": "https://breakingdefense.com/2026/11/estonian-drone-company-targeted-in-sabotage-attempt-as-part-of-russias-hybrid-war-against-europe-prime-minister-michal/",
+  "id": "2026-11-14-threod"
+ },
+ {
+  "added": "2026-11-17",
+  "c": "France",
+  "d": "2026-11-14",
+  "kind": "news",
+  "off": false,
+  "rel": "",
+  "s": [
+   "business"
+  ],
+  "src": "franceinfo",
+  "stype": "News media",
+  "sum": "Checked by us and now in the file (Register 2025–2026). The 22 million people are recipients of mail sent by Maileva's business clients, not Maileva customers; the Paris prosecutor is investigating; nobody named.",
+  "sum_nl": "Door ons gecontroleerd en nu in het dossier (Register 2025–2026). De 22 miljoen mensen zijn ontvangers van post die de zakelijke klanten van Maileva verstuurden, geen klanten van Maileva zelf; het Parijse parket onderzoekt; niemand aangewezen.",
+  "t": "France: La Poste subsidiary Maileva says names and addresses of 22 million people were stolen in a cyberattack",
+  "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/victime-d-une-cyberattaque-maileva-une-filiale-du-groupe-la-poste-annonce-un-vol-de-donnees-touchant-22-millions-de-personnes_8282825.html",
+  "id": "2026-11-14-maileva-la-poste-breach"
+ },
+ {
+  "added": "2026-11-16",
+  "c": "Germany",
+  "d": "2026-11-13",
+  "kind": "news",
+  "off": false,
+  "rel": "defenceeu",
+  "s": [
+   "defence",
+   "business"
+  ],
+  "src": "Al Arabiya (citing Reuters and the Financial Times)",
+  "stype": "News media",
+  "sum": "The company, which supplies Ukraine and the German army, says hostile actors got into its update server in late October and sent out a harmful update of its mission-planning software. Drones were grounded and are flying again. Nobody has been named.",
+  "sum_nl": "Het bedrijf, dat aan Oekraïne en het Duitse leger levert, zegt dat vijandige actoren eind oktober in zijn updateserver raakten en een schadelijke update van zijn planningssoftware verstuurden. Drones bleven aan de grond en vliegen weer. Niemand is aangewezen.",
+  "t": "German drone maker Quantum Systems reports a cyberattack through its own software update",
+  "url": "https://english.alarabiya.net/News/world/2026/11/13/german-drone-maker-supplying-ukraine-reports-cyberattack",
+  "id": "2026-11-13-quantum"
+ },
+ {
+  "added": "2026-11-16",
+  "c": "",
+  "d": "2026-11-12",
+  "kind": "news",
+  "off": false,
+  "rel": "hybrideu",
+  "s": [
+   "sabotage",
+   "spying"
+  ],
+  "src": "LRT",
+  "stype": "News media",
+  "sum": "A background article by the Lithuanian public broadcaster on sabotage, fires and recruitment linked to networks working for Russia. Useful as context, not as proof of any single case.",
+  "sum_nl": "Een achtergrondartikel van de Litouwse openbare omroep over sabotage, branden en rekrutering gelinkt aan netwerken die voor Rusland werken. Nuttig als context, niet als bewijs voor één zaak.",
+  "t": "Overview: sabotage, cyberattacks and recruited agents in Europe",
+  "url": "https://www.lrt.lt/en/news-in-english/19/3113117/hybrid-warfare-in-europe-sabotage-cyberattacks-agents-at-the-service-of-rival-powers",
+  "id": "2026-11-12-lrt"
+ },
+ {
+  "added": "2026-11-16",
+  "c": "Belgium",
+  "d": "2026-11-04",
+  "kind": "news",
+  "off": false,
+  "rel": "freezers",
+  "s": [
+   "food"
+  ],
+  "src": "The Brussels Times",
+  "stype": "News media",
+  "sum": "The Brussels Times looks at the warning that went out three weeks before the Belgian freezer attack and what shops did with it. The date shown here is approximate (early November).",
+  "sum_nl": "The Brussels Times bekijkt de waarschuwing die drie weken voor de Belgische diepvriesaanval werd verstuurd en wat winkels ermee deden. De datum hier is bij benadering (begin november).",
+  "t": "Belgian supermarkets were warned of cyber risks: could the attacks have been prevented?",
+  "url": "https://www.brusselstimes.com/2389696/belgian-supermarkets-were-warned-of-cyber-risks-could-the-attacks-have-been-prevented",
+  "id": "2026-11-bt-warned"
+ },
+ {
+  "added": "2026-11-16",
+  "c": "Belgium",
+  "d": "2026-11-03",
+  "kind": "news",
+  "off": false,
+  "rel": "freezers",
+  "s": [
+   "food"
+  ],
+  "src": "VRT NWS",
+  "stype": "News media",
+  "sum": "VRT reports at least 40 Delhaize stores, about 15 Carrefour stores, five Spar stores and 10 to 15 Intermarché stores affected in the night of 1 to 2 November. The Centre for Cybersecurity Belgium had warned on 13 October that some refrigeration systems were vulnerable.",
+  "sum_nl": "VRT meldt minstens 40 Delhaize-winkels, een vijftiental Carrefour-winkels, vijf Spar-winkels en 10 tot 15 Intermarché-winkels getroffen in de nacht van 1 op 2 november. Het Centrum voor Cybersecurity België had op 13 oktober gewaarschuwd dat sommige koelsystemen kwetsbaar waren.",
+  "t": "Belgian federal prosecutors open an investigation into the supermarket freezer attack",
+  "url": "https://www.vrt.be/vrtnws/en/2026/11/03/belgian-prosecutors-launch-investigation-into-supermarket-cybera/",
+  "id": "2026-11-03-vrt-freezers"
+ },
+ {
+  "added": "2026-11-16",
+  "c": "France",
+  "d": "2026-11-02",
+  "kind": "news",
+  "off": false,
+  "rel": "healtheu",
+  "s": [
+   "health",
+   "food"
+  ],
+  "src": "franceinfo",
+  "stype": "News media",
+  "sum": "Checked by us and now in the file (page Health: 30 countries). Settings of cold rooms at three sites were changed through an outside contractor. The blood service says stored products were not affected; the Paris prosecutor is investigating; nobody is named.",
+  "sum_nl": "Door ons gecontroleerd en nu in het dossier (pagina Gezondheid: 30 landen). Instellingen van koelcellen op drie sites werden gewijzigd via een externe leverancier. De bloeddienst zegt dat bewaarde producten niet zijn aangetast; het parket van Parijs onderzoekt; niemand is aangewezen.",
+  "t": "France: cold rooms of the blood service tampered with, in the night of the freezer attacks",
+  "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/une-cyberattaque-touche-des-installations-frigorifiques-utilisees-par-l-etablissement-francais-du-sang-sans-impact-sur-les-echantillons-conserves_8267426.html",
+  "id": "2026-11-02-fr-blood"
+ }
+]

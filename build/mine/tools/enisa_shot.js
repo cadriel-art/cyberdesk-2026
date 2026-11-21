@@ -1,0 +1,11 @@
+const { chromium } = require('playwright');
+(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1280,height:900},deviceScaleFactor:1,colorScheme:'light'});const e=[];p.on('pageerror',x=>e.push(x.message));
+await p.goto('file:///home/user/cyberdesk-2026/build/mine/cyber-desk-offline.html#trend');await p.waitForTimeout(600);
+const d=p.locator('#p-trend details.enisa-card');console.log('count',await d.count(),'openByDefault',await d.evaluate(x=>x.open));
+await d.locator('summary').click();await p.waitForTimeout(200);
+await d.scrollIntoViewIfNeeded();
+console.log('en nl-visible',await d.locator('.pb-nl').isVisible());
+await d.screenshot({path:'../enisa-card.png'});
+await p.click('#l-nl');await p.waitForTimeout(400);
+console.log('nl text',(await d.locator('.pb-nl').innerText()).slice(0,120).replace(/\n/g,' | '),'open',await d.evaluate(x=>x.open));
+console.log('errors',e);await b.close();})();

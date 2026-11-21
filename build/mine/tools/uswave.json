@@ -1,0 +1,324 @@
+[
+ {
+  "id": "faa-ground-stop-13nov",
+  "company": "FAA (US Federal Aviation Administration)",
+  "service": "Nationwide ground stop; air traffic control telecommunications network",
+  "date": "13 Nov 2026",
+  "sort": "2026-11-13",
+  "duration": "About 4.5 hours: problem from about 3:30 p.m. ET, ground stop lifted around 8:15 p.m. ET (Washington Post, as summarised by press); delays lingered after",
+  "where": "US (all departures halted nationwide); some Europe-US flights were also delayed or cancelled according to press reports",
+  "what": "The FAA halted all departing flights nationwide on Friday 13 November after a communications problem. The FAA says radar feeds and aircraft communications were disrupted at 17 of 22 en-route control centres. The FAA said about 12,462 flights were cancelled, including 9,082 by major airlines, but that not all cancellations were directly caused by the ground stop; all flights landed safely. On 17-18 November the FAA paused further Juniper router installations. On 18 November DNI Jay Clayton and Secretary of State Marco Rubio said there was no indication of a cyberattack behind the recent outages and that the incidents were separate.",
+  "what_nl": "Op vrijdag 13 november legde de FAA alle vertrekkende vluchten in de VS stil na een communicatieprobleem. Volgens de FAA vielen radarbeelden en communicatie met vliegtuigen uit bij 17 van de 22 verkeersleidingscentra. De FAA zegt dat ongeveer 12.462 vluchten werden geschrapt, waaronder 9.082 door grote maatschappijen, maar dat niet alle annuleringen rechtstreeks door de grondstop kwamen; alle vluchten landden veilig. Op 17-18 november stopte de FAA de verdere installatie van Juniper-routers. Op 18 november zeiden nationale inlichtingendirecteur Jay Clayton en minister van Buitenlandse Zaken Marco Rubio dat er geen aanwijzing is voor een cyberaanval achter de recente storingen en dat het om afzonderlijke incidenten ging.",
+  "kind": "technical",
+  "cause": "The FAA said a flood of data on its telecommunications network (about 1,000 connection attempts every 4 to 5 seconds) destabilised legacy equipment. It named a radio site at El Dorado, Arkansas, where contractor L3Harris was installing a new Juniper router, and a radar site at Amarillo, Texas. The FAA disabled the functionality on the originating Juniper routers and on more than 60 others as a precaution. The root cause is still under investigation; HPE, maker of Juniper, says the devices worked as intended ('They did not fail', per press). The FAA said it had no indication of a cyberattack (per press reports of its statement). Defective equipment versus installation/configuration error is not established.",
+  "cause_nl": "De FAA zegt dat een stortvloed aan data op haar telecommunicatienetwerk (ongeveer 1.000 verbindingspogingen per 4 tot 5 seconden) oude apparatuur ontregelde. Ze noemt een radiosite in El Dorado (Arkansas), waar aannemer L3Harris een nieuwe Juniper-router installeerde, en een radarsite in Amarillo (Texas). De FAA schakelde de functie uit op de router van oorsprong en voorzorgshalve op meer dan 60 andere. De grondoorzaak wordt nog onderzocht; HPE, producent van Juniper, zegt dat de apparaten werkten zoals bedoeld. De FAA zegt geen aanwijzing te hebben voor een cyberaanval. Defecte apparatuur of een installatie- of configuratiefout is niet vastgesteld.",
+  "cause_status": "C",
+  "sources": [
+   {
+    "url": "https://www.faa.gov/newsroom/faa-statement-nationwide-ground-stop",
+    "title": "Nationwide Ground Stop: Questions and Answers",
+    "publisher": "FAA",
+    "date": "2026-11",
+    "type": "off"
+   },
+   {
+    "url": "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa",
+    "title": "November 13, 2026: Some US flights resume after hours-long ground stop",
+    "publisher": "CNN",
+    "date": "13 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.washingtonpost.com/transportation/2026/11/13/faa-grounds-flights-all-us-airports-citing-communications-issue/",
+    "title": "FAA lifts ground stop at U.S. airports, leaving travel chaos",
+    "publisher": "The Washington Post",
+    "date": "13 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.cnn.com/2026/11/17/us/faa-ground-stop-juniper-router-installations",
+    "title": "FAA pauses Juniper router installations after nationwide ground stop",
+    "publisher": "CNN",
+    "date": "17 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://abcnews.com/US/faa-halts-router-installation-nationwide-ground-stop/story?id=138221009",
+    "title": "FAA halts router installation following nationwide ground stop, root cause of issue unknown",
+    "publisher": "ABC News",
+    "date": "17 Nov 2026",
+    "type": "news"
+   }
+  ],
+  "who": "",
+  "who_status": "",
+  "europe": "",
+  "background": false
+ },
+ {
+  "id": "chase-outage-16nov",
+  "company": "JPMorgan Chase",
+  "service": "Chase online and mobile banking, some branches; payments to and from Chase (incl. Zelle transfers)",
+  "date": "16 Nov 2026",
+  "sort": "2026-11-16",
+  "duration": "Several hours on Monday 16 Nov; Chase said around 6:30 p.m. ET that transactions were posting normally",
+  "where": "US",
+  "what": "Customers reported trouble logging in and an in-app message 'Some services aren't available'; Downdetector counted more than 4,700 Chase reports by 2 p.m. ET, according to press. Other banks (reports named Bank of America, Wells Fargo, US Bank) were listed by users; Chase said they were affected only where they transacted with Chase. Early Warning Services said the Zelle network itself was not down. Bank of America reportedly said its systems were operating normally. On 18 November DNI Jay Clayton and Secretary of State Marco Rubio said there was no indication of a cyberattack behind the recent outages (the DNI's remarks cited banking outages in general).",
+  "what_nl": "Klanten meldden problemen met inloggen en een bericht in de app 'Some services aren't available'; volgens de pers telde Downdetector tegen 14.00 uur ET meer dan 4.700 meldingen over Chase. Gebruikers noemden ook andere banken (Bank of America, Wells Fargo, US Bank); Chase zegt dat die alleen hinder hadden voor zover ze transacties met Chase deden. Early Warning Services zegt dat het Zelle-netwerk zelf niet uitviel. Bank of America zou hebben gezegd dat de systemen normaal werkten. Op 18 november zeiden nationale inlichtingendirecteur Jay Clayton en minister Marco Rubio dat er geen aanwijzing is voor een cyberaanval achter de recente storingen (de DNI sprak ook over storingen bij banken in het algemeen).",
+  "kind": "technical",
+  "cause": "Chase said it was a temporary issue caused by a software bug in an on-premises hardware system and was not cyber-related; it said 'this is not a systemic issue'. A source told CNN an update on the bank's own computer systems inadvertently caused the problems, not a cloud issue or an attack. Not shown to be linked to the Microsoft or FAA incidents.",
+  "cause_nl": "Chase zegt dat het ging om een tijdelijk probleem door een softwarefout in een on-premises hardwaresysteem en dat het niet met cyber te maken had; 'dit is geen systemisch probleem'. Een bron zei tegen CNN dat een update op de eigen computersystemen van de bank de problemen onbedoeld veroorzaakte, geen cloudprobleem of aanval. Een verband met de Microsoft- of FAA-storing is niet aangetoond.",
+  "cause_status": "C",
+  "sources": [
+   {
+    "url": "https://www.cnn.com/2026/11/16/business/bank-outage-chase-us-bank-bank-of-america",
+    "title": "Thousands of Chase Bank customers report trouble with online banking services",
+    "publisher": "CNN",
+    "date": "16 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.opb.org/article/2026/11/16/a-technical-issue-at-jpmorgan-chase-triggers-online-banking-delays-across-major-us-banks/",
+    "title": "A technical issue at JPMorgan Chase triggers online banking delays across major US banks",
+    "publisher": "OPB (AP)",
+    "date": "16 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.nbcnews.com/business/consumer/outages-chase-banking-online-branches-rcna609673",
+    "title": "Nationwide outage impacts Chase banking online and some branches",
+    "publisher": "NBC News",
+    "date": "16 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.cbsnews.com/news/banks-online-service-outages-jpmorgan-chase-bank-of-america-wells-fargo/",
+    "title": "Widespread service outages at major U.S. banks appear to be over",
+    "publisher": "CBS News",
+    "date": "17 Nov 2026",
+    "type": "news"
+   }
+  ],
+  "who": "",
+  "who_status": "",
+  "europe": "",
+  "background": false
+ },
+ {
+  "id": "united-outage-16nov",
+  "company": "United Airlines",
+  "service": "Airline technology systems (flight-planning, weather-briefing and crew-management tools; departures delayed)",
+  "date": "16 Nov 2026",
+  "sort": "2026-11-16",
+  "duration": "About 30 minutes per a United spokesperson to CNN; another outlet reports departing flights delayed about 90 minutes",
+  "where": "US (United network)",
+  "what": "United said a widespread system outage delayed flights; fewer than 150 flights were affected, per a United spokesperson to CNN. An internal alert seen by CNN described problems accessing flight-planning, weather-briefing and crew-management applications. The FAA said the problem was on United's side, not with FAA equipment. I did not find a source tying the mid-November check-in problems to a separate event, and the 18 November official statement is not confirmed to have covered this event.",
+  "what_nl": "United zegt dat een wijdverspreide systeemstoring vluchten vertraagde; volgens een woordvoerder aan CNN waren minder dan 150 vluchten betrokken. Een interne waarschuwing die CNN inzag, meldde problemen met toegang tot toepassingen voor vluchtplanning, weerbriefing en bemanningsbeheer. De FAA zegt dat het probleem bij United lag en niet bij FAA-apparatuur. Of de verklaring van 18 november deze storing dekte, is niet bevestigd.",
+  "kind": "unknown",
+  "cause": "United did not disclose a cause; it called it a technology problem and said there was no indication of a cybersecurity-related issue (per press). The FAA said the problem was on United's end.",
+  "cause_nl": "United maakte geen oorzaak bekend; het sprak van een technologisch probleem en zegt geen aanwijzing te hebben voor een cyberincident (volgens de pers). De FAA zegt dat het probleem bij United zelf lag.",
+  "cause_status": "N",
+  "sources": [
+   {
+    "url": "https://www.cnn.com/2026/11/16/us/united-airlines-outage",
+    "title": "United Airlines says it resolved system outage that delayed flights",
+    "publisher": "CNN",
+    "date": "16 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.wsls.com/business/2026/11/16/united-airlines-says-it-has-a-widespread-system-outage-just-days-after-nationwide-ground-stop/",
+    "title": "United Airlines says it has a widespread system outage just days after nationwide ground stop",
+    "publisher": "WSLS (AP)",
+    "date": "16 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.washingtontimes.com/news/2026/nov/16/united-airlines-hit-sudden-system-outage/",
+    "title": "United Airlines hit by sudden system outage",
+    "publisher": "The Washington Times",
+    "date": "16 Nov 2026",
+    "type": "news"
+   }
+  ],
+  "who": "",
+  "who_status": "",
+  "europe": "",
+  "background": false
+ },
+ {
+  "id": "apple-services-17nov",
+  "company": "Apple",
+  "service": "iCloud sign-in, App Store, Apple Music, AppleCare, Apple Pay reports, some retail and business/education tools",
+  "date": "17 Nov 2026",
+  "sort": "2026-11-17",
+  "duration": "Began about 8:45 a.m. (time zone per source); iCloud sign-in and App Store largely restored the same day, App Store Connect later; Apple did not declare the whole outage over in its statement",
+  "where": "Global (reports centred on the US)",
+  "what": "Apple's status page listed problems with iCloud sign-in, the App Store, Apple Music and AppleCare; the outage also hit retail operations and some business and education tools, per press. Apple said many of its systems were back up and running. I did not confirm that the 18 November official statement covered this event.",
+  "what_nl": "Op de statuspagina van Apple stonden problemen met inloggen op iCloud, de App Store, Apple Music en AppleCare; volgens de pers werden ook winkelsystemen en enkele zakelijke en onderwijstools getroffen. Apple zegt dat veel systemen weer werkten. Of de verklaring van 18 november deze storing dekte, is niet bevestigd.",
+  "kind": "technical",
+  "cause": "Apple told outlets (incl. Bloomberg, per press) that an internal update caused the outages and that it was not a cyberattack; it did not say which update or system failed.",
+  "cause_nl": "Apple zei tegen media dat een interne update de storing veroorzaakte en dat het geen cyberaanval was; Apple zegt niet welke update of welk systeem faalde.",
+  "cause_status": "C",
+  "sources": [
+   {
+    "url": "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/",
+    "title": "Apple services, including iCloud, App Store, Apple Music, and more, hit by outage",
+    "publisher": "TechCrunch",
+    "date": "17 Nov 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.macrumors.com/2026/11/17/apple-outage-internal-update/",
+    "title": "Apple Blames Internal Update for Outage, Says It Wasn't a Cyberattack",
+    "publisher": "MacRumors",
+    "date": "17 Nov 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://time.com/article/2026/11/17/apple-outage-down-update-issue/",
+    "title": "What to Know About the Apple Outage",
+    "publisher": "Time",
+    "date": "17 Nov 2026",
+    "type": "news"
+   }
+  ],
+  "who": "",
+  "who_status": "",
+  "europe": "",
+  "background": false
+ },
+ {
+  "id": "marriott-bonvoy-17nov",
+  "company": "Marriott",
+  "service": "Marriott.com and Bonvoy app sign-in; mobile keys",
+  "date": "17 Nov 2026",
+  "sort": "2026-11-17",
+  "duration": "About a day: from about 9:15 a.m. ET on 17 Nov; resolved by Wednesday afternoon per a Marriott spokesperson (Hotel Dive)",
+  "where": "US / Global",
+  "what": "Sign-in failed on the website and app, and some guests reportedly could not use mobile room keys or change bookings; Downdetector reports peaked at 677 in one hour, per press. Some hotels reportedly handed out physical keys. I did not confirm that the 18 November official statement covered this event.",
+  "what_nl": "Inloggen op de website en app lukte niet; sommige gasten konden volgens meldingen hun digitale kamersleutel niet gebruiken of boekingen niet wijzigen. Volgens de pers liepen de Downdetector-meldingen op tot 677 in één uur. Sommige hotels gaven fysieke sleutels. Of de verklaring van 18 november deze storing dekte, is niet bevestigd.",
+  "kind": "technical",
+  "cause": "Marriott called it a technical issue; a spokesperson said its review found no indication the disruption was cybersecurity-related. Marriott did not link it to Apple's outage.",
+  "cause_nl": "Marriott sprak van een technisch probleem; een woordvoerder zei dat uit het onderzoek geen aanwijzing voor een cyberincident bleek. Marriott legde geen verband met de Apple-storing.",
+  "cause_status": "C",
+  "sources": [
+   {
+    "url": "https://skift.com/2026/11/17/marriott-bonvoy-sign-ins-were-down-for-hours-disrupting-mobile-keys/",
+    "title": "Marriott App Log-ins Go Down for Hours: 'A Technical Issue'",
+    "publisher": "Skift",
+    "date": "17 Nov 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.hoteldive.com/news/marriott-technology-disruption/875122/",
+    "title": "Marriott faces technical issues amid flurry of US outages, disruptions",
+    "publisher": "Hotel Dive",
+    "date": "18 Nov 2026",
+    "type": "trade"
+   }
+  ],
+  "who": "",
+  "who_status": "",
+  "europe": "",
+  "background": false
+ },
+ {
+  "id": "nsa-nsanet-17nov",
+  "company": "US National Security Agency",
+  "service": "NSANet, the NSA's classified internal communications network",
+  "date": "17 Nov 2026",
+  "sort": "2026-11-17",
+  "duration": "Not stated; restoration not confirmed as of 18 Nov per press",
+  "where": "US (Fort Meade, Maryland)",
+  "what": "CNN first reported the classified network was down; the Wall Street Journal reported it was linked to a software update. Reports say the outage slowed analysts' work and forced staff to change when they came to the Fort Meade campus. The NSA itself described only 'temporary degradation during scheduled routine maintenance' (per press). On 18 November DNI Jay Clayton said the disruption followed a patch for PHP vulnerabilities after which some systems did not restart as expected, and that there was no evidence of a cyberattack.",
+  "what_nl": "CNN meldde als eerste dat het geclassificeerde netwerk uitviel; de Wall Street Journal meldde een verband met een software-update. Volgens berichten vertraagde de storing het werk van analisten en moest personeel de aankomst op de campus in Fort Meade aanpassen. De NSA zelf sprak volgens de pers alleen van 'tijdelijke degradatie tijdens gepland routineonderhoud'. Op 18 november zei nationale inlichtingendirecteur Jay Clayton dat de storing volgde op een patch voor PHP-kwetsbaarheden waarna sommige systemen niet zoals verwacht herstartten, en dat er geen bewijs is voor een cyberaanval.",
+  "kind": "technical",
+  "cause": "DNI Jay Clayton linked the outage to a patch for PHP vulnerabilities after which some systems failed to restart as expected, with no evidence of a cyberattack (as reported by The Record; the Wall Street Journal's anonymous source said the NSA was updating its software). The NSA called it scheduled routine maintenance.",
+  "cause_nl": "Nationale inlichtingendirecteur Jay Clayton bracht de storing in verband met een patch voor PHP-kwetsbaarheden waarna sommige systemen niet zoals verwacht herstartten, zonder bewijs voor een cyberaanval (volgens The Record; de anonieme bron van de Wall Street Journal sprak van een software-update). De NSA sprak van gepland routineonderhoud.",
+  "cause_status": "C",
+  "sources": [
+   {
+    "url": "https://therecord.media/nsa-net-disruptions",
+    "title": "Update: Disruptions in NSA's internal network caused by software patch, DNI says",
+    "publisher": "The Record",
+    "date": "18 Nov 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.cbsnews.com/news/national-security-agency-network-outage-software-vulnerability/",
+    "title": "National Security Agency network outage linked to software vulnerability",
+    "publisher": "CBS News",
+    "date": "18 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.nextgov.com/digital-government/2026/11/classified-nsa-communications-network-down-people-familiar-say/417277/",
+    "title": "Classified NSA communications network down, people familiar say",
+    "publisher": "Nextgov/FCW",
+    "date": "17 Nov 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.jpost.com/international/article-915216",
+    "title": "NSA's highly classified internal communications network shuts down, linked to software update - WSJ",
+    "publisher": "Jerusalem Post (citing WSJ)",
+    "date": "17 Nov 2026",
+    "type": "news"
+   }
+  ],
+  "who": "",
+  "who_status": "",
+  "europe": "",
+  "background": false
+ },
+ {
+  "id": "sony-psn-18nov",
+  "company": "Sony (PlayStation Network)",
+  "service": "PSN gaming and social services, sign-in and game launch",
+  "date": "18 Nov 2026",
+  "sort": "2026-11-18",
+  "duration": "About 40 minutes per Sony's status page (1:58 p.m. to about 2:37 p.m. ET); user reports continued; TechRepublic reports two outages around the GTA 6 launch",
+  "where": "Global (reports centred on the US)",
+  "what": "Sony's status page said players might have difficulty launching games, apps or network features. Reports on Downdetector peaked at more than 8,000 for the US, according to GV Wire. It came around the launch of the game GTA 6. Some outlets describe a second disruption on 19 November (Sportskeeda, Digit); I could not confirm it from a primary source or a major outlet, so it is not counted. I did not confirm that the 18 November official statement covered this event.",
+  "what_nl": "Op de statuspagina van Sony stond dat spelers mogelijk problemen hadden met het starten van games, apps of netwerkfuncties. Volgens GV Wire liepen de meldingen op Downdetector op tot meer dan 8.000 in de VS. Het gebeurde rond de lancering van de game GTA 6. Enkele media spreken van een tweede storing op 19 november; dat kon niet bij een primaire bron of groot medium worden bevestigd. Of de verklaring van 18 november deze storing dekte, is niet bevestigd.",
+  "kind": "unknown",
+  "cause": "No cause published. Sony's status page named no cause. Commentators suggest launch-day traffic; no source confirms it.",
+  "cause_nl": "Geen oorzaak bekendgemaakt. Sony noemde op de statuspagina geen oorzaak. Commentatoren wijzen op drukte rond de lancering; geen enkele bron bevestigt dat.",
+  "cause_status": "N",
+  "sources": [
+   {
+    "url": "https://gvwire.com/2026/11/18/playstation-network-down-for-thousands-of-users-downdetector-reports/",
+    "title": "PlayStation Network Down for Thousands of Users, Downdetector Reports",
+    "publisher": "GV Wire",
+    "date": "18 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://tech.yahoo.com/gaming/breaking-news/article/playstation-network-down-for-thousands-as-gta-6-launches-204149781.html",
+    "title": "PlayStation Network down for thousands as 'GTA 6' launches",
+    "publisher": "Yahoo Tech",
+    "date": "18 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://hollywoodreporter.com/business/digital/gta-6-playstation-crash-outage-1236758425",
+    "title": "PlayStation Users Report Outages as 'GTA 6' Begins Global Launch",
+    "publisher": "The Hollywood Reporter",
+    "date": "Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.techrepublic.com/article/news-psn-back-online-gta-6-outages/",
+    "title": "PSN Back Online After Two Outages Around GTA 6 Launch",
+    "publisher": "TechRepublic",
+    "date": "19 Nov 2026",
+    "type": "trade"
+   }
+  ],
+  "who": "",
+  "who_status": "",
+  "europe": "",
+  "background": false
+ }
+]

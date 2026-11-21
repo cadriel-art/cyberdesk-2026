@@ -1,0 +1,14 @@
+const { chromium } = require('playwright');
+const S='/home/user/cyberdesk-2026/build/mine/';
+(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1280,height:900}});const errs=[];p.on('pageerror',e=>errs.push(e.message));
+await p.goto('file://'+S+'cyber-desk-offline.html#map');await p.waitForTimeout(1500);
+await p.evaluate(()=>document.querySelector('#mp-wrap').scrollIntoView());
+const fill0=await p.evaluate(()=>document.querySelector('.mp-cov path').style.fill);
+await p.click('[data-story="prep"]');await p.waitForTimeout(400);
+console.log('story',await p.evaluate(()=>({pdim:document.querySelector('#mp').classList.contains('pdim'),pr:document.querySelector('.mp-chip[data-prep]').getAttribute('aria-pressed'),pn:document.querySelector('#mp-printnote').textContent.slice(-160)})));
+await p.selectOption('#mp-prepsel','Netherlands');await p.waitForTimeout(300);
+console.log(await p.evaluate(()=>document.querySelector('#mp-drawer').innerText.slice(0,700)));
+await p.locator('#mp').screenshot({path:S+'prep-card.png'});
+await p.click('[data-story="reset"]');await p.waitForTimeout(300);
+console.log('reset',await p.evaluate(()=>({pr:document.querySelector('.mp-chip[data-prep]').getAttribute('aria-pressed'),f:document.querySelector('.mp-cov path').style.fill,pl:document.querySelectorAll('.mp-pl').length,cnt:document.querySelector('#mp-count').textContent})),fill0,errs);
+await b.close();})();

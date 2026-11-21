@@ -1,0 +1,2662 @@
+[
+ {
+  "id": "att-2024",
+  "company": "AT&T",
+  "service": "Nationwide wireless voice, 5G data, 911 access",
+  "date": "22 Feb 2024",
+  "sort": "2024-02-22",
+  "duration": "About 12 hours to restore all commercial customers",
+  "where": "United States",
+  "what": "All voice and 5G data service on AT&T's wireless network went down across the US. The FCC said more than 125 million devices were affected, more than 92 million calls were blocked and more than 25,000 calls to 911 centres failed.",
+  "what_nl": "Alle spraak- en 5G-datadiensten op het mobiele netwerk van AT&T vielen in de VS uit. Volgens de FCC waren meer dan 125 miljoen toestellen getroffen, werden meer dan 92 miljoen oproepen geblokkeerd en mislukten meer dan 25.000 oproepen naar noodcentrales.",
+  "kind": "technical",
+  "cause": "The FCC report said a network change with an equipment configuration error, not caught or peer-reviewed, put the network into 'protect mode'. Not an attack.",
+  "cause_nl": "Volgens het FCC-rapport zette een netwerkwijziging met een configuratiefout, die niet was opgemerkt of door collega's nagekeken, het netwerk in 'beschermmodus'. Geen aanval.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": true,
+  "sources": [
+   {
+    "url": "https://fierce-network.com/wireless/fcc-reports-atts-nationwide-outage-february",
+    "title": "FCC says this is what caused AT&T's big outage in February",
+    "publisher": "Fierce Network",
+    "date": "",
+    "type": "trade"
+   },
+   {
+    "url": "https://broadbandbreakfast.com/february-at-t-outage-blocked-92-million-calls-fcc-says/",
+    "title": "February AT&T Outage Blocked 92 Million Calls, FCC Says",
+    "publisher": "Broadband Breakfast",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed FCC report (July 2024): 125M devices, 92M calls blocked, 25,000+ 911 calls failed, ~12h to restore all commercial customers, misconfigured network element not peer-reviewed, no cyberattack. Both source URLs appeared in search results; primary FCC document not opened (no web fetch available).",
+  "group": "platform"
+ },
+ {
+  "id": "crowdstrike-2024",
+  "company": "CrowdStrike / Microsoft Windows",
+  "service": "Falcon sensor on Windows PCs and servers (airlines, banks, hospitals)",
+  "date": "19 Jul 2024",
+  "sort": "2024-07-19",
+  "duration": "Hours to days (recovery needed manual fixes)",
+  "where": "Global",
+  "what": "A faulty content update for CrowdStrike's Falcon security software crashed Windows machines into boot loops worldwide. Reporting says more than 8 million Windows systems were affected, with disruption to airlines, banks and hospitals.",
+  "what_nl": "Een foutieve inhoudsupdate van de beveiligingssoftware Falcon van CrowdStrike liet Windows-computers wereldwijd vastlopen in een herstartlus. Volgens de berichtgeving waren meer dan 8 miljoen Windows-systemen getroffen, met hinder voor luchtvaartmaatschappijen, banken en ziekenhuizen.",
+  "kind": "technical",
+  "cause": "CrowdStrike's root cause analysis (6 Aug 2024) says a new template type defined 21 input fields while the code supplied only 20 values, causing an out-of-bounds memory read, and that a validator logic error let the file through. Not an attack.",
+  "cause_nl": "In zijn oorzaakanalyse (6 augustus 2024) zegt CrowdStrike dat een nieuw sjabloontype 21 invoervelden definieerde terwijl de code er maar 20 doorgaf, wat een geheugenfout veroorzaakte, en dat een logische fout in de validatie het bestand doorliet. Geen aanval.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": true,
+  "sources": [
+   {
+    "url": "https://www.crowdstrike.com/blog/channel-file-291-rca-available/",
+    "title": "Channel File 291 Incident: Root Cause Analysis is Available",
+    "publisher": "CrowdStrike",
+    "date": "2024-08-06",
+    "type": "off"
+   },
+   {
+    "url": "https://www.techtarget.com/cybersecurity/news/366602392/CrowdStrike-details-errors-that-led-to-mass-IT-outage",
+    "title": "CrowdStrike details errors that led to mass IT outage",
+    "publisher": "TechTarget",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "CrowdStrike RCA (6 Aug 2024) URL and 21-vs-20 fields detail match my knowledge of the official RCA; TechTarget URL not independently resolved. Primary page not opened (fetch blocked).",
+  "group": "platform"
+ },
+ {
+  "id": "psn-feb-2025",
+  "company": "Sony",
+  "service": "PlayStation Network (sign-in, online play)",
+  "date": "7–8 Feb 2025",
+  "sort": "2025-02-07",
+  "duration": "About 20–24 hours (sources differ)",
+  "where": "Global",
+  "what": "PlayStation Network went down worldwide; players could not sign in or play online. Push Square called it the biggest PSN outage since 2011.",
+  "what_nl": "PlayStation Network lag wereldwijd plat; spelers konden niet inloggen of online spelen. Push Square noemde het de grootste PSN-storing sinds 2011.",
+  "kind": "unknown",
+  "cause": "Sony only said there was an 'operational issue'. It has not published a cause. Speculation about an attack was not confirmed.",
+  "cause_nl": "Sony sprak enkel van een 'operationeel probleem' en publiceerde geen oorzaak. Speculatie over een aanval werd niet bevestigd.",
+  "cause_status": "N",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.pushsquare.com/news/2025/02/psn-finally-back-online-but-some-problems-persist-after-biggest-outage-since-2011",
+    "title": "PSN finally back online after biggest outage since 2011",
+    "publisher": "Push Square",
+    "date": "",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.techradar.com/gaming/sony-explains-massive-psn-outage-and-details-compensation-but-many-playstation-gamers-are-still-unhappy",
+    "title": "Sony explains massive PSN outage and details compensation",
+    "publisher": "TechRadar",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed Sony called it an 'operational issue', no root cause disclosed, ~24h, 5 extra PS Plus days; Push Square/TechRadar URLs seen in results.",
+  "group": "platform"
+ },
+ {
+  "id": "slack-feb-2025",
+  "company": "Slack (Salesforce)",
+  "service": "Slack messaging",
+  "date": "26 Feb 2025",
+  "sort": "2025-02-26",
+  "duration": "About 9.5 hours (Events API effects lingered to next morning)",
+  "where": "Global",
+  "what": "Slack users had trouble loading and using the workplace messaging service for most of a working day.",
+  "what_nl": "Slack-gebruikers konden de berichtendienst het grootste deel van een werkdag moeilijk laden of gebruiken.",
+  "kind": "technical",
+  "cause": "Reported: Pingdom and ThousandEyes say Slack attributed it to database maintenance combined with a latent defect in a caching system. Not seen in Slack's own post-mortem by this research.",
+  "cause_nl": "Gemeld: Pingdom en ThousandEyes schrijven dat Slack het toeschreef aan onderhoud aan de databases in combinatie met een sluimerende fout in een cachingsysteem. Het eigen verslag van Slack werd niet geraadpleegd.",
+  "cause_status": "R",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://slack-status.com/2025-02/1b757d1d0f444c34",
+    "title": "Wednesday February 26, 2025",
+    "publisher": "Slack Status",
+    "date": "",
+    "type": "off"
+   },
+   {
+    "url": "https://www.thousandeyes.com/blog/internet-report-slack-outage-backend-issues",
+    "title": "Slack outage: backend issues",
+    "publisher": "ThousandEyes",
+    "date": "",
+    "type": "sec"
+   },
+   {
+    "url": "https://www.pingdom.com/outages/slack-outage-feb-2025-a-recap/",
+    "title": "Slack outage Feb 2025: a recap",
+    "publisher": "Pingdom",
+    "date": "",
+    "type": "sec"
+   }
+  ],
+  "checked": "Slack status page URL seen; status page shows impact 06:45-16:13 PST (~9.5h) and Events API effects to 08:30 PST next day. Cause wording (database maintenance + latent caching defect) found only via Pingdom, so R is right; Slack's own post-mortem not seen.",
+  "group": "platform"
+ },
+ {
+  "id": "outlook-mar-2025",
+  "company": "Microsoft",
+  "service": "Outlook and Microsoft 365 (Teams, Exchange Online)",
+  "date": "1 Mar 2025",
+  "sort": "2025-03-01",
+  "duration": "Several hours",
+  "where": "Global",
+  "what": "Tens of thousands of users could not reach Outlook, Teams and other Microsoft 365 services; Downdetector logged more than 35,000 complaints.",
+  "what_nl": "Tienduizenden gebruikers konden Outlook, Teams en andere Microsoft 365-diensten niet bereiken; Downdetector registreerde meer dan 35.000 klachten.",
+  "kind": "technical",
+  "cause": "Microsoft said it reverted a suspected 'problematic code change'. It had not published a detailed report in the coverage found.",
+  "cause_nl": "Microsoft zei een vermoedelijk 'problematische codewijziging' te hebben teruggedraaid. In de gevonden berichtgeving was geen gedetailleerd verslag gepubliceerd.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.techrepublic.com/article/microsoft-outage-office-365-teams/",
+    "title": "Microsoft Outage: Tens of Thousands Unable to Access Outlook, Teams, Office 365 After 'Problematic Code Change'",
+    "publisher": "TechRepublic",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed Microsoft attributed it to a 'problematic code change' reverted (fix confirmed ~19:02 ET); Downdetector figure varies by outlet (35,000+ to 37,000+ for Outlook). Kept '35,000+', which is the lower reported figure.",
+  "group": "platform"
+ },
+ {
+  "id": "zoom-apr-2025",
+  "company": "Zoom / GoDaddy Registry",
+  "service": "Zoom meetings (zoom.us domain)",
+  "date": "16 Apr 2025",
+  "sort": "2025-04-16",
+  "duration": "About 1 hour 47 minutes (Zoom: 14:25–16:12 ET)",
+  "where": "Global",
+  "what": "The zoom.us domain stopped resolving, so Zoom meetings and website failed worldwide, including calls in progress.",
+  "what_nl": "Het domein zoom.us werd onbereikbaar, waardoor Zoom-vergaderingen en de website wereldwijd uitvielen, ook lopende gesprekken.",
+  "kind": "technical",
+  "cause": "Zoom said a communication error between its registrar MarkMonitor and GoDaddy Registry led the registry to shut off zoom.us; Zoom said it was not a hack or DDoS. A group called DarkStorm claimed it online without confirmation.",
+  "cause_nl": "Zoom zei dat een communicatiefout tussen registrar MarkMonitor en GoDaddy Registry ertoe leidde dat het register zoom.us afsloot; Zoom zei dat het geen hack of DDoS was. Een groep DarkStorm eiste het online op zonder bevestiging.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://registry.godaddy/blog/zoomus-outage/",
+    "title": "zoom.us outage",
+    "publisher": "GoDaddy Registry",
+    "date": "",
+    "type": "off"
+   },
+   {
+    "url": "https://www.techradar.com/news/live/zoom-outage-april-2025",
+    "title": "Zoom outage April 2025",
+    "publisher": "TechRadar",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed 14:25-16:12 ET, Zoom/GoDaddy Registry statements (communication error MarkMonitor/GoDaddy Registry; no product/security/network failure at Zoom). GoDaddy Registry and TechRadar URLs seen. The DarkStorm claim not re-verified.",
+  "group": "platform"
+ },
+ {
+  "id": "chatgpt-jun-2025",
+  "company": "OpenAI",
+  "service": "ChatGPT, Sora, API",
+  "date": "10 Jun 2025",
+  "sort": "2025-06-10",
+  "duration": "Roughly 10 hours or more for the main disruption (reports vary; some features recovered later)",
+  "where": "Global",
+  "what": "ChatGPT, Sora and OpenAI's API suffered elevated errors and latency worldwide.",
+  "what_nl": "ChatGPT, Sora en de API van OpenAI hadden wereldwijd veel fouten en vertraging.",
+  "kind": "unknown",
+  "cause": "OpenAI said it had identified the root cause but the coverage found does not describe it; no cause published in these sources.",
+  "cause_nl": "OpenAI zei de oorzaak te hebben gevonden, maar de gevonden berichtgeving beschrijft die niet; in deze bronnen geen oorzaak gepubliceerd.",
+  "cause_status": "N",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://tomsguide.com/news/live/chatgpt-openai-down-outage-6-10-2025",
+    "title": "ChatGPT down live",
+    "publisher": "Tom's Guide",
+    "date": "",
+    "type": "trade"
+   },
+   {
+    "url": "https://forklog.com/en/news/openai-services-experience-global-outage",
+    "title": "OpenAI services experience global outage",
+    "publisher": "Forklog",
+    "date": "",
+    "type": "news"
+   }
+  ],
+  "checked": "Search confirmed OpenAI said root cause identified but gave none in coverage found. Duration varies widely by source (about 5h to over 11h, some features later), so duration text softened.",
+  "group": "platform"
+ },
+ {
+  "id": "gcp-jun-2025",
+  "company": "Google Cloud",
+  "service": "Service Control / API management across many Google Cloud and Workspace services",
+  "date": "12 Jun 2025",
+  "sort": "2025-06-12",
+  "duration": "About 7.5 hours (10:51–18:18 PT)",
+  "where": "Global",
+  "what": "Google Cloud API requests returned errors worldwide; Spotify and others were affected and Cloudflare reported knock-on effects on some of its services.",
+  "what_nl": "API-verzoeken bij Google Cloud gaven wereldwijd fouten; onder meer Spotify werd getroffen en Cloudflare meldde gevolgen voor een deel van zijn diensten.",
+  "kind": "technical",
+  "cause": "Google's incident report says a policy change inserted blank fields into regional Spanner tables, which triggered a null-pointer crash in Service Control code deployed on 29 May without a feature flag. Not an attack.",
+  "cause_nl": "Volgens het incidentverslag van Google zette een beleidswijziging lege velden in regionale Spanner-tabellen, wat een crash veroorzaakte in Service Control-code die op 29 mei zonder feature flag was uitgerold. Geen aanval.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://status.cloud.google.com/incidents/ow5i3PPK96RduMcb1SsW",
+    "title": "Service Health incident ow5i3PPK96RduMcb1SsW",
+    "publisher": "Google Cloud",
+    "date": "",
+    "type": "off"
+   },
+   {
+    "url": "https://www.thousandeyes.com/blog/google-cloud-outage-analysis-june-12-2025",
+    "title": "Google Cloud outage analysis June 12, 2025",
+    "publisher": "ThousandEyes",
+    "date": "",
+    "type": "sec"
+   }
+  ],
+  "checked": "Google status page URL seen; window 10:51-18:18 PT, blank policy fields in regional Spanner tables, null pointer, code from 29 May without feature flag all confirmed in search of Google's report.",
+  "group": "platform"
+ },
+ {
+  "id": "cloudflare-jun-2025",
+  "company": "Cloudflare",
+  "service": "Workers KV, Access, Workers AI, Stream, dashboard",
+  "date": "12 Jun 2025",
+  "sort": "2025-06-12",
+  "duration": "Up to 2 hours 28 minutes (Cloudflare)",
+  "where": "Global",
+  "what": "Several Cloudflare services failed; Access failed all identity-based logins during the incident.",
+  "what_nl": "Verschillende diensten van Cloudflare vielen uit; Access liet alle identiteitsgebonden aanmeldingen mislukken tijdens het incident.",
+  "kind": "technical",
+  "cause": "Cloudflare said the failure began in the storage infrastructure behind Workers KV, part of which relies on a third-party cloud provider that had its own outage that day. Media identify the provider as Google Cloud.",
+  "cause_nl": "Cloudflare zei dat de storing begon in de opslaginfrastructuur achter Workers KV, waarvan een deel steunt op een externe cloudaanbieder die die dag zelf een storing had. Media noemen Google Cloud als die aanbieder.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://blog.cloudflare.com/cloudflare-service-outage-june-12-2025/",
+    "title": "Cloudflare service outage June 12, 2025",
+    "publisher": "Cloudflare",
+    "date": "",
+    "type": "off"
+   },
+   {
+    "url": "https://siliconangle.com/2025/06/12/identity-access-management-failure-google-cloud-causes-widespread-internet-service-disruptions/",
+    "title": "IAM failure at Google Cloud causes widespread disruptions",
+    "publisher": "SiliconANGLE",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Cloudflare's post confirms 'up to 2 hours and 28 minutes' and third-party cloud provider dependency; Google Cloud identification is from media only, as the entry says. Removed the 17:52-20:28 time range (it does not equal 2h28 and came from a secondary summary).",
+  "group": "platform"
+ },
+ {
+  "id": "cloudflare-1111-jul-2025",
+  "company": "Cloudflare",
+  "service": "1.1.1.1 public DNS resolver",
+  "date": "14 Jul 2025",
+  "sort": "2025-07-14",
+  "duration": "62 minutes",
+  "where": "Global",
+  "what": "Cloudflare's 1.1.1.1 DNS resolver was unreachable worldwide, so many users could not resolve websites through it.",
+  "what_nl": "De DNS-resolver 1.1.1.1 van Cloudflare was wereldwijd onbereikbaar, waardoor veel gebruikers via die dienst geen websites konden opzoeken.",
+  "kind": "technical",
+  "cause": "Cloudflare said an internal configuration error, not an attack or BGP hijack, caused it: a dormant misconfiguration was triggered when a change withdrew the 1.1.1.1 prefixes.",
+  "cause_nl": "Cloudflare zei dat een interne configuratiefout de oorzaak was, geen aanval of BGP-kaping: een sluimerende misconfiguratie werd geactiveerd toen een wijziging de 1.1.1.1-prefixen introk.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://blog.cloudflare.com/cloudflare-1-1-1-1-incident-on-july-14-2025",
+    "title": "Cloudflare 1.1.1.1 incident on July 14, 2025",
+    "publisher": "Cloudflare",
+    "date": "",
+    "type": "off"
+   },
+   {
+    "url": "https://www.itnews.com.au/news/cloudflare-makes-changes-to-avoid-repeat-of-1111-dns-outage-618832",
+    "title": "Cloudflare makes changes to avoid repeat of 1.1.1.1 DNS outage",
+    "publisher": "iTnews",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Matches Cloudflare post-mortem as known (62 minutes, internal config error, not an attack/BGP hijack); URLs not re-resolved.",
+  "group": "platform"
+ },
+ {
+  "id": "starlink-jul-2025",
+  "company": "SpaceX Starlink",
+  "service": "Starlink satellite internet",
+  "date": "24 Jul 2025",
+  "sort": "2025-07-24",
+  "duration": "About 2.5 hours",
+  "where": "Global (reports from multiple continents)",
+  "what": "Starlink went down worldwide; Downdetector showed about 61,000 reports and Ukrainian forces were reportedly affected.",
+  "what_nl": "Starlink viel wereldwijd uit; Downdetector toonde ongeveer 61.000 meldingen en de Oekraïense strijdkrachten werden naar verluidt getroffen.",
+  "kind": "technical",
+  "cause": "Michael Nicolls, Starlink's VP of engineering, said on X that the failure of key internal software services that run the core network caused it. No attack was reported.",
+  "cause_nl": "Michael Nicolls, VP engineering bij Starlink, zei op X dat het uitvallen van belangrijke interne softwarediensten die het kernnetwerk draaien de oorzaak was. Er werd geen aanval gemeld.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.ispreview.co.uk/index.php/2025/07/starlink-says-global-broadband-outage-caused-by-internal-software-failure.html",
+    "title": "Starlink says global broadband outage caused by internal software failure",
+    "publisher": "ISPreview",
+    "date": "",
+    "type": "trade"
+   },
+   {
+    "url": "https://broadbandbreakfast.com/starlink-software-failure-causes-global-outage/",
+    "title": "Starlink Software Failure Causes Global Outage",
+    "publisher": "Broadband Breakfast",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed Nicolls statement on X (key internal software services of the core network), ~2.5h, up to 61,000 Downdetector reports. His title corrected to VP of engineering. C kept: it is a statement by a Starlink executive, though only reported second-hand by media.",
+  "group": "platform"
+ },
+ {
+  "id": "optus-sep-2025",
+  "company": "Optus (Singtel)",
+  "service": "Emergency calls (Triple Zero) on the Optus network",
+  "date": "18 Sep 2025",
+  "sort": "2025-09-18",
+  "duration": "Unknown (not stated in the sources found)",
+  "where": "South Australia, Western Australia, Northern Territory, parts of NSW",
+  "what": "Calls to Triple Zero (000) failed for Optus customers in several Australian states during a firewall upgrade. Reports give roughly 600 calls affected, and the outage was linked to deaths; the count varies by source (three initially, later reports say two to four).",
+  "what_nl": "Oproepen naar het Australische noodnummer Triple Zero (000) mislukten voor Optus-klanten in meerdere staten tijdens een firewall-upgrade. Volgens de berichtgeving waren er ongeveer 600 oproepen getroffen en werd de storing in verband gebracht met overlijdens; het aantal verschilt per bron (eerst drie, later twee tot vier).",
+  "kind": "technical",
+  "cause": "Optus said the fault arose during a planned firewall upgrade; its CEO said an employee did not follow protocols. A later report cited by The Register found at least ten mistakes in the upgrade.",
+  "cause_nl": "Optus zei dat de fout optrad tijdens een geplande firewall-upgrade; de CEO zei dat een medewerker de procedures niet volgde. Een later rapport waarover The Register bericht, vond minstens tien fouten in de upgrade.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.theregister.com/2025/12/19/optus_emergency_outages_cause_report/",
+    "title": "Ten mistakes marred firewall upgrade at Australian telco",
+    "publisher": "The Register",
+    "date": "2025-12-19",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.theregister.com/2025/09/21/optus_emergency_call_incident/",
+    "title": "Firewall upgrade linked to three deaths after Australian telco cut off emergency calls",
+    "publisher": "The Register",
+    "date": "2025-09-21",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed firewall upgrade cause, Optus-commissioned independent report (12 Dec 2025) found at least ten mistakes by Optus and Nokia. Removed '450 failed calls' and 'about 13 hours' (not found in any source; reports give ~600 calls, 75% failed, and 2-4 deaths). Death count: three initially linked, police later linked two per Canstar, ABC reported four. Grade C kept (Optus's own statement and its commissioned report).",
+  "group": "platform"
+ },
+ {
+  "id": "youtube-oct-2025",
+  "company": "Google",
+  "service": "YouTube",
+  "date": "15 Oct 2025",
+  "sort": "2025-10-15",
+  "duration": "Unknown (evening outage)",
+  "where": "Global (mainly US reports)",
+  "what": "YouTube failed for many users; more than 366,000 reports were counted in the US at the peak.",
+  "what_nl": "YouTube viel uit voor veel gebruikers; op het hoogtepunt werden in de VS meer dan 366.000 meldingen geteld.",
+  "kind": "unknown",
+  "cause": "Google confirmed restoration but did not publish a cause. Speculation about a DDoS attack circulated; Google has not confirmed one.",
+  "cause_nl": "Google bevestigde het herstel maar publiceerde geen oorzaak. Er ging speculatie over een DDoS-aanval rond; Google heeft dat niet bevestigd.",
+  "cause_status": "N",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.outlookindia.com/international/youtube-resolves-global-outage-affecting-over-366000-users",
+    "title": "YouTube Resolves Global Outage Affecting Over 366,000 Users",
+    "publisher": "Outlook India",
+    "date": "",
+    "type": "news"
+   },
+   {
+    "url": "https://www.androidauthority.com/youtube-outage-3607597/",
+    "title": "YouTube outage",
+    "publisher": "Android Authority",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed 366,172 US Downdetector reports at peak and that YouTube only said service was restored. 'Hacker group claimed a DDoS' not found; DDoS was speculation, so reworded.",
+  "group": "platform"
+ },
+ {
+  "id": "aws-oct-2025",
+  "company": "Amazon Web Services",
+  "service": "DynamoDB, EC2, load balancers and dozens of dependent services (us-east-1)",
+  "date": "19–20 Oct 2025",
+  "sort": "2025-10-19",
+  "duration": "About 15 hours (AWS summary: 23:48 PDT 19 Oct to 14:20 PDT 20 Oct; other end times appear in sources)",
+  "where": "Global impact from US-EAST-1",
+  "what": "Errors in AWS's Northern Virginia region broke many websites and apps worldwide, including Snapchat, Fortnite and banking apps, according to coverage.",
+  "what_nl": "Fouten in de regio Noord-Virginia van AWS legden wereldwijd veel websites en apps plat, volgens de berichtgeving onder meer Snapchat, Fortnite en bankapps.",
+  "kind": "technical",
+  "cause": "AWS's post-event summary says a latent race condition (a timing bug) in the system that manages DNS (the internet's address book) for DynamoDB, AWS's database service, left an empty DNS record for the regional endpoint. Not an attack.",
+  "cause_nl": "De samenvatting van AWS zegt dat een sluimerende race condition (een timingfout) in het systeem dat het DNS (het adresboek van het internet) voor DynamoDB, de databasedienst van AWS, beheert, een leeg DNS-record voor het regionale eindpunt achterliet. Geen aanval.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://aws.amazon.com/message/101925",
+    "title": "Summary of the Amazon DynamoDB Service Disruption in the Northern Virginia (US-EAST-1) Region",
+    "publisher": "Amazon Web Services",
+    "date": "",
+    "type": "off"
+   },
+   {
+    "url": "https://www.infoq.com/news/2025/11/aws-dynamodb-outage-postmortem",
+    "title": "AWS DynamoDB outage postmortem",
+    "publisher": "InfoQ",
+    "date": "",
+    "type": "trade"
+   },
+   {
+    "url": "https://ppc.land/amazon-outage-breaks-the-internet-snapchat-fortnite-banks-go-dark/",
+    "title": "Amazon outage breaks the internet",
+    "publisher": "PPC Land",
+    "date": "",
+    "type": "news"
+   }
+  ],
+  "checked": "AWS post-event summary URL confirmed in search; 23:48 PDT 19 Oct to 14:20 PDT 20 Oct and latent race condition in DynamoDB DNS management confirmed. InfoQ and PPC Land URLs seen.",
+  "group": "platform"
+ },
+ {
+  "id": "azure-afd-oct-2025",
+  "company": "Microsoft",
+  "service": "Azure Front Door, Microsoft 365, Xbox and customer sites",
+  "date": "29–30 Oct 2025",
+  "sort": "2025-10-29",
+  "duration": "About 8 hours (about 15:45 UTC to 00:05 UTC)",
+  "where": "Global",
+  "what": "Azure Front Door failed, causing latency, timeouts and errors for Microsoft 365, Xbox and many customer websites; admins also lost access to portals.",
+  "what_nl": "Azure Front Door viel uit, met vertraging, time-outs en fouten voor Microsoft 365, Xbox en veel klantensites; beheerders verloren ook toegang tot portalen.",
+  "kind": "technical",
+  "cause": "Microsoft's preliminary review said an inadvertent configuration change caused it. Its final post-incident review, as described by secondary sources, says valid customer configuration changes made across two versions of the Azure Front Door control plane (the part that manages how the service is set up) produced incompatible configuration metadata, which crashed Front Door nodes. Microsoft said the changes were not malicious. Final-review wording was not read directly.",
+  "cause_nl": "Het voorlopige verslag van Microsoft zei dat een onbedoelde configuratiewijziging de oorzaak was. Het eindverslag zou volgens secundaire bronnen stellen dat geldige configuratiewijzigingen van klanten, gemaakt over twee versies van het controlevlak van Azure Front Door (het onderdeel dat bepaalt hoe de dienst is ingesteld), onverenigbare configuratiemetadata opleverden waardoor Front Door-knooppunten crashten. Microsoft zei dat de wijzigingen niet kwaadaardig waren. De exacte tekst van het eindverslag werd niet zelf gelezen.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://aka.ms/air/YKYN-BWZ",
+    "title": "Post Incident Review (PIR) - Azure Front Door - Global Service Disruption (tracking ID YKYN-BWZ)",
+    "publisher": "Microsoft Azure",
+    "date": "",
+    "type": "off"
+   },
+   {
+    "url": "https://www.thousandeyes.com/blog/microsoft-azure-front-door-outage-analysis-october-29-2025",
+    "title": "Microsoft Azure Front Door outage analysis",
+    "publisher": "ThousandEyes",
+    "date": "",
+    "type": "sec"
+   },
+   {
+    "url": "https://dataconomy.com/2025/10/30/azure-outage-microsoft-blames-azure-front-door-for-major-global-disruption/",
+    "title": "Microsoft blames Azure Front Door",
+    "publisher": "Dataconomy",
+    "date": "",
+    "type": "news"
+   }
+  ],
+  "checked": "Microsoft's PIR (tracking ID YKYN-BWZ) exists; preliminary PIR said 'inadvertent tenant configuration change', final PIR (per secondary summaries) says valid customer config changes across two control-plane versions produced incompatible metadata. Window ~15:41/15:45 to 00:05 UTC confirmed by several secondaries. Added the official PIR link (found via search, not opened). C kept because cause is from Microsoft's own PIR. Dataconomy URL not independently resolved.",
+  "group": "platform"
+ },
+ {
+  "id": "cloudflare-nov-2025",
+  "company": "Cloudflare",
+  "service": "Core CDN/proxy, Access, Turnstile and sites behind them",
+  "date": "18 Nov 2025",
+  "sort": "2025-11-18",
+  "duration": "About 3 hours of core impact; full recovery 17:06 UTC",
+  "where": "Global",
+  "what": "Cloudflare returned 5xx errors for a large share of the sites behind it, including ChatGPT and X according to media.",
+  "what_nl": "Cloudflare gaf 5xx-fouten voor een groot deel van de sites erachter, volgens media onder meer ChatGPT en X.",
+  "kind": "technical",
+  "cause": "Cloudflare said a database permissions change made a Bot Management feature file double in size, exceeding a limit in its proxy software and crashing it. It said no malicious activity was detected.",
+  "cause_nl": "Cloudflare zei dat een wijziging in databaserechten een bestand van Bot Management twee keer zo groot maakte, waardoor een limiet in de proxysoftware werd overschreden en die crashte. Het zag geen kwaadaardige activiteit.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://blog.cloudflare.com/18-november-2025-outage/",
+    "title": "Cloudflare outage on November 18, 2025",
+    "publisher": "Cloudflare",
+    "date": "",
+    "type": "off"
+   },
+   {
+    "url": "https://techcrunch.com/2025/11/18/cloudflare-blames-massive-internet-outage-on-latent-bug/",
+    "title": "Cloudflare blames massive internet outage on latent bug",
+    "publisher": "TechCrunch",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed bot-management feature file doubled by database permissions change, not a cyberattack, official blog URL seen. 17:06 UTC full recovery from my own knowledge of the post-mortem, not re-confirmed in search.",
+  "group": "platform"
+ },
+ {
+  "id": "cloudflare-dec-2025",
+  "company": "Cloudflare",
+  "service": "Core proxy (28% of applications served)",
+  "date": "5 Dec 2025",
+  "sort": "2025-12-05",
+  "duration": "About 25 minutes (08:47–09:12 UTC)",
+  "where": "Global",
+  "what": "Cloudflare failed to serve traffic for 28% of applications behind it for about 25 minutes, the second major outage in under three weeks.",
+  "what_nl": "Cloudflare kon 25 minuten lang geen verkeer leveren voor 28% van de toepassingen erachter, de tweede grote storing in minder dan drie weken.",
+  "kind": "technical",
+  "cause": "Cloudflare said it was not an attack; it began with a change to increase the buffer size of its Web Application Firewall.",
+  "cause_nl": "Cloudflare zei dat het geen aanval was; het begon met een wijziging om de buffergrootte van zijn Web Application Firewall te verhogen.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://blog.cloudflare.com/5-december-2025-outage/",
+    "title": "Cloudflare outage on December 5, 2025",
+    "publisher": "Cloudflare",
+    "date": "",
+    "type": "off"
+   },
+   {
+    "url": "https://www.techcentral.ie/cloudflare-suffers-second-outage-in-two-months/",
+    "title": "Cloudflare suffers second outage in two months",
+    "publisher": "TechCentral",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Matches Cloudflare post-mortem as known (08:47-09:12 UTC, 28% of HTTP traffic/apps, WAF buffer size change, not an attack); URLs not re-resolved.",
+  "group": "platform"
+ },
+ {
+  "id": "verizon-jan-2026",
+  "company": "Verizon",
+  "service": "Nationwide wireless service",
+  "date": "14 Jan 2026",
+  "sort": "2026-01-14",
+  "duration": "About 10 hours (reports say 10 to 12)",
+  "where": "United States",
+  "what": "Verizon's wireless network failed across the US; Downdetector logged about 2.2 million reports, and Verizon offered a $20 credit.",
+  "what_nl": "Het mobiele netwerk van Verizon viel in de VS uit; Downdetector registreerde ongeveer 2,2 miljoen meldingen en Verizon bood 20 dollar tegoed aan.",
+  "kind": "technical",
+  "cause": "Verizon said it was a software issue with no sign of a cybersecurity incident, and said a review was under way; it did not say which system. An analyst's theory about the 5G core is unconfirmed. The FCC said it would review.",
+  "cause_nl": "Verizon zei dat het een softwareprobleem was zonder aanwijzing voor een cyberincident en dat een onderzoek loopt; welk systeem werd niet gezegd. De theorie van een analist over de 5G-kern is niet bevestigd. De FCC zei het te onderzoeken.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.datacenterdynamics.com/en/news/verizon-outage-last-week-down-to-software-issue/",
+    "title": "Verizon outage last week down to 'software issue'",
+    "publisher": "Data Center Dynamics",
+    "date": "",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.cnbc.com/2026/01/15/verizon-credit-for-outage.html",
+    "title": "Verizon offers $20 credit to customers affected by massive wireless outage",
+    "publisher": "CNBC",
+    "date": "2026-01-15",
+    "type": "news"
+   }
+  ],
+  "checked": "Search confirmed: Verizon said software issue, no sign of cyberattack, review under way; ~10 hours; Reuters via Downdetector 2.2M reports over 24h (Downdetector itself said 2.3M); $20 credit (CNBC, Fortune); FCC said it would review. Removed NPR URL (could not be found, looks malformed) and BleepingComputer URL (not seen in any result); added CNBC URL seen in results.",
+  "group": "platform"
+ },
+ {
+  "id": "m365-jan-2026",
+  "company": "Microsoft",
+  "service": "Outlook/Exchange Online and Teams (North America)",
+  "date": "22–23 Jan 2026",
+  "sort": "2026-01-22",
+  "duration": "About 9–10 hours (start 14:33–14:37 ET; sources differ)",
+  "where": "North America",
+  "what": "Outlook users could not send or receive email normally and Teams users could not create chats, meetings, teams or channels.",
+  "what_nl": "Outlook-gebruikers konden niet normaal e-mail versturen of ontvangen en Teams-gebruikers konden geen chats, vergaderingen, teams of kanalen aanmaken.",
+  "kind": "technical",
+  "cause": "Microsoft's service notice said a portion of dependent service infrastructure in North America was not processing traffic as expected. Secondary sources citing Microsoft's incident report describe elevated load after reduced capacity during maintenance, and a load-balancer change made during recovery that prolonged the impact. Microsoft's report itself was not read.",
+  "cause_nl": "Volgens de servicemelding van Microsoft verwerkte een deel van de afhankelijke infrastructuur in Noord-Amerika het verkeer niet zoals verwacht. Secundaire bronnen die het incidentrapport van Microsoft aanhalen, spreken van hoge belasting na verminderde capaciteit door onderhoud, en van een wijziging aan de load balancer tijdens het herstel die de hinder verlengde. Het rapport zelf werd niet gelezen.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.bu.edu/tech/2026/01/22/160781/",
+    "title": "Resolved: Microsoft service degradation",
+    "publisher": "Boston University IT",
+    "date": "",
+    "type": "sec"
+   },
+   {
+    "url": "https://www.techradar.com/news/live/microsoft-outlook-365-outage-january-22-2026",
+    "title": "Microsoft 365 and Outlook were down",
+    "publisher": "TechRadar",
+    "date": "",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.tomsguide.com/news/live/microsoft-down-live-updates-outage-jan-22-26",
+    "title": "Microsoft outage now 'resolved' - latest updates",
+    "publisher": "Tom's Guide",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed 22 Jan 2026 Outlook/Teams outage, Microsoft status text 'portion of dependent service infrastructure in North America not processing traffic as expected', PIR detail (elevated load after reduced capacity during maintenance) only via secondary blogs, and a load-balancer change during recovery that prolonged impact. Removed 'Microsoft said no cyberattack' and the exact '451 4.3.2' code (not found). BU page is a university copy of Microsoft's notice, retyped from 'off' to 'sec'. Added Tom's Guide live blog seen in results.",
+  "group": "platform"
+ },
+ {
+  "id": "azure-feb-2026",
+  "company": "Microsoft",
+  "service": "Azure West US region, Windows Update, Microsoft Store",
+  "date": "7–8 Feb 2026",
+  "sort": "2026-02-07",
+  "duration": "About 20 hours (07:58 UTC 7 Feb to 04:24 UTC 8 Feb)",
+  "where": "US West",
+  "what": "Multiple Azure services in West US had intermittent unavailability, timeouts and latency; Windows Update and Microsoft Store were also affected.",
+  "what_nl": "Meerdere Azure-diensten in West US hadden onderbrekingen, time-outs en vertraging; ook Windows Update en de Microsoft Store werden getroffen.",
+  "kind": "physical",
+  "cause": "Microsoft's post-incident report, as reported by Data Center Dynamics and other outlets, says a failure of an on-site transformer cut utility power to the data centre. Secondary summaries add that generators started but a control-system fault blocked the transfer of load to them; the site returned to utility power on 9 February. The report itself was not read.",
+  "cause_nl": "Volgens het post-incidentrapport van Microsoft, zoals weergegeven door Data Center Dynamics en andere media, viel een transformator op de site uit, waardoor het datacenter geen netstroom meer kreeg. Secundaire samenvattingen voegen toe dat de generatoren startten maar een fout in het regelsysteem de overschakeling van de belasting blokkeerde; op 9 februari was de netstroom terug. Het rapport zelf werd niet gelezen.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.datacenterdynamics.com/en/news/microsoft-suffered-power-interruption-at-west-us-cloud-region-in-february/",
+    "title": "Microsoft suffered 'power interruption' at West US cloud region",
+    "publisher": "Data Center Dynamics",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search (DCD plus secondary summaries of Microsoft's PIR, tracking ID SVS-5_G) confirmed: impact 07:58 UTC 7 Feb to 04:24 UTC 8 Feb; on-site transformer failure cut utility power; utility power restored 9 Feb 03:42 UTC. Old text said the site 'ran on generators until utility power returned' - the PIR summaries say generators started but a control-system fault blocked load transfer and UPS batteries ran down, so that claim was removed. Times corrected from 08:00/04:23. Removed The Register URL (not seen in results). C kept since it is Microsoft's PIR as reported by DCD, but PIR itself not opened.",
+  "group": "platform"
+ },
+ {
+  "id": "youtube-feb-2026",
+  "company": "Google",
+  "service": "YouTube, YouTube Music, Kids, TV",
+  "date": "17 Feb 2026",
+  "sort": "2026-02-17",
+  "duration": "Several hours in the evening, US time (start and end times differ by source)",
+  "where": "Global",
+  "what": "Videos stopped appearing across YouTube's homepage, app, Music and Kids.",
+  "what_nl": "Video's verschenen niet meer op de startpagina, in de app, in Music en in Kids van YouTube.",
+  "kind": "technical",
+  "cause": "Google said an issue with its recommendations system prevented videos from appearing.",
+  "cause_nl": "Google zei dat een probleem met het aanbevelingssysteem verhinderde dat video's verschenen.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.techradar.com/news/live/youtube-down-february-2026",
+    "title": "YouTube down February 2026",
+    "publisher": "TechRadar",
+    "date": "",
+    "type": "trade"
+   },
+   {
+    "url": "https://tomsguide.com/news/live/youtube-outage-february-2026",
+    "title": "youtube outage february 2026",
+    "publisher": "Tom's Guide",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed Google attributed it to an issue with its recommendations system; videos missing on homepage, app, Music, Kids; Downdetector peaks vary (280,000+ US per one source). Start/end times conflict across sources, so the '90 minutes' figure was removed. Fixed Tom's Guide URL to the one seen in results.",
+  "group": "platform"
+ },
+ {
+  "id": "cloudflare-byoip-feb-2026",
+  "company": "Cloudflare",
+  "service": "BYOIP customers (customer IP ranges announced via Cloudflare)",
+  "date": "20 Feb 2026",
+  "sort": "2026-02-20",
+  "duration": "About 6 hours (sources differ on start 17:48–17:56 UTC)",
+  "where": "Global (BYOIP customers only)",
+  "what": "A bad cleanup task withdrew about 1,100 of 4,306 customer-owned IP prefixes from the internet, making those customers' services unreachable. Standard CDN sites were not affected.",
+  "what_nl": "Een foute opruimtaak trok ongeveer 1.100 van de 4.306 IP-prefixen van klanten van het internet terug, waardoor hun diensten onbereikbaar werden. Gewone CDN-sites werden niet getroffen.",
+  "kind": "technical",
+  "cause": "Per Cloudflare's post-mortem as summarised by secondary sources (the post itself was not read): an empty filter value made a cleanup task select every BYOIP prefix for deletion.",
+  "cause_nl": "Volgens het verslag van Cloudflare, zoals samengevat door secundaire bronnen (het verslag zelf werd niet gelezen): een lege filterwaarde liet een opruimtaak alle BYOIP-prefixen selecteren om te verwijderen.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://blog.cloudflare.com/cloudflare-outage-february-20-2026/",
+    "title": "Cloudflare outage on February 20, 2026",
+    "publisher": "Cloudflare",
+    "date": "",
+    "type": "off"
+   },
+   {
+    "url": "https://www.365i.co.uk/news/2026/02/24/cloudflare-outage-automation-deleted-1100-prefixes/",
+    "title": "Cloudflare outage: automation deleted 1,100 prefixes",
+    "publisher": "365i",
+    "date": "",
+    "type": "news"
+   },
+   {
+    "url": "https://www.ilert.com/postmortems/cloudflare-byoip-bgp-route-withdrawal-outage-feb-2026",
+    "title": "Cloudflare: faulty cleanup task withdrew Internet routes",
+    "publisher": "iLert",
+    "date": "",
+    "type": "sec"
+   }
+  ],
+  "checked": "Cloudflare's own post-mortem URL (blog.cloudflare.com/cloudflare-outage-february-20-2026/) surfaced in search via a third-party status page; added as type 'off' but could not be opened. Secondary summaries (365i, iLert, CyberSecurityNews) agree: empty filter value, ~1,100 of 4,306 BYOIP prefixes withdrawn, starts 17:48-17:56 UTC, ~6h, standard CDN not affected. Grade C kept because the cause comes from Cloudflare's post-mortem, but the post was not read.",
+  "group": "platform"
+ },
+ {
+  "id": "aws-may-2026",
+  "company": "Amazon Web Services",
+  "service": "EC2, EBS and other services in one US-EAST-1 availability zone (use1-az4)",
+  "date": "7 May 2026",
+  "sort": "2026-05-07",
+  "duration": "Unknown (reports differ; one outlet says about 28 hours, which is unconfirmed)",
+  "where": "US East (N. Virginia)",
+  "what": "AWS said a thermal event caused a power loss that impaired EC2 instances and EBS volumes in a single availability zone (use1-az4) of US-EAST-1, with elevated errors and latency. Coinbase was among the services reported affected.",
+  "what_nl": "AWS zei dat een thermische gebeurtenis een stroomverlies veroorzaakte dat EC2-instanties en EBS-volumes in één beschikbaarheidszone (use1-az4) van US-EAST-1 verstoorde, met meer fouten en vertraging. Coinbase werd onder meer als getroffen dienst gemeld.",
+  "kind": "physical",
+  "cause": "AWS said a thermal event (a rise in temperature in a single data centre) caused a power loss in zone use1-az4. AWS had not yet explained how the overheating occurred; one report points to cooling failures in a data hall. No full post-event report was found.",
+  "cause_nl": "AWS zei dat een thermische gebeurtenis (een temperatuurstijging in één datacenter) een stroomverlies veroorzaakte in zone use1-az4. AWS had nog niet uitgelegd hoe de oververhitting ontstond; één bericht wijst op koelingsproblemen in een datahal. Er werd geen volledig verslag gevonden.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.theregister.com/off-prem/2026/05/08/aws-warns-of-ec2-impairment-as-power-loss-hits-notorious-us-east-1-region/5235509",
+    "title": "AWS warns of EC2 impairment as power loss hits US-EAST-1",
+    "publisher": "The Register",
+    "date": "2026-05-08",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.datacenterdynamics.com/en/news/aws-has-another-east-coast-cloud-outage/",
+    "title": "Data center power loss brings down AWS services, in another East Coast cloud outage",
+    "publisher": "Data Center Dynamics",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search (DCD, Qz, The Register) confirmed 7 May 2026 (about 16:20 PDT), single zone use1-az4 in us-east-1, EC2/EBS impaired. AWS said a thermal event (rising temperatures in one data centre) caused a power loss; AWS had not said how the overheating arose. Cause text corrected from 'power loss and cooling problems'. Duration: one secondary source says ~28h, others say some instances stayed impaired with no ETA; Coinbase ~7h disruption, so left 'unknown'. Grade moved R to C because the statement is AWS's own, relayed by DCD/Qz/The Register; the AWS status page itself was not opened. Added DCD.",
+  "group": "platform"
+ },
+ {
+  "id": "meta-jun-2026",
+  "company": "Meta",
+  "service": "Facebook, Instagram, WhatsApp, Messenger",
+  "date": "12 Jun 2026",
+  "sort": "2026-06-12",
+  "duration": "Reports differ (about 2 to 4 hours); Meta gave no figure",
+  "where": "Global",
+  "what": "Facebook, Instagram, WhatsApp and Messenger were hit by a worldwide outage from about 09:00 ET; Downdetector reports for Facebook passed 100,000 at the peak according to one outlet (another reported a lower peak).",
+  "what_nl": "Facebook, Instagram, WhatsApp en Messenger werden getroffen door een wereldwijde storing vanaf ongeveer 09.00 uur Amerikaanse oostkusttijd; volgens één bron liepen de Downdetector-meldingen voor Facebook op tot meer dan 100.000 (een andere bron meldde een lagere piek).",
+  "kind": "unknown",
+  "cause": "Meta spokesman Andy Stone said the company was aware of trouble and working on it. Meta has not said what caused it.",
+  "cause_nl": "Meta-woordvoerder Andy Stone zei dat het bedrijf het probleem kende en eraan werkte. Meta heeft niet gezegd wat de oorzaak was.",
+  "cause_status": "N",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.tomsguide.com/news/live/meta-instagram-facebook-messenger-down-6-12-2026-live-updates",
+    "title": "Facebook and Instagram were down - live updates on outage hitting Meta services",
+    "publisher": "Tom's Guide",
+    "date": "",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.engadget.com/2193006/facebook-and-instagram-appear-to-down/",
+    "title": "Facebook and Instagram appear to be down",
+    "publisher": "Engadget",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed 12 Jun 2026 outage from ~09:00 ET, Facebook/Instagram/WhatsApp/Messenger, Andy Stone's two posts, no cause given. Duration reports conflict (about 2 to 4 hours); Downdetector: 113,000+ for Facebook per one outlet, ~20,000 at 11am ET per another. TNW and Inc. URLs not seen in any result, removed; replaced with Tom's Guide live blog and Engadget (seen in results).",
+  "group": "platform"
+ },
+ {
+  "id": "gcp-nl-jul-2026",
+  "company": "Google Cloud",
+  "service": "VMware Engine, Bare Metal Solution, NetApp Volumes in europe-west4 (Netherlands)",
+  "date": "15–16 Jul 2026",
+  "sort": "2026-07-15",
+  "duration": "14 hours 55 minutes (Google incident report)",
+  "where": "Netherlands (europe-west4)",
+  "what": "A zone of Google Cloud's Netherlands region went down; Google shut down hosts, storage and switches to prevent heat damage.",
+  "what_nl": "Een zone van de Nederlandse regio van Google Cloud viel uit; Google schakelde hosts, opslag en switches uit om hitteschade te voorkomen.",
+  "kind": "physical",
+  "cause": "Google's incident report, as relayed by Data Center Dynamics and The Register, says an electrical fault (an upstream voltage transient) on the utility grid disrupted both power feeds to the affected row; backup rotary UPS systems could not carry the load, and power distribution and cooling were disrupted. Google's final analysis was reported as still ongoing.",
+  "cause_nl": "Volgens het incidentverslag van Google, zoals weergegeven door Data Center Dynamics en The Register, verstoorde een elektrische fout (een spanningspiek stroomopwaarts op het openbare net) beide stroomtoevoeren naar de getroffen rij; reserve-UPS-systemen konden de belasting niet dragen en stroomverdeling en koeling vielen uit. De definitieve analyse van Google zou nog lopen.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "Region europe-west4 is in the Netherlands. The sources do not say whether Belgian customers were affected, and one report says the exact facility location is unclear.",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.datacenterdynamics.com/en/news/google-cloud-experiences-outage-after-power-and-cooling-failure-in-netherlands-data-center/",
+    "title": "Google Cloud experiences outage after power and cooling failure in Netherlands data center",
+    "publisher": "Data Center Dynamics",
+    "date": "",
+    "type": "trade"
+   },
+   {
+    "url": "https://w.media/electrical-fault-knocked-out-google-clouds-netherlands-zone/",
+    "title": "Electrical fault knocked out Google Cloud's Netherlands zone",
+    "publisher": "W.Media",
+    "date": "",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.theregister.com/off-prem/2026/07/21/google-cloud-outage-shows-its-still-hard-to-understand-hyperscalers-real-resilience-regimes/5275405",
+    "title": "Google Cloud outage shows it's still hard to understand hyperscalers' real resilience regimes",
+    "publisher": "The Register",
+    "date": "2026-07-21",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed 14h55m (Google incident report via DCD/The Register), started 15 Jul, resolved 16 Jul; cause per Google's report: electrical fault/upstream voltage transient on the utility grid affecting both power feeds, DRUPS systems could not carry the load, cooling lost, hosts shut down to avoid heat damage. Removed the 'Eemshaven' location (not found; one outlet says the exact facility, possibly third-party, is unclear). Added The Register URL seen in results. C kept (Google's own report, relayed by DCD/The Register; report not opened).",
+  "group": "platform"
+ },
+ {
+  "id": "gcp-london-oct-2026",
+  "company": "Google Cloud",
+  "service": "BigQuery Data Transfer, Cloud Run, GKE and others in europe-west2 (London)",
+  "date": "20 Oct 2026",
+  "sort": "2026-10-20",
+  "duration": "Several hours: began 06:08 UTC; mitigation about 11:36 UTC per one source, most workloads recovered about 14:48 London time per Computer Weekly (sources differ)",
+  "where": "UK (London region)",
+  "what": "Several Google Cloud services in the London region were disrupted; outlets reported knock-on effects at UK banks and apps (including Revolut, Lloyds and HSBC), courts and a parcel firm.",
+  "what_nl": "Verschillende Google Cloud-diensten in de regio Londen werden verstoord; media meldden gevolgen voor Britse banken en apps (onder meer Revolut, Lloyds en HSBC), rechtbanken en een pakjesbedrijf.",
+  "kind": "physical",
+  "cause": "Google's status update said a power event caused an outage within zone europe-west2-b and that it was mitigated. Google's full incident report was not found. Other outlets claim generators failed to engage or that other zones did not absorb the load; these claims are not confirmed by Google.",
+  "cause_nl": "Volgens een statusbericht van Google veroorzaakte een stroomprobleem een storing in zone europe-west2-b en is dat verholpen. Het volledige incidentverslag van Google werd niet gevonden. Andere media beweren dat generatoren niet inschakelden of dat andere zones de belasting niet opvingen; Google heeft dat niet bevestigd.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.theregister.com/paas-and-iaas/2026/10/20/google-cloud-says-a-power-event-caused-todays-outage/5304160",
+    "title": "Google Cloud says a 'power event' caused today's outage",
+    "publisher": "The Register",
+    "date": "2026-10-20",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.computerweekly.com/news/366652539/Google-Cloud-power-event-knocks-out-UK-banks-courts-and-couriers",
+    "title": "Google Cloud power event knocks out UK banks, courts and couriers",
+    "publisher": "Computer Weekly",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed 20 Oct 2026, start 06:08 UTC, Google status text 'A power event caused an outage within europe-west2-b zone. The power event is mitigated.' (The Register: 'Google Cloud says a power event caused today's outage'). Grade moved R to C because the cause statement is Google's own. Computer Weekly: most workloads recovered ~14:48 London time; mitigation 11:36 UTC per one source. UK banks, NHS England and courts named by outlets. Removed claims about cable fault/generators (single secondary sources; another outlet says root cause may be less settled), and removed The Register 'nap' and Technology.org URLs (not seen); added the Register 'power event' and Computer Weekly URLs seen in results. Google's report itself not opened.",
+  "group": "platform"
+ },
+ {
+  "id": "m365-nov-2026",
+  "company": "Microsoft",
+  "service": "Exchange Online, Outlook, Teams, Copilot, SharePoint",
+  "date": "12–13 Nov 2026",
+  "sort": "2026-11-12",
+  "duration": "About 24 hours (16:20 UTC 12 Nov to 16:10 UTC 13 Nov); sources differ on exact start",
+  "where": "Global",
+  "what": "Exchange Online and Outlook were the worst hit; Teams, Copilot and SharePoint were also disrupted.",
+  "what_nl": "Exchange Online en Outlook waren het zwaarst getroffen; ook Teams, Copilot en SharePoint hadden hinder.",
+  "kind": "technical",
+  "cause": "Microsoft's preliminary report, as relayed by media, points to a latent defect from a July 2026 fix applied to Microsoft 365 networking gateway servers (the servers that act as the entry point for Microsoft 365 network traffic). These became overwhelmed under load after Teams traffic failed over to the gateway shared with Exchange Online. About 14% of that gateway's capacity was also out of service for an unrelated reason. Microsoft said it saw no evidence of malicious activity. The final report was not yet seen.",
+  "cause_nl": "Het voorlopige rapport van Microsoft, zoals door media weergegeven, wijst op een sluimerende fout door een correctie van juli 2026 op netwerkgateways van Microsoft 365 (de servers waarlangs het netwerkverkeer van Microsoft 365 binnenkomt). Die raakten onder belasting overbelast nadat Teams-verkeer was overgeschakeld naar de gateway die ook Exchange Online gebruikt. Ongeveer 14% van de capaciteit van die gateway lag bovendien stil om een andere reden. Microsoft zei geen aanwijzingen voor kwaadwillige activiteit te hebben gezien. Het eindrapport werd nog niet gezien.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
+    "title": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
+    "publisher": "SecurityWeek",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed 12-13 Nov 2026 outage (EX1550543 / MO1550821), window 16:20 UTC 12 Nov to 16:10 UTC 13 Nov (= 11:20/11:10 ET), preliminary report (posted ~15-16 Nov in the admin center, quoted by a Microsoft executive on X): latent defect in a July 2026 Windows fix on Microsoft 365 networking gateway servers, Teams traffic failed over to the gateway shared with Exchange Online ~15h earlier, ~14% of gateway capacity out for an unrelated issue; Microsoft saw no malicious activity. Final report was due by 20 Nov and was not seen. Removed the '80% of servers' figure (one outlet only), 'final update 14 Nov' (sources conflict) and the Malwarebytes and Forbes URLs (not seen in results; Forbes title could not be matched). SecurityWeek URL seen. All detail comes from secondary sources: Microsoft's own report not opened, so C is based on reports of Microsoft's preliminary report.",
+  "group": "platform"
+ },
+ {
+  "id": "change-healthcare-2024",
+  "company": "Change Healthcare (UnitedHealth Group)",
+  "service": "US pharmacy claims, payments and healthcare billing network",
+  "date": "21 Feb 2024",
+  "sort": "2024-02-21",
+  "duration": "weeks to months",
+  "where": "US",
+  "what": "A ransomware attack on Change Healthcare from 21 February 2024 disrupted US claims processing. UnitedHealth estimated that 90% of the more than 70,000 US pharmacies using Change's platform had to modify their electronic claims processing (company estimate, as reported by Becker's). UnitedHealth's first-quarter 2024 results reported US$872 million of unfavourable cyberattack effects on earnings (company figure; media report it as US$593 million direct response costs and US$279 million business disruption).",
+  "what_nl": "Een ransomware-aanval op Change Healthcare vanaf 21 februari 2024 verstoorde de verwerking van Amerikaanse betalingsaanvragen. UnitedHealth schatte dat 90 procent van de meer dan 70.000 Amerikaanse apotheken die het platform van Change gebruiken, hun elektronische verwerking moest aanpassen (schatting van het bedrijf, zoals gemeld door Becker's). In de resultaten voor het eerste kwartaal van 2024 meldde UnitedHealth 872 miljoen dollar aan ongunstige effecten van de cyberaanval op de winst (cijfer van het bedrijf; media splitsen dat op in 593 miljoen dollar directe herstelkosten en 279 miljoen dollar bedrijfsverstoring).",
+  "cause": "Change Healthcare confirmed a ransomware attack. UnitedHealth CEO Andrew Witty told a US Senate hearing that attackers got in through a server without multi-factor authentication.",
+  "cause_nl": "Change Healthcare bevestigde een ransomware-aanval. UnitedHealth-ceo Andrew Witty zei op een hoorzitting in de Amerikaanse Senaat dat de aanvallers binnenraakten via een server zonder meerfactorauthenticatie.",
+  "cause_status": "C",
+  "who": "UnitedHealth/Change Healthcare attributed the attack to the ALPHV (BlackCat) group, and ALPHV also claimed it. Witty testified to the US Congress that UnitedHealth paid a US$22 million ransom in bitcoin (company CEO's own testimony).",
+  "who_status": "C",
+  "background": true,
+  "sources": [
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176624000146/a2024q1exhibit991.htm",
+    "title": "UnitedHealth Group Q1 2024 results (Form 8-K exhibit)",
+    "publisher": "US SEC EDGAR (UnitedHealth)",
+    "date": "Apr 2024",
+    "type": "off"
+   },
+   {
+    "url": "https://www.cbsnews.com/news/unitedhealth-senate-hearing-cyberattack-change-healthcare",
+    "title": "UnitedHealth CEO Senate hearing on Change Healthcare cyberattack",
+    "publisher": "CBS News",
+    "date": "May 2024",
+    "type": "news"
+   },
+   {
+    "url": "https://www.axios.com/2024/03/01/prescription-outage-ransomware-unitedhealth",
+    "title": "Ransomware attack wreaks havoc on prescription payments",
+    "publisher": "Axios",
+    "date": "1 Mar 2024",
+    "type": "news"
+   },
+   {
+    "url": "https://www.beckershospitalreview.com/cybersecurity/unitedhealth-says-most-pharmacies-have-effective-workarounds-amid-change-cyberattack.html",
+    "title": "UnitedHealth says most pharmacies have 'effective workarounds'",
+    "publisher": "Becker's Hospital Review",
+    "date": "Mar 2024",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.msspalert.com/news/unitedhealth-takes-872-million-hit-from-blackcat-attack",
+    "title": "UnitedHealth takes $872 million hit from BlackCat attack",
+    "publisher": "MSSP Alert",
+    "date": "Apr 2024",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "europe": "",
+  "checked": "Searched 19 Nov 2026: $872M confirmed in UnitedHealth Q1 2024 release; 90% pharmacies is a UnitedHealth estimate (Becker's); $22M ransom confirmed by CEO testimony (old text said not officially confirmed); unsourced US$2.87bn figure removed; Healthcare Dive source dropped (not surfaced).",
+  "group": "attack"
+ },
+ {
+  "id": "cdk-global-2024",
+  "company": "CDK Global",
+  "service": "dealer management software used by about 15,000 car dealerships in North America",
+  "date": "19 Jun 2024",
+  "sort": "2024-06-19",
+  "duration": "about two weeks, with restoration in stages from late June",
+  "where": "US, Canada",
+  "what": "Two attacks on CDK Global in June 2024 took its dealer systems offline, so dealerships went back to pen and paper for sales, parts and financing; restoration came in stages around the start of July. Anderson Economic Group estimated losses to dealerships at roughly US$1 billion (an outside estimate, not a company figure).",
+  "what_nl": "Twee aanvallen op CDK Global in juni 2024 legden de dealersystemen plat, waardoor autodealers terugvielen op pen en papier voor verkoop, onderdelen en financiering; het herstel verliep gefaseerd rond begin juli. Anderson Economic Group schatte de verliezen van de dealers op ongeveer 1 miljard dollar (een externe schatting, geen cijfer van het bedrijf).",
+  "cause": "CDK Global confirmed cyber incidents in June 2024 that took its dealer systems offline. Media reported (via sources) that ransomware was used; CDK's own wording in the sources seen was a 'cyber incident'.",
+  "cause_nl": "CDK Global bevestigde cyberincidenten in juni 2024 die zijn dealersystemen platlegden. Media meldden op basis van bronnen dat ransomware werd gebruikt; CDK sprak zelf in de geraadpleegde bronnen van een 'cyberincident'.",
+  "cause_status": "R",
+  "who": "Media citing sources (Reuters, Bloomberg) and researchers named the BlackSuit group (not confirmed by CDK or an authority in the sources seen). Reports that CDK paid a ransom of about US$25 million were not confirmed by CDK.",
+  "who_status": "R",
+  "background": true,
+  "sources": [
+   {
+    "url": "https://www.bleepingcomputer.com/news/security/cdk-global-cyberattack-impacts-thousands-of-us-car-dealerships",
+    "title": "CDK Global cyberattack impacts thousands of US car dealerships",
+    "publisher": "BleepingComputer",
+    "date": "Jun 2024",
+    "type": "trade"
+   },
+   {
+    "url": "https://fortune.com/2024/06/24/cdk-ransomware-attack-car-dealerships-paperwork-sales-orders-software-cyberattack/",
+    "title": "CDK ransomware attack: car dealerships revert to paperwork",
+    "publisher": "Fortune",
+    "date": "24 Jun 2024",
+    "type": "news"
+   },
+   {
+    "url": "https://www.techtarget.com/whatis/feature/The-CDK-Global-outage-Explaining-how-it-happened",
+    "title": "The CDK Global outage: explaining how it happened",
+    "publisher": "TechTarget",
+    "date": "2024",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "europe": "",
+  "checked": "Searched: AEG ~US$1bn estimate and BlackSuit link confirmed in secondary reporting; could not confirm that CDK itself announced 'ransomware' on 24 June (Fox News claim not found), so cause downgraded C to R and reworded; ransom payment reported but unconfirmed.",
+  "group": "attack"
+ },
+ {
+  "id": "blue-yonder-2024",
+  "company": "Blue Yonder (customers: Starbucks, Morrisons, Sainsbury's)",
+  "service": "supply-chain and workforce-scheduling software",
+  "date": "21 Nov 2024",
+  "sort": "2024-11-21",
+  "duration": "not verified; some customers reported problems for days",
+  "where": "US, UK",
+  "what": "A ransomware attack on supply-chain software supplier Blue Yonder in November 2024 disrupted its customers. Starbucks said its scheduling and pay systems were hit (reports say staff pay had to be calculated manually); Morrisons reported problems with its warehouse management systems; Sainsbury's said it had contingencies in place and restored operations quickly (as reported by TechRepublic and others).",
+  "what_nl": "Een ransomware-aanval op leverancier van supply-chainsoftware Blue Yonder in november 2024 verstoorde zijn klanten. Starbucks zei dat zijn rooster- en loonsystemen werden getroffen (volgens berichten moest het loon van het personeel handmatig worden berekend); Morrisons meldde problemen met zijn magazijnbeheersystemen; Sainsbury's zei dat het noodplannen had en de werking snel herstelde (zoals gemeld door TechRepublic en anderen).",
+  "cause": "Reported as a ransomware attack on Blue Yonder's managed-services hosted environment; its Azure public cloud was reportedly not affected. Blue Yonder said it worked with outside cybersecurity firms.",
+  "cause_nl": "Gemeld als een ransomware-aanval op de gehoste beheerde-dienstenomgeving van Blue Yonder; de publieke Azure-cloud werd naar verluidt niet getroffen. Blue Yonder zei samen te werken met externe cyberbeveiligingsbedrijven.",
+  "cause_status": "R",
+  "who": "The Termite ransomware group claimed it on its leak site, saying it took 680 GB of data (claim). BleepingComputer said it could not independently confirm the link. Blue Yonder had not confirmed the claim.",
+  "who_status": "K",
+  "background": true,
+  "sources": [
+   {
+    "url": "https://cyberscoop.com/termite-ransomware-blue-yonder-disruption/",
+    "title": "Termite ransomware, Blue Yonder disruption",
+    "publisher": "CyberScoop",
+    "date": "Dec 2024",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.bleepingcomputer.com/news/security/blue-yonder-saas-giant-breached-by-termite-ransomware-gang/",
+    "title": "Blue Yonder SaaS giant breached by Termite ransomware gang",
+    "publisher": "BleepingComputer",
+    "date": "Dec 2024",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.techrepublic.com/article/blue-yonder-ransomware-attack/",
+    "title": "Starbucks, supermarkets targeted in ransomware attack",
+    "publisher": "TechRepublic",
+    "date": "Dec 2024",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "europe": "",
+  "checked": "Searched: claim and customer impact confirmed; removed the WSJ attribution and the 'pen-and-paper' claim for Morrisons/Sainsbury's (not supported: Sainsbury's said contingencies worked); 'weeks' duration unverified so replaced.",
+  "group": "attack"
+ },
+ {
+  "id": "x-ddos-2025",
+  "company": "X (formerly Twitter)",
+  "service": "social network, website and app",
+  "date": "10 Mar 2025",
+  "sort": "2025-03-10",
+  "duration": "several hours, intermittent",
+  "where": "Global",
+  "what": "X went down repeatedly on 10 March 2025, with tens of thousands of outage reports in the US in the morning. X owner Elon Musk said the platform was hit by a 'massive cyberattack'. No cost figure was published.",
+  "what_nl": "X lag op 10 maart 2025 meermaals plat, met tienduizenden storingsmeldingen in de VS in de ochtend. Eigenaar Elon Musk zei dat het platform getroffen werd door een 'massale cyberaanval'. Er werd geen kostenraming bekendgemaakt.",
+  "cause": "Musk said it was a 'massive cyberattack' and suggested, without evidence, a link to Ukraine; a group calling itself Dark Storm Team claimed responsibility. Security Affairs noted the group had provided no evidence, and ZeroFox called a DDoS by the group plausible but unverified. X published no technical report.",
+  "cause_nl": "Musk sprak van een 'massale cyberaanval' en suggereerde zonder bewijs een link met Oekraïne; een groep die zich Dark Storm Team noemt, eiste de aanval op. Security Affairs merkte op dat de groep geen bewijs leverde, en ZeroFox noemde een DDoS door die groep aannemelijk maar niet bevestigd. X publiceerde geen technisch verslag.",
+  "cause_status": "K",
+  "who": "Dark Storm Team (described by Check Point Research as pro-Palestinian) claimed a DDoS attack on Telegram and offered no independent proof (Security Affairs, Daily Dot). Musk said the attack came from IP addresses in the 'Ukraine area' (his statement; no evidence published). Not confirmed by X or any authority.",
+  "who_status": "K",
+  "sources": [
+   {
+    "url": "https://securityaffairs.com/175209/uncategorized/elon-musk-x-ddos-attack-dark-dark-storm-team.html",
+    "title": "Elon Musk's X DDoS attack, Dark Storm Team",
+    "publisher": "Security Affairs",
+    "date": "Mar 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://san.com/cc/thousands-of-x-users-impacted-by-x-outage-dark-storm-claims-responsibility/",
+    "title": "Thousands of X users impacted by X outage, 'Dark Storm' claims responsibility",
+    "publisher": "Straight Arrow News",
+    "date": "Mar 2025",
+    "type": "news"
+   },
+   {
+    "url": "https://lede-v2.dailydot.com/dark-storm-team-x-outage-ddos",
+    "title": "Dark Storm Team X outage DDoS",
+    "publisher": "Daily Dot",
+    "date": "Mar 2025",
+    "type": "news"
+   },
+   {
+    "url": "https://www.techradar.com/computing/cyber-security/who-was-really-behind-the-massive-x-cyberattack-heres-what-experts-say-about-elon-musks-claims",
+    "title": "Who was really behind the massive X cyberattack?",
+    "publisher": "TechRadar",
+    "date": "",
+    "type": "trade"
+   },
+   {
+    "url": "https://kyivindependent.com/musk-blames-x-outage-on-massive-cyberattack-linked-to-ukraine",
+    "title": "Musk blames X outage on massive cyberattack linked to Ukraine",
+    "publisher": "Kyiv Independent",
+    "date": "",
+    "type": "news"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "europe": "",
+  "checked": "Searched: Musk statement, Dark Storm claim and 40,000+ outage reports confirmed; Ground News aggregator removed as source; Daily Dot added; reworded Ukraine remark as Musk's own statement. Musk's X posts are the only 'company' source; not fetched. | Merged with x-mar-2025 (same event, listed in both files); cause wording and status from that record.",
+  "group": "attack"
+ },
+ {
+  "id": "marks-spencer-2025",
+  "company": "Marks & Spencer",
+  "service": "online shopping, contactless payments and click-and-collect; food stock and supply systems",
+  "date": "22 Apr 2025 onwards",
+  "sort": "2025-04-22",
+  "duration": "online orders paused 46 days (from 25 April to 10 June, per Reuters); click-and-collect returned later; full recovery took months",
+  "where": "UK",
+  "what": "M&S paused online orders in late April 2025 after a cyber attack and some shelves went empty. Reuters reported online orders resumed on 10 June after a 46-day pause; click-and-collect returned much later. M&S itself estimated the incident would cost about £300 million in operating profit, which it hoped to halve through insurance and cost controls.",
+  "what_nl": "M&S schorste eind april 2025 de online bestellingen op na een cyberaanval en sommige schappen raakten leeg. Volgens Reuters werden de online bestellingen op 10 juni hervat na een pauze van 46 dagen; 'click-and-collect' kwam pas veel later terug. M&S zelf raamde de kost op ongeveer 300 miljoen pond operationele winst, die het hoopte te halveren via verzekering en kostenbeheersing.",
+  "cause": "M&S confirmed a cyber attack and later confirmed customer data was stolen. Media report that DragonForce ransomware was used and that attackers entered through a third-party contractor (the TCS help-desk arrangement has been examined); the contractor route is reported, not confirmed in the sources seen.",
+  "cause_nl": "M&S bevestigde een cyberaanval en later ook diefstal van klantgegevens. Media melden dat DragonForce-ransomware werd gebruikt en dat de aanvallers via een externe contractant binnenkwamen (de helpdesk-regeling met TCS werd onderzocht); die toegangsroute is gemeld, niet bevestigd in de geraadpleegde bronnen.",
+  "cause_status": "C",
+  "who": "Researchers and media attribute the attack to Scattered Spider working with the DragonForce ransomware service. The UK National Crime Agency (10 July 2025) arrested four people (aged 17 to 20) over the M&S, Co-op and Harrods attacks, but did not name a group or charge them for M&S in the sources seen. Not confirmed by M&S.",
+  "who_status": "R",
+  "europe": "UK retailer; the main effects are in the UK.",
+  "sources": [
+   {
+    "url": "https://www.infosecurity-magazine.com/news/ms-300million-cyber-costs/",
+    "title": "M&S Braces for £300 Million Cyber-Attack Costs",
+    "publisher": "Infosecurity Magazine",
+    "date": "May 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.lbc.co.uk/news/uk/marks-and-spencer-cyber-attack-cost-300m",
+    "title": "The 300m cyber attack: M&S warns of huge hit to profits",
+    "publisher": "LBC",
+    "date": "May 2025",
+    "type": "news"
+   },
+   {
+    "url": "https://www.bleepingcomputer.com/news/security/four-arrested-in-uk-over-mands-co-op-harrods-cyberattacks/",
+    "title": "Four arrested in UK over M&S, Co-op, Harrods cyberattacks",
+    "publisher": "BleepingComputer",
+    "date": "Jul 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://cyberscoop.com/scattered-spider-arrests-uk-nca-marks-and-spencer/",
+    "title": "Scattered Spider arrests, UK NCA, Marks and Spencer",
+    "publisher": "CyberScoop",
+    "date": "Jul 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.aljazeera.com/news/2025/5/2/harrods-ms-hit-by-cyberattack-what-happened-whos-behind-it",
+    "title": "Harrods, M&S hit by cyberattack: what happened, who's behind it?",
+    "publisher": "Al Jazeera",
+    "date": "2 May 2025",
+    "type": "news"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "checked": "Searched: £300M estimate by M&S, 25 April halt and 10 June restart (46 days, Reuters) confirmed; 'about seven weeks' corrected to 46 days; 'disruption into July' dropped (not re-verified). Source URLs not individually opened (WebFetch blocked by network).",
+  "group": "attack"
+ },
+ {
+  "id": "coop-uk-2025",
+  "company": "Co-op Group",
+  "service": "food stores' stock supply, payments, member systems",
+  "date": "late Apr 2025 onwards",
+  "sort": "2025-04-30",
+  "duration": "shelves affected for weeks; recovery details beyond that not verified",
+  "where": "UK",
+  "what": "After a cyber attack in late April 2025 Co-op stores had empty shelves for weeks. In its half-year report (six months to 5 July 2025) Co-op said the attack cut sales revenue by about £206 million and operating profit by £80 million (£20 million one-off costs and £60 million lost sales). In March 2026 its full-year results estimated the direct impact of the attack at £285 million of revenue and £107 million of profit (£86 million lost margin and £21 million one-off costs); these are Co-op management estimates.",
+  "what_nl": "Na een cyberaanval eind april 2025 hadden de Co-op-winkels weken lang lege schappen. In zijn halfjaarverslag (zes maanden tot 5 juli 2025) zei Co-op dat de aanval de omzet met ongeveer 206 miljoen pond en de bedrijfswinst met 80 miljoen pond verminderde (20 miljoen pond eenmalige kosten en 60 miljoen pond gemiste verkoop). In maart 2026 raamden de jaarresultaten de rechtstreekse impact op 285 miljoen pond omzet en 107 miljoen pond winst (86 miljoen pond gemiste marge en 21 miljoen pond eenmalige kosten); dat zijn schattingen van het Co-op-management.",
+  "cause": "Co-op confirmed a cyber attack and that the data of all 6.5 million members was stolen. Reports say the attackers deployed DragonForce ransomware. The Financial Times first reported that Co-op had no cyber insurance; Co-op later confirmed it held no dedicated cyber insurance, though it had cover for operational disruption (as reported by Insurance Business and Insurance Insider).",
+  "cause_nl": "Co-op bevestigde een cyberaanval en dat de gegevens van alle 6,5 miljoen leden werden gestolen. Volgens berichten zette de aanvaller DragonForce-ransomware in. De Financial Times meldde als eerste dat Co-op geen cyberverzekering had; Co-op bevestigde later dat het geen specifieke cyberverzekering had, maar wel dekking voor bedrijfsonderbreking (zoals gemeld door Insurance Business en Insurance Insider).",
+  "cause_status": "C",
+  "who": "DragonForce claimed the attack and told the BBC it had stolen data (claim by the criminal group). Researchers link it to Scattered Spider; the NCA arrested four people on 10 July 2025 over the M&S, Co-op and Harrods attacks without naming a group. Not confirmed by Co-op.",
+  "who_status": "K",
+  "sources": [
+   {
+    "url": "https://www.computerweekly.com/news/366632018/Co-op-declares-cyber-attack-damage-cost-it-206m",
+    "title": "Co-op declares cyber attack damage cost it £206m",
+    "publisher": "Computer Weekly",
+    "date": "Sep 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.rte.ie/news/business/2025/0925/1535230-britains-co-op-says-cyberattack-cost-it-l80m",
+    "title": "Britain's Co-op says cyberattack cost it £80m",
+    "publisher": "RTE",
+    "date": "25 Sep 2025",
+    "type": "news"
+   },
+   {
+    "url": "https://www.theregister.com/2025/09/25/empty_shelves_empty_coffers_coop/",
+    "title": "Empty shelves, empty coffers: Co-op pegs cyber hit at £80m",
+    "publisher": "The Register",
+    "date": "25 Sep 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.bleepingcomputer.com/news/security/four-arrested-in-uk-over-mands-co-op-harrods-cyberattacks/",
+    "title": "Four arrested in UK over M&S, Co-op, Harrods cyberattacks",
+    "publisher": "BleepingComputer",
+    "date": "Jul 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.co-operative.coop/media/news-releases/co-op-navigates-headwinds-and-looks-forward-with-confidence-clarity-and",
+    "title": "Co-op full-year results, 26 March 2026",
+    "publisher": "Co-op Group (company)",
+    "date": "26 Mar 2026",
+    "type": "off"
+   },
+   {
+    "url": "https://www.insurancebusinessmag.com/uk/news/cyber/exclusive-coop-chose-cybersecurity-over-insurance-551156.aspx",
+    "title": "Co-op chose cybersecurity over insurance",
+    "publisher": "Insurance Business",
+    "date": "2025",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "europe": "",
+  "checked": "Searched: £206M revenue, £80M profit, 6.5M members, DragonForce/BBC confirmed; 'no cyber insurance' confirmed (FT reported, Co-op confirmed no dedicated policy, had business-interruption cover); unconfirmed '£40M more expected' and '2,300 stores' and rural-store claim removed, replaced by actual full-year figures (£285M/£107M, official release).",
+  "group": "attack"
+ },
+ {
+  "id": "nucor-2025",
+  "company": "Nucor",
+  "service": "steel production at several locations",
+  "date": "by 14 May 2025",
+  "sort": "2025-05-14",
+  "duration": "restart under way at the time of the filing; end date not published in sources seen",
+  "where": "US",
+  "what": "Nucor, the largest US steelmaker, said in a stock-exchange filing that it temporarily and proactively halted certain production operations at various locations after unauthorised third-party access to its IT systems. It was restarting the affected operations at the time of the filing. No cost figure was given.",
+  "what_nl": "Nucor, de grootste Amerikaanse staalproducent, meldde in een beursdocument dat het tijdelijk en preventief bepaalde productieactiviteiten op verschillende locaties stillegde na onbevoegde toegang tot zijn IT-systemen. Op het moment van de melding werden de getroffen activiteiten herstart. Er werd geen kostenraming gegeven.",
+  "cause": "Nucor's Form 8-K reports unauthorised third-party access to certain IT systems; the company took systems offline and notified federal law enforcement. The type of attack (for example ransomware) was not stated.",
+  "cause_nl": "Het 8-K-document van Nucor meldt onbevoegde toegang door een derde tot bepaalde IT-systemen; het bedrijf nam systemen offline en verwittigde de federale politie. Het type aanval (bv. ransomware) werd niet vermeld.",
+  "cause_status": "C",
+  "who": "Nobody named. The filing did not attribute the incident to any group.",
+  "who_status": "N",
+  "sources": [
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/73309/000119312525119311/d795264d8k.htm",
+    "title": "Nucor Corp Form 8-K (Item 1.05)",
+    "publisher": "US SEC EDGAR",
+    "date": "14 May 2025",
+    "type": "off"
+   },
+   {
+    "url": "https://cyberinsider.com/nucor-shuts-down-production-at-multiple-facilities-following-cyberattack/",
+    "title": "Nucor shuts down production at multiple facilities following cyberattack",
+    "publisher": "CyberInsider",
+    "date": "May 2025",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "europe": "",
+  "checked": "Searched: SEC 8-K Item 1.05 (14 May 2025) wording confirmed: production halted at various locations, restart under way, law enforcement notified. End date not found. Later amended 8-K (20 June) mentioned by one trade outlet only; not used.",
+  "group": "attack"
+ },
+ {
+  "id": "victorias-secret-2025",
+  "company": "Victoria's Secret",
+  "service": "website and some in-store services (returns of online orders, gift cards, rewards, credit cards, per press reports)",
+  "date": "26 May 2025 (website restored 29 May)",
+  "sort": "2025-05-26",
+  "duration": "about three days (website shut 26 May, restored 29 May per Reuters)",
+  "where": "US",
+  "what": "Victoria's Secret shut its corporate systems and e-commerce site on 26 May 2025 as a precaution after a security incident, and restored the website on 29 May (Reuters). Some functions at its stores were disrupted and later restored, and stores stayed open. The company postponed its first-quarter earnings release, originally due 5 June, because staff lacked access to some systems and data (company, as reported).",
+  "what_nl": "Victoria's Secret sloot op 26 mei 2025 uit voorzorg zijn bedrijfssystemen en webwinkel af na een beveiligingsincident en herstelde de website op 29 mei (Reuters). Sommige functies in de winkels werden verstoord en later hersteld; de winkels bleven open. Het bedrijf stelde zijn resultaten voor het eerste kwartaal, oorspronkelijk gepland op 5 juni, uit omdat medewerkers geen toegang hadden tot bepaalde systemen en gegevens (bedrijf, zoals gemeld).",
+  "cause": "The company said it took systems offline as a precaution after a 'security incident' and engaged outside experts. It did not say publicly whether it was ransomware; media call it a cyber incident.",
+  "cause_nl": "Het bedrijf zei dat het systemen uit voorzorg offline haalde na een 'beveiligingsincident' en externe experts inschakelde. Het zei niet publiekelijk of het om ransomware ging; media spreken van een cyberincident.",
+  "cause_status": "R",
+  "who": "Nobody named. No group has claimed it and no authority has named anyone in the sources seen.",
+  "who_status": "N",
+  "sources": [
+   {
+    "url": "https://finance.yahoo.com/news/victorias-secret-says-cyber-incident-122059111.html",
+    "title": "Victoria's Secret says cyber incident led to temporary website shut down",
+    "publisher": "Reuters via Yahoo Finance",
+    "date": "3 Jun 2025",
+    "type": "news"
+   },
+   {
+    "url": "https://www.retaildive.com/news/victorias-secret-postpones-earnings-security-breach/749639",
+    "title": "Victoria's Secret postpones earnings",
+    "publisher": "Retail Dive",
+    "date": "Jun 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.theregister.com/2025/05/29/victoria_secrets_outage/",
+    "title": "Victoria's Secret website laid bare for three days after 'security incident'",
+    "publisher": "The Register",
+    "date": "29 May 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://therecord.media/victorias-secret-website-down-security-incident",
+    "title": "Victoria's Secret website down as company investigates security incident",
+    "publisher": "The Record",
+    "date": "May 2025",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "europe": "",
+  "checked": "Searched: dates corrected (shutdown 26 May, website back 29 May per Reuters; old text said 28 May); removed unsourced ~7% share fall and the Scattered Spider link (no source found, who S to N); cause S to R; NBC source dropped (not surfaced). Old 'returns, gift cards, rewards' service list dropped as unsourced.",
+  "group": "attack"
+ },
+ {
+  "id": "unfi-2025",
+  "company": "United Natural Foods (UNFI)",
+  "service": "grocery wholesale and distribution (main supplier to Whole Foods)",
+  "date": "5 Jun 2025",
+  "sort": "2025-06-05",
+  "duration": "primary electronic ordering restored within about 10 days; core systems reported back by 26 June",
+  "where": "US, Canada",
+  "what": "UNFI took systems offline after detecting unauthorised activity on 5 June 2025, and its filing said the incident had caused temporary disruptions to order fulfilment. Whole Foods and other grocers reported shortages and empty shelves. UNFI later said it expected the incident to reduce fiscal-2025 net sales by about US$350 to 400 million (company guidance, as reported by Teiss).",
+  "what_nl": "UNFI nam systemen offline nadat het op 5 juni 2025 onbevoegde activiteit had vastgesteld; volgens het beursdocument leidde dit tot tijdelijke verstoringen bij het uitvoeren van bestellingen. Whole Foods en andere supermarkten meldden tekorten en lege schappen. UNFI zei later te verwachten dat het incident de nettoverkoop in boekjaar 2025 met ongeveer 350 tot 400 miljoen dollar zou verminderen (richtlijn van het bedrijf, zoals gemeld door Teiss).",
+  "cause": "UNFI's Form 8-K reports unauthorised activity on its IT systems and containment measures; the 26 June 8-K says the company holds cyber insurance it expects to be adequate. The company did not publicly name the type of attack; observers suspected ransomware (suspected).",
+  "cause_nl": "Het 8-K-document van UNFI meldt onbevoegde activiteit op zijn IT-systemen en beheersmaatregelen; het 8-K van 26 juni zegt dat het bedrijf een cyberverzekering heeft die volgens zijn verwachting volstaat. Het bedrijf noemde het type aanval niet publiekelijk; waarnemers vermoedden ransomware (vermoeden).",
+  "cause_status": "C",
+  "who": "Nobody named.",
+  "who_status": "N",
+  "sources": [
+   {
+    "url": "https://www.esecurityplanet.com/news/whole-foods-cyberattack/",
+    "title": "Cyberattack Disrupts Whole Foods Supplier, Causing Delivery Delays and Empty Shelves",
+    "publisher": "eSecurity Planet",
+    "date": "Jun 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.fox13news.com/news/whole-foods-unfi-cyberattack-deliveries",
+    "title": "Whole Foods working to restock shelves as distributor faces cyberattack",
+    "publisher": "FOX 13",
+    "date": "Jun 2025",
+    "type": "news"
+   },
+   {
+    "url": "https://dailysecurityreview.com/security-spotlight/united-natural-foods-cyberattack-disrupts-operations-across-north-america/",
+    "title": "United Natural Foods cyberattack disrupts operations across North America",
+    "publisher": "Daily Security Review",
+    "date": "Jun 2025",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "europe": "",
+  "checked": "Searched: 5 June detection, 8-K and empty shelves confirmed; added company's US$350-400M sales guidance and restoration timing (secondary sources: Teiss, Cybersecurity Dive); 'no cost figure' corrected. Whole Foods-specific restoration date not found.",
+  "group": "attack"
+ },
+ {
+  "id": "ingram-micro-2025",
+  "company": "Ingram Micro",
+  "service": "ordering website, licence provisioning and distribution platforms (world's largest IT distributor)",
+  "date": "3 Jul 2025",
+  "sort": "2025-07-03",
+  "duration": "about a week; ordering restored region by region from 9 Jul",
+  "where": "Global",
+  "what": "Ingram Micro's website and online ordering went down around 3 July 2025; the company later said ransomware had hit internal systems and it shut down systems as a precaution. Press reports say ordering was reactivated region by region from about 9 July. No cost figure was found.",
+  "what_nl": "De website en het online bestelsysteem van Ingram Micro vielen rond 3 juli 2025 uit; het bedrijf zei later dat ransomware interne systemen had getroffen en dat het systemen preventief afsloot. Volgens de pers werd bestellen vanaf ongeveer 9 juli regio per regio hersteld. Er werd geen kostenraming gevonden.",
+  "cause": "Ingram Micro said it had identified ransomware on certain internal systems, took some systems offline and notified law enforcement. Sources told BleepingComputer the access may have been through a GlobalProtect VPN; not officially confirmed.",
+  "cause_nl": "Ingram Micro zei ransomware te hebben vastgesteld op bepaalde interne systemen, nam sommige systemen offline en verwittigde de politiediensten. Bronnen vertelden BleepingComputer dat de toegang mogelijk via een GlobalProtect-VPN verliep; niet officieel bevestigd.",
+  "cause_status": "C",
+  "who": "BleepingComputer reported that a ransom note found on employee devices claimed to be from the SafePay group (the group's own note, as reported). Ingram Micro has not named an attacker and no authority has.",
+  "who_status": "K",
+  "sources": [
+   {
+    "url": "https://www.bleepingcomputer.com/news/security/ingram-micro-outage-caused-by-safepay-ransomware-attack/",
+    "title": "Ingram Micro outage caused by SafePay ransomware attack",
+    "publisher": "BleepingComputer",
+    "date": "Jul 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.infosecurity-magazine.com/news/it-giant-ingram-micro-reveals/",
+    "title": "IT Giant Ingram Micro Reveals Ransomware Breach",
+    "publisher": "Infosecurity Magazine",
+    "date": "Jul 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.theregister.com/2025/07/09/ingram_micro_restarts_orders_for/",
+    "title": "Ingram Micro restarts orders, for some, following ransomware attack",
+    "publisher": "The Register",
+    "date": "9 Jul 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://therecord.media/ingram-micro-ransomware-attack",
+    "title": "Ingram Micro ransomware attack",
+    "publisher": "The Record",
+    "date": "Jul 2025",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "europe": "",
+  "checked": "Searched: ransomware statement, SafePay ransom note (BleepingComputer), restoration by about 9 July confirmed. One search summary mentioned a separate Rhysida claim (SecurityWeek); not verified, not used.",
+  "group": "attack"
+ },
+ {
+  "id": "orange-france-2025",
+  "company": "Orange (France)",
+  "service": "management platforms for business customers and some consumer services",
+  "date": "25 Jul 2025",
+  "sort": "2025-07-25",
+  "duration": "about five days (restoration reported as expected around 30 July)",
+  "where": "France",
+  "what": "Orange said it detected a cyberattack on one of its information systems on 25 July 2025 and isolated the affected systems; the isolation measures disrupted some management services and platforms for business customers and some consumer services, mainly in France (Orange press release, 28 July). Restoration was reported as expected around 30 July (media). No cost figure was found.",
+  "what_nl": "Orange zei op 25 juli 2025 een cyberaanval op een van zijn informatiesystemen te hebben vastgesteld en de getroffen systemen te hebben geïsoleerd; door die isolatie waren sommige beheerdiensten en platformen voor zakelijke klanten en enkele consumentendiensten verstoord, vooral in Frankrijk (persbericht van Orange, 28 juli). Het herstel werd volgens de media rond 30 juli verwacht. Er werd geen kostenraming gevonden.",
+  "cause": "Orange confirmed a cyberattack on one of its information systems and filed a complaint on 28 July. Media report there was no evidence at that stage that customer data was extracted (secondary reporting; Orange declined further comment).",
+  "cause_nl": "Orange bevestigde een cyberaanval op een van zijn informatiesystemen en diende op 28 juli klacht in. Media melden dat er op dat moment geen aanwijzingen waren dat klantgegevens waren buitgemaakt (secundaire berichtgeving; Orange wilde niet verder commentaar geven).",
+  "cause_status": "C",
+  "who": "Nobody named by Orange, and no authority has named anyone.",
+  "who_status": "N",
+  "europe": "France only. A separate July 2025 data breach at Orange Belgium (reported as affecting 850,000 customers) was a data breach, not an outage; no source linking the two was found.",
+  "sources": [
+   {
+    "url": "https://newsroom.orange.com/the-orange-group-announces-that-it-filed-a-complaint-on-monday-28-july-concerning-a-security-incident-on-one-of-its-information-systems?lang=eng",
+    "title": "Orange files a complaint concerning a security incident",
+    "publisher": "Orange (company)",
+    "date": "28 Jul 2025",
+    "type": "off"
+   },
+   {
+    "url": "https://securityaffairs.com/180552/security/orange-reports-major-cyberattack-warns-of-service-disruptions.html",
+    "title": "Orange reports major cyberattack, warns of service disruptions",
+    "publisher": "Security Affairs",
+    "date": "Jul 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://cyberinsider.com/orange-france-reports-cyberattack-disrupting-business-services/",
+    "title": "Orange France reports cyberattack disrupting business services",
+    "publisher": "CyberInsider",
+    "date": "Jul 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://securityaffairs.com/181399/uncategorized/orange-belgium-july-data-breach-impacted-850000-customers.html",
+    "title": "Orange Belgium July data breach impacted 850,000 customers",
+    "publisher": "Security Affairs",
+    "date": "2025",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "checked": "Searched: Orange press release of 28 July found and added (official); disruption wording corrected (no 'significant'); unverified Warlock claim (aggregator only) removed; Orange Belgium link wording softened. BORDERLINE for 'serious disruption' bar: company says some business management and consumer services disrupted for a few days; kept on that basis.",
+  "group": "attack"
+ },
+ {
+  "id": "aeroflot-2025",
+  "company": "Aeroflot",
+  "service": "airline IT systems, flight operations",
+  "date": "28 Jul 2025",
+  "sort": "2025-07-28",
+  "duration": "one day of major disruption (28 July); further recovery time not verified",
+  "where": "Russia",
+  "what": "A cyberattack caused a mass outage of Aeroflot's IT systems on 28 July 2025. Russia's prosecutor's office put the cancellations at more than 100 flights; counts differ by source (some reports say 108 of about 260 scheduled flights, others 60 or more). Russian experts quoted by Meduza estimated first-day losses at about 259 million roubles (an estimate, not an Aeroflot figure); another expert estimated total losses of US$10 to 50 million including recovery costs.",
+  "what_nl": "Een cyberaanval veroorzaakte op 28 juli 2025 een massale uitval van de IT-systemen van Aeroflot. Het Russische openbaar ministerie sprak van meer dan 100 geschrapte vluchten; de aantallen verschillen per bron (volgens sommige berichten 108 van ongeveer 260 geplande vluchten, volgens andere minstens 60). Russische experts geciteerd door Meduza raamden het verlies op de eerste dag op ongeveer 259 miljoen roebel (een schatting, geen cijfer van Aeroflot); een andere expert raamde het totale verlies op 10 tot 50 miljoen dollar, inclusief herstelkosten.",
+  "cause": "Russia's prosecutor's office said a cyberattack caused the mass outage and opened a criminal investigation (authority). The hackers claimed they destroyed about 7,000 servers and workstations; this was not independently verified.",
+  "cause_nl": "Het Russische openbaar ministerie zei dat een cyberaanval de massale uitval veroorzaakte en opende een strafonderzoek (overheid). De hackers beweerden ongeveer 7.000 servers en werkstations te hebben vernietigd; dit werd niet onafhankelijk bevestigd.",
+  "cause_status": "C",
+  "who": "The groups Silent Crow and the Belarusian Cyber Partisans claimed the attack as support for Ukraine (claim by the groups). No authority has named them in the sources seen.",
+  "who_status": "K",
+  "sources": [
+   {
+    "url": "https://www.clickondetroit.com/tech/2025/07/28/cyberattack-on-russian-airline-aeroflot-causes-the-cancellation-of-more-than-100-flights/",
+    "title": "Cyberattack on Russian airline Aeroflot causes the cancellation of more than 100 flights",
+    "publisher": "AP via Click On Detroit",
+    "date": "28 Jul 2025",
+    "type": "news"
+   },
+   {
+    "url": "https://securityaffairs.com/180521/hacktivism/pro-ukraine-hacktivists-claims-cyberattack-on-russian-airline-aeroflot-that-caused-the-cancellation-of-100-flights.html",
+    "title": "Pro-Ukraine hacktivists claim cyberattack on Aeroflot",
+    "publisher": "Security Affairs",
+    "date": "Jul 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://meduza.io/en/feature/2025/07/30/assessing-aeroflot-s-aftermath",
+    "title": "Assessing Aeroflot's aftermath",
+    "publisher": "Meduza",
+    "date": "30 Jul 2025",
+    "type": "news"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "europe": "",
+  "checked": "Searched: prosecutor statement, Silent Crow/Cyber Partisans claim, 259M roubles (Meduza, expert estimate) confirmed; removed unsourced '54 round trips'; flight counts shown as conflicting; added other expert loss estimate. Aeroflot itself initially called it a technical failure.",
+  "group": "attack"
+ },
+ {
+  "id": "jlr-2025",
+  "company": "Jaguar Land Rover",
+  "service": "car production, sales and parts systems",
+  "date": "31 Aug 2025 (production paused from 1 Sep)",
+  "sort": "2025-08-31",
+  "duration": "production halted about six weeks (Computer Weekly); restarted in stages from early October 2025",
+  "where": "UK (Solihull, Halewood, Wolverhampton plants)",
+  "what": "JLR shut down its IT systems after a cyber incident and paused vehicle production from 1 September 2025; the pause was extended several times and production restarted in stages from early October (RTE, 9 October). JLR reported exceptional costs of £196 million relating to the cyber incident in the quarter to 30 September 2025 (company figure; its total exceptional items of £238 million also included £42 million of redundancy costs). The independent Cyber Monitoring Centre estimated the cost to the UK economy at about £1.9 billion (central estimate, range £1.6 to 2.1 billion; an estimate, not JLR's bill).",
+  "what_nl": "JLR sloot zijn IT-systemen af na een cyberincident en legde de autoproductie vanaf 1 september 2025 stil; de stilstand werd meermaals verlengd en de productie werd vanaf begin oktober in fasen herstart (RTE, 9 oktober). JLR meldde uitzonderlijke kosten van 196 miljoen pond met betrekking tot het cyberincident in het kwartaal tot 30 september 2025 (cijfer van het bedrijf; de totale uitzonderlijke posten van 238 miljoen pond omvatten ook 42 miljoen pond herstructureringskosten). Het onafhankelijke Cyber Monitoring Centre raamde de kost voor de Britse economie op ongeveer 1,9 miljard pond (centrale schatting, bandbreedte 1,6 tot 2,1 miljard pond; een schatting, niet de rekening van JLR).",
+  "cause": "JLR confirmed a 'cyber incident' and shut systems as a precaution. JLR did not publish the type of attack in the sources seen. A UK government guarantee of about £1.5 billion for the supply chain was reported by media.",
+  "cause_nl": "JLR bevestigde een 'cyberincident' en sloot systemen preventief af. JLR publiceerde in de geraadpleegde bronnen het type aanval niet. Media meldden een Britse overheidsgarantie van ongeveer 1,5 miljard pond voor de toeleveringsketen.",
+  "cause_status": "C",
+  "who": "The group calling itself Scattered Lapsus$ Hunters (a self-described merger of Scattered Spider, Lapsus$ and ShinyHunters) claimed responsibility. Not confirmed by JLR or an authority in the sources seen; no arrests tied to JLR were found.",
+  "who_status": "K",
+  "europe": "UK plants. Effects on Europe's supply chain were reported by media; no specific Belgian effect found.",
+  "sources": [
+   {
+    "url": "https://media.jaguarlandrover.com/news/2025/11/jlr-performance-impacted-challenging-quarter",
+    "title": "JLR performance impacted in challenging quarter",
+    "publisher": "Jaguar Land Rover (company)",
+    "date": "Nov 2025",
+    "type": "off"
+   },
+   {
+    "url": "https://www.teiss.co.uk/news/cyberattack-drains-196m-from-jlrs-quarterly-results-16731",
+    "title": "Cyberattack drains £196m from JLR's quarterly results",
+    "publisher": "teiss",
+    "date": "Nov 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.computerweekly.com/news/366633395/Jaguar-Land-Rover-attack-to-cost-UK-19bn-say-cyber-monitors",
+    "title": "Jaguar Land Rover attack to cost UK £1.9bn, say cyber monitors",
+    "publisher": "Computer Weekly",
+    "date": "Oct 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.rte.ie/news/business/2025/1009/1537721-jaguar-land-rover-restarts-production",
+    "title": "Jaguar Land Rover restarts production",
+    "publisher": "RTE",
+    "date": "9 Oct 2025",
+    "type": "news"
+   },
+   {
+    "url": "https://www.yahoo.com/news/articles/m-hackers-claim-responsibility-jaguar-125051941.html",
+    "title": "M&S hackers claim responsibility for Jaguar Land Rover attack",
+    "publisher": "Yahoo News",
+    "date": "Sep 2025",
+    "type": "news"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "checked": "Searched: £196M (company, within £238M exceptional items incl. £42M redundancy), CMC £1.9bn (range £1.6-2.1bn, model estimate) separated clearly; removed unverified '~£64M next quarter' and plant-by-plant restart order; £1.5bn government guarantee kept as media-reported.",
+  "group": "attack"
+ },
+ {
+  "id": "bridgestone-2025",
+  "company": "Bridgestone Americas",
+  "service": "tyre manufacturing plants in North America",
+  "date": "2 Sep 2025",
+  "sort": "2025-09-02",
+  "duration": "not verified; production halts at several plants reported as temporary",
+  "where": "US, Canada",
+  "what": "A cyberattack announced on 2 September 2025 disrupted Bridgestone Americas manufacturing plants, including two in Aiken County, South Carolina; the mayor of Joliette, Quebec said he believed all North American plants were affected (his belief, not confirmed by the company). Production was reported put on hold at several locations. Bridgestone described the incident as confined, said some plants were affected and were being methodically returned to full operation. No cost figure was found.",
+  "what_nl": "Een cyberaanval, bekendgemaakt op 2 september 2025, verstoorde fabrieken van Bridgestone Americas, onder meer twee in Aiken County (South Carolina); de burgemeester van Joliette (Quebec) zei te geloven dat alle Noord-Amerikaanse fabrieken getroffen waren (zijn overtuiging, niet bevestigd door het bedrijf). De productie lag volgens berichten stil op meerdere locaties. Bridgestone noemde het incident beperkt, zei dat sommige fabrieken getroffen waren en stapsgewijs naar volledige werking werden teruggebracht. Er werd geen kostenraming gevonden.",
+  "cause": "Bridgestone told BleepingComputer it was investigating a confined cyberattack affecting certain manufacturing plants and that no customer data or interfaces were compromised (company statement, as reported). Ransomware was not confirmed.",
+  "cause_nl": "Bridgestone zei tegen BleepingComputer dat het een beperkte cyberaanval onderzocht die bepaalde fabrieken trof en dat geen klantgegevens of -koppelingen werden aangetast (verklaring van het bedrijf, zoals gemeld). Ransomware werd niet bevestigd.",
+  "cause_status": "C",
+  "who": "Nobody named; no group has claimed it in the sources seen.",
+  "who_status": "N",
+  "sources": [
+   {
+    "url": "https://gcn.com/bridgestone-cyberattack-disrupts-american-production/8063",
+    "title": "Bridgestone cyberattack disrupts North American production",
+    "publisher": "GCN",
+    "date": "Sep 2025",
+    "type": "news"
+   },
+   {
+    "url": "https://todaysgeneralcounsel.com/bridgestone-cyberattack-disrupts-operations-despite-early-containment/",
+    "title": "Bridgestone cyberattack disrupts operations despite early containment",
+    "publisher": "Today's General Counsel",
+    "date": "Sep 2025",
+    "type": "news"
+   },
+   {
+    "url": "https://www.cybersecuritydive.com/news/bridgestone-americas--probe-restore-operations/759577/",
+    "title": "Bridgestone Americas probe, restore operations",
+    "publisher": "Cybersecurity Dive",
+    "date": "Sep 2025",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "europe": "",
+  "checked": "Searched: 2 Sep 2025 announcement, Aiken County plants, company statement via BleepingComputer confirmed; Joliette plant attributed to the mayor's belief only; We did not find the company's own release (no official source added). Weak entry: kept because plants were halted and the company statement is quoted by BleepingComputer/Cybersecurity Dive; also note a 2022 Bridgestone incident exists and was excluded.",
+  "group": "attack"
+ },
+ {
+  "id": "collins-airports-2025",
+  "company": "Collins Aerospace (RTX) - check-in system at European airports",
+  "service": "shared check-in and boarding software (MUSE) at Heathrow, Brussels, Berlin and Dublin",
+  "date": "19 Sep 2025",
+  "sort": "2025-09-19",
+  "duration": "a few days at the worst-hit airports (Brussels still had 6% of flights cancelled on Wednesday 24 September, per 7sur7); exact end not verified",
+  "where": "UK, Belgium, Germany, Ireland",
+  "what": "A ransomware attack on Collins Aerospace's MUSE software forced airline staff at several European airports to check passengers in manually from 19 September 2025. Collins said the disruption was limited to electronic check-in and baggage drop. AP reported Brussels cancelled about half its flights on the Monday. No cost figure was published in the sources seen.",
+  "what_nl": "Een ransomware-aanval op de MUSE-software van Collins Aerospace dwong het personeel van luchtvaartmaatschappijen op meerdere Europese luchthavens vanaf 19 september 2025 om passagiers handmatig in te checken. Collins zei dat de verstoring beperkt bleef tot elektronische check-in en bagage-afgifte. Volgens AP schrapte Brussel op maandag ongeveer de helft van zijn vluchten. In de geraadpleegde bronnen werd geen kostenraming gepubliceerd.",
+  "cause": "ENISA (the EU cybersecurity agency) said the disruption was caused by a third-party ransomware incident, and Collins' parent RTX said in an SEC Form 8-K that ransomware affected systems supporting MUSE (as reported by media; filing not opened).",
+  "cause_nl": "ENISA (het EU-agentschap voor cyberveiligheid) zei dat de verstoring werd veroorzaakt door een ransomware-incident bij een derde partij, en moederbedrijf RTX meldde in een 8-K-document aan de Amerikaanse beurswaakhond dat ransomware systemen trof die MUSE ondersteunen (zoals gemeld door media; het document zelf werd niet geopend).",
+  "cause_status": "C",
+  "who": "Nobody has been named. The UK National Crime Agency arrested a man in his 40s in West Sussex on suspicion of Computer Misuse Act offences; he was released on conditional bail and no charge was found in the sources seen. No ransomware group has claimed the attack; media quoted unnamed security experts linking it to the HardBit variant, which is not an official finding.",
+  "who_status": "N",
+  "europe": "Directly hit: Brussels Airport (Belgium), Heathrow, Berlin Brandenburg and Dublin.",
+  "sources": [
+   {
+    "url": "https://www.infosecurity-magazine.com/news/nca-arrest-hardbit-ransomware/",
+    "title": "NCA arrest man as HardBit ransomware blamed for airport outages",
+    "publisher": "Infosecurity Magazine",
+    "date": "Sep 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://therecord.media/uk-arrest-cyberattack-disruption-european-airports",
+    "title": "UK arrest after cyberattack disrupts European airports",
+    "publisher": "The Record",
+    "date": "Sep 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.computing.co.uk/news/2025/security/man-arrested-after-cyberattack-disrupts-european-airports",
+    "title": "Man arrested after cyberattack disrupts European airports",
+    "publisher": "Computing",
+    "date": "Sep 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.upi.com/Top_News/World-News/2025/09/24/man-arrested-airport-cyberattacks/1111758722798/",
+    "title": "Man arrested after airport cyberattacks",
+    "publisher": "UPI",
+    "date": "24 Sep 2025",
+    "type": "news"
+   },
+   {
+    "url": "https://www.theregister.com/2025/09/24/uk_agency_makes_arrest_in/",
+    "title": "UK agency makes arrest in airport attack",
+    "publisher": "The Register",
+    "date": "24 Sep 2025",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "checked": "Searched: aligned with the briefing's verified file: cause C (ENISA, RTX 8-K), who N (arrest and bail, nobody named; HardBit link only from unnamed experts so not graded S). No newer charge found. Brussels 'half of flights Monday' retained as AP-reported but not re-verified.",
+  "group": "attack"
+ },
+ {
+  "id": "asahi-2025",
+  "company": "Asahi Group Holdings",
+  "service": "beer, soft drink and food production, orders and shipping in Japan",
+  "date": "29 Sep 2025 onwards",
+  "sort": "2025-09-29",
+  "duration": "weeks to months; Super Dry production restarted at six breweries in early October, logistics restoration expected by about February 2026 (reported)",
+  "where": "Japan",
+  "what": "A cyberattack on Asahi's systems halted most of its domestic production and shipping from late September 2025. Asahi later said production resumed at all six domestic breweries and partial shipments of Super Dry restarted in October, with orders and shipments handled manually; Asahi Draft Beer and Asahi Dry Zero followed from 15 October (reported). Asahi postponed its results announcements. Press said full logistics recovery was expected around February 2026.",
+  "what_nl": "Een cyberaanval op de systemen van Asahi legde vanaf eind september 2025 het grootste deel van de binnenlandse productie en verzending stil. Asahi zei later dat de productie in alle zes binnenlandse brouwerijen werd hervat en dat gedeeltelijke leveringen van Super Dry in oktober herstartten, met handmatige verwerking van bestellingen en leveringen; Asahi Draft Beer en Asahi Dry Zero volgden vanaf 15 oktober (gemeld). Asahi stelde zijn resultaatbekendmakingen uit. Volgens de pers werd volledig logistiek herstel rond februari 2026 verwacht.",
+  "cause": "Asahi first reported a 'systems failure' and then confirmed it was a ransomware attack, with possible personal data exposure. Factories themselves were reportedly not infected; production stopped because order and shipping systems were shut down (reported).",
+  "cause_nl": "Asahi meldde eerst een 'systeemstoring' en bevestigde daarna dat het om een ransomware-aanval ging, met mogelijke blootstelling van persoonsgegevens. De fabrieken zelf waren volgens berichten niet besmet; de productie stopte omdat bestel- en verzendsystemen werden afgesloten (gemeld).",
+  "cause_status": "C",
+  "who": "The Qilin ransomware group listed Asahi on its leak site on 7 October and claimed about 27 GB of stolen data (claim by the group; Bloomberg said it could not verify it). Asahi has not confirmed that Qilin was behind the attack.",
+  "who_status": "K",
+  "sources": [
+   {
+    "url": "https://www.thestar.com.my/tech/tech-news/2025/10/08/ransomware-gang-qilin-claims-hack-that-crippled-beermaker-asahi",
+    "title": "Ransomware gang Qilin claims hack that crippled beermaker Asahi",
+    "publisher": "The Star (Bloomberg)",
+    "date": "8 Oct 2025",
+    "type": "news"
+   },
+   {
+    "url": "https://www.computerweekly.com/news/366632317/Qilin-gang-claims-cyber-attack-on-Japanese-brewing-giant",
+    "title": "Qilin gang claims cyber attack on Japanese brewing giant",
+    "publisher": "Computer Weekly",
+    "date": "Oct 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.just-drinks.com/newsletters/asahi-plants-resume-operations-in-wake-of-cyberattack",
+    "title": "Asahi plants resume operations in wake of cyberattack",
+    "publisher": "Just Drinks",
+    "date": "Oct 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.inside.beer/news/detail/japan-asahi-needs-at-least-two-more-months-to-restore-logistics",
+    "title": "Japan: Asahi needs at least two more months to restore logistics",
+    "publisher": "Inside.beer",
+    "date": "Nov 2025",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "europe": "",
+  "checked": "Searched: Qilin claim (27 GB) and production/shipment restart confirmed; removed unsourced 'sharp sales declines'; February 2026 logistics expectation kept as press-reported (inside.beer: at least two more months, Nov 2025), not re-verified.",
+  "group": "attack"
+ },
+ {
+  "id": "askul-muji-2025",
+  "company": "Askul (and Muji, Loft online stores)",
+  "service": "business and consumer online ordering and logistics; Muji and Loft online sales",
+  "date": "19 Oct 2025",
+  "sort": "2025-10-19",
+  "duration": "about six weeks before partial restart of online sales for corporate customers",
+  "where": "Japan",
+  "what": "A ransomware attack stopped Askul's online orders and product shipments from 19 October 2025. Because Askul runs logistics for other retailers, Muji (Ryohin Keikaku) halted its online sales and Loft warned of service impact. Askul partially restarted online sales for corporate customers about six weeks later (The Record, The Register). Adnkronos reported Muji planned to fully resume online sales in mid-December.",
+  "what_nl": "Een ransomware-aanval stopte vanaf 19 oktober 2025 de online bestellingen en leveringen van Askul. Omdat Askul de logistiek voor andere winkelketens verzorgt, stopte Muji (Ryohin Keikaku) zijn onlineverkoop en waarschuwde Loft voor verstoringen. Askul hervatte ongeveer zes weken later gedeeltelijk de onlineverkoop voor zakelijke klanten (The Record, The Register). Volgens Adnkronos wilde Muji de onlineverkoop half december volledig hervatten.",
+  "cause": "Askul confirmed a ransomware attack and later a data breach (as reported by The Record and The Register).",
+  "cause_nl": "Askul bevestigde een ransomware-aanval en later een datalek (zoals gemeld door The Record en The Register).",
+  "cause_status": "C",
+  "who": "The RansomHouse extortion group claimed the attack (claim by the group, as reported). Askul has not confirmed this.",
+  "who_status": "K",
+  "sources": [
+   {
+    "url": "https://therecord.media/askul-japan-retailer-cyberattack-disruption",
+    "title": "Askul Japan retailer cyberattack disruption",
+    "publisher": "The Record",
+    "date": "Oct 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.theregister.com/2025/10/21/muji_askul_ransomware/",
+    "title": "Muji's minimalist calm shattered as ransomware takes down logistics partner",
+    "publisher": "The Register",
+    "date": "21 Oct 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.claimsjournal.com/news/national/2025/10/21/333625.htm",
+    "title": "Japan retailers halt online sales on supplier cyber attack",
+    "publisher": "Claims Journal (Bloomberg)",
+    "date": "21 Oct 2025",
+    "type": "news"
+   },
+   {
+    "url": "https://english.adnkronos.com/2025/10/31/russian-hacker-group-claims-responsibility-for-askul-cyberattack/",
+    "title": "Russian hacker group claims responsibility for Askul cyberattack",
+    "publisher": "Adnkronos",
+    "date": "31 Oct 2025",
+    "type": "news"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "europe": "",
+  "checked": "Searched: ransomware, Muji halt, partial restart after about 45 days, data breach confirmed; removed '1.1 TB' stolen-data figure (single non-mainstream source); added Muji's mid-December resumption (Adnkronos).",
+  "group": "attack"
+ },
+ {
+  "id": "pdvsa-2025",
+  "company": "PDVSA (Venezuela state oil company)",
+  "service": "administrative systems and oil cargo loading at export terminals",
+  "date": "15 Dec 2025",
+  "sort": "2025-12-15",
+  "duration": "about two days; cargo deliveries resumed around 17 Dec (Reuters, reported)",
+  "where": "Venezuela",
+  "what": "PDVSA reported a cyberattack on 15 December 2025 and said its operations were unaffected. Reuters, citing four sources, reported systems stayed down and oil cargo deliveries were suspended; on 17 December Reuters reported PDVSA resumed loading cargoes, although most exports stayed on hold amid a US tanker blockade, and terminal workers kept manual records of deliveries.",
+  "what_nl": "PDVSA meldde op 15 december 2025 een cyberaanval en zei dat de werking niet werd aangetast. Reuters meldde, op basis van vier bronnen, dat systemen uitgevallen bleven en olieleveringen werden opgeschort; op 17 december meldde Reuters dat PDVSA de lading van tankers hervatte, hoewel de meeste uitvoer stillag door een Amerikaanse blokkade van tankers, en dat havenmedewerkers de leveringen handmatig bijhielden.",
+  "cause": "PDVSA confirmed a cyberattack on its systems. Its account of limited impact is contradicted by Reuters' sources. The type of attack was not published.",
+  "cause_nl": "PDVSA bevestigde een cyberaanval op zijn systemen. Zijn voorstelling van een beperkte impact wordt tegengesproken door de bronnen van Reuters. Het type aanval werd niet gepubliceerd.",
+  "cause_status": "C",
+  "who": "PDVSA and the Venezuelan government blamed the United States; no evidence was published and researchers cited in reporting were sceptical (accusation by an interested party, not established).",
+  "who_status": "K",
+  "sources": [
+   {
+    "url": "https://www.thestar.com.my/tech/tech-news/2025/12/16/venezuela039s-pdvsa-suffers-cyberattack-as-tankers-make-u-turns",
+    "title": "Venezuela's PDVSA suffers cyberattack, tankers make u-turns amid tensions with US",
+    "publisher": "The Star (Reuters)",
+    "date": "16 Dec 2025",
+    "type": "news"
+   },
+   {
+    "url": "https://therecord.media/venezuela-state-oil-company-blames-cyberattack-on-us",
+    "title": "Venezuela state oil company blames cyberattack on US",
+    "publisher": "The Record",
+    "date": "Dec 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.teiss.co.uk/news/cyberattack-disrupts-pdvsa-export-systems-despite-official-denial-16873",
+    "title": "Cyberattack disrupts PDVSA export systems despite official denial",
+    "publisher": "teiss",
+    "date": "Dec 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.bairdmaritime.com/shipping/tankers/venezeulas-pdvsa-resumes-oil-cargo-deliveries-following-disruptive-cyberattack",
+    "title": "Venezuela's PDVSA resumes oil cargo loading following disruptive cyberattack",
+    "publisher": "Baird Maritime",
+    "date": "Dec 2025",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "europe": "",
+  "checked": "Searched: Reuters four-source report and 17 Dec resumption confirmed. who_status S to K: the grade is for an accusation by the Venezuelan government (an interested, unproven party), not a researcher suspicion; no evidence published.",
+  "group": "attack"
+ },
+ {
+  "id": "la-poste-2025",
+  "company": "La Poste / La Banque Postale",
+  "service": "online banking and mobile app, parcel tracking, laposte.fr and digital identity",
+  "date": "22 Dec 2025 (second disruption 1 Jan 2026)",
+  "sort": "2025-12-22",
+  "duration": "about two days for most services; a second disruption on 1 January 2026 lasted until late afternoon",
+  "where": "France",
+  "what": "A DDoS attack knocked La Poste's core systems offline on 22 December 2025, in the Christmas parcel peak. La Banque Postale's online banking and app and parcel tracking were inaccessible. Services were restored gradually over the following days, and a second DDoS on 1 January 2026 again took La Poste and La Banque Postale sites and apps offline until the late afternoon.",
+  "what_nl": "Een DDoS-aanval legde op 22 december 2025 de centrale systemen van La Poste plat, tijdens de kerstdrukte voor pakketten. Het online bankieren en de app van La Banque Postale en de pakkettracering waren onbereikbaar. De diensten werden de volgende dagen geleidelijk hersteld, en een tweede DDoS-aanval op 1 januari 2026 legde de sites en apps van La Poste en La Banque Postale opnieuw plat tot laat in de namiddag.",
+  "cause": "La Poste confirmed that a DDoS (traffic flooding) attack took its core systems offline. It reported a further attack on 1 January 2026.",
+  "cause_nl": "La Poste bevestigde dat een DDoS-aanval (overbelasting met verkeer) zijn kernsystemen offline haalde. Op 1 januari 2026 meldde het een nieuwe aanval.",
+  "cause_status": "C",
+  "who": "The pro-Russian group NoName057(16) claimed the 22 December attack (claim by the group, per The Record). A complaint was filed and an investigation opened (per Génération NT); no authority has publicly confirmed the claim in the sources seen, and no explicit claim for the 1 January attack was found.",
+  "who_status": "K",
+  "europe": "France; La Banque Postale customers affected.",
+  "sources": [
+   {
+    "url": "https://techcrunch.com/2025/12/23/frances-postal-and-banking-services-disrupted-by-suspected-ddos-attack/",
+    "title": "France's postal and banking services disrupted by suspected DDoS attack",
+    "publisher": "TechCrunch",
+    "date": "23 Dec 2025",
+    "type": "news"
+   },
+   {
+    "url": "https://therecord.media/pro-russia-hackers-claim-attack-la-poste",
+    "title": "Pro-Russia hackers claim attack on La Poste",
+    "publisher": "The Record",
+    "date": "Dec 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://securityaffairs.com/186157/hacktivism/pro-russian-group-noname057-claims-cyberattack-on-la-poste-services.html",
+    "title": "Pro-Russian group NoName057 claims cyberattack on La Poste services",
+    "publisher": "Security Affairs",
+    "date": "Dec 2025",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.techzine.eu/news/security/137617/hackers-disrupt-french-postal-and-banking-services-twice",
+    "title": "Hackers disrupt French postal and banking services twice",
+    "publisher": "Techzine",
+    "date": "Jan 2026",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "checked": "Searched: both disruptions and NoName057(16) claim confirmed; removed unverified details (Wero/cash withdrawals still working, DGSI taking over) and the 'two days later' wording; no explicit claim found for 1 Jan.",
+  "group": "attack"
+ },
+ {
+  "id": "stryker-2026",
+  "company": "Stryker",
+  "service": "ordering, manufacturing and shipping of medical devices; global Microsoft-based systems",
+  "date": "11 Mar 2026",
+  "sort": "2026-03-11",
+  "duration": "weeks; Stryker was still restoring systems on 20 March 2026; end date not verified",
+  "where": "Global",
+  "what": "Stryker disclosed to the SEC that a cyberattack on 11 March 2026 caused a global disruption of its Microsoft environment, and said its ability to process orders, manufacture and ship was disrupted. Media reported that surgeries were delayed (Cybernews). Stryker said the attack was contained to its internal Microsoft environment and that its connected medical products were safe to use. No cost figure was found.",
+  "what_nl": "Stryker meldde aan de Amerikaanse beurswaakhond dat een cyberaanval op 11 maart 2026 een wereldwijde verstoring van zijn Microsoft-omgeving veroorzaakte, en zei dat zijn vermogen om bestellingen te verwerken, te produceren en te verzenden verstoord was. Media meldden dat operaties werden uitgesteld (Cybernews). Stryker zei dat de aanval beperkt bleef tot zijn interne Microsoft-omgeving en dat zijn verbonden medische producten veilig te gebruiken waren. Er werd geen kostenraming gevonden.",
+  "cause": "Stryker confirmed a cybersecurity incident. A source told BleepingComputer that attackers compromised a Microsoft Intune administrator account and used it to wipe almost 80,000 devices (media report from an anonymous source; Stryker has not confirmed the method). The Handala persona claimed more than 200,000 devices (claim; investigators reportedly found no evidence of data theft).",
+  "cause_nl": "Stryker bevestigde een cyberincident. Een bron vertelde BleepingComputer dat de aanvallers een beheerdersaccount van Microsoft Intune binnendrongen en daarmee bijna 80.000 toestellen wisten (bericht van media op basis van een anonieme bron; Stryker heeft de methode niet bevestigd). De persona Handala beweerde meer dan 200.000 toestellen (claim; onderzoekers vonden naar verluidt geen aanwijzingen voor gegevensdiefstal).",
+  "cause_status": "C",
+  "who": "Handala claimed the attack (claim). On 19 March 2026 the US Justice Department and FBI seized domains used by Handala and said Handala is a persona operated by Iran's intelligence ministry (MOIS); press reports (TechCrunch, Axios) link this to the Stryker attack, but whether the US filings name Stryker explicitly was not verified. Stryker has not named the attacker.",
+  "who_status": "R",
+  "sources": [
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/310764/000119312526102460/d76279d8k.htm",
+    "title": "Stryker Corp Form 8-K (March 2026)",
+    "publisher": "US SEC EDGAR",
+    "date": "Mar 2026",
+    "type": "off"
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/310764/000119312526118634/d94012d8k.htm",
+    "title": "Stryker Corp Form 8-K (update, March 2026)",
+    "publisher": "US SEC EDGAR",
+    "date": "Mar 2026",
+    "type": "off"
+   },
+   {
+    "url": "https://techcrunch.com/2026/03/20/u-s-accuses-irans-government-of-operating-hacktivist-group-that-hacked-stryker/",
+    "title": "US accuses Iran's government of operating hacktivist group that hacked Stryker",
+    "publisher": "TechCrunch",
+    "date": "20 Mar 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://axios.com/2026/03/20/iran-cyber-attack-stryker-domains-fbi",
+    "title": "FBI seizes domains tied to Iranian hackers linked to Stryker cyberattack",
+    "publisher": "Axios",
+    "date": "20 Mar 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.cybersecuritydive.com/news/stryker-attack-device-management-microsoft-iran/814816/",
+    "title": "Stryker attack raises concerns about role of device management tool",
+    "publisher": "Cybersecurity Dive",
+    "date": "Mar 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://arcticwolf.com/resources/blog/stryker-systems-disrupted-cyber-attack-handala-group-claims-responsibility/",
+    "title": "Stryker systems disrupted in cyber attack; Handala group claims responsibility",
+    "publisher": "Arctic Wolf",
+    "date": "Mar 2026",
+    "type": "vendor"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "europe": "",
+  "checked": "Searched: 11 March date, Microsoft-environment disruption, Intune method and ~80,000 count (BleepingComputer anonymous source), 200,000 Handala claim, DOJ domain seizure/MOIS statement confirmed; removed unverifiable 'Unit 42 letter, malicious file' (conflicts with reports of no malware), '23 Mar prioritisation', 'early April', and the '19 March implant cases' claim attributed to Stryker. SEC 8-K URLs were not individually opened. who_status kept R (US named Handala/MOIS formally; the explicit Stryker link is media-reported).",
+  "group": "attack"
+ },
+ {
+  "id": "foxconn-2026",
+  "company": "Foxconn (Hon Hai)",
+  "service": "electronics factories in North America (e.g. Wisconsin, Texas)",
+  "date": "about 8 May 2026 (confirmed 12 May)",
+  "sort": "2026-05-08",
+  "duration": "unknown; company said affected sites were resuming normal production",
+  "where": "US (North American plants)",
+  "what": "Foxconn confirmed on 12 May 2026 a cyberattack on some of its North American factories and said affected sites were resuming normal production; it did not say how many factories were hit. An employee at a Wisconsin plant told DysruptionHub that network outages began about a week earlier, that staff were sent home and that paper was used for some tasks (employee report). The scale and length of any production stoppage were not published.",
+  "what_nl": "Foxconn bevestigde op 12 mei 2026 een cyberaanval op een aantal van zijn Noord-Amerikaanse fabrieken en zei dat de getroffen locaties de normale productie hervatten; het zei niet hoeveel fabrieken getroffen waren. Een medewerker van een fabriek in Wisconsin vertelde aan DysruptionHub dat de netwerkstoringen ongeveer een week eerder begonnen, dat personeel naar huis werd gestuurd en dat voor sommige taken papier werd gebruikt (getuigenis van een medewerker). De omvang en duur van een eventuele productiestop werden niet gepubliceerd.",
+  "cause": "Foxconn confirmed a cyberattack and did not publicly confirm ransomware, encryption or data theft in the sources seen.",
+  "cause_nl": "Foxconn bevestigde een cyberaanval en bevestigde in de geraadpleegde bronnen niet publiekelijk ransomware, versleuteling of gegevensdiefstal.",
+  "cause_status": "C",
+  "who": "The Nitrogen ransomware group listed Foxconn on its leak site and claimed about 8 TB of data, including claims about customer material (claim, unverified). Not confirmed by Foxconn.",
+  "who_status": "K",
+  "sources": [
+   {
+    "url": "https://therecord.media/foxconn-confirms-cyberattack-north-american-factories",
+    "title": "Foxconn confirms cyberattack impacting North American factories",
+    "publisher": "The Record",
+    "date": "May 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://cyberscoop.com/foxconn-cyberattack-disrupts-north-america-factories/",
+    "title": "Major tech manufacturer Foxconn confirms cyberattack hit North American factories",
+    "publisher": "CyberScoop",
+    "date": "May 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://focustaiwan.tw/business/202605130008",
+    "title": "Foxconn confirms cyberattack on North American facilities",
+    "publisher": "Focus Taiwan (CNA)",
+    "date": "13 May 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/foxconn-attack-manufacturing-cyber-crisis",
+    "title": "Foxconn attack highlights manufacturing's cyber crisis",
+    "publisher": "Dark Reading",
+    "date": "May 2026",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "europe": "",
+  "checked": "Searched (extended): Foxconn spokesperson confirmation 12 May and 'resuming normal production' confirmed (The Record, Focus Taiwan, CyberScoop); added Wisconsin employee report (via DysruptionHub, unverified by me) as the only evidence of disruption; removed the unverified 11 May listing date and Apple/Nvidia/Intel/Google list; dropped The Manufacturer and Cyber Press (not surfaced, low reliability). Weak entry kept because a reputable outlet and company confirm.",
+  "group": "attack"
+ },
+ {
+  "id": "fairlife-2026",
+  "company": "Fairlife (The Coca-Cola Company)",
+  "service": "milk and dairy production at four US plants",
+  "date": "16 Jul 2026 (disclosed)",
+  "sort": "2026-07-16",
+  "duration": "about 11 days until most production resumed (16 to 27 July, per Coca-Cola statements)",
+  "where": "US",
+  "what": "Coca-Cola told the SEC on 16 July 2026 that unauthorised access by a third party to part of Fairlife's systems, including production-related systems, in connection with a ransomware event led to a temporary suspension of Fairlife's US production. On 27 July Coca-Cola said Fairlife had resumed most production across its four US plants and that product quality and safety were unaffected.",
+  "what_nl": "Coca-Cola meldde op 16 juli 2026 aan de Amerikaanse beurswaakhond dat onbevoegde toegang door een derde tot een deel van de systemen van Fairlife, inclusief productiegerelateerde systemen, in verband met een ransomware-incident leidde tot een tijdelijke opschorting van de Amerikaanse productie van Fairlife. Op 27 juli zei Coca-Cola dat Fairlife het grootste deel van de productie in zijn vier Amerikaanse fabrieken had hervat en dat de productkwaliteit en -veiligheid niet waren aangetast.",
+  "cause": "Coca-Cola's SEC filing describes unauthorised third-party access in connection with a ransomware event. Coca-Cola later confirmed data was taken (Help Net Security; volume not confirmed).",
+  "cause_nl": "Het 8-K-document van Coca-Cola beschrijft onbevoegde toegang door een derde in verband met een ransomware-incident. Coca-Cola bevestigde later dat gegevens werden buitgemaakt (Help Net Security; omvang niet bevestigd).",
+  "cause_status": "C",
+  "who": "The Anubis ransomware group claimed it, posting Fairlife on its leak site on 20 July and saying it encrypted servers and stole about 1 TB (claim by the group, as reported; unverified). Coca-Cola has not confirmed the attribution.",
+  "who_status": "K",
+  "sources": [
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0000021344/000162828026048466/ko-20260716.htm",
+    "title": "Coca-Cola Co Form 8-K (16 July 2026)",
+    "publisher": "US SEC EDGAR",
+    "date": "16 Jul 2026",
+    "type": "off"
+   },
+   {
+    "url": "https://finance.yahoo.com/technology/articles/fairlife-restarts-production-cyberattack-coca-130456370.html",
+    "title": "Fairlife restarts production after cyberattack, Coca-Cola says",
+    "publisher": "Yahoo Finance",
+    "date": "27 Jul 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.helpnetsecurity.com/2026/07/28/coca-cola-fairlife-dairy-subsidiary-ransomware-attack/",
+    "title": "Coca-Cola confirms hackers stole data in Fairlife ransomware attack",
+    "publisher": "Help Net Security",
+    "date": "28 Jul 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.inc.com/amaya-nichole/hackers-behind-coca-cola-fairlife-attack-just-revealed-themselves-new-threat/91381604",
+    "title": "Hackers behind Coca-Cola's Fairlife attack revealed themselves",
+    "publisher": "Inc.",
+    "date": "Jul 2026",
+    "type": "news"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "europe": "",
+  "checked": "Searched (extended): 8-K of 16 July (wording 'in connection with a ransomware event'), 27 July resumption of most production at four plants, Anubis claim (20 July, ~1 TB) confirmed. Removed Dragos source (blog dated Q3 2026 not verifiable), TechCrunch/BleepingComputer links (not surfaced), and unsourced 'Canadian production unaffected, shelves stocked'. Cause now C on company's own wording.",
+  "group": "attack"
+ },
+ {
+  "id": "boston-scientific-2026",
+  "company": "Boston Scientific",
+  "service": "manufacturing, order processing and shipping of medical devices",
+  "date": "25 Aug 2026",
+  "sort": "2026-08-25",
+  "duration": "not fully recovered as of the 7 September filing; manufacturing resumed at most facilities",
+  "where": "Global",
+  "what": "Boston Scientific disclosed in an SEC filing of 26 August 2026 that it had identified on 25 August a cybersecurity incident affecting certain IT systems that caused a global disruption to its operations, including its ability to process and ship customer orders. A filing of 7 September said sterilisation facilities were operating and manufacturing had resumed at most facilities, with no timeline set for full recovery, and flagged possible effects on its third-quarter and full-year 2026 guidance.",
+  "what_nl": "Boston Scientific meldde in een beursdocument van 26 augustus 2026 dat het op 25 augustus een cyberincident had vastgesteld dat bepaalde IT-systemen trof en een wereldwijde verstoring van de werking veroorzaakte, waaronder het verwerken en verzenden van bestellingen. Een document van 7 september zei dat de sterilisatie-installaties draaiden en dat de productie in de meeste vestigingen was hervat, zonder tijdschema voor volledig herstel, en wees op mogelijke gevolgen voor de vooruitzichten voor het derde kwartaal en heel 2026.",
+  "cause": "Boston Scientific called it a cybersecurity incident and was investigating with outside experts. It has not said whether ransomware was involved; one press report says the unauthorised activity was confined to limited on-premises systems.",
+  "cause_nl": "Boston Scientific noemde het een cyberincident en onderzocht het met externe experts. Het zei niet of ransomware in het spel was; volgens een persbericht bleef de onbevoegde activiteit beperkt tot enkele systemen op eigen servers.",
+  "cause_status": "C",
+  "who": "Nobody named; no group has publicly claimed it in the sources seen.",
+  "who_status": "N",
+  "europe": "No verified effect on a European site (a report that the Cork plant sent staff home could not be confirmed).",
+  "sources": [
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0000885725/000088572526000056/bsx-20260826.htm",
+    "title": "Boston Scientific Form 8-K (26 August 2026)",
+    "publisher": "US SEC EDGAR",
+    "date": "26 Aug 2026",
+    "type": "off"
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0000885725/000088572526000059/bsx-20260907.htm",
+    "title": "Boston Scientific Form 8-K (7 September 2026, Item 1.05)",
+    "publisher": "US SEC EDGAR",
+    "date": "7 Sep 2026",
+    "type": "off"
+   },
+   {
+    "url": "https://industrialcyber.co/manufacturing/boston-scientific-faces-ongoing-operational-disruption-after-cybersecurity-incident-impacts-it-systems-order-processing/",
+    "title": "Boston Scientific faces ongoing operational disruption",
+    "publisher": "Industrial Cyber",
+    "date": "Aug 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.techradar.com/pro/security/boston-scientific-says-cyberattack-is-causing-a-global-disruption-to-medical-device-operations",
+    "title": "Boston Scientific says cyberattack is causing a global disruption",
+    "publisher": "TechRadar",
+    "date": "Aug 2026",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "checked": "Searched (extended): both SEC 8-Ks located (26 Aug and 7 Sep) and wording taken from them via search excerpts; removed unverified 'external-facing network management device', 'no evidence of encryption' and Cork plant claims and 'about two weeks'; 'unlikely to meet guidance' softened to 'flagged possible effects'; StockTitan and unsurfaced BleepingComputer/MedTech Dive links dropped. Filings not opened directly (WebFetch blocked).",
+  "group": "attack"
+ },
+ {
+  "id": "french-fridges-2026",
+  "company": "Carrefour, Monoprix and other French supermarket chains (about 700 commercial sites per France's attribution; second wave across Europe)",
+  "service": "refrigeration and freezer control systems in hundreds of supermarkets",
+  "date": "11-12 Oct 2026 (later wave early Nov 2026)",
+  "sort": "2026-10-11",
+  "duration": "overnight attack; stores discarded food; second wave on 1-2 November",
+  "where": "France; second wave Belgium, Estonia, Finland, Ireland, Italy, Luxembourg, Netherlands, Portugal, Sweden",
+  "what": "Overnight on 11-12 October 2026 attackers hijacked refrigeration controllers in French supermarkets, pushing freezers into defrost at up to 50°C, spoiling food and, according to media, sparking fires. Carrefour said 80 of its supermarkets were hit and Monoprix said about 5% of its stores; media estimates of the total range from about 400 to about 700 sites. A broadcaster reported EUR 270,000 of losses at two Alsace stores (not independently confirmed). A second wave on 1-2 November hit supermarkets and food businesses in at least nine European countries (Cybersecurity Dive); Kesko confirmed temperature irregularities at a few stores and Musgrave said 13 SuperValu stores in Ireland were affected.",
+  "what_nl": "In de nacht van 11 op 12 oktober 2026 kaapten aanvallers de koelingsbesturing in Franse supermarkten, waardoor diepvriezers tot 50 °C ontdooiden, voedsel verloren ging en er volgens media branden ontstonden. Carrefour zei dat 80 van zijn supermarkten werden getroffen en Monoprix ongeveer 5 procent van zijn winkels; schattingen in de media voor het totaal lopen uiteen van ongeveer 400 tot ongeveer 700 vestigingen. Een omroep meldde 270.000 euro verlies bij twee winkels in de Elzas (niet onafhankelijk bevestigd). Een tweede golf op 1-2 november trof supermarkten en voedingsbedrijven in minstens negen Europese landen (Cybersecurity Dive); Kesko bevestigde temperatuurafwijkingen in enkele winkels en Musgrave zei dat 13 SuperValu-winkels in Ierland getroffen waren.",
+  "cause": "Retailers confirmed a cyberattack on refrigeration controllers. France's cybersecurity agency ANSSI tied the affected systems to Danfoss controllers and said controllers from two other makers were also targeted (as reported); Danfoss said a limited number of systems were affected. Many affected units were reportedly end-of-life or ran outdated software. This was sabotage, not ransomware.",
+  "cause_nl": "De winkelketens bevestigden een cyberaanval op koelingsbesturingen. Het Franse cyberveiligheidsagentschap ANSSI koppelde de getroffen systemen aan besturingen van Danfoss en zei dat ook besturingen van twee andere fabrikanten waren geviseerd (zoals gemeld); Danfoss zei dat een beperkt aantal systemen was getroffen. Veel getroffen toestellen waren naar verluidt verouderd of draaiden verouderde software. Het ging om sabotage, niet om ransomware.",
+  "cause_status": "C",
+  "who": "France says Shahid Kaveh, a unit of Iran's Revolutionary Guards, was behind the October attacks (formal attribution by foreign minister Jean-Noel Barrot on 9 November 2026); Paris prosecutors opened a judicial investigation and requested international arrest warrants, France summoned Iran's ambassador and will propose EU sanctions. The technical evidence has not been published and Iran denies it ('baseless and malicious'). US agencies reportedly hold only low confidence in the link (reported by TechCrunch, citing three US officials who spoke to the New York Times). Pro-Russian groups NoName057(16) and Z-Pentest claimed the attacks on Telegram and then deleted the posts (claims); the Kremlin called Russian involvement absurd. For Belgium (1-2 November), Interior Minister Bernard Quintin said Iran was 'very probably' behind it, citing indications from the security services; Foreign Minister Maxime Prevot said the information is insufficient to hold Iran officially responsible, and the federal prosecutor declined to comment.",
+  "who_status": "C",
+  "europe": "France directly; second wave included Belgium and the Netherlands (which chains was not verified; ICA's confirmation of an attack is reported inconsistently and no confirmation was found for Selver).",
+  "sources": [
+   {
+    "url": "https://www.cbsnews.com/news/cyberattack-supermarkets-refrigerators-france-fires-food-losses/",
+    "title": "Hackers turn up the heat in refrigerators at hundreds of supermarkets in France",
+    "publisher": "CBS News",
+    "date": "Oct 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.cbc.ca/news/world/france-supermarket-freezers-overheated-cyberattack-9.7378180",
+    "title": "Cyberattack defrosts French supermarket freezers, spoiling food at 100s of stores",
+    "publisher": "CBC News",
+    "date": "Oct 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+    "title": "Attackers heat French supermarket fridges up to 50C by hijacking Danfoss controllers",
+    "publisher": "The Hacker News",
+    "date": "Oct 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.aljazeera.com/news/2026/11/9/france-accuses-iran-of-cyberattack-on-european-fridges",
+    "title": "France accuses Iran of cyberattack on supermarket fridges",
+    "publisher": "Al Jazeera",
+    "date": "9 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.cnbc.com/2026/11/10/iran-fridge-cyberattacks-france.html",
+    "title": "France blames Iran for supermarket refrigerator cyberattacks, weighs sanctions",
+    "publisher": "CNBC",
+    "date": "10 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.cybersecuritydive.com/news/european-authorities-probe-attacks-grocery-refrigerators/873598/",
+    "title": "European authorities probe attacks targeting grocery refrigerators",
+    "publisher": "Cybersecurity Dive",
+    "date": "Nov 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://techcrunch.com/2026/11/02/a-fresh-wave-of-cyberattacks-has-hit-europes-supermarket-refrigerators-destroying-food-across-countries/",
+    "title": "A fresh wave of cyberattacks has hit Europe's supermarket refrigerators",
+    "publisher": "TechCrunch",
+    "date": "2 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.vrt.be/vrtnws/en/2026/11/12/home-minister-quintin-evidence-of-iranian-involvement-in-cybera",
+    "title": "Home Minister Quintin: Evidence of Iranian involvement in cyberattacks on Belgian supermarkets",
+    "publisher": "VRT NWS",
+    "date": "12 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://techcrunch.com/2026/11/09/france-blames-iran-for-mass-hacks-targeting-freezers-in-grocery-stores-and-blood-banks/",
+    "title": "France blames Iran for mass hacks targeting freezers in grocery stores and blood banks",
+    "publisher": "TechCrunch",
+    "date": "9 Nov 2026",
+    "type": "trade"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "checked": "Searched (extended) and aligned with the briefing's verified file: who_status C (formal French attribution 9 Nov, evidence unpublished, Iran denies); Belgian split added. Removed unsourced chain names (Intermarche, Leclerc, U), '20 fires', named models Copeland/Dixell attributed to CERT-FR; EUR 270,000 kept as broadcaster-reported only; Selver dropped, ICA flagged. Warrants: found 'requested' in some outlets vs 'issued' in the verified file - flagged. US low-confidence claim: not re-verified. URL for The Hacker News Nov articles and Help Net/CNN/Al Jazeera 12-13 Oct links not surfaced and removed.",
+  "group": "attack"
+ },
+ {
+  "id": "ahold-delhaize-2026",
+  "company": "Ahold Delhaize (Albert Heijn, Delhaize, Etos, Gall & Gall, Stop & Shop, Food Lion, Hannaford)",
+  "service": "websites, apps and online ordering; Albert Heijn deliveries and restocking",
+  "date": "12 Oct 2026",
+  "sort": "2026-10-12",
+  "duration": "about ten days: Albert Heijn website back 19 Oct, deliveries not before 22 Oct; US sites still offline on 19 Oct and reported back online by 22 Oct",
+  "where": "Netherlands, Belgium, other Europe, US",
+  "what": "Ahold Delhaize said on 12 October 2026 that it had a 'security issue' in its network and was taking some systems offline; stores stayed open. Websites, apps and online ordering of several brands were disrupted, and Albert Heijn's website, app and home delivery went down. Etos, Gall & Gall, Delhaize (Belgium) and US chains were also affected. Reuters (via Teiss) reported that Albert Heijn's website returned on 19 October but online deliveries would not resume before Thursday at the earliest; AP reported the US supermarkets back online by 22 October. Retail experts estimated Albert Heijn's missed sales at EUR 120 to 150 million (an outside estimate; the company disclosed no figure).",
+  "what_nl": "Ahold Delhaize zei op 12 oktober 2026 dat het een 'beveiligingsprobleem' in zijn netwerk had en bepaalde systemen offline haalde; de winkels bleven open. Websites, apps en online bestellingen van meerdere merken waren verstoord en de website, de app en de thuislevering van Albert Heijn vielen uit. Ook Etos, Gall & Gall, Delhaize (België) en de Amerikaanse ketens werden getroffen. Volgens Reuters (via Teiss) was de website van Albert Heijn op 19 oktober terug, maar zouden online leveringen ten vroegste donderdag hervat worden; volgens AP waren de Amerikaanse supermarkten op 22 oktober weer online. Retailexperts raamden de gemiste omzet van Albert Heijn op 120 tot 150 miljoen euro (een externe schatting; het bedrijf maakte geen cijfer bekend).",
+  "cause": "Ahold Delhaize described a 'security issue' and said it found no evidence that sensitive customer, employee or partner data was stolen. Reuters (via Teiss) reported it informed Dutch police on 19 October. The company has not said whether attackers encrypted files or which kind of attack it was. Sources differ on the start (some say 11 October).",
+  "cause_nl": "Ahold Delhaize sprak van een 'beveiligingsprobleem' en zei geen aanwijzingen te hebben dat gevoelige gegevens van klanten, personeel of partners werden gestolen. Volgens Reuters (via Teiss) verwittigde het op 19 oktober de Nederlandse politie. Het bedrijf zei niet of de aanvallers bestanden versleutelden en om welk soort aanval het ging. Bronnen verschillen over het begin (sommige zeggen 11 oktober).",
+  "cause_status": "C",
+  "who": "Nobody named. In the sources seen no group has claimed it and no authority has named anyone.",
+  "who_status": "N",
+  "europe": "Directly: Albert Heijn, Etos and Gall & Gall (Netherlands) and Delhaize (Belgium, e-commerce affected).",
+  "sources": [
+   {
+    "url": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
+    "title": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
+    "publisher": "BleepingComputer",
+    "date": "Oct 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.techradar.com/pro/security/ahold-delhaize-takes-systems-offline-after-cyberattack-global-retail-giant-says-cybersecurity-incident-hit-systems-but-stores-remain-open",
+    "title": "Ahold Delhaize takes systems offline after cyberattack",
+    "publisher": "TechRadar",
+    "date": "Oct 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.teiss.co.uk/news/retailer-ahold-delhaize-reports-cybersecurity-incident-to-dutch-police-18329",
+    "title": "Retailer Ahold Delhaize reports cybersecurity incident to Dutch police",
+    "publisher": "Teiss (Reuters)",
+    "date": "19 Oct 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.insurancejournal.com/news/east/2026/10/22/890010.htm",
+    "title": "Eastern States' supermarkets back online after cyber incident",
+    "publisher": "Insurance Journal (AP)",
+    "date": "22 Oct 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.iamexpat.nl/expat-info/dutch-news/albert-heijn-faces-150-million-sales-hit-after-cyberattack",
+    "title": "Albert Heijn faces 150 million euros sales hit after cyberattack",
+    "publisher": "IamExpat",
+    "date": "Oct 2026",
+    "type": "news"
+   }
+  ],
+  "kind": "cyberattack",
+  "background": false,
+  "checked": "Searched (extended) and kept consistent with the briefing's file (group-wide systems taken offline, mainly Dutch and US web services, no attacker named). Removed the 'malicious actors' quote, the 24-hour NCSC notification, and the Central/Southeast Europe restoration claim (not found); added Reuters/AP restoration dates and the expert sales estimate (labelled). Cause stays C ('security issue' confirmed by company; type unknown).",
+  "group": "attack"
+ },
+ {
+  "id": "faa-ground-stop-13nov",
+  "company": "FAA (US Federal Aviation Administration)",
+  "service": "Nationwide ground stop; air traffic control telecommunications network",
+  "date": "13 Nov 2026",
+  "sort": "2026-11-13",
+  "duration": "About 4.5 hours: problem from about 3:30 p.m. ET, ground stop lifted around 8:15 p.m. ET (Washington Post, as summarised by press); delays lingered after",
+  "where": "US (all departures halted nationwide); some Europe-US flights were also delayed or cancelled according to press reports",
+  "what": "The FAA halted all departing flights nationwide on Friday 13 November after a communications problem. The FAA says radar feeds and aircraft communications were disrupted at 17 of 22 en-route control centres. The FAA said about 12,462 flights were cancelled, including 9,082 by major airlines, but that not all cancellations were directly caused by the ground stop; all flights landed safely. On 17-18 November the FAA paused further Juniper router installations. On 18 November DNI Jay Clayton and Secretary of State Marco Rubio said there was no indication of a cyberattack behind the recent outages and that the incidents were separate.",
+  "what_nl": "Op vrijdag 13 november legde de FAA alle vertrekkende vluchten in de VS stil na een communicatieprobleem. Volgens de FAA vielen radarbeelden en communicatie met vliegtuigen uit bij 17 van de 22 verkeersleidingscentra. De FAA zegt dat ongeveer 12.462 vluchten werden geschrapt, waaronder 9.082 door grote maatschappijen, maar dat niet alle annuleringen rechtstreeks door de grondstop kwamen; alle vluchten landden veilig. Op 17-18 november stopte de FAA de verdere installatie van Juniper-routers. Op 18 november zeiden nationale inlichtingendirecteur Jay Clayton en minister van Buitenlandse Zaken Marco Rubio dat er geen aanwijzing is voor een cyberaanval achter de recente storingen en dat het om afzonderlijke incidenten ging.",
+  "kind": "technical",
+  "cause": "The FAA said a flood of data on its telecommunications network (about 1,000 connection attempts every 4 to 5 seconds) destabilised legacy equipment. It named a radio site at El Dorado, Arkansas, where contractor L3Harris was installing a new Juniper router, and a radar site at Amarillo, Texas. The FAA disabled the functionality on the originating Juniper routers and on more than 60 others as a precaution. The root cause is still under investigation; HPE, maker of Juniper, says the devices worked as intended ('They did not fail', per press). The FAA said it had no indication of a cyberattack (per press reports of its statement). Defective equipment versus installation/configuration error is not established.",
+  "cause_nl": "De FAA zegt dat een stortvloed aan data op haar telecommunicatienetwerk (ongeveer 1.000 verbindingspogingen per 4 tot 5 seconden) oude apparatuur ontregelde. Ze noemt een radiosite in El Dorado (Arkansas), waar aannemer L3Harris een nieuwe Juniper-router installeerde, en een radarsite in Amarillo (Texas). De FAA schakelde de functie uit op de router van oorsprong en voorzorgshalve op meer dan 60 andere. De grondoorzaak wordt nog onderzocht; HPE, producent van Juniper, zegt dat de apparaten werkten zoals bedoeld. De FAA zegt geen aanwijzing te hebben voor een cyberaanval. Defecte apparatuur of een installatie- of configuratiefout is niet vastgesteld.",
+  "cause_status": "C",
+  "sources": [
+   {
+    "url": "https://www.faa.gov/newsroom/faa-statement-nationwide-ground-stop",
+    "title": "Nationwide Ground Stop: Questions and Answers",
+    "publisher": "FAA",
+    "date": "2026-11",
+    "type": "off"
+   },
+   {
+    "url": "https://www.cnn.com/2026/11/13/us/live-news/flights-ground-stop-faa",
+    "title": "November 13, 2026: Some US flights resume after hours-long ground stop",
+    "publisher": "CNN",
+    "date": "13 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.washingtonpost.com/transportation/2026/11/13/faa-grounds-flights-all-us-airports-citing-communications-issue/",
+    "title": "FAA lifts ground stop at U.S. airports, leaving travel chaos",
+    "publisher": "The Washington Post",
+    "date": "13 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.cnn.com/2026/11/17/us/faa-ground-stop-juniper-router-installations",
+    "title": "FAA pauses Juniper router installations after nationwide ground stop",
+    "publisher": "CNN",
+    "date": "17 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://abcnews.com/US/faa-halts-router-installation-nationwide-ground-stop/story?id=138221009",
+    "title": "FAA halts router installation following nationwide ground stop, root cause of issue unknown",
+    "publisher": "ABC News",
+    "date": "17 Nov 2026",
+    "type": "news"
+   }
+  ],
+  "who": "",
+  "who_status": "",
+  "europe": "",
+  "background": false,
+  "group": "platform",
+  "checked": "Verified by the fact-checker (18-19 Nov 2026 US wave file)."
+ },
+ {
+  "id": "chase-outage-16nov",
+  "company": "JPMorgan Chase",
+  "service": "Chase online and mobile banking, some branches; payments to and from Chase (incl. Zelle transfers)",
+  "date": "16 Nov 2026",
+  "sort": "2026-11-16",
+  "duration": "Several hours on Monday 16 Nov; Chase said around 6:30 p.m. ET that transactions were posting normally",
+  "where": "US",
+  "what": "Customers reported trouble logging in and an in-app message 'Some services aren't available'; Downdetector counted more than 4,700 Chase reports by 2 p.m. ET, according to press. Other banks (reports named Bank of America, Wells Fargo, US Bank) were listed by users; Chase said they were affected only where they transacted with Chase. Early Warning Services said the Zelle network itself was not down. Bank of America reportedly said its systems were operating normally. On 18 November DNI Jay Clayton and Secretary of State Marco Rubio said there was no indication of a cyberattack behind the recent outages (the DNI's remarks cited banking outages in general).",
+  "what_nl": "Klanten meldden problemen met inloggen en een bericht in de app 'Some services aren't available'; volgens de pers telde Downdetector tegen 14.00 uur ET meer dan 4.700 meldingen over Chase. Gebruikers noemden ook andere banken (Bank of America, Wells Fargo, US Bank); Chase zegt dat die alleen hinder hadden voor zover ze transacties met Chase deden. Early Warning Services zegt dat het Zelle-netwerk zelf niet uitviel. Bank of America zou hebben gezegd dat de systemen normaal werkten. Op 18 november zeiden nationale inlichtingendirecteur Jay Clayton en minister Marco Rubio dat er geen aanwijzing is voor een cyberaanval achter de recente storingen (de DNI sprak ook over storingen bij banken in het algemeen).",
+  "kind": "technical",
+  "cause": "Chase said it was a temporary issue caused by a software bug in an on-premises hardware system and was not cyber-related; it said 'this is not a systemic issue'. A source told CNN an update on the bank's own computer systems inadvertently caused the problems, not a cloud issue or an attack. Not shown to be linked to the Microsoft or FAA incidents.",
+  "cause_nl": "Chase zegt dat het ging om een tijdelijk probleem door een softwarefout in een on-premises hardwaresysteem en dat het niet met cyber te maken had; 'dit is geen systemisch probleem'. Een bron zei tegen CNN dat een update op de eigen computersystemen van de bank de problemen onbedoeld veroorzaakte, geen cloudprobleem of aanval. Een verband met de Microsoft- of FAA-storing is niet aangetoond.",
+  "cause_status": "C",
+  "sources": [
+   {
+    "url": "https://www.cnn.com/2026/11/16/business/bank-outage-chase-us-bank-bank-of-america",
+    "title": "Thousands of Chase Bank customers report trouble with online banking services",
+    "publisher": "CNN",
+    "date": "16 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.opb.org/article/2026/11/16/a-technical-issue-at-jpmorgan-chase-triggers-online-banking-delays-across-major-us-banks/",
+    "title": "A technical issue at JPMorgan Chase triggers online banking delays across major US banks",
+    "publisher": "OPB (AP)",
+    "date": "16 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.nbcnews.com/business/consumer/outages-chase-banking-online-branches-rcna609673",
+    "title": "Nationwide outage impacts Chase banking online and some branches",
+    "publisher": "NBC News",
+    "date": "16 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.cbsnews.com/news/banks-online-service-outages-jpmorgan-chase-bank-of-america-wells-fargo/",
+    "title": "Widespread service outages at major U.S. banks appear to be over",
+    "publisher": "CBS News",
+    "date": "17 Nov 2026",
+    "type": "news"
+   }
+  ],
+  "who": "",
+  "who_status": "",
+  "europe": "",
+  "background": false,
+  "group": "platform",
+  "checked": "Verified by the fact-checker (18-19 Nov 2026 US wave file)."
+ },
+ {
+  "id": "united-outage-16nov",
+  "company": "United Airlines",
+  "service": "Airline technology systems (flight-planning, weather-briefing and crew-management tools; departures delayed)",
+  "date": "16 Nov 2026",
+  "sort": "2026-11-16",
+  "duration": "About 30 minutes per a United spokesperson to CNN; another outlet reports departing flights delayed about 90 minutes",
+  "where": "US (United network)",
+  "what": "United said a widespread system outage delayed flights; fewer than 150 flights were affected, per a United spokesperson to CNN. An internal alert seen by CNN described problems accessing flight-planning, weather-briefing and crew-management applications. The FAA said the problem was on United's side, not with FAA equipment. We did not find a source tying the mid-November check-in problems to a separate event, and the 18 November official statement is not confirmed to have covered this event.",
+  "what_nl": "United zegt dat een wijdverspreide systeemstoring vluchten vertraagde; volgens een woordvoerder aan CNN waren minder dan 150 vluchten betrokken. Een interne waarschuwing die CNN inzag, meldde problemen met toegang tot toepassingen voor vluchtplanning, weerbriefing en bemanningsbeheer. De FAA zegt dat het probleem bij United lag en niet bij FAA-apparatuur. Of de verklaring van 18 november deze storing dekte, is niet bevestigd.",
+  "kind": "unknown",
+  "cause": "United did not disclose a cause; it called it a technology problem and said there was no indication of a cybersecurity-related issue (per press). The FAA said the problem was on United's end.",
+  "cause_nl": "United maakte geen oorzaak bekend; het sprak van een technologisch probleem en zegt geen aanwijzing te hebben voor een cyberincident (volgens de pers). De FAA zegt dat het probleem bij United zelf lag.",
+  "cause_status": "N",
+  "sources": [
+   {
+    "url": "https://www.cnn.com/2026/11/16/us/united-airlines-outage",
+    "title": "United Airlines says it resolved system outage that delayed flights",
+    "publisher": "CNN",
+    "date": "16 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.wsls.com/business/2026/11/16/united-airlines-says-it-has-a-widespread-system-outage-just-days-after-nationwide-ground-stop/",
+    "title": "United Airlines says it has a widespread system outage just days after nationwide ground stop",
+    "publisher": "WSLS (AP)",
+    "date": "16 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.washingtontimes.com/news/2026/nov/16/united-airlines-hit-sudden-system-outage/",
+    "title": "United Airlines hit by sudden system outage",
+    "publisher": "The Washington Times",
+    "date": "16 Nov 2026",
+    "type": "news"
+   }
+  ],
+  "who": "",
+  "who_status": "",
+  "europe": "",
+  "background": false,
+  "group": "platform",
+  "checked": "Verified by the fact-checker (18-19 Nov 2026 US wave file)."
+ },
+ {
+  "id": "apple-services-17nov",
+  "company": "Apple",
+  "service": "iCloud sign-in, App Store, Apple Music, AppleCare, Apple Pay reports, some retail and business/education tools",
+  "date": "17 Nov 2026",
+  "sort": "2026-11-17",
+  "duration": "Began about 8:45 a.m. (time zone per source); iCloud sign-in and App Store largely restored the same day, App Store Connect later; Apple did not declare the whole outage over in its statement",
+  "where": "Global (reports centred on the US)",
+  "what": "Apple's status page listed problems with iCloud sign-in, the App Store, Apple Music and AppleCare; the outage also hit retail operations and some business and education tools, per press. Apple said many of its systems were back up and running. We did not confirm that the 18 November official statement covered this event.",
+  "what_nl": "Op de statuspagina van Apple stonden problemen met inloggen op iCloud, de App Store, Apple Music en AppleCare; volgens de pers werden ook winkelsystemen en enkele zakelijke en onderwijstools getroffen. Apple zegt dat veel systemen weer werkten. Of de verklaring van 18 november deze storing dekte, is niet bevestigd.",
+  "kind": "technical",
+  "cause": "Apple told outlets (incl. Bloomberg, per press) that an internal update caused the outages and that it was not a cyberattack; it did not say which update or system failed.",
+  "cause_nl": "Apple zei tegen media dat een interne update de storing veroorzaakte en dat het geen cyberaanval was; Apple zegt niet welke update of welk systeem faalde.",
+  "cause_status": "C",
+  "sources": [
+   {
+    "url": "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/",
+    "title": "Apple services, including iCloud, App Store, Apple Music, and more, hit by outage",
+    "publisher": "TechCrunch",
+    "date": "17 Nov 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.macrumors.com/2026/11/17/apple-outage-internal-update/",
+    "title": "Apple Blames Internal Update for Outage, Says It Wasn't a Cyberattack",
+    "publisher": "MacRumors",
+    "date": "17 Nov 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://time.com/article/2026/11/17/apple-outage-down-update-issue/",
+    "title": "What to Know About the Apple Outage",
+    "publisher": "Time",
+    "date": "17 Nov 2026",
+    "type": "news"
+   }
+  ],
+  "who": "",
+  "who_status": "",
+  "europe": "",
+  "background": false,
+  "group": "platform",
+  "checked": "Verified by the fact-checker (18-19 Nov 2026 US wave file)."
+ },
+ {
+  "id": "marriott-bonvoy-17nov",
+  "company": "Marriott",
+  "service": "Marriott.com and Bonvoy app sign-in; mobile keys",
+  "date": "17 Nov 2026",
+  "sort": "2026-11-17",
+  "duration": "About a day: from about 9:15 a.m. ET on 17 Nov; resolved by Wednesday afternoon per a Marriott spokesperson (Hotel Dive)",
+  "where": "US / Global",
+  "what": "Sign-in failed on the website and app, and some guests reportedly could not use mobile room keys or change bookings; Downdetector reports peaked at 677 in one hour, per press. Some hotels reportedly handed out physical keys. We did not confirm that the 18 November official statement covered this event.",
+  "what_nl": "Inloggen op de website en app lukte niet; sommige gasten konden volgens meldingen hun digitale kamersleutel niet gebruiken of boekingen niet wijzigen. Volgens de pers liepen de Downdetector-meldingen op tot 677 in één uur. Sommige hotels gaven fysieke sleutels. Of de verklaring van 18 november deze storing dekte, is niet bevestigd.",
+  "kind": "technical",
+  "cause": "Marriott called it a technical issue; a spokesperson said its review found no indication the disruption was cybersecurity-related. Marriott did not link it to Apple's outage.",
+  "cause_nl": "Marriott sprak van een technisch probleem; een woordvoerder zei dat uit het onderzoek geen aanwijzing voor een cyberincident bleek. Marriott legde geen verband met de Apple-storing.",
+  "cause_status": "C",
+  "sources": [
+   {
+    "url": "https://skift.com/2026/11/17/marriott-bonvoy-sign-ins-were-down-for-hours-disrupting-mobile-keys/",
+    "title": "Marriott App Log-ins Go Down for Hours: 'A Technical Issue'",
+    "publisher": "Skift",
+    "date": "17 Nov 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.hoteldive.com/news/marriott-technology-disruption/875122/",
+    "title": "Marriott faces technical issues amid flurry of US outages, disruptions",
+    "publisher": "Hotel Dive",
+    "date": "18 Nov 2026",
+    "type": "trade"
+   }
+  ],
+  "who": "",
+  "who_status": "",
+  "europe": "",
+  "background": false,
+  "group": "platform",
+  "checked": "Verified by the fact-checker (18-19 Nov 2026 US wave file)."
+ },
+ {
+  "id": "nsa-nsanet-17nov",
+  "company": "US National Security Agency",
+  "service": "NSANet, the NSA's classified internal communications network",
+  "date": "17 Nov 2026",
+  "sort": "2026-11-17",
+  "duration": "Not stated; restoration not confirmed as of 18 Nov per press",
+  "where": "US (Fort Meade, Maryland)",
+  "what": "CNN first reported the classified network was down; the Wall Street Journal reported it was linked to a software update. Reports say the outage slowed analysts' work and forced staff to change when they came to the Fort Meade campus. The NSA itself described only 'temporary degradation during scheduled routine maintenance' (per press). On 18 November DNI Jay Clayton said the disruption followed a patch for PHP vulnerabilities after which some systems did not restart as expected, and that there was no evidence of a cyberattack.",
+  "what_nl": "CNN meldde als eerste dat het geclassificeerde netwerk uitviel; de Wall Street Journal meldde een verband met een software-update. Volgens berichten vertraagde de storing het werk van analisten en moest personeel de aankomst op de campus in Fort Meade aanpassen. De NSA zelf sprak volgens de pers alleen van 'tijdelijke degradatie tijdens gepland routineonderhoud'. Op 18 november zei nationale inlichtingendirecteur Jay Clayton dat de storing volgde op een patch voor PHP-kwetsbaarheden waarna sommige systemen niet zoals verwacht herstartten, en dat er geen bewijs is voor een cyberaanval.",
+  "kind": "technical",
+  "cause": "DNI Jay Clayton linked the outage to a patch for PHP vulnerabilities after which some systems failed to restart as expected, with no evidence of a cyberattack (as reported by The Record; the Wall Street Journal's anonymous source said the NSA was updating its software). The NSA called it scheduled routine maintenance.",
+  "cause_nl": "Nationale inlichtingendirecteur Jay Clayton bracht de storing in verband met een patch voor PHP-kwetsbaarheden waarna sommige systemen niet zoals verwacht herstartten, zonder bewijs voor een cyberaanval (volgens The Record; de anonieme bron van de Wall Street Journal sprak van een software-update). De NSA sprak van gepland routineonderhoud.",
+  "cause_status": "C",
+  "sources": [
+   {
+    "url": "https://therecord.media/nsa-net-disruptions",
+    "title": "Update: Disruptions in NSA's internal network caused by software patch, DNI says",
+    "publisher": "The Record",
+    "date": "18 Nov 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.cbsnews.com/news/national-security-agency-network-outage-software-vulnerability/",
+    "title": "National Security Agency network outage linked to software vulnerability",
+    "publisher": "CBS News",
+    "date": "18 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.nextgov.com/digital-government/2026/11/classified-nsa-communications-network-down-people-familiar-say/417277/",
+    "title": "Classified NSA communications network down, people familiar say",
+    "publisher": "Nextgov/FCW",
+    "date": "17 Nov 2026",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.jpost.com/international/article-915216",
+    "title": "NSA's highly classified internal communications network shuts down, linked to software update - WSJ",
+    "publisher": "Jerusalem Post (citing WSJ)",
+    "date": "17 Nov 2026",
+    "type": "news"
+   }
+  ],
+  "who": "",
+  "who_status": "",
+  "europe": "",
+  "background": false,
+  "group": "platform",
+  "checked": "Verified by the fact-checker (18-19 Nov 2026 US wave file)."
+ },
+ {
+  "id": "sony-psn-18nov",
+  "company": "Sony (PlayStation Network)",
+  "service": "PSN gaming and social services, sign-in and game launch",
+  "date": "18 Nov 2026",
+  "sort": "2026-11-18",
+  "duration": "About 40 minutes per Sony's status page (1:58 p.m. to about 2:37 p.m. ET); user reports continued; TechRepublic reports two outages around the GTA 6 launch",
+  "where": "Global (reports centred on the US)",
+  "what": "Sony's status page said players might have difficulty launching games, apps or network features. Reports on Downdetector peaked at more than 8,000 for the US, according to GV Wire. It came around the launch of the game GTA 6. Some outlets describe a second disruption on 19 November (Sportskeeda, Digit). We could not confirm it from a primary source or a major outlet, so it is not counted. We did not confirm that the 18 November official statement covered this event.",
+  "what_nl": "Op de statuspagina van Sony stond dat spelers mogelijk problemen hadden met het starten van games, apps of netwerkfuncties. Volgens GV Wire liepen de meldingen op Downdetector op tot meer dan 8.000 in de VS. Het gebeurde rond de lancering van de game GTA 6. Enkele media spreken van een tweede storing op 19 november; dat kon niet bij een primaire bron of groot medium worden bevestigd. Of de verklaring van 18 november deze storing dekte, is niet bevestigd.",
+  "kind": "unknown",
+  "cause": "No cause published. Sony's status page named no cause. Commentators suggest launch-day traffic; no source confirms it.",
+  "cause_nl": "Geen oorzaak bekendgemaakt. Sony noemde op de statuspagina geen oorzaak. Commentatoren wijzen op drukte rond de lancering; geen enkele bron bevestigt dat.",
+  "cause_status": "N",
+  "sources": [
+   {
+    "url": "https://gvwire.com/2026/11/18/playstation-network-down-for-thousands-of-users-downdetector-reports/",
+    "title": "PlayStation Network Down for Thousands of Users, Downdetector Reports",
+    "publisher": "GV Wire",
+    "date": "18 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://tech.yahoo.com/gaming/breaking-news/article/playstation-network-down-for-thousands-as-gta-6-launches-204149781.html",
+    "title": "PlayStation Network down for thousands as 'GTA 6' launches",
+    "publisher": "Yahoo Tech",
+    "date": "18 Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://hollywoodreporter.com/business/digital/gta-6-playstation-crash-outage-1236758425",
+    "title": "PlayStation Users Report Outages as 'GTA 6' Begins Global Launch",
+    "publisher": "The Hollywood Reporter",
+    "date": "Nov 2026",
+    "type": "news"
+   },
+   {
+    "url": "https://www.techrepublic.com/article/news-psn-back-online-gta-6-outages/",
+    "title": "PSN Back Online After Two Outages Around GTA 6 Launch",
+    "publisher": "TechRepublic",
+    "date": "19 Nov 2026",
+    "type": "trade"
+   }
+  ],
+  "who": "",
+  "who_status": "",
+  "europe": "",
+  "background": false,
+  "group": "platform",
+  "checked": "Verified by the fact-checker (18-19 Nov 2026 US wave file)."
+ }
+]

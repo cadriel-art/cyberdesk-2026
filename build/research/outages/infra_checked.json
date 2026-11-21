@@ -1,0 +1,1003 @@
+[
+ {
+  "id": "att-2024",
+  "company": "AT&T",
+  "service": "Nationwide wireless voice, 5G data, 911 access",
+  "date": "22 Feb 2024",
+  "sort": "2024-02-22",
+  "duration": "About 12 hours to restore all commercial customers",
+  "where": "United States",
+  "what": "All voice and 5G data service on AT&T's wireless network went down across the US. The FCC said more than 125 million devices were affected, more than 92 million calls were blocked and more than 25,000 calls to 911 centres failed.",
+  "what_nl": "Alle spraak- en 5G-datadiensten op het mobiele netwerk van AT&T vielen in de VS uit. Volgens de FCC waren meer dan 125 miljoen toestellen getroffen, werden meer dan 92 miljoen oproepen geblokkeerd en mislukten meer dan 25.000 oproepen naar noodcentrales.",
+  "kind": "technical",
+  "cause": "The FCC report said a network change with an equipment configuration error, not caught or peer-reviewed, put the network into 'protect mode'. Not an attack.",
+  "cause_nl": "Volgens het FCC-rapport zette een netwerkwijziging met een configuratiefout, die niet was opgemerkt of door collega's nagekeken, het netwerk in 'beschermmodus'. Geen aanval.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": true,
+  "sources": [
+   {
+    "url": "https://fierce-network.com/wireless/fcc-reports-atts-nationwide-outage-february",
+    "title": "FCC says this is what caused AT&T's big outage in February",
+    "publisher": "Fierce Network",
+    "date": "",
+    "type": "trade"
+   },
+   {
+    "url": "https://broadbandbreakfast.com/february-at-t-outage-blocked-92-million-calls-fcc-says/",
+    "title": "February AT&T Outage Blocked 92 Million Calls, FCC Says",
+    "publisher": "Broadband Breakfast",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed FCC report (July 2024): 125M devices, 92M calls blocked, 25,000+ 911 calls failed, ~12h to restore all commercial customers, misconfigured network element not peer-reviewed, no cyberattack. Both source URLs appeared in search results; primary FCC document not opened (no web fetch available)."
+ },
+ {
+  "id": "crowdstrike-2024",
+  "company": "CrowdStrike / Microsoft Windows",
+  "service": "Falcon sensor on Windows PCs and servers (airlines, banks, hospitals)",
+  "date": "19 Jul 2024",
+  "sort": "2024-07-19",
+  "duration": "Hours to days (recovery needed manual fixes)",
+  "where": "Global",
+  "what": "A faulty content update for CrowdStrike's Falcon security software crashed Windows machines into boot loops worldwide. Reporting says more than 8 million Windows systems were affected, with disruption to airlines, banks and hospitals.",
+  "what_nl": "Een foutieve inhoudsupdate van de beveiligingssoftware Falcon van CrowdStrike liet Windows-computers wereldwijd vastlopen in een herstartlus. Volgens de berichtgeving waren meer dan 8 miljoen Windows-systemen getroffen, met hinder voor luchtvaartmaatschappijen, banken en ziekenhuizen.",
+  "kind": "technical",
+  "cause": "CrowdStrike's root cause analysis (6 Aug 2024) says a new template type defined 21 input fields while the code supplied only 20 values, causing an out-of-bounds memory read, and that a validator logic error let the file through. Not an attack.",
+  "cause_nl": "In zijn oorzaakanalyse (6 augustus 2024) zegt CrowdStrike dat een nieuw sjabloontype 21 invoervelden definieerde terwijl de code er maar 20 doorgaf, wat een geheugenfout veroorzaakte, en dat een logische fout in de validatie het bestand doorliet. Geen aanval.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": true,
+  "sources": [
+   {
+    "url": "https://www.crowdstrike.com/blog/channel-file-291-rca-available/",
+    "title": "Channel File 291 Incident: Root Cause Analysis is Available",
+    "publisher": "CrowdStrike",
+    "date": "2024-08-06",
+    "type": "off"
+   },
+   {
+    "url": "https://www.techtarget.com/cybersecurity/news/366602392/CrowdStrike-details-errors-that-led-to-mass-IT-outage",
+    "title": "CrowdStrike details errors that led to mass IT outage",
+    "publisher": "TechTarget",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "CrowdStrike RCA (6 Aug 2024) URL and 21-vs-20 fields detail match my knowledge of the official RCA; TechTarget URL not independently resolved. Primary page not opened (fetch blocked)."
+ },
+ {
+  "id": "psn-feb-2025",
+  "company": "Sony",
+  "service": "PlayStation Network (sign-in, online play)",
+  "date": "7–8 Feb 2025",
+  "sort": "2025-02-07",
+  "duration": "About 20–24 hours (sources differ)",
+  "where": "Global",
+  "what": "PlayStation Network went down worldwide; players could not sign in or play online. Push Square called it the biggest PSN outage since 2011.",
+  "what_nl": "PlayStation Network lag wereldwijd plat; spelers konden niet inloggen of online spelen. Push Square noemde het de grootste PSN-storing sinds 2011.",
+  "kind": "unknown",
+  "cause": "Sony only said there was an 'operational issue'. It has not published a cause. Speculation about an attack was not confirmed.",
+  "cause_nl": "Sony sprak enkel van een 'operationeel probleem' en publiceerde geen oorzaak. Speculatie over een aanval werd niet bevestigd.",
+  "cause_status": "N",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.pushsquare.com/news/2025/02/psn-finally-back-online-but-some-problems-persist-after-biggest-outage-since-2011",
+    "title": "PSN finally back online after biggest outage since 2011",
+    "publisher": "Push Square",
+    "date": "",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.techradar.com/gaming/sony-explains-massive-psn-outage-and-details-compensation-but-many-playstation-gamers-are-still-unhappy",
+    "title": "Sony explains massive PSN outage and details compensation",
+    "publisher": "TechRadar",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed Sony called it an 'operational issue', no root cause disclosed, ~24h, 5 extra PS Plus days; Push Square/TechRadar URLs seen in results."
+ },
+ {
+  "id": "slack-feb-2025",
+  "company": "Slack (Salesforce)",
+  "service": "Slack messaging",
+  "date": "26 Feb 2025",
+  "sort": "2025-02-26",
+  "duration": "About 9.5 hours (Events API effects lingered to next morning)",
+  "where": "Global",
+  "what": "Slack users had trouble loading and using the workplace messaging service for most of a working day.",
+  "what_nl": "Slack-gebruikers konden de berichtendienst het grootste deel van een werkdag moeilijk laden of gebruiken.",
+  "kind": "technical",
+  "cause": "Reported: Pingdom and ThousandEyes say Slack attributed it to database maintenance combined with a latent defect in a caching system. Not seen in Slack's own post-mortem by this research.",
+  "cause_nl": "Gemeld: Pingdom en ThousandEyes schrijven dat Slack het toeschreef aan onderhoud aan de databases in combinatie met een sluimerende fout in een cachingsysteem. Het eigen verslag van Slack werd niet geraadpleegd.",
+  "cause_status": "R",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://slack-status.com/2025-02/1b757d1d0f444c34",
+    "title": "Wednesday February 26, 2025",
+    "publisher": "Slack Status",
+    "date": "",
+    "type": "off"
+   },
+   {
+    "url": "https://www.thousandeyes.com/blog/internet-report-slack-outage-backend-issues",
+    "title": "Slack outage: backend issues",
+    "publisher": "ThousandEyes",
+    "date": "",
+    "type": "sec"
+   },
+   {
+    "url": "https://www.pingdom.com/outages/slack-outage-feb-2025-a-recap/",
+    "title": "Slack outage Feb 2025: a recap",
+    "publisher": "Pingdom",
+    "date": "",
+    "type": "sec"
+   }
+  ],
+  "checked": "Slack status page URL seen; status page shows impact 06:45-16:13 PST (~9.5h) and Events API effects to 08:30 PST next day. Cause wording (database maintenance + latent caching defect) found only via Pingdom, so R is right; Slack's own post-mortem not seen."
+ },
+ {
+  "id": "outlook-mar-2025",
+  "company": "Microsoft",
+  "service": "Outlook and Microsoft 365 (Teams, Exchange Online)",
+  "date": "1 Mar 2025",
+  "sort": "2025-03-01",
+  "duration": "Several hours",
+  "where": "Global",
+  "what": "Tens of thousands of users could not reach Outlook, Teams and other Microsoft 365 services; Downdetector logged more than 35,000 complaints.",
+  "what_nl": "Tienduizenden gebruikers konden Outlook, Teams en andere Microsoft 365-diensten niet bereiken; Downdetector registreerde meer dan 35.000 klachten.",
+  "kind": "technical",
+  "cause": "Microsoft said it reverted a suspected 'problematic code change'. It had not published a detailed report in the coverage found.",
+  "cause_nl": "Microsoft zei een vermoedelijk 'problematische codewijziging' te hebben teruggedraaid. In de gevonden berichtgeving was geen gedetailleerd verslag gepubliceerd.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.techrepublic.com/article/microsoft-outage-office-365-teams/",
+    "title": "Microsoft Outage: Tens of Thousands Unable to Access Outlook, Teams, Office 365 After 'Problematic Code Change'",
+    "publisher": "TechRepublic",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed Microsoft attributed it to a 'problematic code change' reverted (fix confirmed ~19:02 ET); Downdetector figure varies by outlet (35,000+ to 37,000+ for Outlook). Kept '35,000+', which is the lower reported figure."
+ },
+ {
+  "id": "x-mar-2025",
+  "company": "X (Twitter)",
+  "service": "X social network",
+  "date": "10 Mar 2025",
+  "sort": "2025-03-10",
+  "duration": "Several hours, in waves",
+  "where": "Global (mainly US reports)",
+  "what": "X suffered repeated outages; Downdetector reports peaked around 40,000. Elon Musk called it a 'massive cyberattack'.",
+  "what_nl": "X kampte met herhaalde storingen; Downdetector-meldingen piekten rond 40.000. Elon Musk sprak van een 'massale cyberaanval'.",
+  "kind": "cyberattack",
+  "cause": "Musk said it was a 'massive cyberattack' and suggested, without evidence, a link to Ukraine; a group calling itself Dark Storm Team claimed responsibility. Security Affairs noted the group had provided no evidence, and ZeroFox called a DDoS by the group plausible but unverified. X published no technical report.",
+  "cause_nl": "Musk sprak van een 'massale cyberaanval' en suggereerde zonder bewijs een link met Oekraïne; een groep die zich Dark Storm Team noemt, eiste de aanval op. Security Affairs merkte op dat de groep geen bewijs leverde, en ZeroFox noemde een DDoS door die groep aannemelijk maar niet bevestigd. X publiceerde geen technisch verslag.",
+  "cause_status": "K",
+  "who": "Elon Musk (owner of X) claimed a cyberattack and a Ukraine link without evidence; Dark Storm Team (pro-Palestinian hacktivist group) claimed responsibility. Neither is confirmed.",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.techradar.com/computing/cyber-security/who-was-really-behind-the-massive-x-cyberattack-heres-what-experts-say-about-elon-musks-claims",
+    "title": "Who was really behind the massive X cyberattack?",
+    "publisher": "TechRadar",
+    "date": "",
+    "type": "trade"
+   },
+   {
+    "url": "https://kyivindependent.com/musk-blames-x-outage-on-massive-cyberattack-linked-to-ukraine",
+    "title": "Musk blames X outage on massive cyberattack linked to Ukraine",
+    "publisher": "Kyiv Independent",
+    "date": "",
+    "type": "news"
+   }
+  ],
+  "checked": "Search confirmed Musk's cyberattack claim, Dark Storm Team claim, ~40,000 Downdetector peak. Removed unverifiable attribution to Kevin Beaumont; replaced with ZeroFox/Security Affairs assessments seen in search. Kyiv Independent URL not independently resolved."
+ },
+ {
+  "id": "zoom-apr-2025",
+  "company": "Zoom / GoDaddy Registry",
+  "service": "Zoom meetings (zoom.us domain)",
+  "date": "16 Apr 2025",
+  "sort": "2025-04-16",
+  "duration": "About 1 hour 47 minutes (Zoom: 14:25–16:12 ET)",
+  "where": "Global",
+  "what": "The zoom.us domain stopped resolving, so Zoom meetings and website failed worldwide, including calls in progress.",
+  "what_nl": "Het domein zoom.us werd onbereikbaar, waardoor Zoom-vergaderingen en de website wereldwijd uitvielen, ook lopende gesprekken.",
+  "kind": "technical",
+  "cause": "Zoom said a communication error between its registrar MarkMonitor and GoDaddy Registry led the registry to shut off zoom.us; Zoom said it was not a hack or DDoS. A group called DarkStorm claimed it online without confirmation.",
+  "cause_nl": "Zoom zei dat een communicatiefout tussen registrar MarkMonitor en GoDaddy Registry ertoe leidde dat het register zoom.us afsloot; Zoom zei dat het geen hack of DDoS was. Een groep DarkStorm eiste het online op zonder bevestiging.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://registry.godaddy/blog/zoomus-outage/",
+    "title": "zoom.us outage",
+    "publisher": "GoDaddy Registry",
+    "date": "",
+    "type": "off"
+   },
+   {
+    "url": "https://www.techradar.com/news/live/zoom-outage-april-2025",
+    "title": "Zoom outage April 2025",
+    "publisher": "TechRadar",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed 14:25-16:12 ET, Zoom/GoDaddy Registry statements (communication error MarkMonitor/GoDaddy Registry; no product/security/network failure at Zoom). GoDaddy Registry and TechRadar URLs seen. The DarkStorm claim not re-verified."
+ },
+ {
+  "id": "chatgpt-jun-2025",
+  "company": "OpenAI",
+  "service": "ChatGPT, Sora, API",
+  "date": "10 Jun 2025",
+  "sort": "2025-06-10",
+  "duration": "Roughly 10 hours or more for the main disruption (reports vary; some features recovered later)",
+  "where": "Global",
+  "what": "ChatGPT, Sora and OpenAI's API suffered elevated errors and latency worldwide.",
+  "what_nl": "ChatGPT, Sora en de API van OpenAI hadden wereldwijd veel fouten en vertraging.",
+  "kind": "unknown",
+  "cause": "OpenAI said it had identified the root cause but the coverage found does not describe it; no cause published in these sources.",
+  "cause_nl": "OpenAI zei de oorzaak te hebben gevonden, maar de gevonden berichtgeving beschrijft die niet; in deze bronnen geen oorzaak gepubliceerd.",
+  "cause_status": "N",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://tomsguide.com/news/live/chatgpt-openai-down-outage-6-10-2025",
+    "title": "ChatGPT down live",
+    "publisher": "Tom's Guide",
+    "date": "",
+    "type": "trade"
+   },
+   {
+    "url": "https://forklog.com/en/news/openai-services-experience-global-outage",
+    "title": "OpenAI services experience global outage",
+    "publisher": "Forklog",
+    "date": "",
+    "type": "news"
+   }
+  ],
+  "checked": "Search confirmed OpenAI said root cause identified but gave none in coverage found. Duration varies widely by source (about 5h to over 11h, some features later), so duration text softened."
+ },
+ {
+  "id": "gcp-jun-2025",
+  "company": "Google Cloud",
+  "service": "Service Control / API management across many Google Cloud and Workspace services",
+  "date": "12 Jun 2025",
+  "sort": "2025-06-12",
+  "duration": "About 7.5 hours (10:51–18:18 PT)",
+  "where": "Global",
+  "what": "Google Cloud API requests returned errors worldwide; Spotify and others were affected and Cloudflare reported knock-on effects on some of its services.",
+  "what_nl": "API-verzoeken bij Google Cloud gaven wereldwijd fouten; onder meer Spotify werd getroffen en Cloudflare meldde gevolgen voor een deel van zijn diensten.",
+  "kind": "technical",
+  "cause": "Google's incident report says a policy change inserted blank fields into regional Spanner tables, which triggered a null-pointer crash in Service Control code deployed on 29 May without a feature flag. Not an attack.",
+  "cause_nl": "Volgens het incidentverslag van Google zette een beleidswijziging lege velden in regionale Spanner-tabellen, wat een crash veroorzaakte in Service Control-code die op 29 mei zonder feature flag was uitgerold. Geen aanval.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://status.cloud.google.com/incidents/ow5i3PPK96RduMcb1SsW",
+    "title": "Service Health incident ow5i3PPK96RduMcb1SsW",
+    "publisher": "Google Cloud",
+    "date": "",
+    "type": "off"
+   },
+   {
+    "url": "https://www.thousandeyes.com/blog/google-cloud-outage-analysis-june-12-2025",
+    "title": "Google Cloud outage analysis June 12, 2025",
+    "publisher": "ThousandEyes",
+    "date": "",
+    "type": "sec"
+   }
+  ],
+  "checked": "Google status page URL seen; window 10:51-18:18 PT, blank policy fields in regional Spanner tables, null pointer, code from 29 May without feature flag all confirmed in search of Google's report."
+ },
+ {
+  "id": "cloudflare-jun-2025",
+  "company": "Cloudflare",
+  "service": "Workers KV, Access, Workers AI, Stream, dashboard",
+  "date": "12 Jun 2025",
+  "sort": "2025-06-12",
+  "duration": "Up to 2 hours 28 minutes (Cloudflare)",
+  "where": "Global",
+  "what": "Several Cloudflare services failed; Access failed all identity-based logins during the incident.",
+  "what_nl": "Verschillende diensten van Cloudflare vielen uit; Access liet alle identiteitsgebonden aanmeldingen mislukken tijdens het incident.",
+  "kind": "technical",
+  "cause": "Cloudflare said the failure began in the storage infrastructure behind Workers KV, part of which relies on a third-party cloud provider that had its own outage that day. Media identify the provider as Google Cloud.",
+  "cause_nl": "Cloudflare zei dat de storing begon in de opslaginfrastructuur achter Workers KV, waarvan een deel steunt op een externe cloudaanbieder die die dag zelf een storing had. Media noemen Google Cloud als die aanbieder.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://blog.cloudflare.com/cloudflare-service-outage-june-12-2025/",
+    "title": "Cloudflare service outage June 12, 2025",
+    "publisher": "Cloudflare",
+    "date": "",
+    "type": "off"
+   },
+   {
+    "url": "https://siliconangle.com/2025/06/12/identity-access-management-failure-google-cloud-causes-widespread-internet-service-disruptions/",
+    "title": "IAM failure at Google Cloud causes widespread disruptions",
+    "publisher": "SiliconANGLE",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Cloudflare's post confirms 'up to 2 hours and 28 minutes' and third-party cloud provider dependency; Google Cloud identification is from media only, as the entry says. Removed the 17:52-20:28 time range (it does not equal 2h28 and came from a secondary summary)."
+ },
+ {
+  "id": "cloudflare-1111-jul-2025",
+  "company": "Cloudflare",
+  "service": "1.1.1.1 public DNS resolver",
+  "date": "14 Jul 2025",
+  "sort": "2025-07-14",
+  "duration": "62 minutes",
+  "where": "Global",
+  "what": "Cloudflare's 1.1.1.1 DNS resolver was unreachable worldwide, so many users could not resolve websites through it.",
+  "what_nl": "De DNS-resolver 1.1.1.1 van Cloudflare was wereldwijd onbereikbaar, waardoor veel gebruikers via die dienst geen websites konden opzoeken.",
+  "kind": "technical",
+  "cause": "Cloudflare said an internal configuration error, not an attack or BGP hijack, caused it: a dormant misconfiguration was triggered when a change withdrew the 1.1.1.1 prefixes.",
+  "cause_nl": "Cloudflare zei dat een interne configuratiefout de oorzaak was, geen aanval of BGP-kaping: een sluimerende misconfiguratie werd geactiveerd toen een wijziging de 1.1.1.1-prefixen introk.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://blog.cloudflare.com/cloudflare-1-1-1-1-incident-on-july-14-2025",
+    "title": "Cloudflare 1.1.1.1 incident on July 14, 2025",
+    "publisher": "Cloudflare",
+    "date": "",
+    "type": "off"
+   },
+   {
+    "url": "https://www.itnews.com.au/news/cloudflare-makes-changes-to-avoid-repeat-of-1111-dns-outage-618832",
+    "title": "Cloudflare makes changes to avoid repeat of 1.1.1.1 DNS outage",
+    "publisher": "iTnews",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Matches Cloudflare post-mortem as known (62 minutes, internal config error, not an attack/BGP hijack); URLs not re-resolved."
+ },
+ {
+  "id": "starlink-jul-2025",
+  "company": "SpaceX Starlink",
+  "service": "Starlink satellite internet",
+  "date": "24 Jul 2025",
+  "sort": "2025-07-24",
+  "duration": "About 2.5 hours",
+  "where": "Global (reports from multiple continents)",
+  "what": "Starlink went down worldwide; Downdetector showed about 61,000 reports and Ukrainian forces were reportedly affected.",
+  "what_nl": "Starlink viel wereldwijd uit; Downdetector toonde ongeveer 61.000 meldingen en de Oekraïense strijdkrachten werden naar verluidt getroffen.",
+  "kind": "technical",
+  "cause": "Michael Nicolls, Starlink's VP of engineering, said on X that the failure of key internal software services that run the core network caused it. No attack was reported.",
+  "cause_nl": "Michael Nicolls, VP engineering bij Starlink, zei op X dat het uitvallen van belangrijke interne softwarediensten die het kernnetwerk draaien de oorzaak was. Er werd geen aanval gemeld.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.ispreview.co.uk/index.php/2025/07/starlink-says-global-broadband-outage-caused-by-internal-software-failure.html",
+    "title": "Starlink says global broadband outage caused by internal software failure",
+    "publisher": "ISPreview",
+    "date": "",
+    "type": "trade"
+   },
+   {
+    "url": "https://broadbandbreakfast.com/starlink-software-failure-causes-global-outage/",
+    "title": "Starlink Software Failure Causes Global Outage",
+    "publisher": "Broadband Breakfast",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed Nicolls statement on X (key internal software services of the core network), ~2.5h, up to 61,000 Downdetector reports. His title corrected to VP of engineering. C kept: it is a statement by a Starlink executive, though only reported second-hand by media."
+ },
+ {
+  "id": "optus-sep-2025",
+  "company": "Optus (Singtel)",
+  "service": "Emergency calls (Triple Zero) on the Optus network",
+  "date": "18 Sep 2025",
+  "sort": "2025-09-18",
+  "duration": "Unknown (not stated in the sources found)",
+  "where": "South Australia, Western Australia, Northern Territory, parts of NSW",
+  "what": "Calls to Triple Zero (000) failed for Optus customers in several Australian states during a firewall upgrade. Reports give roughly 600 calls affected, and the outage was linked to deaths; the count varies by source (three initially, later reports say two to four).",
+  "what_nl": "Oproepen naar het Australische noodnummer Triple Zero (000) mislukten voor Optus-klanten in meerdere staten tijdens een firewall-upgrade. Volgens de berichtgeving waren er ongeveer 600 oproepen getroffen en werd de storing in verband gebracht met overlijdens; het aantal verschilt per bron (eerst drie, later twee tot vier).",
+  "kind": "technical",
+  "cause": "Optus said the fault arose during a planned firewall upgrade; its CEO said an employee did not follow protocols. A later report cited by The Register found at least ten mistakes in the upgrade.",
+  "cause_nl": "Optus zei dat de fout optrad tijdens een geplande firewall-upgrade; de CEO zei dat een medewerker de procedures niet volgde. Een later rapport waarover The Register bericht, vond minstens tien fouten in de upgrade.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.theregister.com/2025/12/19/optus_emergency_outages_cause_report/",
+    "title": "Ten mistakes marred firewall upgrade at Australian telco",
+    "publisher": "The Register",
+    "date": "2025-12-19",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.theregister.com/2025/09/21/optus_emergency_call_incident/",
+    "title": "Firewall upgrade linked to three deaths after Australian telco cut off emergency calls",
+    "publisher": "The Register",
+    "date": "2025-09-21",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed firewall upgrade cause, Optus-commissioned independent report (12 Dec 2025) found at least ten mistakes by Optus and Nokia. Removed '450 failed calls' and 'about 13 hours' (not found in any source; reports give ~600 calls, 75% failed, and 2-4 deaths). Death count: three initially linked, police later linked two per Canstar, ABC reported four. Grade C kept (Optus's own statement and its commissioned report)."
+ },
+ {
+  "id": "youtube-oct-2025",
+  "company": "Google",
+  "service": "YouTube",
+  "date": "15 Oct 2025",
+  "sort": "2025-10-15",
+  "duration": "Unknown (evening outage)",
+  "where": "Global (mainly US reports)",
+  "what": "YouTube failed for many users; more than 366,000 reports were counted in the US at the peak.",
+  "what_nl": "YouTube viel uit voor veel gebruikers; op het hoogtepunt werden in de VS meer dan 366.000 meldingen geteld.",
+  "kind": "unknown",
+  "cause": "Google confirmed restoration but did not publish a cause. Speculation about a DDoS attack circulated; Google has not confirmed one.",
+  "cause_nl": "Google bevestigde het herstel maar publiceerde geen oorzaak. Er ging speculatie over een DDoS-aanval rond; Google heeft dat niet bevestigd.",
+  "cause_status": "N",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.outlookindia.com/international/youtube-resolves-global-outage-affecting-over-366000-users",
+    "title": "YouTube Resolves Global Outage Affecting Over 366,000 Users",
+    "publisher": "Outlook India",
+    "date": "",
+    "type": "news"
+   },
+   {
+    "url": "https://www.androidauthority.com/youtube-outage-3607597/",
+    "title": "YouTube outage",
+    "publisher": "Android Authority",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed 366,172 US Downdetector reports at peak and that YouTube only said service was restored. 'Hacker group claimed a DDoS' not found; DDoS was speculation, so reworded."
+ },
+ {
+  "id": "aws-oct-2025",
+  "company": "Amazon Web Services",
+  "service": "DynamoDB, EC2, load balancers and dozens of dependent services (us-east-1)",
+  "date": "19–20 Oct 2025",
+  "sort": "2025-10-19",
+  "duration": "About 15 hours (AWS summary: 23:48 PDT 19 Oct to 14:20 PDT 20 Oct; other end times appear in sources)",
+  "where": "Global impact from US-EAST-1",
+  "what": "Errors in AWS's Northern Virginia region broke many websites and apps worldwide, including Snapchat, Fortnite and banking apps, according to coverage.",
+  "what_nl": "Fouten in de regio Noord-Virginia van AWS legden wereldwijd veel websites en apps plat, volgens de berichtgeving onder meer Snapchat, Fortnite en bankapps.",
+  "kind": "technical",
+  "cause": "AWS's post-event summary says a latent race condition in DynamoDB's DNS management system left an empty DNS record for the regional endpoint. Not an attack.",
+  "cause_nl": "De samenvatting van AWS zegt dat een sluimerende race condition in het DNS-beheersysteem van DynamoDB een leeg DNS-record voor het regionale eindpunt achterliet. Geen aanval.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://aws.amazon.com/message/101925",
+    "title": "Summary of the Amazon DynamoDB Service Disruption in the Northern Virginia (US-EAST-1) Region",
+    "publisher": "Amazon Web Services",
+    "date": "",
+    "type": "off"
+   },
+   {
+    "url": "https://www.infoq.com/news/2025/11/aws-dynamodb-outage-postmortem",
+    "title": "AWS DynamoDB outage postmortem",
+    "publisher": "InfoQ",
+    "date": "",
+    "type": "trade"
+   },
+   {
+    "url": "https://ppc.land/amazon-outage-breaks-the-internet-snapchat-fortnite-banks-go-dark/",
+    "title": "Amazon outage breaks the internet",
+    "publisher": "PPC Land",
+    "date": "",
+    "type": "news"
+   }
+  ],
+  "checked": "AWS post-event summary URL confirmed in search; 23:48 PDT 19 Oct to 14:20 PDT 20 Oct and latent race condition in DynamoDB DNS management confirmed. InfoQ and PPC Land URLs seen."
+ },
+ {
+  "id": "azure-afd-oct-2025",
+  "company": "Microsoft",
+  "service": "Azure Front Door, Microsoft 365, Xbox and customer sites",
+  "date": "29–30 Oct 2025",
+  "sort": "2025-10-29",
+  "duration": "About 8 hours (about 15:45 UTC to 00:05 UTC)",
+  "where": "Global",
+  "what": "Azure Front Door failed, causing latency, timeouts and errors for Microsoft 365, Xbox and many customer websites; admins also lost access to portals.",
+  "what_nl": "Azure Front Door viel uit, met vertraging, time-outs en fouten voor Microsoft 365, Xbox en veel klantensites; beheerders verloren ook toegang tot portalen.",
+  "kind": "technical",
+  "cause": "Microsoft's preliminary review said an inadvertent configuration change caused it. Its final post-incident review, as described by secondary sources, says valid customer configuration changes made across two Azure Front Door control-plane versions produced incompatible configuration metadata, which crashed Front Door nodes. Microsoft said the changes were not malicious. Final-review wording was not read directly.",
+  "cause_nl": "Het voorlopige verslag van Microsoft zei dat een onbedoelde configuratiewijziging de oorzaak was. Het eindverslag zou volgens secundaire bronnen stellen dat geldige configuratiewijzigingen van klanten, gemaakt over twee versies van het controlevlak van Azure Front Door, onverenigbare configuratiemetadata opleverden waardoor Front Door-knooppunten crashten. Microsoft zei dat de wijzigingen niet kwaadaardig waren. De exacte tekst van het eindverslag werd niet zelf gelezen.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://aka.ms/air/YKYN-BWZ",
+    "title": "Post Incident Review (PIR) - Azure Front Door - Global Service Disruption (tracking ID YKYN-BWZ)",
+    "publisher": "Microsoft Azure",
+    "date": "",
+    "type": "off"
+   },
+   {
+    "url": "https://www.thousandeyes.com/blog/microsoft-azure-front-door-outage-analysis-october-29-2025",
+    "title": "Microsoft Azure Front Door outage analysis",
+    "publisher": "ThousandEyes",
+    "date": "",
+    "type": "sec"
+   },
+   {
+    "url": "https://dataconomy.com/2025/10/30/azure-outage-microsoft-blames-azure-front-door-for-major-global-disruption/",
+    "title": "Microsoft blames Azure Front Door",
+    "publisher": "Dataconomy",
+    "date": "",
+    "type": "news"
+   }
+  ],
+  "checked": "Microsoft's PIR (tracking ID YKYN-BWZ) exists; preliminary PIR said 'inadvertent tenant configuration change', final PIR (per secondary summaries) says valid customer config changes across two control-plane versions produced incompatible metadata. Window ~15:41/15:45 to 00:05 UTC confirmed by several secondaries. Added the official PIR link (found via search, not opened). C kept because cause is from Microsoft's own PIR. Dataconomy URL not independently resolved."
+ },
+ {
+  "id": "cloudflare-nov-2025",
+  "company": "Cloudflare",
+  "service": "Core CDN/proxy, Access, Turnstile and sites behind them",
+  "date": "18 Nov 2025",
+  "sort": "2025-11-18",
+  "duration": "About 3 hours of core impact; full recovery 17:06 UTC",
+  "where": "Global",
+  "what": "Cloudflare returned 5xx errors for a large share of the sites behind it, including ChatGPT and X according to media.",
+  "what_nl": "Cloudflare gaf 5xx-fouten voor een groot deel van de sites erachter, volgens media onder meer ChatGPT en X.",
+  "kind": "technical",
+  "cause": "Cloudflare said a database permissions change made a Bot Management feature file double in size, exceeding a limit in its proxy software and crashing it. It said no malicious activity was detected.",
+  "cause_nl": "Cloudflare zei dat een wijziging in databaserechten een bestand van Bot Management twee keer zo groot maakte, waardoor een limiet in de proxysoftware werd overschreden en die crashte. Het zag geen kwaadaardige activiteit.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://blog.cloudflare.com/18-november-2025-outage/",
+    "title": "Cloudflare outage on November 18, 2025",
+    "publisher": "Cloudflare",
+    "date": "",
+    "type": "off"
+   },
+   {
+    "url": "https://techcrunch.com/2025/11/18/cloudflare-blames-massive-internet-outage-on-latent-bug/",
+    "title": "Cloudflare blames massive internet outage on latent bug",
+    "publisher": "TechCrunch",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed bot-management feature file doubled by database permissions change, not a cyberattack, official blog URL seen. 17:06 UTC full recovery from my own knowledge of the post-mortem, not re-confirmed in search."
+ },
+ {
+  "id": "cloudflare-dec-2025",
+  "company": "Cloudflare",
+  "service": "Core proxy (28% of applications served)",
+  "date": "5 Dec 2025",
+  "sort": "2025-12-05",
+  "duration": "About 25 minutes (08:47–09:12 UTC)",
+  "where": "Global",
+  "what": "Cloudflare failed to serve traffic for 28% of applications behind it for about 25 minutes, the second major outage in under three weeks.",
+  "what_nl": "Cloudflare kon 25 minuten lang geen verkeer leveren voor 28% van de toepassingen erachter, de tweede grote storing in minder dan drie weken.",
+  "kind": "technical",
+  "cause": "Cloudflare said it was not an attack; it began with a change to increase the buffer size of its Web Application Firewall.",
+  "cause_nl": "Cloudflare zei dat het geen aanval was; het begon met een wijziging om de buffergrootte van zijn Web Application Firewall te verhogen.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://blog.cloudflare.com/5-december-2025-outage/",
+    "title": "Cloudflare outage on December 5, 2025",
+    "publisher": "Cloudflare",
+    "date": "",
+    "type": "off"
+   },
+   {
+    "url": "https://www.techcentral.ie/cloudflare-suffers-second-outage-in-two-months/",
+    "title": "Cloudflare suffers second outage in two months",
+    "publisher": "TechCentral",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Matches Cloudflare post-mortem as known (08:47-09:12 UTC, 28% of HTTP traffic/apps, WAF buffer size change, not an attack); URLs not re-resolved."
+ },
+ {
+  "id": "verizon-jan-2026",
+  "company": "Verizon",
+  "service": "Nationwide wireless service",
+  "date": "14 Jan 2026",
+  "sort": "2026-01-14",
+  "duration": "About 10 hours (reports say 10 to 12)",
+  "where": "United States",
+  "what": "Verizon's wireless network failed across the US; Downdetector logged about 2.2 million reports, and Verizon offered a $20 credit.",
+  "what_nl": "Het mobiele netwerk van Verizon viel in de VS uit; Downdetector registreerde ongeveer 2,2 miljoen meldingen en Verizon bood 20 dollar tegoed aan.",
+  "kind": "technical",
+  "cause": "Verizon said it was a software issue with no sign of a cybersecurity incident, and said a review was under way; it did not say which system. An analyst's theory about the 5G core is unconfirmed. The FCC said it would review.",
+  "cause_nl": "Verizon zei dat het een softwareprobleem was zonder aanwijzing voor een cyberincident en dat een onderzoek loopt; welk systeem werd niet gezegd. De theorie van een analist over de 5G-kern is niet bevestigd. De FCC zei het te onderzoeken.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.datacenterdynamics.com/en/news/verizon-outage-last-week-down-to-software-issue/",
+    "title": "Verizon outage last week down to 'software issue'",
+    "publisher": "Data Center Dynamics",
+    "date": "",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.cnbc.com/2026/01/15/verizon-credit-for-outage.html",
+    "title": "Verizon offers $20 credit to customers affected by massive wireless outage",
+    "publisher": "CNBC",
+    "date": "2026-01-15",
+    "type": "news"
+   }
+  ],
+  "checked": "Search confirmed: Verizon said software issue, no sign of cyberattack, review under way; ~10 hours; Reuters via Downdetector 2.2M reports over 24h (Downdetector itself said 2.3M); $20 credit (CNBC, Fortune); FCC said it would review. Removed NPR URL (could not be found, looks malformed) and BleepingComputer URL (not seen in any result); added CNBC URL seen in results."
+ },
+ {
+  "id": "m365-jan-2026",
+  "company": "Microsoft",
+  "service": "Outlook/Exchange Online and Teams (North America)",
+  "date": "22–23 Jan 2026",
+  "sort": "2026-01-22",
+  "duration": "About 9–10 hours (start 14:33–14:37 ET; sources differ)",
+  "where": "North America",
+  "what": "Outlook users could not send or receive email normally and Teams users could not create chats, meetings, teams or channels.",
+  "what_nl": "Outlook-gebruikers konden niet normaal e-mail versturen of ontvangen en Teams-gebruikers konden geen chats, vergaderingen, teams of kanalen aanmaken.",
+  "kind": "technical",
+  "cause": "Microsoft's service notice said a portion of dependent service infrastructure in North America was not processing traffic as expected. Secondary sources citing Microsoft's incident report describe elevated load after reduced capacity during maintenance, and a load-balancer change made during recovery that prolonged the impact. Microsoft's report itself was not read.",
+  "cause_nl": "Volgens de servicemelding van Microsoft verwerkte een deel van de afhankelijke infrastructuur in Noord-Amerika het verkeer niet zoals verwacht. Secundaire bronnen die het incidentrapport van Microsoft aanhalen, spreken van hoge belasting na verminderde capaciteit door onderhoud, en van een wijziging aan de load balancer tijdens het herstel die de hinder verlengde. Het rapport zelf werd niet gelezen.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.bu.edu/tech/2026/01/22/160781/",
+    "title": "Resolved: Microsoft service degradation",
+    "publisher": "Boston University IT",
+    "date": "",
+    "type": "sec"
+   },
+   {
+    "url": "https://www.techradar.com/news/live/microsoft-outlook-365-outage-january-22-2026",
+    "title": "Microsoft 365 and Outlook were down",
+    "publisher": "TechRadar",
+    "date": "",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.tomsguide.com/news/live/microsoft-down-live-updates-outage-jan-22-26",
+    "title": "Microsoft outage now 'resolved' - latest updates",
+    "publisher": "Tom's Guide",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed 22 Jan 2026 Outlook/Teams outage, Microsoft status text 'portion of dependent service infrastructure in North America not processing traffic as expected', PIR detail (elevated load after reduced capacity during maintenance) only via secondary blogs, and a load-balancer change during recovery that prolonged impact. Removed 'Microsoft said no cyberattack' and the exact '451 4.3.2' code (not found). BU page is a university copy of Microsoft's notice, retyped from 'off' to 'sec'. Added Tom's Guide live blog seen in results."
+ },
+ {
+  "id": "azure-feb-2026",
+  "company": "Microsoft",
+  "service": "Azure West US region, Windows Update, Microsoft Store",
+  "date": "7–8 Feb 2026",
+  "sort": "2026-02-07",
+  "duration": "About 20 hours (07:58 UTC 7 Feb to 04:24 UTC 8 Feb)",
+  "where": "US West",
+  "what": "Multiple Azure services in West US had intermittent unavailability, timeouts and latency; Windows Update and Microsoft Store were also affected.",
+  "what_nl": "Meerdere Azure-diensten in West US hadden onderbrekingen, time-outs en vertraging; ook Windows Update en de Microsoft Store werden getroffen.",
+  "kind": "physical",
+  "cause": "Microsoft's post-incident report, as reported by Data Center Dynamics and other outlets, says a failure of an on-site transformer cut utility power to the data centre. Secondary summaries add that generators started but a control-system fault blocked the transfer of load to them; the site returned to utility power on 9 February. The report itself was not read.",
+  "cause_nl": "Volgens het post-incidentrapport van Microsoft, zoals weergegeven door Data Center Dynamics en andere media, viel een transformator op de site uit, waardoor het datacenter geen netstroom meer kreeg. Secundaire samenvattingen voegen toe dat de generatoren startten maar een fout in het regelsysteem de overschakeling van de belasting blokkeerde; op 9 februari was de netstroom terug. Het rapport zelf werd niet gelezen.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.datacenterdynamics.com/en/news/microsoft-suffered-power-interruption-at-west-us-cloud-region-in-february/",
+    "title": "Microsoft suffered 'power interruption' at West US cloud region",
+    "publisher": "Data Center Dynamics",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search (DCD plus secondary summaries of Microsoft's PIR, tracking ID SVS-5_G) confirmed: impact 07:58 UTC 7 Feb to 04:24 UTC 8 Feb; on-site transformer failure cut utility power; utility power restored 9 Feb 03:42 UTC. Old text said the site 'ran on generators until utility power returned' - the PIR summaries say generators started but a control-system fault blocked load transfer and UPS batteries ran down, so that claim was removed. Times corrected from 08:00/04:23. Removed The Register URL (not seen in results). C kept since it is Microsoft's PIR as reported by DCD, but PIR itself not opened."
+ },
+ {
+  "id": "youtube-feb-2026",
+  "company": "Google",
+  "service": "YouTube, YouTube Music, Kids, TV",
+  "date": "17 Feb 2026",
+  "sort": "2026-02-17",
+  "duration": "Several hours in the evening, US time (start and end times differ by source)",
+  "where": "Global",
+  "what": "Videos stopped appearing across YouTube's homepage, app, Music and Kids.",
+  "what_nl": "Video's verschenen niet meer op de startpagina, in de app, in Music en in Kids van YouTube.",
+  "kind": "technical",
+  "cause": "Google said an issue with its recommendations system prevented videos from appearing.",
+  "cause_nl": "Google zei dat een probleem met het aanbevelingssysteem verhinderde dat video's verschenen.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.techradar.com/news/live/youtube-down-february-2026",
+    "title": "YouTube down February 2026",
+    "publisher": "TechRadar",
+    "date": "",
+    "type": "trade"
+   },
+   {
+    "url": "https://tomsguide.com/news/live/youtube-outage-february-2026",
+    "title": "youtube outage february 2026",
+    "publisher": "Tom's Guide",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed Google attributed it to an issue with its recommendations system; videos missing on homepage, app, Music, Kids; Downdetector peaks vary (280,000+ US per one source). Start/end times conflict across sources, so the '90 minutes' figure was removed. Fixed Tom's Guide URL to the one seen in results."
+ },
+ {
+  "id": "cloudflare-byoip-feb-2026",
+  "company": "Cloudflare",
+  "service": "BYOIP customers (customer IP ranges announced via Cloudflare)",
+  "date": "20 Feb 2026",
+  "sort": "2026-02-20",
+  "duration": "About 6 hours (sources differ on start 17:48–17:56 UTC)",
+  "where": "Global (BYOIP customers only)",
+  "what": "A bad cleanup task withdrew about 1,100 of 4,306 customer-owned IP prefixes from the internet, making those customers' services unreachable. Standard CDN sites were not affected.",
+  "what_nl": "Een foute opruimtaak trok ongeveer 1.100 van de 4.306 IP-prefixen van klanten van het internet terug, waardoor hun diensten onbereikbaar werden. Gewone CDN-sites werden niet getroffen.",
+  "kind": "technical",
+  "cause": "Per Cloudflare's post-mortem as summarised by secondary sources (the post itself was not read): an empty filter value made a cleanup task select every BYOIP prefix for deletion.",
+  "cause_nl": "Volgens het verslag van Cloudflare, zoals samengevat door secundaire bronnen (het verslag zelf werd niet gelezen): een lege filterwaarde liet een opruimtaak alle BYOIP-prefixen selecteren om te verwijderen.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://blog.cloudflare.com/cloudflare-outage-february-20-2026/",
+    "title": "Cloudflare outage on February 20, 2026",
+    "publisher": "Cloudflare",
+    "date": "",
+    "type": "off"
+   },
+   {
+    "url": "https://www.365i.co.uk/news/2026/02/24/cloudflare-outage-automation-deleted-1100-prefixes/",
+    "title": "Cloudflare outage: automation deleted 1,100 prefixes",
+    "publisher": "365i",
+    "date": "",
+    "type": "news"
+   },
+   {
+    "url": "https://www.ilert.com/postmortems/cloudflare-byoip-bgp-route-withdrawal-outage-feb-2026",
+    "title": "Cloudflare: faulty cleanup task withdrew Internet routes",
+    "publisher": "iLert",
+    "date": "",
+    "type": "sec"
+   }
+  ],
+  "checked": "Cloudflare's own post-mortem URL (blog.cloudflare.com/cloudflare-outage-february-20-2026/) surfaced in search via a third-party status page; added as type 'off' but could not be opened. Secondary summaries (365i, iLert, CyberSecurityNews) agree: empty filter value, ~1,100 of 4,306 BYOIP prefixes withdrawn, starts 17:48-17:56 UTC, ~6h, standard CDN not affected. Grade C kept because the cause comes from Cloudflare's post-mortem, but the post was not read."
+ },
+ {
+  "id": "aws-may-2026",
+  "company": "Amazon Web Services",
+  "service": "EC2, EBS and other services in one US-EAST-1 availability zone (use1-az4)",
+  "date": "7 May 2026",
+  "sort": "2026-05-07",
+  "duration": "Unknown (reports differ; one outlet says about 28 hours, which is unconfirmed)",
+  "where": "US East (N. Virginia)",
+  "what": "AWS said a thermal event caused a power loss that impaired EC2 instances and EBS volumes in a single availability zone (use1-az4) of US-EAST-1, with elevated errors and latency. Coinbase was among the services reported affected.",
+  "what_nl": "AWS zei dat een thermische gebeurtenis een stroomverlies veroorzaakte dat EC2-instanties en EBS-volumes in één beschikbaarheidszone (use1-az4) van US-EAST-1 verstoorde, met meer fouten en vertraging. Coinbase werd onder meer als getroffen dienst gemeld.",
+  "kind": "physical",
+  "cause": "AWS said a thermal event (a rise in temperature in a single data centre) caused a power loss in zone use1-az4. AWS had not yet explained how the overheating occurred; one report points to cooling failures in a data hall. No full post-event report was found.",
+  "cause_nl": "AWS zei dat een thermische gebeurtenis (een temperatuurstijging in één datacenter) een stroomverlies veroorzaakte in zone use1-az4. AWS had nog niet uitgelegd hoe de oververhitting ontstond; één bericht wijst op koelingsproblemen in een datahal. Er werd geen volledig verslag gevonden.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.theregister.com/off-prem/2026/05/08/aws-warns-of-ec2-impairment-as-power-loss-hits-notorious-us-east-1-region/5235509",
+    "title": "AWS warns of EC2 impairment as power loss hits US-EAST-1",
+    "publisher": "The Register",
+    "date": "2026-05-08",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.datacenterdynamics.com/en/news/aws-has-another-east-coast-cloud-outage/",
+    "title": "Data center power loss brings down AWS services, in another East Coast cloud outage",
+    "publisher": "Data Center Dynamics",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search (DCD, Qz, The Register) confirmed 7 May 2026 (about 16:20 PDT), single zone use1-az4 in us-east-1, EC2/EBS impaired. AWS said a thermal event (rising temperatures in one data centre) caused a power loss; AWS had not said how the overheating arose. Cause text corrected from 'power loss and cooling problems'. Duration: one secondary source says ~28h, others say some instances stayed impaired with no ETA; Coinbase ~7h disruption, so left 'unknown'. Grade moved R to C because the statement is AWS's own, relayed by DCD/Qz/The Register; the AWS status page itself was not opened. Added DCD."
+ },
+ {
+  "id": "meta-jun-2026",
+  "company": "Meta",
+  "service": "Facebook, Instagram, WhatsApp, Messenger",
+  "date": "12 Jun 2026",
+  "sort": "2026-06-12",
+  "duration": "Reports differ (about 2 to 4 hours); Meta gave no figure",
+  "where": "Global",
+  "what": "Facebook, Instagram, WhatsApp and Messenger were hit by a worldwide outage from about 09:00 ET; Downdetector reports for Facebook passed 100,000 at the peak according to one outlet (another reported a lower peak).",
+  "what_nl": "Facebook, Instagram, WhatsApp en Messenger werden getroffen door een wereldwijde storing vanaf ongeveer 09.00 uur Amerikaanse oostkusttijd; volgens één bron liepen de Downdetector-meldingen voor Facebook op tot meer dan 100.000 (een andere bron meldde een lagere piek).",
+  "kind": "unknown",
+  "cause": "Meta spokesman Andy Stone said the company was aware of trouble and working on it. Meta has not said what caused it.",
+  "cause_nl": "Meta-woordvoerder Andy Stone zei dat het bedrijf het probleem kende en eraan werkte. Meta heeft niet gezegd wat de oorzaak was.",
+  "cause_status": "N",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.tomsguide.com/news/live/meta-instagram-facebook-messenger-down-6-12-2026-live-updates",
+    "title": "Facebook and Instagram were down - live updates on outage hitting Meta services",
+    "publisher": "Tom's Guide",
+    "date": "",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.engadget.com/2193006/facebook-and-instagram-appear-to-down/",
+    "title": "Facebook and Instagram appear to be down",
+    "publisher": "Engadget",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed 12 Jun 2026 outage from ~09:00 ET, Facebook/Instagram/WhatsApp/Messenger, Andy Stone's two posts, no cause given. Duration reports conflict (about 2 to 4 hours); Downdetector: 113,000+ for Facebook per one outlet, ~20,000 at 11am ET per another. TNW and Inc. URLs not seen in any result, removed; replaced with Tom's Guide live blog and Engadget (seen in results)."
+ },
+ {
+  "id": "gcp-nl-jul-2026",
+  "company": "Google Cloud",
+  "service": "VMware Engine, Bare Metal Solution, NetApp Volumes in europe-west4 (Netherlands)",
+  "date": "15–16 Jul 2026",
+  "sort": "2026-07-15",
+  "duration": "14 hours 55 minutes (Google incident report)",
+  "where": "Netherlands (europe-west4)",
+  "what": "A zone of Google Cloud's Netherlands region went down; Google shut down hosts, storage and switches to prevent heat damage.",
+  "what_nl": "Een zone van de Nederlandse regio van Google Cloud viel uit; Google schakelde hosts, opslag en switches uit om hitteschade te voorkomen.",
+  "kind": "physical",
+  "cause": "Google's incident report, as relayed by Data Center Dynamics and The Register, says an electrical fault (an upstream voltage transient) on the utility grid disrupted both power feeds to the affected row; backup rotary UPS systems could not carry the load, and power distribution and cooling were disrupted. Google's final analysis was reported as still ongoing.",
+  "cause_nl": "Volgens het incidentverslag van Google, zoals weergegeven door Data Center Dynamics en The Register, verstoorde een elektrische fout (een spanningspiek stroomopwaarts op het openbare net) beide stroomtoevoeren naar de getroffen rij; reserve-UPS-systemen konden de belasting niet dragen en stroomverdeling en koeling vielen uit. De definitieve analyse van Google zou nog lopen.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "Region europe-west4 is in the Netherlands. The sources do not say whether Belgian customers were affected, and one report says the exact facility location is unclear.",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.datacenterdynamics.com/en/news/google-cloud-experiences-outage-after-power-and-cooling-failure-in-netherlands-data-center/",
+    "title": "Google Cloud experiences outage after power and cooling failure in Netherlands data center",
+    "publisher": "Data Center Dynamics",
+    "date": "",
+    "type": "trade"
+   },
+   {
+    "url": "https://w.media/electrical-fault-knocked-out-google-clouds-netherlands-zone/",
+    "title": "Electrical fault knocked out Google Cloud's Netherlands zone",
+    "publisher": "W.Media",
+    "date": "",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.theregister.com/off-prem/2026/07/21/google-cloud-outage-shows-its-still-hard-to-understand-hyperscalers-real-resilience-regimes/5275405",
+    "title": "Google Cloud outage shows it's still hard to understand hyperscalers' real resilience regimes",
+    "publisher": "The Register",
+    "date": "2026-07-21",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed 14h55m (Google incident report via DCD/The Register), started 15 Jul, resolved 16 Jul; cause per Google's report: electrical fault/upstream voltage transient on the utility grid affecting both power feeds, DRUPS systems could not carry the load, cooling lost, hosts shut down to avoid heat damage. Removed the 'Eemshaven' location (not found; one outlet says the exact facility, possibly third-party, is unclear). Added The Register URL seen in results. C kept (Google's own report, relayed by DCD/The Register; report not opened)."
+ },
+ {
+  "id": "gcp-london-oct-2026",
+  "company": "Google Cloud",
+  "service": "BigQuery Data Transfer, Cloud Run, GKE and others in europe-west2 (London)",
+  "date": "20 Oct 2026",
+  "sort": "2026-10-20",
+  "duration": "Several hours: began 06:08 UTC; mitigation about 11:36 UTC per one source, most workloads recovered about 14:48 London time per Computer Weekly (sources differ)",
+  "where": "UK (London region)",
+  "what": "Several Google Cloud services in the London region were disrupted; outlets reported knock-on effects at UK banks and apps (including Revolut, Lloyds and HSBC), courts and a parcel firm.",
+  "what_nl": "Verschillende Google Cloud-diensten in de regio Londen werden verstoord; media meldden gevolgen voor Britse banken en apps (onder meer Revolut, Lloyds en HSBC), rechtbanken en een pakjesbedrijf.",
+  "kind": "physical",
+  "cause": "Google's status update said a power event caused an outage within zone europe-west2-b and that it was mitigated. Google's full incident report was not found. Other outlets claim generators failed to engage or that other zones did not absorb the load; these claims are not confirmed by Google.",
+  "cause_nl": "Volgens een statusbericht van Google veroorzaakte een stroomprobleem een storing in zone europe-west2-b en is dat verholpen. Het volledige incidentverslag van Google werd niet gevonden. Andere media beweren dat generatoren niet inschakelden of dat andere zones de belasting niet opvingen; Google heeft dat niet bevestigd.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.theregister.com/paas-and-iaas/2026/10/20/google-cloud-says-a-power-event-caused-todays-outage/5304160",
+    "title": "Google Cloud says a 'power event' caused today's outage",
+    "publisher": "The Register",
+    "date": "2026-10-20",
+    "type": "trade"
+   },
+   {
+    "url": "https://www.computerweekly.com/news/366652539/Google-Cloud-power-event-knocks-out-UK-banks-courts-and-couriers",
+    "title": "Google Cloud power event knocks out UK banks, courts and couriers",
+    "publisher": "Computer Weekly",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed 20 Oct 2026, start 06:08 UTC, Google status text 'A power event caused an outage within europe-west2-b zone. The power event is mitigated.' (The Register: 'Google Cloud says a power event caused today's outage'). Grade moved R to C because the cause statement is Google's own. Computer Weekly: most workloads recovered ~14:48 London time; mitigation 11:36 UTC per one source. UK banks, NHS England and courts named by outlets. Removed claims about cable fault/generators (single secondary sources; another outlet says root cause may be less settled), and removed The Register 'nap' and Technology.org URLs (not seen); added the Register 'power event' and Computer Weekly URLs seen in results. Google's report itself not opened."
+ },
+ {
+  "id": "m365-nov-2026",
+  "company": "Microsoft",
+  "service": "Exchange Online, Outlook, Teams, Copilot, SharePoint",
+  "date": "12–13 Nov 2026",
+  "sort": "2026-11-12",
+  "duration": "About 24 hours (16:20 UTC 12 Nov to 16:10 UTC 13 Nov); sources differ on exact start",
+  "where": "Global",
+  "what": "Exchange Online and Outlook were the worst hit; Teams, Copilot and SharePoint were also disrupted.",
+  "what_nl": "Exchange Online en Outlook waren het zwaarst getroffen; ook Teams, Copilot en SharePoint hadden hinder.",
+  "kind": "technical",
+  "cause": "Microsoft's preliminary report, as relayed by media, points to a latent defect from a July 2026 fix applied to Microsoft 365 networking gateway servers, which became overwhelmed under load after Teams traffic failed over to the gateway shared with Exchange Online; about 14% of that gateway's capacity was also out of service for an unrelated reason. Microsoft said it saw no evidence of malicious activity. The final report was not yet seen.",
+  "cause_nl": "Het voorlopige rapport van Microsoft, zoals door media weergegeven, wijst op een sluimerende fout door een correctie van juli 2026 op netwerkgateways van Microsoft 365, die onder belasting overbelast raakten nadat Teams-verkeer was overgeschakeld naar de gateway die ook Exchange Online gebruikt; ongeveer 14% van de capaciteit van die gateway lag bovendien stil om een andere reden. Microsoft zei geen aanwijzingen voor kwaadwillige activiteit te hebben gezien. Het eindrapport werd nog niet gezien.",
+  "cause_status": "C",
+  "who": "",
+  "europe": "",
+  "background": false,
+  "sources": [
+   {
+    "url": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
+    "title": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
+    "publisher": "SecurityWeek",
+    "date": "",
+    "type": "trade"
+   }
+  ],
+  "checked": "Search confirmed 12-13 Nov 2026 outage (EX1550543 / MO1550821), window 16:20 UTC 12 Nov to 16:10 UTC 13 Nov (= 11:20/11:10 ET), preliminary report (posted ~15-16 Nov in the admin center, quoted by a Microsoft executive on X): latent defect in a July 2026 Windows fix on Microsoft 365 networking gateway servers, Teams traffic failed over to the gateway shared with Exchange Online ~15h earlier, ~14% of gateway capacity out for an unrelated issue; Microsoft saw no malicious activity. Final report was due by 20 Nov and was not seen. Removed the '80% of servers' figure (one outlet only), 'final update 14 Nov' (sources conflict) and the Malwarebytes and Forbes URLs (not seen in results; Forbes title could not be matched). SecurityWeek URL seen. All detail comes from secondary sources: Microsoft's own report not opened, so C is based on reports of Microsoft's preliminary report."
+ }
+]

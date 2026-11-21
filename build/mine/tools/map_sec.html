@@ -1,0 +1,61 @@
+<section id="map">
+<h2>The map: where it happened</h2>
+<p class="sub">@@N@@ entries in @@NC@@ countries and at sea, January 2025 to November 2026. Not all of them are proven attacks. Pick a topic, switch types of attack on and off, move through time, and click a pin to see what is known and how sure it is.</p>
+<details class="mp-help"><summary>How to read this map, and how not to</summary><div class="mp-helpbody">
+<p><b>Two things at once.</b> A <b>pin</b> stands on a place that a source actually names, with a small picture of the type of attack. A <b>numbered box</b> counts the entries where only the country is known, so no pin can be placed; it says nothing about the town, and a line links it to its country when it does not fit inside it.</p>
+<p><b>How sure we are.</b> A <b>filled</b> pin is confirmed: there is solid evidence that it happened. A <b>hollow</b> pin is only reported, claimed or suspected. A <b>grey crossed</b> pin was checked and found not to be an attack, or was never proven. "Not proven" means the evidence is missing, not that nothing happened.</p>
+<ul>
+<li><b>It shows what became public, not everything that happened.</b> A high number mostly means that a country reports openly, not that it is the least safe.</li>
+<li><b>Where a mark sits:</b> @@NPL@@ entries sit on a named place, @@NAP@@ on an approximate area such as a stretch of sea, and @@NCO@@ are counted in the box on their country, because no source names the town.</li>
+<li><b>Month unknown:</b> @@NMO@@ entries carry only a year. They appear under "Up to this month" once the slider passes December of that year, and never under "This month only".</li>
+<li><b>Proof level</b> uses the same levels as the <a href="#evidence">evidence tracker</a>: pale is weakest, deep blue is a court verdict. Only cases studied there have a level; every other pin turns pale.</li>
+<li><b>Who is named</b> colours a pin only where a court, a prosecutor or a government has formally named a country or group. Claims by the attackers themselves and suspicions by researchers stay pale on purpose.</li>
+<li><b>Series that may be linked</b> draws lines from the first entry of a series to the others. A line means "same series", not "same culprit"; the note beside the map says what is and is not proven.</li>
+<li><b>One incident, one pin.</b> Where the same incident appears on several pages of this file it is shown once, and later developments such as a verdict sit inside its own card.</li>
+</ul>
+<p class="pb-nl"><b>NL:</b> Een <b>speld</b> staat op een plaats die een bron echt noemt, met een pictogram van het soort aanval. Een <b>genummerd vakje</b> telt de meldingen waarvan alleen het land bekend is; dat zegt niets over de stad. Een <b>gevulde</b> speld is bevestigd, een <b>holle</b> alleen gemeld, beweerd of vermoed, en een <b>grijze doorkruiste</b> bleek na onderzoek geen aanval, of werd nooit bewezen. "Niet bewezen" betekent dat het bewijs ontbreekt, niet dat er niets gebeurd is. Een hoog cijfer betekent vooral dat een land open rapporteert. Lijnen tussen spelden betekenen "zelfde reeks", niet "zelfde dader". De beschrijvingen van de incidenten zijn in het Engels.</p>
+</div></details>
+<div id="mp" class="mp">
+ <div class="mp-stories"><span class="mp-slabel" data-en="Start with a topic:" data-nl="Begin met een onderwerp:">Start with a topic:</span><span id="mp-story"></span></div>
+ <div class="mp-body">
+  <div class="mp-mapcol" id="mp-mapcol">
+   <div class="mp-top">
+    <button type="button" id="mp-ftog" class="mp-ftog" aria-expanded="false" data-en="Filters and layers" data-nl="Filters en lagen">Filters and layers</button>
+    <div class="mp-row mp-row1">
+     <div class="mp-seg" id="mp-view" role="group" data-t-en="What the map shows" data-t-nl="Wat de kaart toont"><button type="button" data-v="pl" aria-pressed="true" data-en="Places" data-nl="Plaatsen" data-t-en="Show one pin for every named place" data-t-nl="Toon een speld voor elke genoemde plaats">Places</button><button type="button" data-v="tot" aria-pressed="false" data-en="Totals per country" data-nl="Totaal per land" data-t-en="Show one number for every country" data-t-nl="Toon een getal per land">Totals per country</button></div>
+     <label><span data-en="Colour by" data-nl="Kleur volgens">Colour by</span> <select id="mp-mode"><option value="lay" data-en="Type of attack" data-nl="Soort aanval">Type of attack</option><option value="lv" data-en="Proof level" data-nl="Bewijsniveau">Proof level</option><option value="who" data-en="Who is named" data-nl="Wie is aangewezen">Who is named</option></select></label>
+     <label><span data-en="Show" data-nl="Toon">Show</span> <select id="mp-st"><option value="all" data-en="Everything" data-nl="Alles">Everything</option><option value="conf" data-en="Confirmed only" data-nl="Alleen bevestigd">Confirmed only</option><option value="unc" data-en="Reported, claimed or suspected only" data-nl="Alleen gemeld, beweerd of vermoed">Reported only</option><option value="np" data-en="Checked: not an attack, or not proven" data-nl="Onderzocht: geen aanval, of niet bewezen">Not an attack</option></select></label>
+     <label><span data-en="Series that may be linked" data-nl="Reeksen die mogelijk samenhangen">Series that may be linked</span> <select id="mp-camp"><option value="" data-en="None" data-nl="Geen">None</option></select></label>
+     <label class="mp-shade"><input type="checkbox" id="mp-shade"> <span data-en="Shade countries by how much is shown" data-nl="Landen kleuren naar hoeveel er getoond wordt">Shade countries by how much is shown</span></label>
+    </div>
+    <details class="mp-lays" id="mp-lays" open><summary><span data-en="Types of attack" data-nl="Soorten aanvallen">Types of attack</span> <small id="mp-laycount"></small></summary><div class="mp-lay" id="mp-lay"></div></details>
+    <div class="mp-lay mp-layprep" id="mp-layprep"></div>
+    <div class="mp-time">
+     <button type="button" id="mp-play" data-t-en="Play through the months" data-t-nl="Speel de maanden af">&#9654;</button>
+     <input type="range" id="mp-t" min="0" max="23" value="23" step="1" data-t-en="Time" data-t-nl="Tijd">
+     <select id="mp-tm" data-t-en="How the time slider works" data-t-nl="Hoe de tijdschuif werkt"><option value="cum" data-en="Up to this month" data-nl="Tot en met deze maand">Up to this month</option><option value="one" data-en="This month only" data-nl="Alleen deze maand">This month only</option></select>
+     <b id="mp-tl"></b>
+    </div>
+   </div>
+   <div class="mp-wrap" id="mp-wrap">
+    <button type="button" class="mp-skip" data-en="Skip the map: go to the list of entries" data-nl="Kaart overslaan: naar de lijst met meldingen">Skip the map: go to the list of entries</button>
+    <div class="mp-printnote" id="mp-printnote"></div>
+    <svg id="mp-svg" viewBox="0 0 @@W@@ @@H@@" role="group" data-t-en="Map of Europe with the entries of this file. Use the arrow keys to move between pins." data-t-nl="Kaart van Europa met de meldingen uit dit dossier. Gebruik de pijltjestoetsen om tussen spelden te bewegen."><rect class="mp-sea" x="-2000" y="-2000" width="5000" height="5000"/>@@LAND@@<g id="mp-sealbl"></g><g id="mp-lines"></g><g id="mp-mk"></g><g id="mp-lbl"></g><g id="mp-pl"></g><g id="mp-badge"></g></svg>
+    <div class="mp-zoom"><button type="button" data-z="in" data-t-en="Zoom in" data-t-nl="Inzoomen">+</button><button type="button" data-z="out" data-t-en="Zoom out" data-t-nl="Uitzoomen">&#8722;</button><button type="button" data-z="reset" data-t-en="Fit the whole map" data-t-nl="Hele kaart tonen">&#10226;</button><button type="button" data-z="tall" id="mp-tall" data-t-en="Wide view: use the full width" data-t-nl="Brede weergave: volledige breedte" aria-pressed="false">&#8660;</button><button type="button" data-z="full" id="mp-full" data-t-en="Full screen" data-t-nl="Volledig scherm">&#9974;</button></div>
+    <div class="mp-count" id="mp-count" role="status" aria-live="polite"></div>
+    <div class="mp-wheelhint" id="mp-wheelhint" aria-hidden="true"></div>
+    <div class="mp-drawer" id="mp-drawer" role="status" aria-live="polite"></div>
+   </div>
+   <div class="mp-legend" id="mp-legend"></div>
+  </div>
+  <aside class="mp-panel" id="mp-panel">
+   <div class="mp-card" id="mp-card" role="status" aria-live="polite"></div>
+   <div class="mp-campnote" id="mp-campnote"></div>
+   <div class="mp-pbox"><h4 data-en="When it happened" data-nl="Wanneer het gebeurde">When it happened</h4><div class="mp-spark" id="mp-spark"></div><div class="mp-years" id="mp-years"></div><p class="mp-hint" id="mp-sparkhint"></p></div>
+   <div class="mp-pbox"><h4 data-en="Where it happened" data-nl="Waar het gebeurde">Where it happened</h4><div id="mp-cbars"></div><p class="mp-hint" data-en="A high number mostly means a country reports openly." data-nl="Een hoog cijfer betekent vooral dat een land open rapporteert.">A high number mostly means a country reports openly.</p></div>
+   <div class="mp-pbox"><h4 data-en="Types shown" data-nl="Getoonde soorten">Types shown</h4><div id="mp-lbars"></div></div>
+  </aside>
+ </div>
+ <details class="mp-listbox" id="mp-listbox"><summary id="mp-listsum" tabindex="0"></summary><div id="mp-list"></div></details>
+</div>
+</section>

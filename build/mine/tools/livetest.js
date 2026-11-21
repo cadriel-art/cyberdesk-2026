@@ -1,0 +1,34 @@
+const { chromium } = require('playwright');
+const S='/home/user/cyberdesk-2026/build/mine/';
+const URL='file://'+S+'cyber-desk-offline.html#news';
+const px=process.env.HTTPS_PROXY;
+let fails=0;const ok=(c,m)=>{console.log((c?'PASS ':'FAIL ')+m);if(!c)fails++;};
+(async()=>{
+ const b=await chromium.launch(px?{proxy:{server:px}}:{});
+ async function open(w,block){const c=await b.newContext({viewport:{width:w,height:900},deviceScaleFactor:1,ignoreHTTPSErrors:true});const p=await c.newPage();p.errs=[];
+  p.on('pageerror',e=>p.errs.push(e.message));
+  if(block)await p.route(/rtbf|bruzz|err\.ee|therecord|cybersecuritydive|darkreading|welivesecurity/,r=>r.abort());
+  await p.goto(URL);await p.waitForSelector('#nw-live',{state:'attached'});return p;}
+ const settle=p=>p.waitForFunction(()=>{const e=document.getElementById('nw-live');return e&&!/Reading the feeds/.test(e.textContent)&&e.textContent.length>0},null,{timeout:20000}).catch(()=>{});
+ let p=await open(1280);await settle(p);
+ console.log(await p.evaluate(()=>document.querySelector('#nw-live .nw-state')?.textContent||document.getElementById('nw-live').innerText));
+ const rows=await p.evaluate(()=>[...document.querySelectorAll('.nw-lr')].map(r=>r.innerText.replace(/\n+/g,' | ').slice(0,230)));
+ console.log('rows shown:',rows.length);rows.slice(0,5).forEach(r=>console.log('  -',r));
+ ok(await p.evaluate(()=>document.querySelectorAll('.nw-lr a[href^="http"][rel="noopener noreferrer"]').length)===rows.length,'all links http(s) + noopener');
+ ok(await p.evaluate(()=>document.querySelectorAll('#nw-live img,#nw-live script').length)===0,'no img/script injected');
+ await p.screenshot({path:S+'live-1280.png',fullPage:false});
+ await p.evaluate(()=>document.getElementById('nw-live').scrollIntoView());await p.screenshot({path:S+'live-1280.png'});
+ await p.evaluate(()=>{document.getElementById('nw-feeds').open=true});
+ ok(await p.evaluate(()=>/Also live in the saved file/.test(document.getElementById('nw-feeds').innerText)),'feeds card pill');
+ ok(await p.evaluate(()=>document.querySelectorAll('#nw-feeds .nw-pill.of').length)===7,'7 pills');
+ await p.click('#nw-live-re');await settle(p);await p.waitForTimeout(500);
+ ok(await p.evaluate(()=>!!document.querySelector('#nw-live .nw-state')),'reload works');
+ ok(p.errs.length===0,'no page errors '+JSON.stringify(p.errs));
+ const p2=await open(390);await settle(p2);await p2.evaluate(()=>document.getElementById('nw-live').scrollIntoView());await p2.screenshot({path:S+'live-390.png'});
+ ok(await p2.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'390 no h-overflow');
+ const p3=await open(1280,true);await settle(p3);await p3.waitForTimeout(500);
+ const t=await p3.evaluate(()=>document.getElementById('nw-live').innerText.trim());console.log('blocked ->',t);
+ ok(/Live headlines work in the saved file/.test(t)&&!/Reload/.test(t),'fallback line only');
+ ok(p3.errs.length===0,'no page errors (blocked) '+JSON.stringify(p3.errs));
+ await b.close();console.log(fails?'FAILURES':'ALL PASS');
+})();
