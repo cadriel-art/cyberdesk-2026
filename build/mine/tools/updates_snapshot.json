@@ -1,0 +1,176 @@
+[
+ {
+  "body": "Checked and added: Denmark's security service PET says Russian intelligence planned a plot to kill a Ukrainian rapper; two Danes are charged and Russia's defence attaché must leave (not yet tried in court). Poland: prosecutors charged two Ukrainians over graffiti on Poznań monuments, saying one acted for Russian intelligence; the government says it prevented a planned Russian 'false-flag' operation at the border (no evidence published); two Russian missiles and a probable drone came down in south-eastern Poland. Estonia: a drone alert in the north-east was issued and lifted; Tallinn's public transport company TLT had employee data copied from its website. Belgium: a letter with powder was found at a federal police office in Antwerp; the Proximus phone outage of 20 November was a software error, not an attack. Germany's BSI calls the situation 'tense to critical'. The Belgian entries in the register now also have a Dutch text.",
+  "body_nl": "Gecontroleerd en toegevoegd: de Deense veiligheidsdienst PET zegt dat de Russische inlichtingendienst een plan opzette om een Oekraïense rapper te vermoorden; twee Denen zijn aangeklaagd en de Russische defensieattaché moet vertrekken (nog niet voor de rechter). Polen: het parket klaagde twee Oekraïners aan voor graffiti op monumenten in Poznań en zegt dat een van hen voor de Russische inlichtingendienst werkte; de regering zegt een geplande Russische 'false flag'-operatie aan de grens te hebben voorkomen (geen bewijs gepubliceerd); twee Russische raketten en waarschijnlijk een drone kwamen neer in het zuidoosten van Polen. Estland: een drone-alarm in het noordoosten werd uitgestuurd en ingetrokken; bij het vervoerbedrijf TLT van Tallinn werden personeelsgegevens van de website gekopieerd. België: op een kantoor van de federale politie in Antwerpen werd een brief met poeder gevonden; de storing bij Proximus van 20 november was een softwarefout, geen aanval. Het Duitse BSI noemt de toestand 'gespannen tot kritiek'. De Belgische items in het register hebben nu ook een Nederlandse tekst.",
+  "date": "21 Nov 2026",
+  "order": 16,
+  "source": "Euronews, Notes from Poland, ERR, VRT NWS, ITdaily, BSI, The Record (20–21 Nov 2026)",
+  "tag": "New",
+  "title": "Denmark, Poland, Estonia, an Antwerp powder letter, and Belgian register entries in Dutch",
+  "title_nl": "Denemarken, Polen, Estland, een poederbrief in Antwerpen, en Belgische registeritems in het Nederlands",
+  "id": "u20261121a"
+ },
+ {
+  "body": "The morning news check now reads 45 feeds, among them the cyber agencies of France (CERT-FR), Finland and Estonia (CERT-EE), ITdaily and DroneWatch. In Dutch mode the evidence ladder, its filters, the map's country names and dates, month headings and the print page are now in Dutch. Live headlines in the saved file no longer pick up unrelated items such as 'hybrid work' or 'cable car'. Moved links to Euronews and a VRT live blog are updated, and one VRT source label now says the page leads with Minister Prevot saying the data do not suffice to hold Iran responsible.",
+  "body_nl": "De ochtendcontrole van het nieuws leest nu 45 feeds, onder meer de cyberagentschappen van Frankrijk (CERT-FR), Finland en Estland (CERT-EE), ITdaily en DroneWatch. In de Nederlandse modus staan de bewijsladder, de filters ervan, de landnamen en datums op de kaart, de maandtitels en de afdrukpagina nu in het Nederlands. Live koppen in het opgeslagen bestand pikken geen onverwante berichten meer op zoals 'hybride werken' of 'kabelbaan'. Verhuisde links naar Euronews en een VRT-liveblog zijn bijgewerkt, en één VRT-bronlabel vermeldt nu dat de pagina opent met minister Prevot die zegt dat de gegevens niet volstaan om Iran verantwoordelijk te houden.",
+  "date": "20 Nov 2026",
+  "order": 15,
+  "source": "Feed and link check of 20 Nov 2026",
+  "tag": "New",
+  "title": "45 news feeds read daily, more in Dutch, moved links fixed",
+  "title_nl": "45 nieuwsfeeds dagelijks gelezen, meer in het Nederlands, verhuisde links hersteld",
+  "id": "u20261120g"
+ },
+ {
+  "body": "Corrections: education incidents in the register went from 1 (2025) to 11 (2026), not 45; health is the second most-hit sector after government, not the first; AZ Monica had its main systems back after about five weeks (one figure everywhere); 13 October to 2 November is 20 days, not 19; items without a known month are now under 'Month not known' instead of January; the French freezer case is one step lower on the evidence ladder because arrest warrants were only requested; Bulgaria's case is no longer labelled espionage; blame in the Cyprus, Czechia and Leipzig entries is now attributed to who says it. Sources: 8 missing sources added, companies moved out of 'Official', three wrong publisher labels fixed. Easier reading: clearer status tags in light and dark mode, 'Terms on this page' closed by default, much more of the screen in Dutch in NL mode, a bigger map in full screen, a better map panel on phones, and a 'Skip to content' link.",
+  "body_nl": "Correcties: onderwijsincidenten in het register gingen van 1 (2025) naar 11 (2026), niet 45; zorg is de tweede meest getroffen sector na overheid, niet de eerste; AZ Monica had zijn belangrijkste systemen na ongeveer vijf weken terug (overal hetzelfde cijfer); 13 oktober tot 2 november is 20 dagen, niet 19; items zonder bekende maand staan nu onder 'Maand niet bekend' in plaats van januari; de Franse diepvrieszaak staat een trede lager op de bewijsladder omdat aanhoudingsbevelen enkel werden gevraagd; de Bulgaarse zaak heet niet langer spionage; de schuld in de items over Cyprus, Tsjechië en Leipzig wordt nu toegeschreven aan wie het zegt. Bronnen: 8 ontbrekende bronnen toegevoegd, bedrijven niet langer onder 'Officiële bronnen', drie verkeerde uitgeverslabels verbeterd. Vlotter lezen: duidelijkere statuslabels in licht en donker, 'Begrippen op deze pagina' standaard dicht, veel meer van het scherm in het Nederlands in NL-modus, een grotere kaart op volledig scherm, een beter kaartpaneel op de gsm, en een link 'Naar de inhoud'.",
+  "date": "20 Nov 2026",
+  "order": 14,
+  "source": "Audit of 20 Nov 2026",
+  "tag": "Check",
+  "title": "Full check of the file: corrections and easier reading",
+  "title_nl": "Volledige controle van het dossier: correcties en vlotter lezen",
+  "id": "u20261120f"
+ },
+ {
+  "body": "The European Commission's spokesperson confirmed on 19 November an 'AI-generated cyber campaign', first detected on 22 October; staff services such as payroll and leave requests were offline for more than ten days. The Commission found no evidence of a breach affecting staff as a whole and knows of no ransom demand; it did not name the tool or the attackers. Politico reports CERT-EU identified the AI tool ARTEX; not confirmed by the Commission. New in the register: Skagerak Energi (Norway) said on 18 November that outsiders broke into some of its IT systems, with operations unaffected. Equinor said on 20 November that the attack on it has been stopped. Whether the two are linked is not known; nobody is named.",
+  "body_nl": "De woordvoerder van de Europese Commissie bevestigde op 19 november een 'door AI gegenereerde cybercampagne', voor het eerst ontdekt op 22 oktober; personeelsdiensten zoals loonbetaling en verlofaanvragen lagen meer dan tien dagen plat. De Commissie vond geen bewijs van een lek dat het personeel als geheel treft en weet van geen losgeldeis; ze noemde het hulpmiddel noch de aanvallers. Volgens Politico identificeerde CERT-EU het AI-hulpmiddel ARTEX; niet bevestigd door de Commissie. Nieuw in het register: Skagerak Energi (Noorwegen) meldde op 18 november dat buitenstaanders in een deel van zijn IT-systemen waren binnengedrongen, zonder gevolgen voor de werking. Equinor zei op 20 november dat de aanval op het bedrijf is gestopt. Of beide samenhangen is niet bekend; niemand wordt aangewezen.",
+  "date": "20 Nov 2026",
+  "order": 13,
+  "source": "The Record (19 Nov 2026), Industrial Cyber (20 Nov 2026), Dark Reading (19 Nov 2026)",
+  "tag": "Check",
+  "title": "Commission confirms 'AI-generated' attack; second Norwegian energy company hit",
+  "title_nl": "Commissie bevestigt 'door AI gegenereerde' aanval; tweede Noors energiebedrijf getroffen",
+  "id": "u20261120e"
+ },
+ {
+  "body": "When you open the saved HTML file in your browser, the News reader now also shows live headlines read straight from 7 publishers that allow it: RTBF, Bruzz, ERR, The Record, Cybersecurity Dive, Dark Reading and WeLiveSecurity. Only the last 72 hours and only on the subjects of this file. These are the publishers' own headlines, not checked by us. The checked news list stays below.",
+  "body_nl": "Wanneer je het opgeslagen HTML-bestand in je browser opent, toont de nieuwslezer nu ook live koppen, rechtstreeks gelezen bij 7 uitgevers die dat toelaten: RTBF, Bruzz, ERR, The Record, Cybersecurity Dive, Dark Reading en WeLiveSecurity. Enkel de laatste 72 uur en enkel over de onderwerpen van dit dossier. Het zijn de koppen van de uitgevers zelf, niet door ons gecontroleerd. De gecontroleerde nieuwslijst staat eronder.",
+  "date": "20 Nov 2026",
+  "order": 12,
+  "source": "Feed check of 20 Nov 2026",
+  "tag": "New",
+  "title": "Live headlines in the saved file",
+  "title_nl": "Live koppen in het opgeslagen bestand",
+  "id": "u20261120d"
+ },
+ {
+  "body": "The News reader now shows where its news comes from: 51 news feeds of official bodies and media, most of them sources already used in this file. 36 are read every morning, among them Belgium's National Crisis Centre, VRT NWS, RTBF and Bruzz, CERT-EU, Europol, Eurojust, the Council of the EU, Germany's BSI and BBK, the Dutch NCSC, CERT Polska and The Record. The others cannot be reached yet or block automatic reading. The new button 'Fetch today's news' starts the news check right away; new items appear in the list a few minutes later. Only the owner of the file can use it.",
+  "body_nl": "De nieuwslezer toont nu waar het nieuws vandaan komt: 51 nieuwsfeeds van officiële instanties en media, de meeste al gebruikt als bron in dit dossier. 36 worden elke ochtend gelezen, onder meer het Belgische Nationaal Crisiscentrum, VRT NWS, RTBF en Bruzz, CERT-EU, Europol, Eurojust, de Raad van de EU, het Duitse BSI en BBK, het Nederlandse NCSC, CERT Polska en The Record. De andere zijn nog niet bereikbaar of blokkeren automatisch lezen. De nieuwe knop 'Nieuws van vandaag ophalen' start de nieuwscontrole meteen; nieuwe berichten verschijnen enkele minuten later in de lijst. Alleen de eigenaar van het dossier kan hem gebruiken.",
+  "date": "20 Nov 2026",
+  "order": 11,
+  "source": "Feed check of 20 Nov 2026",
+  "tag": "New",
+  "title": "News reader: its sources, and a button to fetch today's news",
+  "title_nl": "Nieuwslezer: de bronnen, en een knop om het nieuws van vandaag op te halen",
+  "id": "u20261120c"
+ },
+ {
+  "body": "The ENISA box on 'Two years in numbers' is now checked against the full ENISA Threat Landscape 2026 report instead of news coverage, and shows its exact figures: 51.3% DDoS, 39.5% break-ins, 31.8% public administration, 73% of incidents at NIS2 organisations. Added: why attacks happened (57.3% activist or political, 29.3% money, 5.9% spying by state-linked groups) and the next four most-hit sectors. The report itself gives 6.3% for spying in one chapter and 29.2% for money; we show the figures from its summary. Correction: the 47.6% Russia, 15.5% China, 14.1% North Korea and 9% Iran figures are shares of the state-linked spying groups ENISA tracked, not of all activity linked to a state, as the file said before.",
+  "body_nl": "Het ENISA-kader op 'Twee jaar in cijfers' is nu gecontroleerd met het volledige rapport ENISA Threat Landscape 2026 in plaats van nieuwsberichten, en toont de exacte cijfers: 51,3% DDoS, 39,5% inbraken, 31,8% openbaar bestuur, 73% van de incidenten bij NIS2-organisaties. Toegevoegd: waarom aanvallen gebeurden (57,3% activistisch of politiek, 29,3% geld, 5,9% spionage door groepen gelinkt aan staten) en de vier volgende meest getroffen sectoren. Het rapport zelf geeft in één hoofdstuk 6,3% voor spionage en 29,2% voor geld; wij tonen de cijfers uit de samenvatting. Correctie: de cijfers 47,6% Rusland, 15,5% China, 14,1% Noord-Korea en 9% Iran zijn aandelen van de spionagegroepen gelinkt aan staten die ENISA volgde, niet van alle activiteit gelinkt aan een staat, zoals het dossier eerder zei.",
+  "date": "20 Nov 2026",
+  "order": 10,
+  "source": "ENISA Threat Landscape 2026, full report (enisa.europa.eu), read 20 Nov 2026",
+  "tag": "Check",
+  "title": "ENISA figures checked against the report itself",
+  "title_nl": "ENISA-cijfers gecontroleerd met het rapport zelf",
+  "id": "u20261120b"
+ },
+ {
+  "body": "The map has a new layer 'Stock-up advice by country' (off by default): solid amber where the authority itself gives advice, striped where it was only reported in the media, grey grid where none was found; labels show how long to stock up for, and an envelope means every household got it in the mail. Click a country for its advice. The layer is not an incident and does not change any count. On 'Two years in numbers', a closed box now shows the figures of ENISA, the EU cybersecurity agency, as it published them on 22 September 2026: 8,257 incidents in the EU in 2025, about half (51%) DDoS attacks, 39.5% break-ins, public administration the most targeted (about 32%), and 73% of targeted organisations covered by the NIS2 law. These are ENISA's figures, counted differently from this register.",
+  "body_nl": "De kaart heeft een nieuwe laag 'Voorraadadvies per land' (standaard uit): effen oranje waar de overheid zelf advies geeft, gestreept waar het enkel via media bekend is, grijs raster waar niets werd gevonden; labels tonen hoe lang men een voorraad moet hebben, en een envelop betekent dat elk huishouden het per post kreeg. Klik op een land voor het advies. De laag is geen incident en verandert geen enkele telling. Op 'Twee jaar in cijfers' staat nu een gesloten kader met de cijfers van ENISA, het cyberbeveiligingsagentschap van de EU, zoals het die op 22 september 2026 publiceerde: 8.257 incidenten in de EU in 2025, ongeveer de helft (51%) DDoS-aanvallen, 39,5% inbraken, openbaar bestuur het vaakst geviseerd (ongeveer 32%), en 73% van de getroffen organisaties valt onder de NIS2-wet. Dit zijn de cijfers van ENISA, anders geteld dan dit register.",
+  "date": "20 Nov 2026",
+  "order": 9,
+  "source": "ENISA Threat Landscape 2026 (22 Sep 2026); Help Net Security; Industrial Cyber; national civil-protection agencies",
+  "tag": "New",
+  "title": "New: stock-up advice on the map, and the EU's own count for 2025",
+  "title_nl": "Nieuw: voorraadadvies op de kaart, en de eigen telling van de EU voor 2025",
+  "id": "u20261120a"
+ },
+ {
+  "body": "New page in People: 27 of the 31 countries have advice to keep an emergency stock at home (18 confirmed by the authority itself, 9 only via media); for Bulgaria, Greece, Hungary and Malta none was found. Most say 72 hours; Estonia, Norway, Sweden and Switzerland about a week; Austria 10 to 14 days. 15 countries launched a new campaign, guide or mailing in 2025–2026, and printed material reached every household in 8. Belgium's National Crisis Centre launched 'Samen voorbereid' on 21 April 2026. The European Commission's non-binding guidelines of 30 October 2026 ask member states to help households cope for at least 72 hours. Authorities present it as precaution, not as a warning that an attack is coming.",
+  "body_nl": "Nieuwe pagina bij Mensen: 27 van de 31 landen raden aan thuis een noodvoorraad te hebben (18 bevestigd door de overheid zelf, 9 enkel via media); voor Bulgarije, Griekenland, Hongarije en Malta werd niets gevonden. De meeste zeggen 72 uur; Estland, Noorwegen, Zweden en Zwitserland ongeveer een week; Oostenrijk 10 tot 14 dagen. 15 landen startten in 2025–2026 een nieuwe campagne, gids of bedeling, en in 8 landen kreeg elk huishouden drukwerk. Het Belgische Nationaal Crisiscentrum lanceerde 'Samen voorbereid' op 21 april 2026. De niet-bindende richtsnoeren van de Europese Commissie van 30 oktober 2026 vragen de lidstaten om huishoudens te helpen minstens 72 uur zelf rond te komen. Overheden stellen het voor als voorzorg, niet als waarschuwing dat er een aanval komt.",
+  "date": "19 Nov 2026",
+  "order": 8,
+  "source": "NCCN, European Commission C(2026) 8250 and SWD(2026) 826, national civil-protection agencies, VRT NWS and other media; research of 19 Nov 2026",
+  "tag": "New",
+  "title": "New: what governments tell people to keep in stock",
+  "title_nl": "Nieuw: wat overheden mensen aanraden in voorraad te houden",
+  "id": "u20261119c"
+ },
+ {
+  "body": "European Commission: internal staff applications, including the HR system Sysper, have been offline for about ten days after a cyber campaign detected on 22 October, according to an EU official; the Commission says it has no evidence of a data breach affecting staff as a whole, while Politico reported that personal data may have been exposed; nobody is named. Also new in the register: Bulgaria (government document systems entered since 2021), Equinor (attack still ongoing on 19 November, production unaffected), Lithuania's customs portal, Maileva/La Poste (22 million mail recipients), Chargemap and about 40 Irish credit unions through their software supplier. United States: separate outages at the FAA (13 November), JPMorgan Chase and United (16 November), Apple, Marriott and the NSA's internal network (17 November) and PlayStation Network (18 November); on 18 November US officials said there was no indication of a cyberattack and that the incidents were not related. We found no major US outage on 19 November itself. Corrections: Estonia's border announcement concerns the three road crossings from 1 December and is not yet a formal government decision. The evidence tracker no longer counts the Sky ECC and EncroChat court rulings as verdicts on attacks (court verdicts: 10 → 8).",
+  "body_nl": "Europese Commissie: interne toepassingen voor het personeel, waaronder het hr-systeem Sysper, liggen al ongeveer tien dagen plat na een cybercampagne die volgens een EU-functionaris op 22 oktober werd ontdekt; de Commissie zegt geen bewijs te hebben van een datalek bij het personeel als geheel, terwijl Politico meldde dat persoonsgegevens mogelijk zijn blootgesteld; niemand is aangewezen. Ook nieuw in het register: Bulgarije (documentsystemen van de overheid sinds 2021 binnengedrongen), Equinor (aanval op 19 november nog bezig, productie niet geraakt), het douaneportaal van Litouwen, Maileva/La Poste (22 miljoen postontvangers), Chargemap en een veertigtal Ierse kredietunies via hun softwareleverancier. Verenigde Staten: aparte storingen bij de FAA (13 november), JPMorgan Chase en United (16 november), Apple, Marriott en het interne netwerk van de NSA (17 november) en PlayStation Network (18 november); op 18 november zeiden Amerikaanse functionarissen dat er geen aanwijzing is voor een cyberaanval en dat de incidenten niet samenhangen. Voor 19 november zelf vonden we geen grote Amerikaanse storing. Correcties: de Estse aankondiging gaat over de drie wegovergangen vanaf 1 december en is nog geen formele regeringsbeslissing. De bewijstracker telt de uitspraken over Sky ECC en EncroChat niet langer als vonnissen over aanvallen (vonnissen: 10 → 8).",
+  "date": "19 Nov 2026",
+  "order": 7,
+  "source": "Research and fact-check of 19 Nov 2026: Politico, AP, AFP, Reuters, CNN, Washington Post, CNBC, The Record, BTA, RTÉ, VRT NWS, franceinfo, ERR",
+  "tag": "Check",
+  "title": "18–19 November: the European Commission, Bulgaria, Equinor, and the US outage week",
+  "title_nl": "18–19 november: de Europese Commissie, Bulgarije, Equinor en de Amerikaanse storingsweek",
+  "id": "u20261119b"
+ },
+ {
+  "body": "New page: 47 outages at the world's biggest online services and companies since January 2025, plus 5 from 2024, each with what caused it, who is blamed and how firm that is. 22 were cyberattacks; 17 were the companies' own technical faults or changes, 4 were power or cooling failures, and 4 have no published cause. In only 1 attack has an authority formally named a culprit. Corrections: Paris prosecutors opened a judicial investigation and requested international arrest warrants over the freezer attacks; the file wrongly said they had issued them. The French foreign minister declined to say whether Iran was behind the attack on the blood service's cold rooms, and the Paris prosecutor has not linked it to the supermarket cases.",
+  "body_nl": "Nieuwe pagina: 47 storingen bij de grootste onlinediensten en bedrijven ter wereld sinds januari 2025, plus 5 uit 2024, telkens met de oorzaak, wie de schuld krijgt en hoe stevig dat is. 22 waren cyberaanvallen; 17 waren eigen technische fouten of wijzigingen bij de bedrijven, 4 waren stroom- of koelingsproblemen en voor 4 is geen oorzaak bekendgemaakt. Bij maar 1 aanval heeft een overheid formeel een dader aangewezen. Correcties: het Parijse parket opende een gerechtelijk onderzoek en vroeg internationale aanhoudingsbevelen aan voor de diepvriesaanvallen; het dossier zei ten onrechte dat ze waren uitgevaardigd. De Franse minister van Buitenlandse Zaken wilde niet zeggen of Iran achter de aanval op de koelcellen van de bloeddienst zat, en het Parijse parket heeft die niet gelinkt aan de supermarktzaken.",
+  "date": "19 Nov 2026",
+  "order": 6,
+  "source": "Research and fact-check of 19 Nov 2026; CBC, Al Jazeera, NBC News, Iran International, TechCrunch",
+  "tag": "New",
+  "title": "New: Global outages, and two corrections",
+  "title_nl": "Nieuw: wereldwijde storingen, en twee correcties",
+  "id": "u20261119a"
+ },
+ {
+  "body": "Three new pages. The map shows 363 incidents in layers, with a time slider and a card for each mark. The news reader is refreshed once a day; its items are not verified until they are written into a subject page. The intel desk gives the week in brief, the latest steps on the proof ladder and a watchlist. Re-check of 16 November: Belgium has still not formally blamed anyone for the freezer attacks; no date for the next round on chat control; the cause of the 9 November satellite-signal loss is not confirmed, Dutch air traffic control calls deliberate jamming plausible.",
+  "body_nl": "Drie nieuwe pagina's. De kaart toont 363 incidenten in lagen, met een tijdschuif en een kaartje per teken. De nieuwslezer wordt één keer per dag ververst; de berichten zijn niet geverifieerd tot ze op een onderwerppagina staan. De inlichtingendesk geeft de week in het kort, de laatste stappen op de bewijsladder en een volglijst. Controle van 16 november: België heeft nog altijd niemand formeel aangewezen voor de diepvriesaanvallen; geen datum voor de volgende ronde over chat control; de oorzaak van het verlies van satellietsignalen op 9 november is niet bevestigd, de Nederlandse luchtverkeersleiding noemt opzettelijke storing aannemelijk.",
+  "date": "16 Nov 2026",
+  "order": 5,
+  "source": "Searches of 16 Nov 2026",
+  "tag": "New",
+  "title": "New: the map, the news reader and the intel desk",
+  "title_nl": "Nieuw: de kaart, de nieuwslezer en de inlichtingendesk",
+  "id": "u20261116a"
+ },
+ {
+  "body": "On 12 November Interior Minister Quintin said there are enough elements to say Iran is very probably behind the freezer attacks in Belgium. Foreign Minister Prévot says the information is not enough, and the federal prosecutor cannot confirm it at this stage. The Dutch justice ministry found no indication of Iranian involvement in the Netherlands. Officially, Belgium has named nobody.",
+  "body_nl": "Op 12 november zei minister van Binnenlandse Zaken Quintin dat er voldoende elementen zijn om te zeggen dat Iran heel waarschijnlijk achter de diepvriesaanvallen in België zit. Minister van Buitenlandse Zaken Prévot zegt dat de informatie niet volstaat, en het federaal parket kan het in dit stadium niet bevestigen. Het Nederlandse ministerie van Justitie vond geen aanwijzingen voor Iraanse betrokkenheid in Nederland. Officieel heeft België niemand aangewezen.",
+  "date": "15 Nov 2026",
+  "order": 4,
+  "source": "VRT NWS (10 and 12 Nov 2026), AG Connect",
+  "tag": "Attribution",
+  "title": "A Belgian minister points at Iran; the prosecutor does not confirm",
+  "title_nl": "Een Belgische minister wijst naar Iran; het parket bevestigt niet",
+  "id": "u20261115a"
+ },
+ {
+  "body": "Belgian freezer wave: still not attributed. Foreign Minister Prévot said on 10 November that Belgium takes the French information very seriously, but Belgian authorities have no evidence linking Iran or anyone else to the Belgian incidents. Iran rejects the French accusation as baseless. EU sanctions: reported to be on the agenda of next week's meeting of EU foreign ministers; not confirmed by an official agenda. Cybersecurity Act 2: no committee vote date set. Payment Services Regulation: no date for Parliament's final vote found. Transfer of the cyber centre to Home Affairs: no publication of the decree found. Energy: no new incident at Elia, Fluvius or any Belgian energy site; no Belgian figure for exposed energy systems.",
+  "body_nl": "Belgische diepvriesgolf: nog altijd niet toegewezen. Minister van Buitenlandse Zaken Prévot zei op 10 november dat België de Franse informatie zeer ernstig neemt, maar de Belgische autoriteiten hebben geen bewijs dat Iran of iemand anders aan de Belgische incidenten koppelt. Iran noemt de Franse beschuldiging ongegrond. Europese sancties: zouden volgende week op de agenda staan van de EU-ministers van Buitenlandse Zaken; niet bevestigd door een officiële agenda. Cybersecurity Act 2: nog geen datum voor de stemming in de commissie. Betaaldienstenverordening: geen datum gevonden voor de eindstemming in het Parlement. Overdracht van het cybercentrum naar Binnenlandse Zaken: geen publicatie van het besluit gevonden. Energie: geen nieuw incident bij Elia, Fluvius of een Belgische energiesite; geen Belgisch cijfer voor blootgestelde energiesystemen.",
+  "date": "12 Nov 2026",
+  "order": 4,
+  "source": "Brussels Times, Reuters, CNN (9–11 Nov 2026); searches of 12 Nov 2026",
+  "tag": "Check",
+  "title": "Thursday check: no change to the main answers",
+  "title_nl": "Controle van donderdag: de hoofdantwoorden blijven gelden",
+  "id": "u20261112a"
+ },
+ {
+  "body": "France, 5 November: the banking group Crédit Mutuel Arkéa, parent of the Belgian Keytrade Bank, reported a loss of more than €100 million through a cyberattack; no financial consequences for customers are reported. Denmark, 11 November: shipping company Maersk confirmed a breach of an older system; a ransomware group demands $5 million. Latvia, 11 November: a telecom provider left a database of more than 125 million text messages exposed, including bank notifications and login codes of Swedbank, SEB and airBaltic customers. Romania: Russia-linked spies were reported to have read government email on compromised servers. A Check Point report says attacks on Belgian organisations rose 43% between July and September, the highest in the Benelux.",
+  "body_nl": "Frankrijk, 5 november: de bankgroep Crédit Mutuel Arkéa, moederbedrijf van het Belgische Keytrade Bank, meldde een verlies van meer dan 100 miljoen euro door een cyberaanval; er zijn geen financiële gevolgen voor klanten gemeld. Denemarken, 11 november: rederij Maersk bevestigde een inbraak in een ouder systeem; een ransomwaregroep eist 5 miljoen dollar. Letland, 11 november: een telecomleverancier liet een databank met meer dan 125 miljoen sms-berichten onbeschermd, met bankmeldingen en inlogcodes van klanten van Swedbank, SEB en airBaltic. Roemenië: aan Rusland gelinkte spionnen zouden e-mail van de regering gelezen hebben op gecompromitteerde servers. Volgens een rapport van Check Point steeg het aantal aanvallen op Belgische organisaties met 43% tussen juli en september, het hoogste in de Benelux.",
+  "date": "12 Nov 2026",
+  "order": 3,
+  "source": "VRT NWS, BleepingComputer, Cybernews, ICT Magazine (4–11 Nov 2026)",
+  "tag": "New incidents",
+  "title": "New incidents in Europe since 10 November",
+  "title_nl": "Nieuwe incidenten in Europa sinds 10 november",
+  "id": "u20261112b"
+ },
+ {
+  "body": "On 9 November France attributed the 11–12 October sabotage of about 700 supermarket sites to Shahid Kaveh, a unit of Iran's Revolutionary Guards, summoned Iran's ambassador and will propose EU sanctions. The November wave that hit Belgium is not attributed, and US agencies reportedly have only low confidence in the Iran link.",
+  "date": "10 Nov 2026",
+  "order": 2,
+  "source": "France 24, NPR, Axios (9–10 Nov 2026)",
+  "tag": "Attribution",
+  "title": "France names Iran for its October freezer attacks",
+  "id": "u20261110a"
+ }
+]

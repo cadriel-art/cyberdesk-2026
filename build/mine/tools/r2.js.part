@@ -1,0 +1,61 @@
+
+/* ===== UX round 2 (R2): "On this page" table of contents and "Back to top" ===== */
+(function(){
+'use strict';
+var doc=document,root=doc.documentElement;
+function lang(){return root.lang==='nl'?'nl':'en';}
+function T(en,nl){return lang()==='nl'?nl:en;}
+function $(s,r){return (r||doc).querySelector(s);}
+function $$(s,r){return [].slice.call((r||doc).querySelectorAll(s));}
+var NOTOC={home:1,map:1,search:1,news:1,updates:1,printsel:1};
+var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+function activePage(){return $('#pages > article.page:not([hidden])');}
+function txt(h){var c=h.cloneNode(true);$$('button,.printbtn,.live,small',c).forEach(function(x){x.parentNode.removeChild(x);});return c.textContent.replace(/\s+/g,' ').trim();}
+function buildToc(){
+  $$('.u-toc').forEach(function(e){e.parentNode.removeChild(e);});
+  var pg=activePage();if(!pg)return;
+  var k=pg.id.slice(2);if(NOTOC[k])return;
+  if(pg.scrollHeight<3*window.innerHeight)return;
+  var hs=$$('h2,h3',pg).filter(function(h){return !h.closest('details,.u-toc,.pn,.printbar')&&h.offsetParent!==null&&txt(h).length>1&&!/^(NL:|In plain words|In gewone woorden)/.test(txt(h));});
+  var n2=hs.filter(function(h){return h.tagName==='H2';}).length;
+  if(hs.length>40&&n2>=3)hs=hs.filter(function(h){return h.tagName==='H2';});
+  if(hs.length>60)hs=hs.slice(0,60);
+  if(hs.length<3)return;
+  var d=doc.createElement('details');d.className='u-toc';
+  var items=hs.map(function(h,i){
+    if(!h.id)h.id='toc-'+k+'-'+i;
+    return '<li class="'+(h.tagName==='H3'&&n2>0?'l3':'l2')+'"><a href="#'+h.id+'" data-toc="'+h.id+'">'+txt(h).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];})+'</a></li>';
+  }).join('');
+  d.innerHTML='<summary>'+T('On this page','Op deze pagina')+' <small>('+hs.length+')</small></summary><nav aria-label="'+T('On this page','Op deze pagina')+'"><ol>'+items+'</ol></nav>';
+  var h1=$('h1',pg)||$('h2',pg),anchor=h1;
+  if(h1&&h1.nextElementSibling&&h1.nextElementSibling.classList.contains('sub'))anchor=h1.nextElementSibling;
+  if(anchor&&anchor.parentNode)anchor.parentNode.insertBefore(d,anchor.nextSibling);
+}
+doc.addEventListener('click',function(e){
+  var a=e.target.closest&&e.target.closest('a[data-toc]');if(!a)return;
+  e.preventDefault();
+  var h=doc.getElementById(a.dataset.toc);if(!h)return;
+  h.scrollIntoView({block:'start',behavior:reduce?'auto':'smooth'});
+  h.setAttribute('tabindex','-1');try{h.focus({preventScroll:true});}catch(x){h.focus();}
+});
+var tt=null;
+function sched(){clearTimeout(tt);tt=setTimeout(buildToc,250);setTimeout(buildToc,1200);}
+window.addEventListener('hashchange',sched);
+new MutationObserver(function(){sched();}).observe(root,{attributes:true,attributeFilter:['lang']});
+window.addEventListener('load',sched);
+sched();
+
+/* back to top */
+var b=doc.createElement('button');b.type='button';b.className='u-btt';
+function lab(){var s=T('Back to top','Naar boven');b.innerHTML='<span aria-hidden="true">↑</span> <span class="u-btt-t">'+s+'</span>';b.setAttribute('aria-label',s);}
+lab();doc.body.appendChild(b);
+function upd(){b.classList.toggle('on',window.scrollY>1.5*window.innerHeight);}
+window.addEventListener('scroll',upd,{passive:true});window.addEventListener('resize',upd);
+new MutationObserver(lab).observe(root,{attributes:true,attributeFilter:['lang']});
+b.addEventListener('click',function(){
+  window.scrollTo({top:0,behavior:reduce?'auto':'smooth'});
+  var h=$('#pages > article.page:not([hidden]) h1')||$('#pages');
+  if(h){h.setAttribute('tabindex','-1');try{h.focus({preventScroll:true});}catch(x){}}
+});
+upd();
+})();

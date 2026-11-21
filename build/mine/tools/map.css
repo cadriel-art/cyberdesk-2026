@@ -224,3 +224,33 @@
  .mp-drawer:not(:empty){max-height:min(45vh,48%);overscroll-behavior:contain;-webkit-overflow-scrolling:touch;scrollbar-width:thin;padding-top:8px}
  .mp-drawer .mp-x{position:sticky;top:0;z-index:2;background:var(--paper);padding:4px 0 4px 12px;font-size:22px}
 }
+
+/* ===== UX round 2 (R2): map first, compact filter bar, phone bottom sheet ===== */
+#s-map{display:flex;flex-direction:column}
+#s-map>:is(h1,h2){order:0;margin-bottom:8px}
+#s-map>#mp{order:1;margin-top:0}
+#s-map>.sub{order:2;margin-top:16px}
+#s-map>.mp-help{order:3}
+.mp-top{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.mp-top>.mp-ftog{display:inline-flex;margin:0;order:0;min-height:36px}
+.mp-top>.mp-legbtn{order:0}
+.mp-legbtn::before{content:"\2193"!important;transform:none!important}
+.mp-top>.mp-time{order:1;flex:1 1 320px;margin:0;border-top:0;padding-top:0}
+.mp-top>:is(.mp-row,.mp-lays,.mp-layprep){order:2;flex:1 1 100%}
+#mp-mapcol:not(.mp-showf) :is(.mp-row,.mp-lays,.mp-layprep){display:none}
+#mp-mapcol.mp-showf .mp-top{padding-bottom:10px}
+.mp-stories{margin-bottom:8px}
+#mp-mapcol:fullscreen:not(.mp-showf) .mp-time,#mp-mapcol.mp-fsx:not(.mp-showf) .mp-time{margin-top:0}
+@media(max-width:699px){
+ .mp-stories{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:thin;padding-bottom:4px;-webkit-overflow-scrolling:touch}
+ .mp-stories .mp-sbtn,.mp-slabel{flex:none;white-space:nowrap}
+ .mp-slabel{display:none}
+ .mp-top{padding:8px}
+ .mp-top>.mp-time{flex-basis:100%;gap:6px 8px}
+ .mp-top>.mp-time b{flex:1 1 100%;font-size:12.5px}
+ #mp-svg{min-height:0;max-height:none}
+ html body #mp.mp .mp-drawer:not(:empty){display:block;position:fixed;left:0;right:0;bottom:0;top:auto;width:auto;max-height:45vh;max-height:45dvh;overflow:auto;z-index:60;border-radius:14px 14px 0 0;border:1px solid var(--line);border-top:4px solid var(--ink);padding:8px 14px calc(0px + env(safe-area-inset-bottom,0px));box-shadow:0 -6px 24px rgba(0,0,0,.25);overscroll-behavior:contain}
+ .mp-drawer h4{max-height:4.1em;overflow-y:auto;overscroll-behavior:contain}
+ .mp-drawer .mp-src{bottom:0;margin:6px -14px 0;padding:9px 14px calc(9px + env(safe-area-inset-bottom,0px))}
+}
+@media print{.mp-drawer,.mp-legbtn{display:none!important}}

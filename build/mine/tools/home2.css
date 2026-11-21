@@ -1,0 +1,48 @@
+
+/* ===== UX round 2: start page ===== */
+#hm-root .hl-nl{display:none!important}
+html[lang="nl"] #hm-root .hl-en{display:none!important}
+html[lang="nl"] #hm-root .hl-nl{display:inline!important}
+#hm-root a{text-decoration:none;color:var(--ink)}
+#hm-root ul,#hm-root ol{list-style:none;margin:0;padding:0}
+.hm-what{font-size:17px;max-width:62ch}
+.hm-meta{font-family:var(--f-mono);font-size:12.5px;color:var(--muted);margin:6px 0 0}
+.hm-h{font-family:var(--f-display);font-size:19px;margin:26px 0 10px}
+.hm-nums{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}
+.hm-nums a{display:flex;flex-direction:column;height:100%;box-sizing:border-box;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:12px 12px 10px}
+.hm-nums b{font-family:var(--f-display);font-size:30px;line-height:1;font-weight:800;color:var(--accent)}
+.hm-nums a>span{font-size:13.5px;margin-top:6px;line-height:1.3}
+.hm-nums small{font-size:12.5px;color:var(--muted);margin-top:3px;font-family:var(--f-mono)}
+.hm-nums a:hover,.hm-cards a:hover,.hm-steps a:hover,.hm-list a:hover{border-color:var(--accent)}
+#hm-root a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.hm-new{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.hm-upd{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.hm-upd b{display:block;font-size:15px;line-height:1.3}
+.hm-upd p{margin:6px 0 0;font-size:14px;color:var(--ink)}
+.hm-when{font-family:var(--f-mono);font-size:12px;color:var(--muted);margin-bottom:4px}
+.hm-more{margin:8px 0 0;font-size:14px}.hm-more a{color:var(--accent)!important;font-weight:600}
+.hm-be{background:var(--accent-soft);border:1px solid var(--accent);border-radius:12px;padding:4px 14px 14px;margin-top:26px}
+.hm-be .hm-h{margin-top:12px}
+.hm-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.hm-cards a{display:block;height:100%;box-sizing:border-box;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:11px 13px}
+.hm-cards a>b,.hm-steps a>b,.hm-list a>b{font-family:var(--f-display);font-size:15.5px;display:inline}
+.hm-cards a>b{display:block;margin-bottom:2px}
+.hm-cards a>span,.hm-steps a>span,.hm-list a>span{color:var(--muted);font-size:13.5px;line-height:1.35}
+.hm-cards a>span{display:block}
+.hm-steps{counter-reset:st}
+.hm-steps li{counter-increment:st;margin:0 0 8px}
+.hm-steps a{display:block;position:relative;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:10px 14px 10px 50px}
+.hm-steps a::before{content:counter(st);position:absolute;left:12px;top:10px;width:26px;height:26px;border-radius:50%;background:var(--accent);color:var(--accent-ink);font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center}
+.hm-steps a>span{display:block}
+.hm-not{margin-top:22px}
+.hm-grp h4{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:20px 0 8px}
+.hm-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.hm-list a{display:block;height:100%;box-sizing:border-box;border:1px solid var(--line);border-radius:8px;padding:9px 12px;background:var(--paper)}
+.hm-list a>span{display:block}
+.hm-live{display:inline-block!important;font-family:var(--f-mono);font-size:10.5px;font-weight:700;padding:1px 6px;border-radius:3px;background:var(--green-soft);color:var(--ok,var(--green));margin-left:6px;vertical-align:1px}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .hm-live{color:var(--green)}}
+:root[data-theme="dark"] .hm-live{color:var(--green)}
+@media (max-width:1100px){.hm-nums{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:900px){.hm-new,.hm-cards{grid-template-columns:1fr}.hm-list{grid-template-columns:1fr}}
+@media (max-width:560px){.hm-nums{grid-template-columns:repeat(2,minmax(0,1fr))}.hm-nums b{font-size:26px}.hm-what{font-size:16px}}
+@media print{.hm-nums a,.hm-cards a,.hm-steps a,.hm-list a,.hm-upd{border-color:#bbb!important}}
