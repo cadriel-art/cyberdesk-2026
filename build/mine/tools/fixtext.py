@@ -4,6 +4,8 @@ import json,datetime
 M='/home/user/cyberdesk-2026/build/mine/'
 FILES=[M+'cyber-incident-register.html',M+'vrt-cyber-briefing.html',M+'tools/content.json']
 RULES=[
+# 'He' had no antecedent in this app
+('He can say Belgium has "clear motives" for being targeted without claiming any single attack is proven to be Russian.','It is fair to say that Belgium has "clear motives" for being targeted, without claiming that any single attack is proven to be Russian.'),
 # F2 AZ Monica: one figure everywhere (hospital via press: main systems back after about 5 weeks, 19 Feb)
 ("Paper for about 3 weeks.","Worked on paper; main systems back after about 5 weeks (19 Feb)."),
 ("about three weeks on paper.","worked on paper; main systems back after about five weeks."),
