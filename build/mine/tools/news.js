@@ -134,7 +134,7 @@ function lfetch(f){
   var rq=fetch(f.url,ac?{cache:'no-store',signal:ac.signal}:{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error('http');return r.text();}).then(function(x){return lparse(x,f);});
   return Promise.race([rq,to]).then(function(v){clearTimeout(tm);return v;},function(e){clearTimeout(tm);throw e;});}
 function lload(){
-  if(LV.busy)return;LV.busy=true;LV.state='loading';liveRender();
+  if(LV.busy||HD.on)return;LV.busy=true;LV.state='loading';liveRender();
   var fs=(FEEDS||[]).filter(function(f){return f&&f.browser&&f.url;});LV.total=fs.length;
   var jobs=fs.map(function(f){var p;try{p=lfetch(f);}catch(e){p=Promise.reject(e);}return p.then(function(r){return {f:f,r:r};},function(){return {f:f,r:null};});});
   Promise.all(jobs).then(function(all){
@@ -150,8 +150,32 @@ function lload(){
   }).catch(function(){LV.state='fail';LV.ok=0;LV.busy=false;liveRender();});
 }
 function ldt(ts){try{return new Date(ts).toLocaleString(lg()==='nl'?'nl-BE':'en-GB',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});}catch(e){return '';}}
+/* ---- Online: the daily task writes one doc per day to collection `headlines`; the page only reads it ---- */
+var HD={on:false,got:false,doc:null};
+function hrows(doc){var a=(doc&&Array.isArray(doc.items)?doc.items:[]),out=[];
+  a.forEach(function(r){if(!r||typeof r!=='object')return;var u=typeof r.u==='string'?r.u.trim():'',t=typeof r.t==='string'?r.t.trim():'';
+    if(!t||!/^https?:\/\//i.test(u))return;var ts=Date.parse(r.d);out.push({t:t,u:u,src:typeof r.src==='string'?r.src:'',c:typeof r.c==='string'?r.c:'',ts:isNaN(ts)?0:ts,d:typeof r.d==='string'?r.d:''});});
+  out.sort(function(x,y){return y.ts-x.ts;});return out.slice(0,40);}
+function hrender(el){
+  el.className='nw-live';
+  var tag=L("Publisher's headline, not checked by us","Kop van de uitgever, niet door ons gecontroleerd");
+  if(!HD.got){el.innerHTML='<p class="nw-state" role="status">'+L('Loading the collected headlines…','De verzamelde koppen worden geladen…')+'</p>';return;}
+  if(!HD.doc){el.innerHTML='<p class="nw-live-none" role="status">'+L('No headlines collected yet today; they arrive with the morning news check or the Fetch button.','Vandaag zijn nog geen koppen verzameld; ze komen met de ochtendcontrole van het nieuws of de ophaalknop.')+'</p>';return;}
+  var d=HD.doc,rows=hrows(d),ok=+d.feeds_ok||0,tot=+d.feeds_total||0,ft=Date.parse(d.fetched);
+  var h='<div class="nw-live-h"><h3>'+L('Latest headlines from '+tot+' feeds','Recente koppen uit '+tot+' feeds')+'</h3><span class="nw-pill un">'+esc(tag)+'</span></div>';
+  h+='<p class="nw-live-sub">'+L('Collected by the daily news check straight from the publishers. On the subjects of this file. None of it has been checked.','Verzameld door de dagelijkse nieuwscontrole, rechtstreeks bij de uitgevers. Over de onderwerpen van dit dossier. Niets is gecontroleerd.')+'</p>';
+  var st=L('Collected '+(isNaN(ft)?String(d.day||''):ldt(ft))+' from '+ok+' of '+tot+' feeds · '+rows.length+' headlines on our topics','Verzameld '+(isNaN(ft)?String(d.day||''):ldt(ft))+' uit '+ok+' van '+tot+' feeds · '+rows.length+' koppen over onze onderwerpen');
+  h+='<div class="nw-state" role="status">'+esc(st)+'</div><div class="nw-live-list">';
+  if(!rows.length)h+='<p class="small">'+L('No collected headline matched our topics.','Geen verzamelde kop kwam overeen met onze onderwerpen.')+'</p>';
+  rows.forEach(function(r,ri){if(!LV.more&&ri>=8)return;
+    h+='<div class="nw-lr"><div class="nw-meta"><b>'+esc(r.ts?ldt(r.ts):fdate(r.d))+'</b>'+(r.src?'<span>'+esc(r.src)+'</span>':'')+(r.c?'<span>'+esc(ctry(r.c))+'</span>':'')+'<span class="nw-pill un">'+esc(tag)+'</span></div><a href="'+esc(r.u)+'" target="_blank" rel="noopener noreferrer">'+esc(r.t)+'</a></div>';});
+  h+='</div>';
+  if(rows.length>8)h+='<button type="button" id="nw-live-more" class="u-reset nw-live-more" aria-expanded="'+(LV.more?'true':'false')+'">'+(LV.more?L('Show fewer','Toon minder'):L('Show more ('+(rows.length-8)+')','Toon meer ('+(rows.length-8)+')'))+'</button>';
+  el.innerHTML=h;
+}
 function liveRender(){
   var el=document.getElementById('nw-live');if(!el)return;
+  if(HD.on){hrender(el);return;}
   if(LV.state==='fail'){el.className='nw-live nw-live-off';el.innerHTML='<p class="nw-live-none">'+L('Live headlines work in the saved file opened in your browser.','Live koppen werken in het opgeslagen bestand, geopend in uw browser.')+'</p>';return;}
   el.className='nw-live';
   var tag=L("Publisher's headline, not checked by us","Kop van de uitgever, niet door ons gecontroleerd"),h='<div class="nw-live-h"><h3>'+L('Live headlines from '+LV.total+' feeds','Live koppen uit '+LV.total+' feeds')+'</h3><span class="nw-pill un">'+tag+'</span><button type="button" id="nw-live-re" class="nw-live-re"'+(LV.busy?' disabled':'')+'>'+L('Reload','Opnieuw laden')+'</button></div>';
@@ -194,5 +218,7 @@ window.addEventListener('hashchange',function(){setTimeout(tick,0);});document.a
   try{w.use('mcp').then(function(m){mcpNS=m||null;btnState();},function(){});}catch(e){}
   try{w.use('permissions').then(function(p){perms=p||null;},function(){});}catch(e){}})();
 (function connect(){if(tried)return;tried=true;var w=window.claude;if(!w||!w.use)return;
-  w.use('db').then(function(db){if(!db)return;try{db.collection('news').onSnapshot(function(snap){var a=snap.docs.map(function(d){var v=d.data()||{};v.id=d.id;return v;});if(a.length){items=a;live=true;}list();tick();},function(){});}catch(e){}});})();
+  w.use('db').then(function(db){if(!db)return;
+    try{HD.on=true;db.collection('headlines').orderBy('day','desc').limit(1).onSnapshot(function(snap){var d=snap.docs[0];HD.doc=d&&d.exists?(d.data()||null):null;HD.got=true;liveRender();},function(){HD.on=false;liveRender();if(LV.state==='idle'&&!LV.busy)lload();});liveRender();}catch(e){HD.on=false;}
+    try{db.collection('news').onSnapshot(function(snap){var a=snap.docs.map(function(d){var v=d.data()||{};v.id=d.id;return v;});if(a.length){items=a;live=true;}list();tick();},function(){});}catch(e){}});})();
 })();

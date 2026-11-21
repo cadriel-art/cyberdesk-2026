@@ -98,6 +98,7 @@ function tr(s){
   if((m=/^Sources for this page \((\d+)\)$/.exec(s)))return 'Bronnen voor deze pagina ('+m[1]+')';
   if((m=/^All sources for this page \((\d+)\)$/.exec(s)))return 'Alle bronnen voor deze pagina ('+m[1]+')';
   if((m=/^Terms on this page · Begrippen op deze pagina \((\d+)\)$/.exec(s)))return 'Begrippen op deze pagina ('+m[1]+')';
+  if((m=/^(\d+) recorded incidents shown$/.exec(s)))return m[1]+' geregistreerde incidenten getoond';
   if((m=/^(\d+) of (\d+) incidents shown$/.exec(s)))return m[1]+' van '+m[2]+' incidenten getoond';
   if((m=/^(January|February|March|April|May|June|July|August|September|October|November|December) (\d{4}) · (\d+) recorded$/.exec(s)))return MONTHS[m[1]]+' '+m[2]+' · '+m[3]+' geregistreerd';
   if((m=/^Month not found, (\d{4}) · (\d+) recorded$/.exec(s)))return 'Maand onbekend, '+m[1]+' · '+m[2]+' geregistreerd';

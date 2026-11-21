@@ -134,7 +134,6 @@ def process_article(html, found):
                 nl = MAP.get(t)
                 if nl is None: continue
                 found.add(t)
-                if any(cls(x) & DUTCHCLS for x in e.find_all(True)): continue   # Dutch already sits beside it
                 s = str(c); lead = s[:len(s) - len(s.lstrip())]; trail = s[len(s.rstrip()):]
                 root, _ = build_nl(nl, [], soup)
                 en, nlx = pair(soup, [NavigableString(s.strip())], root)
