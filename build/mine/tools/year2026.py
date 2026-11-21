@@ -137,11 +137,23 @@ names=sorted(COUNTRY)
 SECN={'energy':'Energy','water':'Water','health':'Health','food':'Food and retail','finance':'Finance','transport':'Transport','telecom':'Telecom','education':'Education','gov':'Government','other':'Other'}
 TYN={'sab':'Sabotage or physical effect','ransom':'Ransomware','data':'Data theft or leak','ddos':'Websites knocked offline','spy':'Espionage','unk':'Kind of attack not disclosed'}
 STN={'C':('Confirmed','t-conf'),'R':('Reported','t-rep'),'K':('Claimed','t-claim')}
+# Dutch text per register row: tools/register_nl.json maps the row's exact English text (the 'text' field) -> Dutch.
+# The key is the English string itself, so it does not depend on row order; rows without an entry stay English-only.
+RNL=json.load(open(M+'tools/register_nl.json',encoding='utf-8'))
+def nlspan(en): return ('<span class="plnl"><b>NL:</b> %s</span>'%H.escape(RNL[en],quote=False)) if en in RNL else ''
+# same Dutch text on the Belgium-only register (#belgium / #reg): key = "who: what" (identical to the register text above)
+for _tr in R.select('#reg tbody tr'):
+    _v=_tr.select_one('td.v'); _w=_tr.select_one('td.w')
+    if not _v or not _w or _w.select_one('.plnl'): continue
+    _vt=BeautifulSoup(str(_v),'html.parser')
+    for _x in _vt.select('.sector'): _x.extract()
+    _k=_vt.get_text(' ',strip=True)+': '+_w.get_text(' ',strip=True)
+    if _k in RNL: _w.append(BeautifulSoup(nlspan(_k),'html.parser'))
 def tag(st): n,c=STN[st]; return '<span class="tag %s">%s</span>'%(c,n)
-def li(i,country=False): return '<li><b>%s%s:</b> %s %s</li>'%(i['label'],(' · '+i['country']) if country else '',i['text'],tag(i['status']))
+def li(i,country=False): return '<li><b>%s%s:</b> %s %s%s</li>'%(i['label'],(' · '+i['country']) if country else '',i['text'],tag(i['status']),nlspan(i['text']))
 # ---------- register ----------
-rows=''.join('<tr class="%s" data-y="%d" data-c="%s" data-s="%s" data-t="%s" data-st="%s"><td class="d">%s</td><td class="v">%s<div class="sector">%s · %s</div></td><td class="w">%s</td><td>%s</td></tr>'%(
-  {'sab':'phys','ransom':'phys','data':'data','ddos':'disr','spy':'data','unk':'disr'}[i['type']],i['sort'][0],H.escape(i['country']),i['sector'],i['type'],'c' if i['status']=='C' else 'u',i['label'],i['country'],SECN[i['sector']],TYN[i['type']],i['text'],tag(i['status'])) for i in INC)
+rows=''.join('<tr class="%s" data-y="%d" data-c="%s" data-s="%s" data-t="%s" data-st="%s"><td class="d">%s</td><td class="v">%s<div class="sector">%s · %s</div></td><td class="w">%s%s</td><td>%s</td></tr>'%(
+  {'sab':'phys','ransom':'phys','data':'data','ddos':'disr','spy':'data','unk':'disr'}[i['type']],i['sort'][0],H.escape(i['country']),i['sector'],i['type'],'c' if i['status']=='C' else 'u',i['label'],i['country'],SECN[i['sector']],TYN[i['type']],i['text'],nlspan(i['text']),tag(i['status'])) for i in INC)
 def opts(d): return ''.join('<option value="%s">%s</option>'%(k,v) for k,v in d)
 REG='''<section id="reg2">
 <h2>Register 2025–2026: every recorded incident</h2>
