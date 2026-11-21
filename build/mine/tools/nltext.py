@@ -34,6 +34,18 @@ def norm(t): return re.sub(r'\s+', ' ', t).strip()
 def cls(e): return set(e.get('class') or [])
 
 
+def already_dutch(e):
+    """round-3 pages: the element already has its own Dutch next to it (a child span.plnl / p.nl, or a following p.nl / p.pb-nl / 'NL:' paragraph)"""
+    for c in e.children:
+        if isinstance(c, Tag) and cls(c) & {'plnl', 'joe-nl', 'nl', 'pb-nl'}: return True
+    n = e.find_next_sibling()
+    if n is not None and n.name in ('p', 'div', 'ul', 'li', 'blockquote'):
+        if cls(n) & {'nl', 'pb-nl', 'joe-nl', 'plnl'}: return True
+        f = n.find(True)
+        if f is not None and f.name == 'b' and re.match(r'\s*NL\s*[:–-]', f.get_text()) and n.get_text().strip().startswith('NL'): return True
+    return False
+
+
 def simple_desc(e):
     """True when everything inside is plain inline formatting (so the element's text can be one key)."""
     for d in e.find_all(True):
@@ -102,6 +114,7 @@ def process_article(html, found):
 
     def walk(e):
         if e.name in SKIPTAG or cls(e) & (SKIPCLS | CUR['skip']): return
+        if CUR['skip'] and already_dutch(e): return
         if simple_desc(e):
             t = marked(e)
             if LET.search(t):
@@ -186,7 +199,7 @@ def run_file(path, pages, found_all):
         top = []
         for x in mods:
             if any(id(p) in new_ids for p in x.parents): continue
-            if x not in top: top.append(x)
+            if not any(x is y for y in top): top.append(x)
         pos = {id(x): (x.sourceline, x.sourcepos) for x in top}
         edits = []
         for x in top:
