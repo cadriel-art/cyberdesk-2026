@@ -1,0 +1,10 @@
+{
+  "framework": null,
+  "buildCommand": "",
+  "installCommand": "",
+  "outputDirectory": "app",
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/", "destination": "/Cyber-Attacks-2026.html" }
+  ]
+}
