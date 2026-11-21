@@ -61,6 +61,9 @@ var D2={'Russia (state services)':'Rusland (staatsdiensten)','Pro-Russian groups
 'Official: governments, EU bodies, agencies, police, courts':'Officieel: regeringen, EU-organen, diensten, politie, rechtbanken','The organisations themselves: companies, operators, sector bodies':'De organisaties zelf: bedrijven, operatoren, sectororganen','Public broadcasters and news agencies':'Openbare omroepen en persagentschappen','Newspapers and news sites':'Kranten en nieuwssites','Specialist press: cyber, technology, energy, defence':'Vakpers: cyber, technologie, energie, defensie','Security companies and incident trackers':'Beveiligingsbedrijven en incidenttrackers','Research institutes, think tanks and law firms':'Onderzoeksinstituten, denktanks en advocatenkantoren','Reference works, used as a pointer only':'Naslagwerken, alleen als wegwijzer gebruikt',
 'Formal attribution by a government':'Formele toewijzing door een regering','Statement by an official':'Uitspraak van een gezagsdrager','Charges, arrests or warrants':'Aanklacht, arrestatie of bevel','Researchers or unnamed sources':'Onderzoekers of anonieme bronnen'};
 var FP={'Who is named':'Wie wordt genoemd','How firm':'Hoe stevig','Kind':'Soort','People caught':'Gepakte personen'};
+var D3={'The pattern, in plain words':'Het patroon, in gewone woorden','The register at a glance, in plain words':'Het register in een oogopslag, in gewone woorden','The point, in plain words':'De kern, in gewone woorden','What AI changes, in plain words':'Wat AI verandert, in gewone woorden','What this means, in plain words':'Wat dit betekent, in gewone woorden','What these scams look like to the victim':'Hoe deze oplichting er voor het slachtoffer uitziet','Is this dangerous for ordinary people?':'Is dit gevaarlijk voor gewone mensen?','How to read this map, and how not to':'Hoe je deze kaart leest, en hoe niet',"The EU's own count: ENISA Threat Landscape 2026":'De eigen telling van de EU: ENISA Threat Landscape 2026','As published by ENISA':'Zoals gepubliceerd door ENISA','Background: 2024 outages people still refer to':'Achtergrond: storingen uit 2024 waar mensen nog naar verwijzen','Their answer:':'Hun antwoord:','Methods seen:':'Gebruikte methoden:','Hardest proof:':'Sterkste bewijs:',
+'For most incidents nobody is named. An attacker\'s own claim is not an attribution.':'Bij de meeste incidenten wordt niemand genoemd. De bewering van de aanvaller zelf is geen toewijzing.','Sorted by type in the full source register under Reference.':'Gesorteerd per soort in het volledige bronnenregister onder Naslag.'};
+(function(){for(var k in D3)if(D3[k]&&!Object.prototype.hasOwnProperty.call(D,k))D[k]=D3[k];})();
 var NA=function(n,one,many){return n+' '+(n==1?one:many);};
 (function(){for(var k in D2)if(!Object.prototype.hasOwnProperty.call(D,k))D[k]=D2[k];})();
 function cn(c){return CT[c]||c;}
@@ -89,6 +92,9 @@ function tr(s){
   if(s==='nothing found')return 'niets gevonden';
   if((m=/^(.+?) (\d+) on record$/.exec(s)))return cn(m[1])+' '+m[2]+' geregistreerd';
   if((m=/^(.+?) nothing found$/.exec(s)))return cn(m[1])+' niets gevonden';
+  if((m=/^More on the page [“"](.+)[”"]$/.exec(s))){var pn=has(NAVEN,m[1])?NAVEN[m[1]]:m[1];return 'Meer op de pagina “'+pn+'”';}
+  if((m=/^From strongest to weakest\. The bar shows how many of the (\d+) cases sit on each step\.$/.exec(s)))return 'Van sterkst naar zwakst. De balk toont hoeveel van de '+m[1]+' zaken op elke trede staan.';
+  if((m=/^Background: 2024 outages people still refer to \((\d+)\)$/.exec(s)))return 'Achtergrond: storingen uit 2024 waar mensen nog naar verwijzen ('+m[1]+')';
   if((m=/^Sources for this page \((\d+)\)$/.exec(s)))return 'Bronnen voor deze pagina ('+m[1]+')';
   if((m=/^All sources for this page \((\d+)\)$/.exec(s)))return 'Alle bronnen voor deze pagina ('+m[1]+')';
   if((m=/^Terms on this page · Begrippen op deze pagina \((\d+)\)$/.exec(s)))return 'Begrippen op deze pagina ('+m[1]+')';
@@ -103,7 +109,7 @@ function tr(s){
 }
 
 /* ---------- applying the Dutch strings (text nodes and attributes; EN is restored when switching back) ---------- */
-var SEL='#ev-count,.hn,.ev-who,.lv,.filters button,#p-register td,#p-register .tag,.gapx.prof small,#ps-summary,#ps-summary b,.lad-h b,.lad p.small,.tag,.pill,th,summary,option,legend,label,button,h3,h4,h5,h3 small,h4 small,.count,.brand small,.nw-fh';
+var SEL='#ev-count,.hn,.ev-who,.lv,.filters button,#p-register td,#p-register .tag,.gapx.prof small,#ps-summary,#ps-summary b,.lad-h b,.lad p.small,.tag,.pill,th,summary,option,legend,label,button,h3,h4,h5,h3 small,h4 small,.count,.brand small,.nw-fh,summary b,summary span.small,#p-evidence p,#p-evidence p>b,#p-evidence p.small a,p.small,.mp-help summary';
 var textOrig=new Map(),attrOrig=new Map(),touchedT=[],touchedA=[];
 function norm(s){return s.replace(/\s+/g,' ').trim();}
 function doNode(n){
@@ -272,7 +278,7 @@ function split(pg){
     if(b.isConnected&&/^NL:\s*$/.test(b.textContent)){var s='',n=b.nextSibling;while(n){var nx=n.nextSibling;s+=n.textContent+' ';n.remove();n=nx;}nl.push(s);b.remove();}
   });
   $$('p,li,td,th,tr,h1,h2,h3,h4,div,summary,section,span.sector',c).forEach(function(e){e.appendChild(doc.createTextNode(' '));});
-  var cl=function(s){return s.replace(/\bNL:\s*/g,'').replace(/\s+/g,' ').trim();};
+  var cl=function(s){return s.replace(/\b(?:In plain words|Terms on this page|Sources for this page)\s*·\s*(?:In gewone woorden|Begrippen op deze pagina|Bronnen voor deze pagina)/g,' ').replace(/\bNL:\s*/g,'').replace(/\s+/g,' ').trim();};
   return {en:cl(c.textContent),nl:cl(nl.join(' ')),heads:heads};
 }
 var INDEX=[];
@@ -357,15 +363,19 @@ function onRoute(first){
   sideReveal();
   if(first||!changed)return;
   routedAt=Date.now();
-  try{
-    var h=$('h1',ap)||$('h2',ap);
-    if(!h){var hs=ap.querySelector('h3,h4');h=hs;}
-    var t=h||pagesEl;
-    t.setAttribute('tabindex','-1');
-    t.focus({preventScroll:true});
-  }catch(e){}
+  try{focusHead();}catch(e){}
+  setTimeout(refocus,250);
   if(pendingHL){var v=pendingHL;pendingHL=null;setTimeout(function(){highlight(ap,v);},0);}
   setTimeout(measureTables,60);
+}
+function focusHead(){
+  var ap=activePage();if(!ap)return;
+  var h=$('h1',ap)||$('h2',ap)||$('h3,h4',ap)||pagesEl;
+  h.setAttribute('tabindex','-1');h.focus({preventScroll:true});
+}
+function refocus(){
+  var ae=doc.activeElement;
+  if(Date.now()-routedAt<1500&&(!ae||ae===doc.body||!ae.isConnected))focusHead();
 }
 var routeMO=new MutationObserver(function(){onRoute(false);});
 if(pagesEl)routeMO.observe(pagesEl,{attributes:true,attributeFilter:['hidden'],subtree:false,childList:false});
@@ -461,7 +471,7 @@ function filterBits(f){
   setText(rb,T('Reset filters','Filters herstellen'));
   var msg=doc.getElementById('u-empty-'+f.page);
   if(!msg){
-    var anchor=$(f.after);if(!anchor)return;
+    var anchor=$(f.box);if(!anchor)return;
     msg=doc.createElement('div');msg.id='u-empty-'+f.page;msg.className='u-empty';msg.setAttribute('role','status');msg.hidden=true;
     msg.innerHTML='<p></p><button type="button" class="u-reset"></button>';
     anchor.parentNode.insertBefore(msg,anchor.nextSibling);
@@ -504,7 +514,7 @@ window.addEventListener('resize',function(){clearTimeout(measureTables.t);measur
 
 /* ---------- run, and keep up when the app re-renders ---------- */
 var tick=null;
-function again(){clearTimeout(tick);tick=setTimeout(function(){filtersAll();measureTables();setTitle();},120);}
+function again(){clearTimeout(tick);tick=setTimeout(function(){filtersAll();measureTables();setTitle();refocus();},120);}
 if(pagesEl)new MutationObserver(again).observe(pagesEl,{childList:true,subtree:true});
 new MutationObserver(again).observe(root,{attributes:true,attributeFilter:['lang']});
 syncLang();filtersAll();onRoute(true);

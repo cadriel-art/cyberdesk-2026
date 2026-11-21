@@ -86,10 +86,10 @@ function list(){
   var box=document.getElementById('nw-list');if(!box)return;
   var v=items.filter(match).sort(function(a,b){return (b.d||'').localeCompare(a.d||'');});
   var n=v.filter(function(i){return i.kind!=='x';}),x=v.filter(function(i){return i.kind==='x';});
-  box.innerHTML=n.length?n.map(card).join(''):'<div class="nw-it">'+L('No news items match these filters.','Geen nieuwsberichten voor deze filters.')+'</div>';
+  box.innerHTML=n.length?n.map(card).join(''):'<div class="u-empty nw-empty" role="status"><p>'+L('Nothing matches these filters.','Niets gevonden met deze filters.')+'</p><button type="button" class="u-reset" id="nw-reset">'+L('Reset filters','Filters herstellen')+'</button></div>';
   document.getElementById('nw-x').innerHTML=x.length?x.map(card).join(''):'<p class="small">'+L('No posts yet. Posts on X cannot be read automatically from here. A post is added by hand, and only as a lead: it stays marked "not verified" until a second source confirms it.','Nog geen berichten. Berichten op X kunnen van hieruit niet automatisch gelezen worden. Een bericht wordt met de hand toegevoegd, en alleen als aanwijzing: het blijft "niet geverifieerd" tot een tweede bron het bevestigt.')+'</p>';
   var last=items.reduce(function(m,i){return (i.added||'')>m?i.added:m;},'');
-  document.getElementById('nw-state').textContent=n.length+' '+L('news items','nieuwsberichten')+' · '+x.length+' '+L('posts on X','berichten op X')+' · '+L('last refresh: ','laatste verversing: ')+fdate(last)+' · '+(live?L('live from the database','live uit de database'):L('saved copy (the live list is in the online app)','bewaarde kopie (de live lijst staat in de online app)'));
+  document.getElementById('nw-state').textContent=n.length+' '+L('news items','nieuwsberichten')+(x.length?' · '+x.length+' '+L('posts on X','berichten op X'):'')+' · '+L('last refresh: ','laatste verversing: ')+fdate(last)+' · '+(live?L('live from the database','live uit de database'):L('saved copy (the live list is in the online app)','bewaarde kopie (de live lijst staat in de online app)'));
   if(last&&last>seen){setTimeout(function(){try{localStorage.setItem('ca26-news-seen',last);}catch(e){}},8000);}
 }
 
@@ -162,9 +162,11 @@ function liveRender(){
   if(LV.failed.length)st+=' · '+L('Not reachable: ','Niet bereikbaar: ')+LV.failed.map(function(f){return lg()==='nl'&&f.name_nl?f.name_nl:f.name;}).join(', ');
   h+='<div class="nw-state" role="status">'+esc(st)+'</div><div class="nw-live-list">';
   if(!LV.rows.length)h+='<p class="small">'+L('No headline in the last 72 hours matched our topics.','Geen kop van de laatste 72 uur kwam overeen met onze onderwerpen.')+'</p>';
-  LV.rows.forEach(function(r){var nm=lg()==='nl'&&r.f.name_nl?r.f.name_nl:r.f.name,s=r.s.length>200?r.s.slice(0,199).replace(/\s+\S*$/,'')+'…':r.s;
+  LV.rows.forEach(function(r,ri){if(!LV.more&&ri>=8)return;var nm=lg()==='nl'&&r.f.name_nl?r.f.name_nl:r.f.name,s=r.s.length>200?r.s.slice(0,199).replace(/\s+\S*$/,'')+'…':r.s;
     h+='<div class="nw-lr"><div class="nw-meta"><b>'+esc(ldt(r.ts))+'</b><span>'+esc(nm)+'</span><span class="nw-pill un">'+L("Publisher's headline, not checked by us","Kop van de uitgever, niet door ons gecontroleerd")+'</span></div><a href="'+esc(safe(r.u))+'" target="_blank" rel="noopener noreferrer">'+esc(r.t)+'</a>'+(s?'<div class="nw-ls">'+esc(s)+'</div>':'')+'</div>';});
-  el.innerHTML=h+'</div>';
+  h+='</div>';
+  if(LV.rows.length>8)h+='<button type="button" id="nw-live-more" class="u-reset nw-live-more" aria-expanded="'+(LV.more?'true':'false')+'">'+(LV.more?L('Show fewer','Toon minder'):L('Show more ('+(LV.rows.length-8)+')','Toon meer ('+(LV.rows.length-8)+')'))+'</button>';
+  el.innerHTML=h;
 }
 document.addEventListener('click',function(e){var t=e.target&&e.target.closest?e.target.closest('#nw-live-re'):null;if(t)lload();});
 function shell(el){
@@ -180,7 +182,11 @@ function shell(el){
   el.innerHTML=h;el.dataset.sig=lg()+'|'+Object.keys(cs).length;list();btnState();liveRender();if(LV.state==='idle'&&!LV.busy)lload();
 }
 function tick(){var el=document.getElementById('dyn-news');if(!el)return;var cs={};items.forEach(function(i){if(i.c)cs[i.c]=1;});var sig=lg()+'|'+Object.keys(cs).length;if(el.dataset.sig!==sig)shell(el);}
-document.addEventListener('click',function(e){var t=e.target&&e.target.closest?e.target.closest('#nw-fbtn'):null;if(t)startFetch();});
+document.addEventListener('click',function(e){var t=e.target&&e.target.closest?e.target.closest('#nw-fbtn'):null;if(t)startFetch();
+  var r=e.target&&e.target.closest?e.target.closest('#nw-reset'):null;
+  if(r){F.s='';F.c='';F.off=false;F.q='';var a=document.getElementById('nw-s'),b=document.getElementById('nw-c'),c=document.getElementById('nw-q'),d=document.getElementById('nw-off');if(a)a.value='';if(b)b.value='';if(c)c.value='';if(d)d.checked=false;list();}
+  var m=e.target&&e.target.closest?e.target.closest('#nw-live-more'):null;
+  if(m){LV.more=!LV.more;liveRender();}});
 document.addEventListener('change',function(e){var t=e.target;if(t.id==='nw-s'){F.s=t.value;list();}else if(t.id==='nw-c'){F.c=t.value;list();}else if(t.id==='nw-off'){F.off=t.checked;list();}});
 document.addEventListener('input',function(e){if(e.target.id==='nw-q'){F.q=e.target.value.trim().toLowerCase();list();}});
 window.addEventListener('hashchange',function(){setTimeout(tick,0);});document.addEventListener('DOMContentLoaded',tick);setInterval(tick,600);
