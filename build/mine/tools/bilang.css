@@ -1,0 +1,13 @@
+
+/* ===== UX round 3 (B): one language at a time (see bilang.js) ===== */
+html[lang="nl"] body:not(.pl-en):not(.pl-both) .en-x,body.pl-nl .en-x{display:none!important}
+html[lang="en"] body:not(.pl-both):not(.pl-nl) .nl-x,body.pl-en .nl-x{display:none!important}
+html[lang="nl"] body:not(.pl-en):not(.pl-both) .nl-lbl,body.pl-nl .nl-lbl{display:none!important}
+.bl-gone{display:none!important}
+html[lang="nl"] body:not(.pl-en):not(.pl-both) .nl-cap,body.pl-nl .nl-cap{text-transform:uppercase}
+/* Dutch is now the main text in Dutch mode: same look as the English text, no second-language indent */
+html[lang="nl"] .plnl.nl-x{display:inline;margin-top:0}
+html[lang="nl"] h4>i.nl-x{font-style:normal}
+.bl-note{margin:6px 0 10px;color:var(--muted);font-size:13.5px}
+html[lang="en"] .bl-note{display:none}
+@media print{.bl-note{display:none!important}}

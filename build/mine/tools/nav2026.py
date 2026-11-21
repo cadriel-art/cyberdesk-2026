@@ -1,4 +1,32 @@
 import re,json
+import sys
+if len(sys.argv)>1 and sys.argv[1]=='regroup':
+    # UX round 3: final menu structure (7 groups). Runs after all page scripts have added their pages to NAV and before build_app.py.
+    # Page keys (#routes) and page content never change here; only the grouping, order and labels.
+    import ast
+    B='/home/user/cyberdesk-2026/build/mine/tools/build_app.py'
+    bt=open(B,encoding='utf-8').read()
+    mm=re.search(r'^NAV=(\[.*\])$',bt,re.M); old=ast.literal_eval(mm.group(1))
+    IT={i['k']:i for g in old for i in g['items']}
+    def L(k,en,nl):
+        d=dict(IT[k]); d['en']=en; d['nl']=nl; return d
+    G=[('Start here','Begin hier',[('home','Overview','Overzicht'),('news','News reader','Nieuwslezer'),('trend','Two years in numbers','Twee jaar in cijfers'),('cases','The big cases','De grote zaken'),('qa','Questions and answers','Vragen en antwoorden'),('intel','This week: what changed','Deze week: wat er veranderde')]),
+    ('Belgium','België',[('now','Right now (Oct–Nov 2026)','Nu (okt–nov 2026)'),('freezers','The freezer attacks','De diepvriesaanvallen'),('year','Belgium in 2026','België in 2026'),('back','Background 2023–2025','Achtergrond 2023–2025'),('register','All attacks on Belgium since 2023','Alle aanvallen op België sinds 2023'),('numbers','Belgian numbers to know','Belgische cijfers om te kennen'),('powers','Who is responsible for what','Wie is waarvoor bevoegd'),('tools','What Belgium already has','Wat België al heeft'),
+      ('water','Water in Belgium','Water in België'),('transport','Transport and ports in Belgium','Vervoer en havens in België'),('health','Health in Belgium','Gezondheid in België'),('hybrid','Hybrid attacks (drones, sabotage) in Belgium','Hybride aanvallen (drones, sabotage) in België'),('elections','Elections in Belgium','Verkiezingen in België'),('defence','Defence in Belgium','Defensie in België'),('encryption','Message scanning and encryption in Belgium','Berichten scannen en versleuteling in België')]),
+    ('Europe','Europa',[('reg2','All attacks in Europe 2025–2026','Alle aanvallen in Europa 2025–2026'),('months','Month by month','Maand per maand'),('eucountries','By country','Per land'),('map','The map','De kaart'),('evidence','Who did it: the evidence','Wie deed het: het bewijs'),('outages','Global outages','Wereldwijde storingen'),('energy','Energy and the grid','Energie en het stroomnet'),
+      ('watereu','Water in the rest of Europe','Water in de rest van Europa'),('transporteu','Transport and ports in the rest of Europe','Vervoer en havens in de rest van Europa'),('healtheu','Health in the rest of Europe','Gezondheid in de rest van Europa'),('hybrideu','Hybrid attacks (drones, sabotage) in the rest of Europe','Hybride aanvallen (drones, sabotage) in de rest van Europa'),('electionseu','Elections in the rest of Europe','Verkiezingen in de rest van Europa'),('defenceeu','Defence in the rest of Europe','Defensie in de rest van Europa'),('encryptioneu','Message scanning and encryption in the rest of Europe','Berichten scannen en versleuteling in de rest van Europa'),
+      ('failures','Avoidable failures','Vermijdbare fouten'),('good','Good news: defence works','Goed nieuws: verdediging werkt')]),
+    ('Laws and what comes next','Wetten en wat volgt',[('laws','Laws and regulations','Wetten en regels'),('files','Where each law stands','Waar elke wet staat'),('gaps','What we lack','Wat ontbreekt'),('props','Proposals','Voorstellen'),('ideas','53 ideas','53 ideeën'),('who',"Who's who",'Wie is wie')]),
+    ('Protect yourself','Bescherm jezelf',[('prepare','Ready at home','Klaar thuis'),('victims','Scams and fraud','Oplichting en fraude'),('insurance','Insurance','Verzekering'),('schools','Children and schools','Kinderen en scholen'),('citizens','How alert are citizens?','Hoe alert zijn burgers?'),('skills','Skills and jobs','Vaardigheden en vacatures')]),
+    ('Technology','Technologie',[('ai','AI: what is real','AI: wat is echt'),('agents','AI agents that hacked companies','AI-agenten die bedrijven hackten'),('cloud','Cloud dependence','Afhankelijkheid van de cloud'),('quantum',"What's next: quantum",'Wat komt: kwantum'),('cables','Sea cables and satellites','Zeekabels en satellieten')]),
+    ('Reference','Naslag',[('printsel','Print a selection','Een selectie afdrukken'),('glossary','Glossary','Woordenlijst'),('sources','Sources','Bronnen'),('more','Open questions','Open vragen'),('updates','Updates','Updates')])]
+    new=[{'en':ge,'nl':gn,'items':[L(k,e,n) for k,e,n in its]} for ge,gn,its in G]
+    used=[i['k'] for g in new for i in g['items']]
+    assert sorted(used)==sorted(IT), (set(IT)-set(used), set(used)-set(IT))
+    assert len(used)==len(set(used))
+    bt=bt[:mm.start(1)]+repr(new)+bt[mm.end(1):]
+    open(B,'w',encoding='utf-8').write(bt)
+    print('nav regroup ok',[(g['en'],len(g['items'])) for g in new]); sys.exit(0)
 M='/home/user/cyberdesk-2026/build/mine/'
 def it(k,en,nl,src=None,**kw):
     d={'k':k,'en':en,'nl':nl}

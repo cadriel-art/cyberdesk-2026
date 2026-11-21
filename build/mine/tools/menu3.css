@@ -1,0 +1,11 @@
+
+/* ===== UX round 3 (A): grouped menu ===== */
+.nav-gh{margin:0;font:inherit}
+.nav-gb{display:flex;align-items:center;justify-content:space-between;gap:8px;width:100%;box-sizing:border-box;min-height:32px;margin:0 0 2px;padding:6px 8px;background:none;border:0;border-radius:6px;cursor:pointer;text-align:left;font-family:var(--f-mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.nav-gb:hover{background:var(--accent-soft)}
+.nav-gb:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.nav-gc{flex:none;width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);margin-top:-3px;transition:transform .15s}
+.nav-closed .nav-gc{transform:rotate(-45deg);margin-top:0}
+.nav-gl[hidden]{display:none}
+@media (max-width:900px){.nav-gb{min-height:44px;font-size:11.5px}}
+@media (prefers-reduced-motion: reduce){.nav-gc{transition:none}}

@@ -55,11 +55,11 @@ D={
 'outages':("%s outages of major online services and company systems, 2025 to 19 November 2026."%(outg.group(1) if outg else ''),"%s storingen bij grote onlinediensten en bedrijfssystemen, 2025 tot 19 november 2026."%(outg.group(1) if outg else '')),
 'energy':("Why the freezer attacks and the attacks on power systems are one story, and every energy source one by one.","Waarom de diepvriesaanvallen en de aanvallen op stroomsystemen één verhaal zijn, en elke energiebron apart."),
 'water':("Drinking water and waste water in 2025 and 2026: Belgian water companies, what the law asks, lessons from abroad.","Drinkwater en afvalwater in 2025 en 2026: de Belgische watermaatschappijen, wat de wet vraagt, lessen uit het buitenland."),
-'watereu':("Attacks on drinking water, waste water and dams in the other 30 countries, 2025 and 2026.","Aanvallen op drinkwater, afvalwater en dammen in de andere 30 landen, 2025 en 2026."),
+'watereu':("Attacks on drinking water, waste water and dams in the rest of Europe, 2025 and 2026.","Aanvallen op drinkwater, afvalwater en dammen in de rest van Europa, 2025 en 2026."),
 'transport':("Airports, sea ports, rail, post and logistics in Belgium, 2025 and 2026: attacks, crime, outages and false alarms.","Luchthavens, zeehavens, spoor, post en logistiek in België, 2025 en 2026: aanvallen, misdaad, storingen en valse alarmen."),
-'transporteu':("Airports, airlines, ports, shipping, rail and logistics in the other 30 countries.","Luchthavens, luchtvaartmaatschappijen, havens, scheepvaart, spoor en logistiek in de andere 30 landen."),
+'transporteu':("Airports, airlines, ports, shipping, rail and logistics in the rest of Europe.","Luchthavens, luchtvaartmaatschappijen, havens, scheepvaart, spoor en logistiek in de rest van Europa."),
 'health':("Hospitals, clinics, health software and patient data in Belgium, 2025 and 2026.","Ziekenhuizen, klinieken, gezondheidssoftware en patiëntgegevens in België, 2025 en 2026."),
-'healtheu':("Hospitals, clinics, laboratories, health software and patient data in the other 30 countries.","Ziekenhuizen, klinieken, laboratoria, gezondheidssoftware en patiëntgegevens in de andere 30 landen."),
+'healtheu':("Hospitals, clinics, laboratories, health software and patient data in the rest of Europe.","Ziekenhuizen, klinieken, laboratoria, gezondheidssoftware en patiëntgegevens in de rest van Europa."),
 'failures':("Most of these attacks did not need genius: documented cases where a door was left open, and who should have closed it.","De meeste van deze aanvallen vroegen geen genie: gedocumenteerde gevallen met een openstaande deur, en wie die had moeten sluiten."),
 'good':("Most of this file is alarming. These cases show that action pays off.","Het meeste in dit dossier is onrustwekkend. Deze gevallen tonen dat optreden loont."),
 'now':("The cluster of incidents from the last four weeks.","De reeks incidenten van de voorbije vier weken."),
@@ -72,7 +72,7 @@ D={
 'powers':("How cybersecurity is split across Europe, the federal government, the regions, the communities and the municipalities.","Hoe cyberveiligheid verdeeld is over Europa, de federale overheid, de gewesten, de gemeenschappen en de gemeenten."),
 'laws':("Everything in place, being negotiated or planned, explained from the ground up.","Alles wat bestaat, wordt onderhandeld of gepland, uitgelegd vanaf nul."),
 'encryption':("Whether the police may read private messages, where Belgium stands, and what Belgium's own biggest case says about it.","Mag de politie privéberichten lezen? Waar België staat en wat de grootste Belgische zaak daarover zegt."),
-'encryptioneu':("Where each of the other 30 countries stands on letting the police read private messages.","Waar elk van de andere 30 landen staat over politietoegang tot privéberichten."),
+'encryptioneu':("Where each of the rest of Europe stands on letting the police read private messages.","Waar elk van de rest van Europa staat over politietoegang tot privéberichten."),
 'files':("Where each EU law file stands, status as of 12 Nov 2026.","Waar elk Europees wetsdossier staat, stand van 12 nov 2026."),
 'gaps':("The gaps in protection, each tied to documented cases with dates and numbers.","De hiaten in de bescherming, elk gekoppeld aan gedocumenteerde gevallen met data en cijfers."),
 'props':("Each proposal is tied to a 2026 case, with what it means in plain words.","Elk voorstel is gekoppeld aan een zaak uit 2026, met wat het betekent in gewone woorden."),
@@ -88,11 +88,11 @@ D={
 'cloud':("A sovereignty question that follows from the Mythos episode.","Een soevereiniteitsvraag die volgt uit de Mythos-episode."),
 'quantum':("A forward-looking answer to \"What's the next big threat?\"","Een vooruitkijkend antwoord op \"Wat is de volgende grote dreiging?\""),
 'hybrid':("Drones over airports, bases and nuclear plants, suspected sabotage, spying and hoaxes, in Belgium.","Drones boven luchthavens, bases en kerncentrales, vermoede sabotage, spionage en hoaxes, in België."),
-'hybrideu':("The same subject for the other 30 countries.","Hetzelfde onderwerp voor de andere 30 landen."),
+'hybrideu':("The same subject for the rest of Europe.","Hetzelfde onderwerp voor de rest van Europa."),
 'elections':("Attacks on politics itself in Belgium: fakes, hijacked accounts, spyware, bribery, spying and pressure on politicians.","Aanvallen op de politiek zelf in België: fakes, gekaapte accounts, spyware, omkoping, spionage en druk op politici."),
-'electionseu':("Interference with elections and with people in politics in the other 30 countries.","Inmenging in verkiezingen en in mensen in de politiek in de andere 30 landen."),
+'electionseu':("Interference with elections and with people in politics in the rest of Europe.","Inmenging in verkiezingen en in mensen in de politiek in de rest van Europa."),
 'defence':("What the Belgian army does about cyber and hybrid threats: its cyber branch, people and money, and attacks on Defence itself.","Wat het Belgische leger doet tegen cyber- en hybride dreigingen: de cybertak, mensen en geld, en aanvallen op Defensie zelf."),
-'defenceeu':("Military cyber forces, reserves, money and the rules for acting at home in the other 30 countries.","Militaire cybermachten, reservisten, geld en de regels voor optreden in eigen land in de andere 30 landen."),
+'defenceeu':("Military cyber forces, reserves, money and the rules for acting at home in the rest of Europe.","Militaire cybermachten, reservisten, geld en de regels voor optreden in eigen land in de rest van Europa."),
 'schools':("Attacks on schools, which are ordinary crime against badly defended organisations, and the laws to protect children online.","Aanvallen op scholen, gewone misdaad tegen slecht verdedigde organisaties, en de wetten om kinderen online te beschermen."),
 'cables':("The cables under the sea that carry the internet, and the satellite signal that tells ships and aircraft where they are.","De kabels onder zee die het internet dragen, en het satellietsignaal dat schepen en vliegtuigen hun positie geeft."),
 'more':("An index of the subjects worked out in this file, the subjects still to come, and the questions public sources do not answer.","Een index van de uitgewerkte onderwerpen, de onderwerpen die nog komen en de vragen die openbare bronnen niet beantwoorden."),
@@ -110,15 +110,11 @@ def live(i): return ' <span class="hm-live">LIVE</span>' if i.get('live') else '
 IT={i['k']:i for g in nav for i in g['items']}
 
 # ---------- what's new: static fallback from the build ----------
-oc=open(M+'tools/offline.py',encoding='utf-8').read()
-ups=json.loads(re.search(r'^ups=(\[.*\])$',oc,re.M).group(1))
-def pd(u):
-    from datetime import datetime
-    try: return datetime.strptime(u['date'],'%d %b %Y')
-    except Exception: return datetime(1970,1,1)
-ups=sorted(ups,key=pd,reverse=True)[:3]
+ups=json.load(open(M+'tools/updates_snapshot.json',encoding='utf-8'))
+ups=sorted(ups,key=lambda u:(u.get('order',0),u.get('id','')),reverse=True)[:3]   # newest by `order`; ties by id
+TAGNL={'New':'Nieuw','Check':'Controle','Attribution':'Toeschrijving','New incidents':'Nieuwe incidenten','Correction':'Correctie'}
 def upd_card(u):
-    return ('<li class="hm-upd"><div class="hm-when">%s%s</div><b>%s</b><p>%s</p></li>'%(E(u.get('date','')),(' · '+E(u['tag'])) if u.get('tag') else '',
+    return ('<li class="hm-upd"><div class="hm-when">%s%s</div><b>%s</b><p>%s</p></li>'%(E(u.get('date','')),(' · '+L(E(u['tag']),E(TAGNL.get(u['tag'],u['tag'])))) if u.get('tag') else '',
         L(E(u.get('title','')),E(u.get('title_nl') or u.get('title',''))),L(E(short(u.get('body',''))),E(short(u.get('body_nl') or u.get('body',''))))))
 def short(t,n=190):
     t=t.strip()
@@ -145,13 +141,13 @@ h.append('</ul>')
 # what's new
 h.append('<h3 class="hm-h">%s</h3><ul class="hm-new" id="hm-new">%s</ul><p class="hm-more"><a href="#updates">%s</a></p>'%(L("What's new","Wat is nieuw"),nowcards,L('All updates →','Alle updates →')))
 # Belgium first
-BE=['now','freezers','year','register','numbers','powers']
+BE=['now','freezers','year','register','numbers','powers']   # first six pages of the Belgium group
 h.append('<section class="hm-be" aria-labelledby="hm-be-h"><h3 class="hm-h" id="hm-be-h">%s</h3><ul class="hm-cards">'%L('Belgium first','België eerst'))
 for k in BE:
     h.append('<li><a href="#%s"><b>%s</b><span>%s</span></a></li>'%(k,name(IT[k]),desc(k)))
 h.append('</ul></section>')
 # start here
-ST=['news','trend','cases','map','evidence']
+ST=['news','trend','cases','qa','intel']   # the Start here group, minus the overview
 h.append('<h3 class="hm-h">%s</h3><ol class="hm-steps">'%L('Start here','Begin hier'))
 for k in ST:
     h.append('<li><a href="#%s"><b>%s</b>%s<span>%s</span></a></li>'%(k,name(IT[k]),live(IT[k]),desc(k)))

@@ -27,8 +27,9 @@ SEC='''<section id="printsel">
 <div class="ps-opts">
 <fieldset><legend>Language on paper</legend>
 <label><input type="radio" name="ps-lang" value="en" checked> English only (shorter)</label>
+<label><input type="radio" name="ps-lang" value="nl"> Dutch first (Dutch where it exists, English where it does not)</label>
 <label><input type="radio" name="ps-lang" value="both"> English and Dutch</label>
-<p class="small">The incident lists exist in English only, so a Dutch-only printout is not possible.</p></fieldset>
+<p class="small">The incident lists exist in English only, so a fully Dutch printout is not possible.</p></fieldset>
 <fieldset><legend>Style</legend>
 <label><input type="radio" name="ps-style" value="light" checked> Light (thin borders, saves ink)</label>
 <label><input type="radio" name="ps-style" value="colour"> Colour (as on screen)</label></fieldset>
@@ -99,6 +100,7 @@ const PSETS={short:['trend','cases','qa','evidence'],attacks:['trend','cases','r
 function psKeys(){return NAV.flatMap(g=>g.items).filter(i=>!i.live&&i.k!=='printsel'&&i.k!=='home').map(i=>i.k);}
 function psInit(){
   const box=document.getElementById('ps-pages'); if(!box||box.dataset.done) return; box.dataset.done=1;
+  if(lang==='nl'){const r=document.querySelector('#p-printsel input[name="ps-lang"][value="nl"]'); if(r) r.checked=true;}
   document.querySelectorAll('#pages table').forEach(tb=>{const ths=[...tb.querySelectorAll('thead th')];ths.forEach((th,i)=>{if(th.textContent.trim()==='NL'){th.classList.add('nlcol');tb.querySelectorAll('tbody tr').forEach(tr=>{const c=tr.children[i];if(c)c.classList.add('nlcol');});}});});
   box.innerHTML=NAV.map((g,gi)=>{const its=g.items.filter(i=>!i.live&&i.k!=='printsel'&&i.k!=='home');if(!its.length)return '';return '<fieldset><legend>'+esc(g.en)+'</legend><label class="ps-all"><input type="checkbox" data-grp="'+gi+'"> All of this group</label>'+its.map(i=>'<label><input type="checkbox" data-pg="'+i.k+'" data-g="'+gi+'"> '+esc(i.en)+'</label>').join('')+'</fieldset>';}).join('');
   const cb=document.getElementById('ps-countries');
@@ -121,7 +123,7 @@ function psSummary(){
   const s=psState(); const out=document.getElementById('ps-summary'); if(!out) return;
   let pages=s.pages.slice(); if(s.cts.length&&!pages.includes('eucountries')) pages.push('eucountries');
   if(!pages.length){out.textContent='Nothing selected yet.';return;}
-  let chars=0; const en=s.langSel==='en';
+  let chars=0; const en=s.langSel!=='both';
   pages.forEach(k=>{const p=document.getElementById('p-'+k);if(!p)return; if(k==='eucountries'&&s.cts.length){s.cts.forEach(id=>{const c=document.getElementById(id);if(c)chars+=psLen(c,en);});} else {let n=psLen(p,en); if(!s.terms){const tb=p.querySelector('.termsbox'); if(tb) n-=tb.textContent.length;} chars+=Math.max(n,0);}});
   const est=Math.max(pages.length,Math.round(chars/1600))+(s.cover?1:0);
   out.innerHTML='<b>'+pages.length+' page'+(pages.length>1?'s':'')+' selected'+(s.cts.length?' · '+s.cts.length+' countr'+(s.cts.length>1?'ies':'y'):'')+'.</b> About '+est+' sheet'+(est>1?'s':'')+' of A4 (rough estimate; the print dialog shows the exact number).';
@@ -130,7 +132,7 @@ function doPrintMulti(){
   const s=psState(); let pages=s.pages.slice(); if(s.cts.length&&!pages.includes('eucountries')) pages.push('eucountries');
   if(!pages.length){alert('Select at least one page or country first.');return;}
   const order=psKeys().filter(k=>pages.includes(k));
-  const opened=[]; const cls=['print-multi', s.style==='light'?'p-light':'p-colour', s.langSel==='en'?'pl-en':'pl-both'];
+  const opened=[]; const cls=['print-multi', s.style==='light'?'p-light':'p-colour', s.langSel==='en'?'pl-en':(s.langSel==='nl'?'pl-nl':'pl-both')];
   if(!s.cover) cls.push('no-cover'); if(s.terms) cls.push('p-terms'); if(s.cts.length) cls.push('print-csel');
   order.forEach(k=>{const p=document.getElementById('p-'+k); if(!p) return; p.classList.add('psel'); p.querySelectorAll('details:not([open])').forEach(d=>{d.open=true;opened.push(d);});});
   s.cts.forEach(id=>{const c=document.getElementById(id); if(c) c.classList.add('solo');});
@@ -138,7 +140,7 @@ function doPrintMulti(){
   let head=document.getElementById('printhead'); if(!head){head=document.createElement('div');head.id='printhead';document.getElementById('pages').insertBefore(head,document.getElementById('pages').firstChild);}
   const d=new Date().toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'});
   const names=order.map(k=>{const it=item(k); let n=it?it.i.en:k; if(k==='eucountries'&&s.cts.length){n+=': '+s.cts.map(id=>document.getElementById(id).querySelector('h4').childNodes[0].textContent.trim()).join(', ');} return n;});
-  head.innerHTML='<b>Cyberattacks on Europe, 2025–2026</b>A selection from "Cyber Attacks 2026": the 27 EU countries plus Norway, Iceland, Switzerland and Liechtenstein.<div class="cv-meta">Facts as of 12 November 2026 · printed on '+esc(d)+' · '+(s.langSel==='en'?'English':'English and Dutch')+'</div><ol>'+names.map(n=>'<li>'+esc(n)+'</li>').join('')+'</ol>';
+  head.innerHTML='<b>Cyberattacks on Europe, 2025–2026</b>A selection from "Cyber Attacks 2026": the 27 EU countries plus Norway, Iceland, Switzerland and Liechtenstein.<div class="cv-meta">Facts as of 12 November 2026 · printed on '+esc(d)+' · '+(s.langSel==='en'?'English':(s.langSel==='nl'?'Dutch first':'English and Dutch'))+'</div><ol>'+names.map(n=>'<li>'+esc(n)+'</li>').join('')+'</ol>';
   const done=()=>{opened.forEach(x=>x.open=false);document.body.classList.remove(...cls);document.querySelectorAll('.page.psel').forEach(p=>p.classList.remove('psel'));document.querySelectorAll('.country.solo').forEach(c=>c.classList.remove('solo'));window.removeEventListener('afterprint',done);};
   window.addEventListener('afterprint',done);
   try{ window.print(); }catch(e){ done(); alert('Printing is not available here. Open the offline copy of this file and print from there.'); }

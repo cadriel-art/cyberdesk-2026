@@ -45,6 +45,10 @@ The build order is in `build/mine/tools/build_all.sh`.
 
 Before a build, refresh `build/mine/tools/news_snapshot.json` from the live news database (dump the `news` collection, then run `python3 build/mine/tools/snap_from_dump.py <dump>/news`), so the saved file carries the latest news.
 
+Likewise refresh `build/mine/tools/updates_snapshot.json` from the live `updates` collection (dump the `updates` collection the same way, then run `python3 build/mine/tools/updates_snap_from_dump.py <dump>/updates`). The saved file's Updates page and the start page's "What's new" use this snapshot (newest by `order` first) because the live database is not reachable from a saved file; the online file keeps reading the live collection. The snapshot is also what the online file's start page shows until the live data arrives.
+
+How the menu and the two languages work (UX round 3): the menu has 7 groups and is defined in `build/mine/tools/nav2026.py` (the `regroup` step, run late in `build_all.sh`; page keys and routes never change). English shows English only; Dutch mode shows Dutch where a Dutch version exists and English where it does not. The pairing is done at load by `bilang.js` / `bilang.css`; the grouped, collapsible menu is `menu3.js` / `menu3.css`. Extra checks for these: `r3verify.js` (every page, both languages), `r3menu.js`, `r3lang.js`, `r3audit.js`.
+
 ## Live parts (not in this repository)
 
 - **Published app**: a private claude.ai artifact. Its database holds two collections, `updates` (the Updates panel) and `news` (the News reader).

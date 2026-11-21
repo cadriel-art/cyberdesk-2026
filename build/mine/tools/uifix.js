@@ -233,7 +233,7 @@ var pagesEl=doc.getElementById('pages'),mo=null,timer=null;
 function apply(){
   if(mo)mo.disconnect();
   try{
-    fixIds();fixHeadings();failuresNote();translate();
+    fixIds();fixHeadings();translate();   /* failuresNote() retired in round 3: bilang.js adds one note per page */
     skip.textContent=lang()==='nl'?'Naar de inhoud':'Skip to content';
   }catch(e){}
   if(mo)attach();
@@ -271,17 +271,23 @@ var NLSEL='.nl,.pb-nl,.plnl,.joe-nl,[lang="nl"]';
 function split(pg){
   var c=pg.cloneNode(true),nl=[];
   $$('script,style,textarea',c).forEach(function(e){e.remove();});
+  /* round 3: pieces marked by bilang.js (.nl-x = Dutch) go to the Dutch text, the rest stays English */
+  $$('.nl-lbl',c).forEach(function(e){e.remove();});
+  $$('.nl-x',c).forEach(function(e){if(e.parentNode&&!(e.parentNode&&e.parentNode.closest&&e.parentNode.closest('.nl-x'))&&!e.matches('.bl-sep,br'))nl.push(e.textContent);});
+  $$('.nl-x',c).forEach(function(e){if(e.parentNode)e.remove();});
   var heads=$$('h1,h2,h3,h4,summary',c).map(function(h){return h.textContent.replace(/\s+/g,' ').trim();}).filter(function(s){return s&&!/^NL:/.test(s);});
   $$(NLSEL,c).forEach(function(e){if(e.parentNode&&!e.parentNode.closest(NLSEL)){nl.push(e.textContent);}});
-  $$(NLSEL,c).forEach(function(e){if(e.isConnected)e.remove();});
+  $$(NLSEL,c).forEach(function(e){if(e.parentNode)e.remove();});
   $$('b,strong',c).forEach(function(b){
-    if(b.isConnected&&/^NL:\s*$/.test(b.textContent)){var s='',n=b.nextSibling;while(n){var nx=n.nextSibling;s+=n.textContent+' ';n.remove();n=nx;}nl.push(s);b.remove();}
+    if(b.parentNode&&/^NL:\s*$/.test(b.textContent)){var s='',n=b.nextSibling;while(n){var nx=n.nextSibling;s+=n.textContent+' ';n.remove();n=nx;}nl.push(s);b.remove();}
   });
   $$('p,li,td,th,tr,h1,h2,h3,h4,div,summary,section,span.sector',c).forEach(function(e){e.appendChild(doc.createTextNode(' '));});
   var cl=function(s){return s.replace(/\b(?:In plain words|Terms on this page|Sources for this page)\s*·\s*(?:In gewone woorden|Begrippen op deze pagina|Bronnen voor deze pagina)/g,' ').replace(/\bNL:\s*/g,'').replace(/\s+/g,' ').trim();};
   return {en:cl(c.textContent),nl:cl(nl.join(' ')),heads:heads};
 }
 var INDEX=[];
+function buildIndex(){
+INDEX.length=0;
 try{
   $$('#pages > article.page[data-static]').forEach(function(pg){
     var k=pg.id.slice(2);if(k==='home')return;var s=split(pg),h1=$('h1',pg);
@@ -291,6 +297,9 @@ try{
   var qa=(C.qa||[]),qen=qa.map(function(q){return [q.q,q.a,q.trap].join(' ');}).join(' '),qnl=qa.map(function(q){return [q.qnl,q.nl].join(' ');}).join(' ');
   INDEX.push({k:'rehearse',en:qen,nl:qnl,heads:[],titles:((NAVK.rehearse&&(NAVK.rehearse.en+'\n'+NAVK.rehearse.nl))||'').toLowerCase(),all:(qen+' '+qnl).toLowerCase()});
 }catch(e){}
+}
+buildIndex();
+window.cdUI=window.cdUI||{};window.cdUI.reindex=buildIndex;window.cdUI.index=INDEX;   /* bilang.js calls this after it has marked the Dutch pieces */
 function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
 function count(t,q){var i=t.indexOf(q),n=0;while(i>-1){n++;i=t.indexOf(q,i+q.length);}return n;}
 function snip(txt,q){var i=txt.toLowerCase().indexOf(q);if(i<0)return null;var s=Math.max(0,i-70);return (s?'…':'')+txt.slice(s,i+q.length+90)+'…';}
@@ -533,7 +542,7 @@ function $$(s,r){return [].slice.call((r||doc).querySelectorAll(s));}
 var NOTOC={home:1,map:1,search:1,news:1,updates:1,printsel:1};
 var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
 function activePage(){return $('#pages > article.page:not([hidden])');}
-function txt(h){var c=h.cloneNode(true);$$('button,.printbtn,.live,small',c).forEach(function(x){x.parentNode.removeChild(x);});return c.textContent.replace(/\s+/g,' ').trim();}
+function txt(h){var c=h.cloneNode(true);$$('button,.printbtn,.live,small',c).forEach(function(x){x.parentNode.removeChild(x);});$$(lang()==='nl'?'.en-x':'.nl-x',c).forEach(function(x){x.parentNode.removeChild(x);});return c.textContent.replace(/\s+/g,' ').trim();}
 function buildToc(){
   $$('.u-toc').forEach(function(e){e.parentNode.removeChild(e);});
   var pg=activePage();if(!pg)return;
