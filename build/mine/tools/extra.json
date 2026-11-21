@@ -1156,6 +1156,19 @@
    "type": "data",
    "status": "C",
    "text": "Ireland's credit-union minister Robert Troy told RTE on 18 November that about 40 of the country's 160 credit unions were affected by an October attack on their online-banking software provider, Wellington IT, which told them only in mid-November. Saved payee details (names, account numbers, addresses) may have been accessed; reports say passwords, PINs and card details were not affected. Wellington IT says it lacks logs to tell which records were taken and treats all as potentially affected."
+  },
+  {
+   "country": "Estonia",
+   "sort": [
+    2026,
+    11,
+    16
+   ],
+   "label": "16 Nov 2026",
+   "sector": "transport",
+   "type": "data",
+   "status": "C",
+   "text": "Tallinn's municipal transport company TLT said on 19 November that an attacker used a flaw in its public website tlt.ee, where a plugin update had not been installed, to download a copy of the website's database on Monday 16 November. Data of 2,440 TLT employees (names, job titles, personal identification numbers) was taken, and a further 2,370 people who filled in forms on the site may be affected (names and e-mail addresses). TLT says ticket-validation and ticket-purchase data was not involved and it had no financial loss; it informed the data protection inspectorate, the national information system authority RIA and the police. No attacker has been named."
   }
  ],
  "stats": {
@@ -1191,7 +1204,8 @@
    "The data-protection authority received 5,629 breach notifications in 2025, 20% more than in 2024."
   ],
   "Germany": [
-   "A private chronicle counts 356 ransomware incidents in Germany in 2026 up to 10 November."
+   "A private chronicle counts 356 ransomware incidents in Germany in 2026 up to 10 November.",
+   "The federal cyber office (BSI) annual report of 19 November 2026 calls the situation \"tense to critical\". Its new BSI Cyber Index averages 170 points, up 50% on the previous reporting period; 160 new vulnerabilities become known each day (+35%), and the average time before a flaw is first exploited fell from 53 days to 25, and to 8 days in the second quarter of 2026."
   ],
   "Greece": [
    "A security firm counted 1,928 attacks per organisation per week in Greece in October 2026, 26% more than a year earlier."
