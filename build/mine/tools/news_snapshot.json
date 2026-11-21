@@ -1,6 +1,26 @@
 [
  {
   "added": "2026-11-21",
+  "c": "",
+  "d": "2026-11-21",
+  "kind": "news",
+  "off": false,
+  "rel": "hybrideu",
+  "s": [
+   "defence",
+   "sabotage",
+   "drones"
+  ],
+  "src": "Euronews",
+  "stype": "News media",
+  "sum": "French President Emmanuel Macron said on Friday that several European partners had faced serious incidents in the past 24 hours that signal 'a new level of aggression' by Russia, Euronews reports. He referred to events such as Russian missiles and a drone coming down in Poland, an alleged Russian-backed murder plot in Denmark and Estonia's border closure after a suspected sabotage attempt. Macron gave no new evidence; Russia's responsibility for each incident is claimed by the governments concerned, not proven in court.",
+  "sum_nl": "De Franse president Emmanuel Macron zei vrijdag dat verschillende Europese partners de afgelopen 24 uur ernstige incidenten meemaakten die wijzen op 'een nieuw niveau van agressie' van Rusland, meldt Euronews. Hij doelde op gebeurtenissen zoals Russische raketten en een drone die in Polen neerkwamen, een vermoedelijk door Rusland gesteund moordcomplot in Denemarken en de sluiting van de Estse grens na een vermoedelijke sabotagepoging. Macron gaf geen nieuw bewijs; de Russische verantwoordelijkheid voor elk incident wordt beweerd door de betrokken regeringen, niet bewezen in een rechtbank.",
+  "t": "Macron warns of a 'new level' of Russian aggression after a week of incidents in Europe",
+  "url": "https://www.euronews.com/2026/11/21/french-president-macron-warns-of-new-level-of-russian-aggression",
+  "id": "2026-11-21-macron-new-level-russian-aggression"
+ },
+ {
+  "added": "2026-11-21",
   "c": "Estonia",
   "d": "2026-11-21",
   "kind": "news",
@@ -17,6 +37,84 @@
   "t": "Estonia issues and lifts a drone threat warning for its north-east; NATO jets scrambled",
   "url": "https://news.err.ee/1610202574/defense-forces-issue-lift-drone-threat-warning-for-northeast-estonia",
   "id": "2026-11-21-estonia-drone-warning"
+ },
+ {
+  "added": "2026-11-21",
+  "c": "",
+  "d": "2026-11-21",
+  "kind": "news",
+  "off": false,
+  "rel": "",
+  "s": [
+   "jamming",
+   "drones",
+   "transport"
+  ],
+  "src": "Dronewatch",
+  "stype": "Specialist media",
+  "sum": "EUROCONTROL, with the EU space agency EUSPA and aviation safety agency EASA, has started flight tests of how Galileo and EGNOS can support safe drone navigation, Dronewatch reports. The first campaign took place on 20 and 21 October in Galicia, Spain, and includes Galileo's OSNMA service, which lets receivers check that navigation signals are genuine to help detect spoofing. Results of the tests have not yet been published.",
+  "sum_nl": "EUROCONTROL is samen met het Europese ruimtevaartagentschap EUSPA en luchtvaartveiligheidsagentschap EASA begonnen met testvluchten om na te gaan hoe Galileo en EGNOS veilige navigatie van drones kunnen ondersteunen, meldt Dronewatch. De eerste reeks vond plaats op 20 en 21 oktober in Galicië, Spanje, en omvat de Galileo-dienst OSNMA, waarmee ontvangers kunnen controleren of navigatiesignalen echt zijn om vervalsing (spoofing) op te sporen. De resultaten zijn nog niet gepubliceerd.",
+  "t": "EUROCONTROL and EU space agency test Galileo navigation for drones amid GPS spoofing concerns",
+  "url": "https://www.dronewatch.eu/eurocontrol-and-euspa-test-european-gps-alternatives-for-drones-amid-spoofing-concerns/",
+  "id": "2026-11-21-eurocontrol-galileo-drone-spoofing-tests"
+ },
+ {
+  "added": "2026-11-21",
+  "c": "Sweden",
+  "d": "2026-11-21",
+  "kind": "news",
+  "off": false,
+  "rel": "hybrideu",
+  "s": [
+   "spying",
+   "business"
+  ],
+  "src": "France 24",
+  "stype": "News media",
+  "sum": "A newspaper investigation found that a Russian tech firm backed by an oligarch close to President Putin has been collecting data from hundreds of thousands, possibly millions, of Swedes via websites where they accept cookies, France 24 reports. The revelation has caused concern in Sweden. It is not known whether the data reached Russian state bodies or whether Swedish authorities will open a formal investigation.",
+  "sum_nl": "Volgens een krantenonderzoek verzamelde een Russisch techbedrijf, gesteund door een oligarch die dicht bij president Poetin staat, gegevens van honderdduizenden, mogelijk miljoenen Zweden via websites waar ze cookies aanvaarden, meldt France 24. De onthulling zorgt voor ongerustheid in Zweden. Het is niet bekend of de gegevens bij Russische staatsdiensten terechtkwamen of dat de Zweedse overheid een formeel onderzoek opent.",
+  "t": "Sweden: newspaper investigation says a Russian tech firm collected data on Swedish web users through cookies",
+  "url": "https://www.france24.com/en/europe/20261121-accept-cookies-russia-collected-data-swaths-unknowing-swedes",
+  "id": "2026-11-21-sweden-russian-firm-cookie-data"
+ },
+ {
+  "added": "2026-11-21",
+  "c": "Netherlands",
+  "d": "2026-11-21",
+  "kind": "news",
+  "off": false,
+  "rel": "",
+  "s": [
+   "spying",
+   "schools"
+  ],
+  "src": "NOS",
+  "stype": "News media",
+  "sum": "Leiden University has cancelled a plan to host 200 Chinese students a year from Xi'an Jiaotong University in mathematics, computer science and AI, NOS reports. Staff had raised concerns, reported by NRC, that sensitive European datasets could reach the Chinese government; the think tank ASPI says Xi'an Jiaotong has close ties to Chinese defence companies. The university did not give a reason for the decision, and no actual data leak has been reported.",
+  "sum_nl": "De Universiteit Leiden heeft een plan geschrapt om jaarlijks 200 Chinese studenten van de Xi'an Jiaotong-universiteit wiskunde, informatica en AI te laten studeren, meldt de NOS. Personeel had volgens NRC zorgen geuit dat gevoelige Europese datasets bij de Chinese overheid terecht konden komen; de denktank ASPI zegt dat Xi'an Jiaotong nauwe banden heeft met Chinese defensiebedrijven. De universiteit gaf geen reden voor de beslissing, en er is geen echt datalek gemeld.",
+  "t": "Netherlands: Leiden University drops a planned cooperation with a Chinese university after concerns about data leaks",
+  "url": "https://nos.nl/l/2640396",
+  "id": "2026-11-21-leiden-university-china-cooperation"
+ },
+ {
+  "added": "2026-11-21",
+  "c": "Finland",
+  "d": "2026-11-21",
+  "kind": "news",
+  "off": false,
+  "rel": "defenceeu",
+  "s": [
+   "drones",
+   "defence",
+   "transport"
+  ],
+  "src": "ERR News",
+  "stype": "News media",
+  "sum": "The Russian cargo ship Sparta II caught fire in the Gulf of Finland on Saturday morning; Russian officials say it was hit by two drones, ERR reports. Finland's defence ministry says the attack happened in international waters, and the Finnish Border Guard says the burning ship drifted into Finnish territorial waters and poses no danger to other shipping. Who launched the drones has not been officially confirmed; Finland's prime minister said Ukraine has the right to fight back.",
+  "sum_nl": "Het Russische vrachtschip Sparta II vloog zaterdagochtend in brand in de Finse Golf; volgens Russische functionarissen werd het geraakt door twee drones, meldt ERR. Het Finse ministerie van Defensie zegt dat de aanval in internationale wateren plaatsvond, en de Finse grenswacht zegt dat het brandende schip Finse territoriale wateren in dreef en geen gevaar vormt voor andere scheepvaart. Wie de drones afvuurde, is niet officieel bevestigd; de Finse premier zei dat Oekraïne het recht heeft terug te vechten.",
+  "t": "Russian cargo ship on fire in the Gulf of Finland after a reported drone strike; it drifted into Finnish waters",
+  "url": "https://news.err.ee/1610202715/russian-cargo-ship-on-fire-in-gulf-of-finland-after-reported-drone-strike",
+  "id": "2026-11-21-gulf-of-finland-cargo-ship-drone-strike"
  },
  {
   "added": "2026-11-21",
@@ -73,6 +171,25 @@
   "t": "Poland charges two Ukrainians with painting anti-Polish slogans on monuments for Russian intelligence",
   "url": "https://notesfrompoland.com/2026/11/20/two-ukrainians-charged-with-vandalising-polish-monuments-on-behalf-of-russia/",
   "id": "2026-11-20-poland-poznan-monuments-sabotage"
+ },
+ {
+  "added": "2026-11-21",
+  "c": "Netherlands",
+  "d": "2026-11-20",
+  "kind": "news",
+  "off": false,
+  "rel": "",
+  "s": [
+   "business",
+   "laws"
+  ],
+  "src": "Techzine",
+  "stype": "Specialist media",
+  "sum": "Techzine reports that the Dutch Public Prosecutor's Office secretly infiltrated the corporate network of steel maker Tata Steel during a criminal investigation, and that phone calls were also tapped. Tata Steel is suspected of five criminal offences linked to pollution from its coke oven gas plants. It is not known from this report what data was taken or how the courts will judge the use of this method.",
+  "sum_nl": "Techzine meldt dat het Nederlandse Openbaar Ministerie tijdens een strafonderzoek in het geheim is binnengedrongen in het bedrijfsnetwerk van staalproducent Tata Steel, en dat ook telefoongesprekken zijn afgetapt. Tata Steel wordt verdacht van vijf strafbare feiten rond vervuiling door de kooksgasfabrieken. Uit dit bericht is niet bekend welke gegevens zijn verzameld of hoe de rechter het gebruik van deze methode zal beoordelen.",
+  "t": "Netherlands: public prosecutor secretly got into Tata Steel's company network during an environmental investigation",
+  "url": "https://www.techzine.eu/news/security/145955/dutch-public-prosecutor-hacked-tata-steel-for-environmental-investigation/",
+  "id": "2026-11-20-dutch-prosecutor-hacked-tata-steel"
  },
  {
   "added": "2026-11-21",
